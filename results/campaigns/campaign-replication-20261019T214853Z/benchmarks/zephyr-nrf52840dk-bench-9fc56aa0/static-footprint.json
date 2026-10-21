@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-nrf52840dk-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 161600,
+        "data": 304,
+        "flash": 44068,
+        "image": "zephyr.elf",
+        "ram": 161904,
+        "rodata": 3620,
+        "text": 40144
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

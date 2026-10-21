@@ -1,0 +1,2 @@
+profile,rtos,c_symbol,rust_symbol,canonical_target,verification_status,justification,source_locations
+nuttx-stm32h723-all,NuttX,wd_start,wd_start_abstick,wd_start,source_backed,Source-level wrapper chain starting at wd_start reaches wd_start_abstick.,"["".local/source/nuttx/include/nuttx/wdog.h""]"

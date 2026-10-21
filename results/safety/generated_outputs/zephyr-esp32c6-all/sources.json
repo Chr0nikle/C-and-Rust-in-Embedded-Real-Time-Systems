@@ -1,0 +1,201 @@
+{
+  "board": "ESP32-C6",
+  "config_provenance": null,
+  "configurations": {
+    "zephyr-esp32c6-c-benchmark": {
+      "board": "ESP32-C6",
+      "build_id": "zephyr-esp32c6-c-9fc56aa0",
+      "compile_commands": ".local/west/build-zephyr-c6-bench/compile_commands.json",
+      "compile_commands_sha256": "15b16bc52d2dff212437232f48a69ecfc8cac99c81e45afac2a8fcf6e4a754f7",
+      "files": [
+        {
+          "derived_compile_unit": null,
+          "has_bench_language_rust": false,
+          "path": "firmware/c-kernels/zephyr/c/esp32c6/main.c",
+          "sha256": "83a147278b0695dbbea8b204c3e47b5c55f50f754e2494a8f3fc1c77bf9cb1c5"
+        },
+        {
+          "derived_compile_unit": null,
+          "has_bench_language_rust": false,
+          "path": "firmware/c-kernels/zephyr/c/esp32c6/port.c",
+          "sha256": "f5a0d996a824b8af18de8e50adb496436f17c90b2fe794676e44b4b15dd23afa"
+        },
+        {
+          "derived_compile_unit": "reuses the selected board's project C flags; extra source is compiled by the standalone C build",
+          "has_bench_language_rust": false,
+          "path": "firmware/common/c/src/runner.c",
+          "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+        }
+      ],
+      "kernel": "Zephyr",
+      "rebuild_evidence": null,
+      "rust_mode": 0,
+      "source_scope": "Zephyr STM32F4 standalone C benchmark",
+      "target": {
+        "clang_target": "arm-none-eabi",
+        "compiler": "arm-none-eabi-gcc 14.2",
+        "cpu": "cortex-m4",
+        "float_abi": "soft",
+        "fpu": "fpv4-sp-d16",
+        "pointer_width": 32,
+        "thumb": true
+      }
+    },
+    "zephyr-esp32c6-c-support-rust": {
+      "board": "ESP32-C6",
+      "build_id": "zephyr-esp32c6-rust-9fc56aa0",
+      "compile_commands": ".local/west/build-zephyr-c6-bench/compile_commands.json",
+      "compile_commands_sha256": "15b16bc52d2dff212437232f48a69ecfc8cac99c81e45afac2a8fcf6e4a754f7",
+      "files": [
+        {
+          "derived_compile_unit": null,
+          "has_bench_language_rust": true,
+          "path": "firmware/c-kernels/zephyr/c/esp32c6/main.c",
+          "sha256": "83a147278b0695dbbea8b204c3e47b5c55f50f754e2494a8f3fc1c77bf9cb1c5"
+        },
+        {
+          "derived_compile_unit": null,
+          "has_bench_language_rust": true,
+          "path": "firmware/c-kernels/zephyr/c/esp32c6/port.c",
+          "sha256": "f5a0d996a824b8af18de8e50adb496436f17c90b2fe794676e44b4b15dd23afa"
+        }
+      ],
+      "kernel": "Zephyr",
+      "rebuild_evidence": null,
+      "rust_mode": 1,
+      "source_scope": "Zephyr STM32F4 C support compiled into the Rust benchmark",
+      "target": {
+        "clang_target": "arm-none-eabi",
+        "compiler": "arm-none-eabi-gcc 14.2",
+        "cpu": "cortex-m4",
+        "float_abi": "soft",
+        "fpu": "fpv4-sp-d16",
+        "pointer_width": 32,
+        "thumb": true
+      }
+    },
+    "zephyr-esp32c6-rust": {
+      "board": "ESP32-C6",
+      "crate_roots": [
+        "firmware/common/rust/Cargo.toml",
+        "firmware/c-kernels/zephyr/rust/Cargo.toml"
+      ],
+      "files": [
+        {
+          "path": "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          "sha256": "da028b30a8aac0e5864073040abbfa178224a8f8cc4394dd2eec27d705d72e14"
+        },
+        {
+          "path": "firmware/c-kernels/zephyr/rust/src/lib.rs",
+          "sha256": "39332109802223065e7ee8814385a438052b21f3f7ac19a44ac59e228be7c95a"
+        },
+        {
+          "path": "firmware/common/rust/src/arena.rs",
+          "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+        },
+        {
+          "path": "firmware/common/rust/src/lib.rs",
+          "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+        }
+      ],
+      "kernel": "Zephyr",
+      "source_scope": "Zephyr STM32F4 shared Rust core plus adapter",
+      "target": {
+        "arch": "riscv32",
+        "available": true,
+        "cfg": {
+          "panic": "abort",
+          "target_abi": "",
+          "target_arch": "riscv32",
+          "target_endian": "little",
+          "target_env": "",
+          "target_feature": "zca",
+          "target_has_atomic": "ptr",
+          "target_has_atomic_primitive_alignment": "ptr",
+          "target_os": "none",
+          "target_pointer_width": "32",
+          "target_vendor": "unknown"
+        },
+        "endian": "little",
+        "family": "none",
+        "os": "none",
+        "pointer_width": "32",
+        "target": "riscv32imac-unknown-none-elf"
+      }
+    }
+  },
+  "external_source": {
+    "available": true,
+    "path": ".local/west/zephyr",
+    "revision": "dccb09599635bdff17633fa7e9dab014b91dce90",
+    "worktree_dirty": false,
+    "worktree_status": [],
+    "worktree_status_count": 0
+  },
+  "generated_headers": [
+    {
+      "path": ".local/west/build-test/zephyr/include/generated/zephyr/autoconf.h",
+      "sha256": "ee8a7dea92f0f501e119472470acafa2bbd0c29f869f71438a4de264f8613035"
+    },
+    {
+      "path": ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h",
+      "sha256": "e445ad4c69a7098cd0ba257054f865e67d6e2849112f6221a57a7f49a29f7c97"
+    }
+  ],
+  "profile": "zephyr-esp32c6-all",
+  "rtos": "Zephyr",
+  "schema": "uastw-matched-api-sources-v3",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e",
+  "stage1": {
+    "manifest_sha256": "fd22e61334e1cbb4fc8a009e2563bb7d0f5eaceb32803994fb765634b37227c4",
+    "manifest_verified": true,
+    "operations_sha256": "1c14c5dea441a138b712cc0e75a9e818c79f233932a3253841dec56e46899e52",
+    "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+  },
+  "tools": {
+    "arm_none_eabi_gcc": {
+      "available": true,
+      "version": "arm-none-eabi-gcc (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119"
+    },
+    "cargo": {
+      "available": true,
+      "command": "cargo --version",
+      "version": "cargo 1.98.1 (797e8a9bc 2026-08-05)"
+    },
+    "clang": {
+      "available": true,
+      "command": "clang --version",
+      "version": "clang version 23.1.1"
+    },
+    "clang_tidy": {
+      "available": true,
+      "command": "clang-tidy --version",
+      "version": "LLVM version 23.1.1"
+    },
+    "clippy": {
+      "available": true,
+      "path": "clippy-driver"
+    },
+    "codeql": {
+      "available": false,
+      "path": null
+    },
+    "libclang": {
+      "available": true,
+      "library": "libclang.so",
+      "python_binding": "cindex.py"
+    },
+    "python": {
+      "available": true,
+      "command": "python3 --version",
+      "version": "Python 3.14.8"
+    },
+    "rustc": {
+      "available": true,
+      "command": "rustc --version",
+      "version": "rustc 1.98.1 (48a229cea 2026-09-01)"
+    }
+  },
+  "worktree_dirty": true,
+  "worktree_status_count": 78
+}

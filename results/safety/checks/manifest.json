@@ -1,0 +1,157 @@
+{
+  "configurations": [
+    "freertos-stm32f4-c-benchmark",
+    "freertos-stm32f4-rust",
+    "freertos-stm32f4-c-support-rust"
+  ],
+  "contract_rows": 139,
+  "generation": {
+    "canonical": true,
+    "sorting": "JSON keys sorted; CSV rows sorted by scope, source and identity",
+    "timestamps_omitted": true
+  },
+  "notes": [
+    "C benchmark and C support scopes are separate evidence scopes.",
+    "Static-analysis diagnostics are not contract findings and are never combined into a safety score.",
+    "PASS is limited to the property and assumptions recorded on each row."
+  ],
+  "outputs": [
+    {
+      "bytes": 171104,
+      "path": "configuration.json",
+      "sha256": "d7b25ca2f54c9842fdb0b0ad642e28161d0c16563276936e0a2f3fdf142602a1"
+    },
+    {
+      "bytes": 195098,
+      "path": "contracts.csv",
+      "sha256": "d113ea0dbedd07127e7fc73c16b70f00e9c0d270d2b0c6b41681caace79c9541"
+    },
+    {
+      "bytes": 29132,
+      "path": "coverage.json",
+      "sha256": "34211065f63fab3f9eba2a95f449664a128828a786ffc9c5de3d56b066e4433e"
+    },
+    {
+      "bytes": 2692,
+      "path": "diagnostics.csv",
+      "sha256": "ff0252410e83fbaac6c5c8b9e9073b621a1d78136fcd219a06ca2977fa93ba89"
+    },
+    {
+      "bytes": 33143,
+      "path": "ffi-interfaces.csv",
+      "sha256": "8f596fd4520c2caa1481153bc7f7d1dd71fc859d07b18f05273f2096ca875906"
+    },
+    {
+      "bytes": 6665,
+      "path": "raw/clang-analyzer-c-benchmark.json",
+      "sha256": "d9e4ae85d26f0614b9e10063f93489b33f637fc1258d345d78edad999e7580e5"
+    },
+    {
+      "bytes": 6812,
+      "path": "raw/clang-analyzer-c-support.json",
+      "sha256": "ebaffe14a7becb07d370353255aba2bdd4d0f99d9122c04adb7cac3b54389c8a"
+    },
+    {
+      "bytes": 1292,
+      "path": "raw/clippy.json",
+      "sha256": "2b5e5b244adf9ff5b3bad8a94ae01adccf0f96e8ef79efcdb06ba5cca11b9a48"
+    },
+    {
+      "bytes": 28622,
+      "path": "sources.json",
+      "sha256": "1a0db5bf2f5d196c3e98d3659d01cc0068999cc907ab85b968fbbb7f92a7b19c"
+    },
+    {
+      "bytes": 736446,
+      "path": "structural-c-benchmark.csv",
+      "sha256": "bb0c125a2bb64a96aa27c599eae547d894eaba5797109afc5073e73b033b2f70"
+    },
+    {
+      "bytes": 761946,
+      "path": "structural-c-support.csv",
+      "sha256": "15ae8926f3f0a80acede404f439b54610ab9948fee572de28ee8c9261c4e4a6c"
+    },
+    {
+      "bytes": 205130,
+      "path": "structural-rust-active.csv",
+      "sha256": "78bfe36bfe58c167ad253def4e7ad8af5dc4d937f4f4c5b39b6c74e061bb7336"
+    },
+    {
+      "bytes": 207171,
+      "path": "structural-rust.csv",
+      "sha256": "5c1baaadeca8bcd1085a6b280d3f2ca1b774b60a518f9f6b0b0cf7d8c8edf323"
+    },
+    {
+      "bytes": 2695,
+      "path": "validation.json",
+      "sha256": "135d790733fbde4cafb1c2dbe2dcb71d9034879727e2b4c6415bb5d3a1b85475"
+    }
+  ],
+  "schema": "uastw-safety-manifest-v2",
+  "source_revision": "9ba13e022b85ecfad687f0fbbfee58cc64dc9332",
+  "target": {
+    "c": "arm-none-eabi / Cortex-M4F",
+    "rust": {
+      "arch": "arm",
+      "available": true,
+      "cfg": {
+        "panic": "abort",
+        "target_abi": "eabihf",
+        "target_arch": "arm",
+        "target_endian": "little",
+        "target_env": "",
+        "target_has_atomic": "ptr",
+        "target_has_atomic_primitive_alignment": "ptr",
+        "target_os": "none",
+        "target_pointer_width": "32",
+        "target_vendor": "unknown"
+      },
+      "endian": "little",
+      "family": "none",
+      "os": "none",
+      "pointer_width": "32",
+      "target": "thumbv7em-none-eabihf"
+    }
+  },
+  "tools": {
+    "cargo": {
+      "available": true,
+      "command": "cargo --version",
+      "version": "cargo 1.98.1 (797e8a9bc 2026-08-05)"
+    },
+    "clang": {
+      "available": true,
+      "command": "clang --version",
+      "version": "clang version 23.1.1"
+    },
+    "clang_tidy": {
+      "available": true,
+      "command": "clang-tidy --version",
+      "version": "LLVM version 23.1.1"
+    },
+    "clippy": {
+      "available": true,
+      "path": "clippy-driver"
+    },
+    "codeql": {
+      "available": false,
+      "path": null
+    },
+    "libclang": {
+      "available": true,
+      "library": "libclang.so",
+      "python_binding": "cindex.py"
+    },
+    "python": {
+      "available": true,
+      "command": "python3 --version",
+      "version": "Python 3.14.8"
+    },
+    "rustc": {
+      "available": true,
+      "command": "rustc --version",
+      "version": "rustc 1.98.1 (48a229cea 2026-09-01)"
+    }
+  },
+  "worktree_dirty": true
+}

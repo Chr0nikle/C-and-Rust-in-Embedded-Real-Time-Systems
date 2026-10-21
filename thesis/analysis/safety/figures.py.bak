@@ -1,0 +1,87 @@
+from pathlib import Path
+import re
+import matplotlib
+matplotlib.use("Agg")
+matplotlib.rcParams["svg.hashsalt"] = "uastw-thesis"
+import matplotlib.pyplot as plt
+
+ROOT = Path(__file__).resolve().parents[3]
+SOURCE = ROOT / "thesis/generated/typ/safety-comparison.typ"
+FIGURE = ROOT / "thesis/generated/figures/safety-unsafe-context.svg"
+TABLE = ROOT / "thesis/generated/typ/safety-overview.typ"
+
+rtos_order = ("FreeRTOS", "Zephyr", "NuttX")
+role_order = ("C application", "C adapter", "Rust application", "Rust FFI boundary")
+records = {rtos: {} for rtos in rtos_order}
+active_rtos = None
+for line in SOURCE.read_text(encoding="utf-8").splitlines():
+    if "table.cell(rowspan: 4" in line:
+        for name in rtos_order:
+            if f"[*{name}*]" in line:
+                active_rtos = name
+                break
+    if active_rtos is None:
+        continue
+    cells = re.findall(r"\[([^\[\]]+)\]", line)
+    if cells and cells[0] == f"*{active_rtos}*":
+        cells = cells[1:]
+    if cells and cells[0] in role_order:
+        if len(cells) != 6:
+            raise SystemExit(f"Unexpected safety table row: {line}")
+        records[active_rtos][cells[0]] = (cells[1], cells[-1])
+if any(set(records[rtos]) != set(role_order) for rtos in rtos_order):
+    raise SystemExit("Unable to parse all 12 safety rows from " + str(SOURCE))
+
+lines = [
+    "#figure(",
+    "  table(",
+    "    columns: (auto, 1fr, auto),",
+    "    align: (left, left, right),",
+    "    inset: (x: 6pt, y: 3pt),",
+    "    table.header([*RTOS*], [*Component*], [*Pointer dereferences*]),",
+]
+for rtos in rtos_order:
+    lines.append("    table.hline(stroke: 0.5pt + luma(175)),")
+    for index, role in enumerate(role_order):
+        value, _unsafe = records[rtos][role]
+        prefix = f"table.cell(rowspan: 4)[*{rtos}*], " if index == 0 else ""
+        lines.append(f"    {prefix}[{role}], [{value}],")
+lines.extend([
+    "  ),",
+    "  caption: [Resolved pointer-dereference occurrences by source role. Ranges span boards within one RTOS. C and Rust operation categories are different syntactic classes; the counts are not vulnerabilities or runtime events.],",
+    ") <safety-comparison>",
+])
+TABLE.parent.mkdir(parents=True, exist_ok=True)
+TABLE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+labels = []
+apps = []
+ffis = []
+for rtos in rtos_order:
+    labels.append(rtos)
+    for role, dest in (("Rust application", apps), ("Rust FFI boundary", ffis)):
+        _derefs, ratio = records[rtos][role]
+        match = re.fullmatch(r"(\d+)/(\d+)", ratio)
+        if not match or int(match.group(2)) == 0:
+            raise SystemExit(f"Invalid unsafe-context ratio: {rtos} {role}: {ratio}")
+        dest.append(100 * int(match.group(1)) / int(match.group(2)))
+
+x = list(range(len(labels)))
+w = 0.34
+fig, ax = plt.subplots(figsize=(7.6, 3.3))
+app_bars = ax.bar([i - w/2 for i in x], apps, w, label="Rust application")
+ffi_bars = ax.bar([i + w/2 for i in x], ffis, w, label="Rust FFI boundary")
+for bar in [*app_bars, *ffi_bars]:
+    ax.annotate(f"{bar.get_height():.1f}%", (bar.get_x()+bar.get_width()/2, bar.get_height()),
+                ha="center", va="bottom", xytext=(0, 3), textcoords="offset points", fontsize=9)
+ax.set_xticks(x, labels)
+ax.set_ylabel("Resolved operations in unsafe contexts (%)")
+ax.set_ylim(0, 112)
+ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.20), ncol=2, frameon=False)
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+fig.tight_layout()
+FIGURE.parent.mkdir(parents=True, exist_ok=True)
+fig.savefig(FIGURE, metadata={"Date": None})
+plt.close(fig)
+print("Created:", TABLE, FIGURE, sep="\n  ")

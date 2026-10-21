@@ -1,0 +1,811 @@
+{
+  "archive_schema": "uastw-benchmark-source-archive-v1",
+  "created_utc": "2026-10-19T18:18:01.219130+00:00",
+  "repository_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e",
+  "benchmark_scope": "FreeRTOS, NuttX and Zephyr C/Rust STM32F4 benchmark implementations; Rust-native kernel implementations; shared harness; suite specification; board/source configuration.",
+  "selected_files": 158,
+  "scope_status_clean": true,
+  "scope_status": [],
+  "excluded": [
+    "build products",
+    "target directories",
+    "experimental blink/cube-blink code",
+    "host-side unit-test copies",
+    "thesis chapters",
+    "analysis reports",
+    "measurement results"
+  ],
+  "external_sources": "See config/sources.toml; external RTOS checkouts are not embedded.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "88be580257cd43f4efb42cc82f9e90b06c8deb2082d1658964f3dea3a61bf418",
+      "bytes": 2297
+    },
+    {
+      "path": "benchmarks/specifications.md",
+      "sha256": "f81a27a015f942052c653c88f84610d46d15ad480a4d48ac3e6e0046f6aa3ace",
+      "bytes": 76711
+    },
+    {
+      "path": "benchmarks/suite.toml",
+      "sha256": "8fc48345fcc02b924005d56f2ca2add1b6fa216f61a1362dec2d35cc852291fc",
+      "bytes": 21717
+    },
+    {
+      "path": "boards/esp32c6/board.toml",
+      "sha256": "d25352e8142fa98db4d62865a6fade1f52fd88aab705b174e37f765038ae25f4",
+      "bytes": 922
+    },
+    {
+      "path": "boards/nrf52840dk/board.toml",
+      "sha256": "ee97dc1365acdf830270adf9d1ccbcabebc394e033696ed688cba39eb292cba9",
+      "bytes": 1176
+    },
+    {
+      "path": "boards/stm32f4discovery/board.toml",
+      "sha256": "9b171e32310588175edeb6ecbfa3eac6f8941f706f511ff577f865bdc0db34aa",
+      "bytes": 1738
+    },
+    {
+      "path": "boards/stm32h723/board.toml",
+      "sha256": "7fa56acfe3108c00f0bcf018965ec1d6970d78aad4b32c7880a7916b8c60db31",
+      "bytes": 1706
+    },
+    {
+      "path": "config/rtos.toml",
+      "sha256": "c468c1908b1df9421dc352434092a3259ddaeae72eb6107816a75de6f72d7098",
+      "bytes": 1937
+    },
+    {
+      "path": "config/sources.toml",
+      "sha256": "de97149e87b11d7c2663e84e5edaaeecfbaaaf57b5cd85499305c35818d41837",
+      "bytes": 1437
+    },
+    {
+      "path": "firmware/Cargo.lock",
+      "sha256": "963afd8c405032f936e925696372a80c0293772ae480e12688707be25eafcec1",
+      "bytes": 440
+    },
+    {
+      "path": "firmware/Cargo.toml",
+      "sha256": "6f025dc2ea8894177cdaa8c4f043f915523d1ecf6dfd58652db295813f9ef51c",
+      "bytes": 776
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/BUILD_SUMMARY.md",
+      "sha256": "3120e7129b0daf596621ee387ed5342ee195fccc75841978219d964380490a05",
+      "bytes": 2778
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/CMakeLists.txt",
+      "sha256": "7d6a60d46ad24adb61a8c13f6cc72e23f1d3d0273c8d1b7a599351cadbc71615",
+      "bytes": 114
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/README.md",
+      "sha256": "0b5914f23d2411175e42e1a78a74d5409c639479fa7ec30804d58be68e416f31",
+      "bytes": 1113
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/main/CMakeLists.txt",
+      "sha256": "3647fa23a89c6e90a0e4986d2f494d732f0ce0cc545e6d16e62542a0e7e1e343",
+      "bytes": 2637
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/main/bench.c",
+      "sha256": "b4ecade680e3408f4aa096151b0d61f0137900901c5a070241ab5b8708c01084",
+      "bytes": 98980
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/main/bench.h",
+      "sha256": "2231fc0efe404539f69d455ffcbf2ae20ad39a52578a97e482bef7013209a6b8",
+      "bytes": 2242
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/main/main.c",
+      "sha256": "f8079707c3fc3cf6baac9a114bb35690f17ecd411076859762bcdfd77daa1371",
+      "bytes": 17137
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/Makefile",
+      "sha256": "78891f0886700727f9fb899acfc45f21347e164db18aeb7274fdbf3491bf685d",
+      "bytes": 5914
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/include/FreeRTOSConfig.h",
+      "sha256": "bac9950db22a70370d347f500b7abab5a03b91ae5d18d50f9d77aebc759d762a",
+      "bytes": 4475
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/nrf52840_flash.ld",
+      "sha256": "dc8681d2755470461320bfe1693b061293369883b59d6bb750945327294e7c5d",
+      "bytes": 1064
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/bench.c",
+      "sha256": "84d4727eed1480ae39c32ff21d325ad1438cf51e8763969d336db02061eeb9b8",
+      "bytes": 103091
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/bench.h",
+      "sha256": "427c050e2670ce0297ab77cb290a6b9d59dea27f4bcd4ae09a0ffb7011198ea3",
+      "bytes": 2406
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/main.c",
+      "sha256": "b78d89f97b4fb58f225981368ee03366fa112a6af34885a222b56d90d4f69b49",
+      "bytes": 18473
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/nrf_uart.c",
+      "sha256": "d1ba9dcdf07e9a3fa183d33465a703e6616ee851ce74f0f12881a90287475a6e",
+      "bytes": 4104
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/nrf_uart.h",
+      "sha256": "dd415951efc288fd59bdcb974958162d28f9fe2b5a6d2f0a0cfccca93813062d",
+      "bytes": 788
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/nrf52840dk/src/startup_nrf52840.c",
+      "sha256": "b6fd63048a23c0b9ab2fb06cae62f9099dcab1b243c06b14b7df74d4c03001ee",
+      "bytes": 4624
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/sdkconfig",
+      "sha256": "e8339d74e652c8e432dea049946ed9f8ae8cd33d215a1ef94798fcfb95527cc5",
+      "bytes": 72005
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/sdkconfig.defaults",
+      "sha256": "31a14ca7bc7e25f0596bf21a49f678e6cc0575badb3f7eda8cf96166b9d9a8d6",
+      "bytes": 480
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/Makefile",
+      "sha256": "2f64177d08762599be7591cf5c415ea5f51202bba8739c1ecca67760097ee17f",
+      "bytes": 10774
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/include/FreeRTOSConfig.h",
+      "sha256": "710f19f3ceeb45ef1511178d28e9ff8e766fe139860c4252afa2c6ff77d69b34",
+      "bytes": 5349
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/include/stm32f4xx_hal_conf.h",
+      "sha256": "393198dd0d0f974becc60612bf1dca368ff27cd7ec58529097d0940b730bf543",
+      "bytes": 5665
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/include/stm32f4xx_it.h",
+      "sha256": "047d610fdd3e8e567e7fddab5d2e29e6269ae45d8726d82d1473ab1490b41641",
+      "bytes": 376
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+      "sha256": "d42826bcf39c782c513ae8b174a783d6dbec9e9c5f4c1fa3d896438c7705d726",
+      "bytes": 113006
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.h",
+      "sha256": "6268c7de7c7a2177a8b8477e648580fe12cc1c0a3e6024467e1c1568ef630f13",
+      "bytes": 2405
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/blink_hal.c",
+      "sha256": "8813a14106bcb13909d8434012bffd00e4f44fbe699561bc304faed908972517",
+      "bytes": 1115
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/main.c",
+      "sha256": "a73ebca36304f323978ab6358383fdd23c1295b32bab47ab82a810772e38f7e2",
+      "bytes": 23192
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c",
+      "sha256": "2855db48241c4f331e16c88dd6d436cbf871fe6d01e631b8def53e5fdd79a7ed",
+      "bytes": 1928
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32f4/stm32f407vgtx_flash.ld",
+      "sha256": "2760b7208e34591ff660691d54e3cdc1c9e50315316779a2e5d787371bc3342d",
+      "bytes": 2587
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/Makefile",
+      "sha256": "36676525d4270bf89d6d6d38cc86de13445d32722d51a1a93a19fe0a7b055342",
+      "bytes": 10777
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/include/FreeRTOSConfig.h",
+      "sha256": "be1ada88a74926241cfba4e9cc8de46e342f92ce8d3cd9e80f4613755acbb303",
+      "bytes": 5363
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/include/stm32h7xx_hal_conf.h",
+      "sha256": "5beafae640b5a988b992f894915d893baffc4e352c1e2d209206bb3d2c423d19",
+      "bytes": 19471
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/include/stm32h7xx_it.h",
+      "sha256": "47230161f610a85a402cfba26d1c8dd854f0f973e7fbb50334e4dfe28721e381",
+      "bytes": 376
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/bench.c",
+      "sha256": "88aa51f552b2f1b67f098921979e86358789d7f647561b050f643ce1db9ab1b7",
+      "bytes": 113388
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/bench.h",
+      "sha256": "a2b2f1408561c5bfc71235da99659ec397f143c3a9c203aafe6a6b4411884523",
+      "bytes": 2409
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/blink_hal.c",
+      "sha256": "e72acbf9fb988707a6164ac793e14f277d4da352e2d9bfc67e5a8c03822484fe",
+      "bytes": 1115
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/main.c",
+      "sha256": "30e497c7db0a1a39bb0a4e1fa7a3ff0f9f9a5259b161ce359676fd70bc26849b",
+      "bytes": 23825
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/stm32h7xx_it.c",
+      "sha256": "d4ff62d07dc20b73e2c44a9f50e903e4e8e159acb15da7b66430863f558c5ad2",
+      "bytes": 1921
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/stm32h723zgtx_flash.ld",
+      "sha256": "bbe6088cfdd4e39781f24be1a1a97c5d3dc7c9a4b0ab0f679bc6ba3e80c482f0",
+      "bytes": 5375
+    },
+    {
+      "path": "firmware/c-kernels/freertos/rust/Cargo.toml",
+      "sha256": "ca3023fae97209f3b2de0490c68e033fbb51e9f5faa94e81d90e007272da4fa2",
+      "bytes": 491
+    },
+    {
+      "path": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+      "sha256": "1ee81c58f0e788140b6272e1285fe2909c64c27ce7cfb929b82460fd851e50b2",
+      "bytes": 28971
+    },
+    {
+      "path": "firmware/c-kernels/freertos/rust/src/lib.rs",
+      "sha256": "4211baa38a8080610119ab88885ee4f669bb3a8524c542ed69364a06c939ab0f",
+      "bytes": 43719
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/CMakeLists.txt",
+      "sha256": "5033569e8746fd0a346633bab52eaba65d82a8fbfdb932f8c3abf89498db8ce3",
+      "bytes": 3760
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/Kconfig",
+      "sha256": "380c68537df5449bf99f9377c0c29db4a15b95b5c750a770a4c9946d9890ca74",
+      "bytes": 793
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/Make.defs",
+      "sha256": "7de4ccaa1c622f4dfc02024c68eb8cf4fd9780eab38ecd9bbe794a5899446476",
+      "bytes": 124
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/Makefile",
+      "sha256": "f9db7cd633f06e08456d23ccc23e07cee47a1c113432426115e1172dca2a1046",
+      "bytes": 559
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/bench_c6_defconfig",
+      "sha256": "fccb9769362a376849492dfe23f6f4a2191121719c73e0c431d59421fcf8cdc8",
+      "bytes": 1854
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/bench_defconfig",
+      "sha256": "ad3adfa671a9bc515e75a5a6c5fe72da9866dbb111292a57862cd7a277f79473",
+      "bytes": 1452
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/bench_h723_defconfig",
+      "sha256": "cbad223eb82d5a32a9bfe2dc2b4938326e2346bbf9dc9186f001c9b4ea5461df",
+      "bytes": 1655
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/bench_nrf52840dk_defconfig",
+      "sha256": "b0a552d84b7b9dc02f35d74a9390390487da762a88e09d8a09108a389d3361b0",
+      "bytes": 1514
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/h723-board.patch",
+      "sha256": "97e713dc4fd7ef9778bc400e06d6b8e279b63e978fe16a2a39e5a3eabac978c7",
+      "bytes": 7062
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/isr.c",
+      "sha256": "476f0c21a34b091b8fb9a5ca2a42cab8a1622bd2d01e548bba6aa45ba408002f",
+      "bytes": 94279
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/main.c",
+      "sha256": "18eb61f7807f0bafa37f4e1299fad04daea8fda6090ba2043ca4331c8b965423",
+      "bytes": 36808
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/port.c",
+      "sha256": "65584c9d8a386ff546b16cb7afc0d661adac8feb481d5aab5a69d280c31b9a48",
+      "bytes": 88480
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/rust/Cargo.toml",
+      "sha256": "65f5b1bf45e24acb8a4ab27d0bda7b7540befe265757f0e2014f25540f1d11da",
+      "bytes": 482
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/rust/src/boundary.rs",
+      "sha256": "92c18c92d6bc3518344fb5ffed89a87d11406d2583724b9dad8c12bda1c3008f",
+      "bytes": 51649
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/rust/src/lib.rs",
+      "sha256": "07586f4e6aaccca33bf26e1e1b817df6c6db11a36758bce05ac2ed2f98dbf1a7",
+      "bytes": 27411
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/CMakeLists.txt",
+      "sha256": "882969933371b9868f2131eb1ae2818e54358886901727bb0249d852f2e1ce00",
+      "bytes": 2922
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/app.overlay",
+      "sha256": "a532e0c30e7e4fafc4e9b7080aca37073fdce476ac1e24fb7fb1174d1863d1c4",
+      "bytes": 601
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/main.c",
+      "sha256": "83a147278b0695dbbea8b204c3e47b5c55f50f754e2494a8f3fc1c77bf9cb1c5",
+      "bytes": 24470
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/port.c",
+      "sha256": "f5a0d996a824b8af18de8e50adb496436f17c90b2fe794676e44b4b15dd23afa",
+      "bytes": 74468
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/prj.conf",
+      "sha256": "4640f8e306b155529897f5a6041a50a455e2762bdf5680103ba85c6ef3fd082e",
+      "bytes": 641
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/nrf52840dk/CMakeLists.txt",
+      "sha256": "05181a49093215d55f8948f72d3ba7d6f15a09ce78f18039f8029e37fd85c52d",
+      "bytes": 2985
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/nrf52840dk/app.overlay",
+      "sha256": "1e66b5c70025db9793b2cf326e31daaa2b94c54e6c8d29bf568a895ddfacfdb0",
+      "bytes": 430
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/nrf52840dk/main.c",
+      "sha256": "7e1d3b990719c4980a7f24f6c3b0601bccd33f137d07bb043d07f742db761143",
+      "bytes": 23653
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/nrf52840dk/port.c",
+      "sha256": "2d4e99bc453ff67546c3e9c26cc0a6aae17838b74791b2d9b56f52376b272dca",
+      "bytes": 74085
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/nrf52840dk/prj.conf",
+      "sha256": "91021f6a7c1d374f7b63b7505ace48e29f0e94fe05f1852603ef2b9935e4c19b",
+      "bytes": 866
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32f4/CMakeLists.txt",
+      "sha256": "d545b9563b516eaf6398b8460e4fbe9cb7924796aee4bcac32ce6db259fbd83e",
+      "bytes": 3038
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32f4/main.c",
+      "sha256": "aec0410f9e68c0755005c055dc12835534cfc4f9e2a1375c64cf3215652784ef",
+      "bytes": 24296
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32f4/port.c",
+      "sha256": "02c5467d27146610de48be91c276ac546982a279803852e1fa33c2b63a3fdf2b",
+      "bytes": 71964
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32f4/prj.conf",
+      "sha256": "cb6546fa05d527586b404b82301f29318adcfe3ed6ab3dc3a51e849c6b30f543",
+      "bytes": 571
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32f4/stm32f4_disco.overlay",
+      "sha256": "1b46828d4e5c0884c6d78a0a8ed395d63e76631361778fe14b31e26a2b170095",
+      "bytes": 327
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32h723/CMakeLists.txt",
+      "sha256": "c8de1ba78e91aa15cc323e22039f2c5883bceffa33ac5ea892353473400d95d9",
+      "bytes": 2654
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32h723/app.overlay",
+      "sha256": "9978db5e0c781b676ca87692dd907dd83554a4682169b03ae4b8b24f89cfa547",
+      "bytes": 399
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32h723/main.c",
+      "sha256": "36debef3e6f31c10b286f6db0e836a273e62f5c3021f3c1283be4486f91c8b43",
+      "bytes": 23080
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32h723/port.c",
+      "sha256": "7bf27247d3a0b16539fd85056fdbe9a9d17515bfc113b7f2815583d079de6f0c",
+      "bytes": 72794
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/stm32h723/prj.conf",
+      "sha256": "dd91cb798d9019a2854adfb72c4d80aaff6ae60daf286904a01fa10cd05e983e",
+      "bytes": 776
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/rust/Cargo.toml",
+      "sha256": "e03620cf7564e8d95dd371ce29c96ce559d36ed7c1e5ae08bae02a703acfaef6",
+      "bytes": 500
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+      "sha256": "da028b30a8aac0e5864073040abbfa178224a8f8cc4394dd2eec27d705d72e14",
+      "bytes": 53746
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/rust/src/lib.rs",
+      "sha256": "39332109802223065e7ee8814385a438052b21f3f7ac19a44ac59e228be7c95a",
+      "bytes": 25893
+    },
+    {
+      "path": "firmware/common/c/include/bench_arena.h",
+      "sha256": "9a9db6ee2c3217e7bde0772e4b4a971401e81fddffdc63fad4214dce74bdb682",
+      "bytes": 8345
+    },
+    {
+      "path": "firmware/common/c/include/rtos_bench.h",
+      "sha256": "3f3958a1742edd6569cd1383b36ddb6e4d47ff6788d9b3b88f22dacde19f7138",
+      "bytes": 15431
+    },
+    {
+      "path": "firmware/common/c/src/runner.c",
+      "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4",
+      "bytes": 24975
+    },
+    {
+      "path": "firmware/common/rust/Cargo.toml",
+      "sha256": "4566dc84c7f0a6c719ee11e72a89d40478a812f54eeb1ca44a3c8ab46f73a575",
+      "bytes": 345
+    },
+    {
+      "path": "firmware/common/rust/src/arena.rs",
+      "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0",
+      "bytes": 9880
+    },
+    {
+      "path": "firmware/common/rust/src/lib.rs",
+      "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815",
+      "bytes": 32714
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/.cargo/config.toml",
+      "sha256": "20e70b491df107286ac9c07ed5c474f7ab114e4163434d9bae62071e362964c3",
+      "bytes": 113
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/Cargo.lock",
+      "sha256": "77ddefde28a7a28eaf43d2f43dcfdda0e37117b0472e0c7bcfd3eaa41fb837ad",
+      "bytes": 11886
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/Cargo.toml",
+      "sha256": "731acc61b06d5fa502ea23bec2fd2bccb880b6aac5f83ba92b2b97382f284ac2",
+      "bytes": 1440
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/build.rs",
+      "sha256": "cc04ed88f8783d147961af5b3552c151d261f579063172359389c3ba3684dbec",
+      "bytes": 1694
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/memory-h723.x",
+      "sha256": "b880c05de803b12788fb886932ff544da997eba950efb9119b9316de718ddd62",
+      "bytes": 177
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/memory.x",
+      "sha256": "61f9ffe95368f834bde31cfef329cf419f59035e25853e732d007eb3cb5e0f56",
+      "bytes": 102
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/src/arena.rs",
+      "sha256": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db",
+      "bytes": 7706
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/src/main.rs",
+      "sha256": "4e5e6dedd4b75a55b044168958324da7e105c4c77e80333b4c72e631c10e6771",
+      "bytes": 65845
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/.cargo-ok",
+      "sha256": "afbf9d0f3560b0fd7795e81c42a0a79ee6b6fc67e064f77826aee642cad28d91",
+      "bytes": 7
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/.cargo_vcs_info.json",
+      "sha256": "b7110e7ca83762c328f4c512b018019f85cce709adfd1ea0c721ee5abbe56e69",
+      "bytes": 94
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/.gitignore",
+      "sha256": "4d9aebf23dd695d3307a32ea5509ca1072d2e24cc020bef537bc5b63d276f093",
+      "bytes": 379
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/CHANGELOG.md",
+      "sha256": "2c6ca72aa59325b6be6cf7e98d9afe7f8940480fe81babae933ee29ee33c4941",
+      "bytes": 2276
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/Cargo.lock",
+      "sha256": "6771c698ad65470bcbec7ee77c808855e56c8d2017668e45dafef52e1ab70714",
+      "bytes": 6069
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/Cargo.toml",
+      "sha256": "0d1f7497ef3cdf8d9e560c979e133d4959365037485e1dfb6e57d22d2f3a82f0",
+      "bytes": 3636
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/Cargo.toml.orig",
+      "sha256": "8f8eb366c75588855ce9278ca1a91d11579555696d9365e0629efd9e4c68a0f3",
+      "bytes": 5216
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/LICENSE",
+      "sha256": "c8924402bd53ae6f1f3f22a754e3c9333ee87fc68ff304607ff097197028a600",
+      "bytes": 1086
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/PARITY.md",
+      "sha256": "9d18114283cd84d1228253be327489f08741c8df089073da694078cecabb202c",
+      "bytes": 52496
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/README.md",
+      "sha256": "6fac15d6062f4f66544acc3275a23201f231369ce2c74e57313a1bb059f6f434",
+      "bytes": 16690
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/RUST_WRAPPER.md",
+      "sha256": "055d465d821700c6a034de0fa55680e6ea3c3c44dd361cf85ef74cced965ef5f",
+      "bytes": 12180
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/config.rs",
+      "sha256": "118242977d123715715eddfd309efcfe340c3a281f41e8612e45dbf7b4399c79",
+      "bytes": 19320
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/event_groups.rs",
+      "sha256": "486995fd47e48021655857fdb7807cbc98a88c6b44603b92a7ec62d0ff1dea57",
+      "bytes": 45496
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/list.rs",
+      "sha256": "f7d7f972893735ea24bac38f465621319206d84b9ac65e30a9a946fce10d546d",
+      "bytes": 34494
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/mod.rs",
+      "sha256": "643a4a722caa591482e2d84dff66b6ad3a0df753eb0799770af391260020d738",
+      "bytes": 1102
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/queue.rs",
+      "sha256": "0009ec4ea21472c5668a756c8d848dad8afe60aa09d6dcebe6c7cf32a3f2ccfe",
+      "bytes": 122547
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/stream_buffer.rs",
+      "sha256": "136505920a495ad7bf7ba1498108d89afd92be59929e03d0f9fb80d16f1122d1",
+      "bytes": 83714
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/tasks.rs",
+      "sha256": "5017d90bbb8ca2ae82d450c3aebc58b79dfaa08012a452c7a0e390cf45e5ae1f",
+      "bytes": 213977
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/kernel/timers.rs",
+      "sha256": "8bc8dea565328af2d5e379de01e5c49f04f1897b0a751d52eab50b59b3544c58",
+      "bytes": 66384
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/lib.rs",
+      "sha256": "40302fe1184bfe00fe48297d779b1dfd59d6d24704bfc3b8a3e86954bc101786",
+      "bytes": 8331
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/memory/heap_4.rs",
+      "sha256": "daeb234dc240e70fcda12fe850e0e1b565064b10bbc179f768c7e8d13f3652d2",
+      "bytes": 20986
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/memory/heap_5.rs",
+      "sha256": "d2d1a19bde559bb9a35a03b9ea87c8c4b278116eb23ec7970001dc19e74ecc4a",
+      "bytes": 26581
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/memory/mod.rs",
+      "sha256": "d9938da365a0e2be7c62f0cf9b07a72b0d335f71be77d2da94ac575a7be22ac2",
+      "bytes": 15397
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_a53.rs",
+      "sha256": "d88a7b284c28e7cb337fe140a99711cb3c77ea6784f7fbf33197c8bf1789083f",
+      "bytes": 37283
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_a9.rs",
+      "sha256": "078951a919cc68514bde43f4e97c60698b9566907aa1d0543ef7fe5439816da1",
+      "bytes": 38163
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_m0.rs",
+      "sha256": "7dffe2d90dbff3fff3e26a57a06d22988564e146d620099b881141dd58e743ed",
+      "bytes": 26328
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_m3.rs",
+      "sha256": "4e7fcb6def35274d064259b6378a1d9e59b891210952626f568fab9b2b1ed017",
+      "bytes": 28343
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_m4f.rs",
+      "sha256": "a9d3a8bfeaa6176c041d28454654fa597f55a37c1070091dff54da6c0b54c4d9",
+      "bytes": 29020
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/cortex_m7.rs",
+      "sha256": "510a83faa5c70bf6242ed7d220981daf2932b64a6a6f30ffbfe4a27473d835b9",
+      "bytes": 910
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/dummy.rs",
+      "sha256": "275fb040d9abf07bd7c9a953f07e52f1547297381d88d0e4c0174ac0b1e47b62",
+      "bytes": 9563
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/mod.rs",
+      "sha256": "058cddce835425b8a98b87f79e9dfbeefd13359580a0cb58d31aedd2f571f099",
+      "bytes": 6426
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/riscv32.rs",
+      "sha256": "5d0acca99add797cbfd0460ba4f59ef0aafc4ed923ad36797160c6988fff7a79",
+      "bytes": 29487
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/port/test.rs",
+      "sha256": "fdae4ff13888ff2020a7d8b413f87f6fb45ed3c8bd75e0d476aba92a8bd54912",
+      "bytes": 14660
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/event_group.rs",
+      "sha256": "31e726136fedfc776c60ff76d0522febb7c24fe3d7d2661de9331413b152dac6",
+      "bytes": 17654
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/message_buffer.rs",
+      "sha256": "dd749709da1fb65092588e09b371f5d6702ee7c6ee3fe4c8680d5e767ace8f00",
+      "bytes": 22636
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/mod.rs",
+      "sha256": "348afdc330105bbcd6675ebdbec1b47d82e0864aca176b456a4fb77d27d7d745",
+      "bytes": 2708
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/mutex.rs",
+      "sha256": "d62614f9cb8a5fec294e4429385f256f9432baf3e585ae6c01af0e703cd7a4d9",
+      "bytes": 10872
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/queue.rs",
+      "sha256": "7f9a2323745999151e24e4914cfe9328496e1b2fcde4ebf734ca4129c268c558",
+      "bytes": 18196
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/semaphore.rs",
+      "sha256": "ba6486d91e02ffbdd65b3dfb3e6c7c73a0b2178a3a0372ca64d4b49e1d462f59",
+      "bytes": 16371
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/stream_buffer.rs",
+      "sha256": "d34d8c36d34c86c846015689d972f81417a4b03038899d7064dd99579708b26a",
+      "bytes": 20414
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/task.rs",
+      "sha256": "4955dd043674975b49de1a066fd91902e40e847a01f9692307441326ec046631",
+      "bytes": 27695
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/sync/timer.rs",
+      "sha256": "a96cc70e66d59c3aefbe94d4f23c0aa0608b4430c4973048d972641f5f388d12",
+      "bytes": 24432
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/trace.rs",
+      "sha256": "3f0996954f864204069e6f2d3eb3338e16894df1d913c5e511444c6cb1f89f3c",
+      "bytes": 20171
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/vendor/freertos-in-rust/src/types.rs",
+      "sha256": "953cbaeb994c9196a5de621d4143129f4d0b77269db55933c37fa7faedc021f3",
+      "bytes": 13446
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/.cargo/config.toml",
+      "sha256": "c4c5d94fb1506776c8017752f4ff543ef8f75e42c7ab8cf38b29475e16f219ab",
+      "bytes": 269
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/Cargo.lock",
+      "sha256": "3fc2326992c5efd60453762a0d3c89cfd3647fbb9fa4b850a7e2e5843b245b9b",
+      "bytes": 5101
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/Cargo.toml",
+      "sha256": "854f271c72648513f4d9bef44d6a7644a4f0ac2b00bb820e2cd54b65838ea831",
+      "bytes": 987
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/build.rs",
+      "sha256": "d4e75bc63929d6f63239bf18a4e9f80881e1c5d133d02920e6642c83c59f9f32",
+      "bytes": 2105
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/link-stm32f407.ld",
+      "sha256": "83ab94a5eed31f41266d5e3da95e6778a088f4d72140deb4521fde098b2a5b3f",
+      "bytes": 7586
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/arena.rs",
+      "sha256": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db",
+      "bytes": 7706
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/bsp.rs",
+      "sha256": "4d169261db922337b0afb1f8e4d80664a9dae36997d092b30e32ff8da9391868",
+      "bytes": 8101
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/coop.rs",
+      "sha256": "303ca69b6b861ff584290d33dc4db8c4d01cb8685003a203bba043c58610683c",
+      "bytes": 18970
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/main.rs",
+      "sha256": "b700d21c8d8606183870d9e0d6f5d67ea66308e3d02f754af84bacf625c064a0",
+      "bytes": 37060
+    },
+    {
+      "path": "rules.md",
+      "sha256": "9165d921fab31768182d580015f46dbbf8613453501ef413098ba95ffb7f7a9a",
+      "bytes": 37082
+    }
+  ]
+}

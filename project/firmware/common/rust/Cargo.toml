@@ -1,0 +1,10 @@
+[package]
+name = "rtos-bench"
+version = "0.1.0"
+edition = "2021"
+
+# `kani` is a custom cfg used by the Kani model-checker harnesses in
+# arena.rs. Declare it so newer toolchains do not reject the attribute as an
+# unexpected cfg condition (the unexpected_cfgs lint).
+[lints.rust]
+unexpected_cfgs = { level = "allow", check-cfg = ['cfg(kani)'] }

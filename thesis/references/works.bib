@@ -1,0 +1,695 @@
+
+@inproceedings{Levy2017,
+  author = {Amit Levy and Bradford Campbell and Branden Ghena and Daniel B. Giffin and Pat Pannuto and Prabal Dutta and Philip Levis},
+  title = {Multiprogramming a 64 kB Computer Safely and Efficiently},
+  booktitle = {Proceedings of the 26th Symposium on Operating Systems Principles},
+  year = {2017},
+  doi = {10.1145/3132747.3132786},
+  url = {https://www.tockos.org/assets/papers/tock-sosp2017.pdf}
+}
+@inproceedings{Jung2018,
+  author = {Ralf Jung and Jacques-Henri Jourdan and Robbert Krebbers and Derek Dreyer},
+  title = {{RustBelt}: Securing the Foundations of the Rust Programming Language},
+  booktitle = {Principles of Programming Languages (POPL)},
+  year = {2018},
+  url = {https://plv.mpi-sws.org/rustbelt/popl18/}
+}
+@inproceedings{Sharma2024,
+  author = {Ayushi Sharma and Shashank Sharma and Sai Ritvik Tanksalkar and Santiago Torres-Arias and Aravind Machiry},
+  title = {Rust for Embedded Systems: Current State and Open Problems},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security},
+  year = {2024},
+  pages = {2296--2310},
+  doi = {10.1145/3658644.3690275},
+  url = {https://machiry.github.io/files/rustembedded.pdf}
+}
+@article{Plauska2023,
+  author = {Ignas Plauska and Agnius Liutkevičius and Audronė Janavičiūtė},
+  title = {Performance Evaluation of {C/C++}, {MicroPython}, Rust and {TinyGo} Programming Languages on {ESP32} Microcontroller},
+  journal = {Electronics},
+  year = {2023},
+  volume = {12},
+  number = {1},
+  pages = {143},
+  doi = {10.3390/electronics12010143}
+}
+@article{Wang2026,
+  author = {Guoping Wang},
+  title = {Concurrency Frameworks for Embedded Systems: A Comparative Evaluation of {FreeRTOS}, {RTIC}, and Embassy},
+  journal = {IET Computers \& Digital Techniques},
+  year = {2026},
+  doi = {10.1049/cdt2/7881841},
+  url = {https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cdt2/7881841}
+}
+@misc{RustOwnership,
+  author = {{The Rust Project}},
+  title = {The Rust Programming Language: What Is Ownership?},
+  url = {https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html},
+  urldate = {2026-09-19}
+}
+@misc{RustUnsafe,
+  author = {{The Rust Project}},
+  title = {The Rust Programming Language: Unsafe Rust},
+  url = {https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html},
+  urldate = {2026-09-19}
+}
+@misc{ZephyrScheduling,
+  author = {{The Zephyr Project}},
+  title = {Zephyr Documentation: Scheduling},
+  url = {https://docs.zephyrproject.org/latest/kernel/services/scheduling/index.html},
+  urldate = {2026-09-19}
+}
+@misc{ZephyrRust,
+  author = {{The Zephyr Project}},
+  title = {Zephyr Documentation: Rust Language Support},
+  url = {https://docs.zephyrproject.org/latest/develop/languages/rust/index.html},
+  urldate = {2026-09-19}
+}
+@misc{FreeRTOSRust,
+  author = {{Lobaro}},
+  title = {{FreeRTOS-rust}: Rust Crate for {FreeRTOS}},
+  url = {https://github.com/lobaro/FreeRTOS-rust},
+  urldate = {2026-09-19}
+}
+
+@standard{ISO25010,
+  title = {Systems and software engineering --- Systems and software Quality Requirements and Evaluation (SQuaRE) --- Product quality model},
+  organization = {{ISO/IEC}},
+  number = {ISO/IEC 25010:2023},
+  year = {2023},
+  url = {https://www.iso.org/standard/78176.html}
+}
+
+@article{McCabe1976,
+  author = {McCabe, Thomas J.},
+  title = {A Complexity Measure},
+  journal = {IEEE Transactions on Software Engineering},
+  volume = {SE-2},
+  number = {4},
+  pages = {308--320},
+  year = {1976},
+  doi = {10.1109/TSE.1976.233837}
+}
+
+@inproceedings{Campbell2018,
+  author = {Campbell, G. Ann},
+  title = {Cognitive Complexity: An Overview and Evaluation},
+  booktitle = {Proceedings of the 2018 International Conference on Technical Debt},
+  pages = {57--58},
+  year = {2018},
+  publisher = {ACM},
+  doi = {10.1145/3194164.3194186}
+}
+
+@article{Briand1999,
+  author = {Briand, Lionel C. and Daly, John W. and W{\"u}st, J{\"u}rgen},
+  title = {A Unified Framework for Coupling Measurement in Object-Oriented Systems},
+  journal = {IEEE Transactions on Software Engineering},
+  volume = {25},
+  number = {1},
+  pages = {91--121},
+  year = {1999},
+  doi = {10.1109/32.748920}
+}
+
+% ---------------------------------------------------------------------------
+% Literature added 2026-10-06. Author lists follow the supplied citations;
+% entries marked "Author list abbreviated" use the surnames as given and must be
+% completed with full given names before final submission. DOIs are the source
+% of truth for the remainder of the record.
+% ---------------------------------------------------------------------------
+
+% --- Safety foundations, unsafe Rust, and FFI ---------------------------------
+
+@misc{McCormack2024FFI,
+  author = {Ian McCormack and Joshua Sunshine and Jonathan Aldrich},
+  title = {A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries},
+  year = {2024},
+  eprint = {2404.11671},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2404.11671},
+  keywords = {ffi, safety}
+}
+
+@inproceedings{Braunsdorf2026SafeFFI,
+  author = {Oliver Braunsdorf and Tim Lange and Konrad Hohentanner and Julian Horsch and Johannes Kinder},
+  title = {{SafeFFI}: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and {Mixed-Language} Applications},
+  booktitle = {35th USENIX Security Symposium (USENIX Security 26)},
+  year = {2026},
+  pages = {2843--2861},
+  publisher = {USENIX Association},
+  url = {https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf},
+  keywords = {ffi, safety}
+}
+
+@article{Jung2026Miri,
+  author = {Ralf Jung and Benjamin Kimock and Christian Poveda and Eduardo Sánchez Muñoz and Oli Scherer and Qian Wang},
+  title = {Miri: Practical Undefined Behavior Detection for Rust},
+  journal = {Proceedings of the ACM on Programming Languages},
+  year = {2026},
+  volume = {10},
+  number = {POPL},
+  pages = {1383--1411},
+  doi = {10.1145/3776690},
+  keywords = {safety, tooling}
+}
+
+@inproceedings{Chen2026Culpa,
+  author = {Chen, Hung-Mao and Lu, Bo and He, Xu and Zhang, Xiaokuan and Sun, Kun},
+  title = {{CULPA}: Universal Detection of Memory-Safety Bugs in Unsafe Rust Through the Lens of Safety Requirements},
+  booktitle = {Proceedings of the 35th USENIX Security Symposium (USENIX Security 26)},
+  year = {2026},
+  url = {https://www.usenix.org/conference/usenixsecurity26/presentation/chen-hung-mao},
+  keywords = {safety, unsafe}
+}
+
+@article{Li2026Typestate,
+  author = {Wei Li and Wenyao Chen and Jingling Xue},
+  title = {From Raw Pointers to Memory Safety: A Modular Demand-Driven Typestate Analysis for Rust},
+  journal = {Proceedings of the ACM on Programming Languages},
+  year = {2026},
+  volume = {10},
+  number = {OOPSLA1},
+  pages = {1817--1845},
+  doi = {10.1145/3798266},
+  keywords = {safety, unsafe}
+}
+
+@inproceedings{Zhang2024BeyondMemory,
+  author = {Chengquan Zhang and Yang Feng and Yaokun Zhang and Yuxuan Dai and Baowen Xu},
+  title = {Beyond Memory Safety: an Empirical Study on Bugs and Fixes of Rust Programs},
+  booktitle = {Proceedings of the IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+  year = {2024},
+  pages = {272--283},
+  doi = {10.1109/QRS62785.2024.00035},
+  keywords = {safety, bugs}
+}
+
+@article{Munch2026SafetyCritical,
+  author = {Malte Munch and Marcus Lindner and Johan Eriksson and Pawel Dzialo and Per Lindgren},
+  title = {Safety and Security Critical Systems with Rust},
+  journal = {Journal of Signal Processing Systems},
+  year = {2026},
+  volume = {98},
+  number = {2},
+  doi = {10.1007/s11265-026-02011-x},
+  keywords = {safety, safety-critical}
+}
+
+% --- C/Rust performance and resource comparisons ------------------------------
+
+@article{Embuena2026Comparison,
+  author = {Iván Embuena and Rafael Lajara and Juan J. Perez-Solano and Tomás Sogorb and David Calvo and Diego Real and Jose Pelegri-Sebastia},
+  title = {Comparison of Platforms and Languages for Performance and Power in Embedded Systems},
+  journal = {Electronics},
+  year = {2026},
+  volume = {15},
+  number = {16},
+  pages = {3682},
+  doi = {10.3390/electronics15163682},
+  url = {https://doi.org/10.3390/electronics15163682},
+  keywords = {performance, power}
+}
+
+@misc{Thapa2026Ariel,
+  author = {B. Thapa and D. Alfonso and L. Bini and L. Mapelli and K. Schleiser and R. Fouquet and E. Baccelli},
+  title = {Embedded Rust or C Firmware? Lessons from an Industrial Microcontroller Use Case with {Ariel OS}},
+  year = {2026},
+  eprint = {2604.25679},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2604.25679},
+  keywords = {performance, maintainability}
+}
+
+% --- Rust applications over C kernels (integration) ---------------------------
+
+@inproceedings{Yoshimura2024TECSRust,
+  author = {Nao Yoshimura and Hiroshi Oyama and Takuya Azumi},
+  title = {{TECS/Rust}: Memory-safe Component Framework for Embedded Systems},
+  booktitle = {Proceedings of the 27th IEEE International Symposium on Real-Time Distributed Computing (ISORC)},
+  year = {2024},
+  doi = {10.1109/ISORC61049.2024.10551370},
+  keywords = {integration, rtos}
+}
+
+@inproceedings{Yoshimura2025TECSRustOE,
+  author = {Nao Yoshimura and Hiroshi Oyama and Takuya Azumi},
+  title = {{TECS/Rust-OE}: Optimizing Exclusive Control in Rust-Based Component Systems for Embedded Devices},
+  booktitle = {Proceedings of the 28th IEEE International Symposium on Real-Time Distributed Computing (ISORC)},
+  year = {2025},
+  doi = {10.1109/ISORC65339.2025.00051},
+  keywords = {integration, rtos}
+}
+
+@article{Yoshimura2026FMP3,
+  author = {Nao Yoshimura and Hiroshi Oyama and Takuya Azumi},
+  title = {{FMP3+TECS/Rust}: Memory-Safe Component Framework for Multiprocessor Embedded Systems},
+  journal = {IEEE Open Journal of the Industrial Electronics Society},
+  year = {2026},
+  doi = {10.1109/OJIES.2026.3666358},
+  keywords = {integration, multiprocessor}
+}
+
+% --- Native Rust OSs and concurrency frameworks -------------------------------
+
+@article{Vandervelden2024Overview,
+  author = {Thibaut Vandervelden and Ruben De Smet and Diana Deac and Kris Steenhaut and An Braeken},
+  title = {Overview of Embedded Rust Operating Systems and Frameworks},
+  journal = {Sensors},
+  year = {2024},
+  volume = {24},
+  number = {17},
+  pages = {5818},
+  doi = {10.3390/s24175818},
+  url = {https://doi.org/10.3390/s24175818},
+  keywords = {rtos, framework}
+}
+
+@inproceedings{Frank2025ArielOS,
+  author = {E. Frank and K. Schleiser and R. Fouquet and K. Zandberg and C. Amsüss and E. Baccelli},
+  title = {Ariel {OS}: An Embedded Rust Operating System for Networked Sensors \& Multi-Core Microcontrollers},
+  booktitle = {Proceedings of the IEEE International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)},
+  year = {2025},
+  pages = {241--245},
+  doi = {10.1109/DCOSS-IoT65416.2025.00040},
+  keywords = {rtos, rust}
+}
+
+@article{Culic2022LowLatency,
+  author = {Ioana Culic and Alexandru Vochescu and Alexandru Radovici},
+  title = {A Low-Latency Optimization of a Rust-Based Secure Operating System for Embedded Devices},
+  journal = {Sensors},
+  year = {2022},
+  volume = {22},
+  number = {22},
+  pages = {8700},
+  doi = {10.3390/s22228700},
+  keywords = {rtos, interrupt-latency}
+}
+
+% --- Error handling / maintainability -----------------------------------------
+
+@inproceedings{Schloyer2026ErrorHandling,
+  author = {Schloyer and Merli and Bauer},
+  title = {Robust and Size-Optimized Error Handling in Rust for Resource-Constrained Embedded Systems},
+  booktitle = {Proceedings of the 19th European Workshop on Systems Security (EuroSec)},
+  year = {2026},
+  doi = {10.1145/3803525.3804990},
+  keywords = {resource, maintainability}
+}
+
+@article{Motogna2023Empirical,
+  author = {Simona Motogna and Andreea Vescan and Camelia Șerban},
+  title = {Empirical investigation in embedded systems: Quality attributes in general, maintainability in particular},
+  journal = {Journal of Systems and Software},
+  year = {2023},
+  volume = {201},
+  pages = {111678},
+  doi = {10.1016/j.jss.2023.111678},
+  keywords = {maintainability}
+}
+
+% --- Benchmark methodology and reproducibility --------------------------------
+
+@article{Belleza2018Performance,
+  author = {Rafael Raymundo Belleza and Edison Pignaton de Freitas},
+  title = {Performance Study of Real-Time Operating Systems for Internet of Things Devices},
+  journal = {IET Software},
+  year = {2018},
+  volume = {12},
+  number = {3},
+  pages = {176--182},
+  doi = {10.1049/iet-sen.2017.0048},
+  keywords = {rtos, benchmark}
+}
+
+@article{Kar1989Rhealstone,
+  author = {Rabindra P. Kar and Kent Porter},
+  title = {Rhealstone: A Real-Time Benchmarking Proposal},
+  journal = {Dr. Dobb's Journal},
+  year = {1989},
+  url = {https://jacobfilipp.com/DrDobbs/articles/DDJ/1989/8902/8902a/8902a.htm},
+  urldate = {2026-10-20},
+  keywords = {benchmark}
+}
+
+@article{Kar1990Rhealstone,
+  author = {Rabindra P. Kar},
+  title = {Implementing the Rhealstone Real-Time Benchmark},
+  journal = {Dr. Dobb's Journal},
+  year = {1990},
+  month = {April},
+  url = {https://jacobfilipp.com/DrDobbs/articles/DDJ/1990/9004/9004d/9004d.htm},
+  urldate = {2026-10-11},
+  keywords = {benchmark}
+}
+
+@misc{ThreadMetric,
+  author = {{Express Logic, Inc.}},
+  title = {{Thread-Metric} {RTOS} Test Suite: README},
+  url = {https://github.com/eclipse-threadx/threadx/blob/master/utility/benchmarks/thread_metric/thread_metric_readme.txt},
+  urldate = {2026-10-20},
+  note = {Eight-test suite measuring RTOS event throughput},
+  keywords = {benchmark}
+}
+
+@misc{RTOSBench,
+  author = {{RTOSBench Project}},
+  title = {{RTOSBench}: A Benchmark for Real-Time Operating Systems},
+  howpublished = {GitHub},
+  url = {https://github.com/gchamp20/RTOSBench},
+  urldate = {2026-10-20},
+  note = {Project repository; README describes the porting layer},
+  keywords = {benchmark}
+}
+
+@misc{ProjectRepo,
+  title = {Accompanying GitHub repository: benchmark framework, firmware and measurement data for this thesis},
+  howpublished = {GitHub},
+  url = {https://github.com/in_progress},
+  note = { },
+  keywords = {benchmark}
+}
+
+% --- Upstream integration documentation ---------------------------------------
+
+@misc{NuttXRust,
+  author = {{The Apache NuttX Project}},
+  title = {Rust in NuttX},
+  url = {https://nuttx.apache.org/docs/latest/guides/languages/rust.html},
+  urldate = {2026-10-20},
+  note = {Rust support is documented as experimental},
+  keywords = {integration}
+}
+
+% --- Hardware used in the campaign (added 2026-10-08) -------------------------
+
+@misc{stm32f4discovery,
+  author = {{STMicroelectronics}},
+  title = {{STM32F4DISCOVERY}: {STM32F4} Discovery kit with {STM32F407VG} {MCU}},
+  url = {https://www.st.com/en/evaluation-tools/stm32f4discovery.html},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{stm32f407vg,
+  author = {{STMicroelectronics}},
+  title = {{STM32F407VG}: {Arm} {Cortex-M4} 32-bit {MCU} with {FPU}, 1 {MB} flash, 192 {KB} {SRAM}},
+  url = {https://www.st.com/en/microcontrollers-microprocessors/stm32f407vg.html},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{esp32c6,
+  author = {{Espressif Systems}},
+  title = {{ESP32-C6}: {Wi-Fi} 6, {Bluetooth} 5 ({LE}) and {802.15.4} {SoC} with 32-bit {RISC-V} core},
+  url = {https://www.espressif.com/en/products/socs/esp32-c6},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{esp32c6devkitc,
+  author = {{Espressif Systems}},
+  title = {{ESP32-C6-DevKitC-1}: {ESP-IDF} hardware reference},
+  url = {https://docs.espressif.com/projects/esp-idf/en/stable/esp32c6/hw-reference/esp32c6/user-guide-devkitc-1.html},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{nrf52840dk,
+  author = {{Nordic Semiconductor}},
+  title = {{nRF52840} {DK} ({PCA10056})},
+  url = {https://www.nordicsemi.com/Products/Development-hardware/nRF52840-DK},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{stm32h723zg,
+  author = {{STMicroelectronics}},
+  title = {{STM32H723ZG}: {Arm} {Cortex-M7} {MCU} at up to 550 {MHz}, 1 {MB} flash, 564 {KB} {RAM}},
+  url = {https://www.st.com/en/microcontrollers-microprocessors/stm32h723zg.html},
+  urldate = {2026-10-08},
+  keywords = {hardware}
+}
+
+@misc{fk723m1,
+  author = {{The Zephyr Project}},
+  title = {{FK723M1-ZGT6} board documentation ({Fanke} {STM32H723ZGT6} core board)},
+  url = {https://docs.zephyrproject.org/latest/boards/fanke/fk723m1_zgt6/doc/index.html},
+  urldate = {2026-10-08},
+  note = {Stands in for the vendor documentation of the FK723M1-ZGT6 core board},
+  keywords = {hardware}
+}
+
+% --- Operating systems and frameworks (added 2026-10-08) ----------------------
+
+@misc{freertos,
+  author = {{Amazon Web Services}},
+  title = {{FreeRTOS} kernel},
+  url = {https://github.com/FreeRTOS/FreeRTOS-Kernel},
+  urldate = {2026-10-08},
+  keywords = {rtos}
+}
+
+@misc{freertosrust,
+  author = {{apullin}},
+  title = {{freertos-in-rust}: a pure-{Rust} translation of the {FreeRTOS} kernel},
+  url = {https://github.com/apullin/freertos-in-rust},
+  urldate = {2026-10-08},
+  note = {Baseline FreeRTOS V10.4.3},
+  keywords = {rtos}
+}
+
+@misc{zephyr,
+  author = {{The Zephyr Project}},
+  title = {Zephyr {RTOS}},
+  url = {https://github.com/zephyrproject-rtos/zephyr},
+  urldate = {2026-10-08},
+  keywords = {rtos}
+}
+
+@misc{nuttx,
+  author = {{The Apache NuttX Project}},
+  title = {{Apache NuttX}},
+  url = {https://github.com/apache/nuttx},
+  urldate = {2026-10-08},
+  keywords = {rtos}
+}
+
+@misc{rivet,
+  author = {{habeelali}},
+  title = {{Rivet} {RTOS}: a zero-allocation real-time kernel},
+  url = {https://github.com/habeelali/rivet-rtos},
+  urldate = {2026-10-08},
+  note = {Pinned v0.2.0},
+  keywords = {rtos}
+}
+
+% --- Memory-safety motivation (2026-10-10) ------------------------------------
+
+@techreport{WhiteHouse2024MemorySafety,
+  author = {{Office of the National Cyber Director}},
+  title = {Back to the Building Blocks: A Path Toward Secure and Measurable Software},
+  institution = {The White House},
+  year = {2024},
+  month = feb,
+  url = {https://bidenwhitehouse.archives.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf},
+  urldate = {2026-10-10},
+  keywords = {safety}
+}
+
+@inproceedings{Song2019Sanitizing,
+  author = {Song, Dokyung and Lettner, Julian and Rajasekaran, Prabhu and Na, Yeoul and Volckaert, Stijn and Larsen, Per and Franz, Michael},
+  title = {SoK: Sanitizing for Security},
+  booktitle = {2019 IEEE Symposium on Security and Privacy (SP)},
+  year = {2019},
+  pages = {1275--1295},
+  doi = {10.1109/SP.2019.00010},
+  url = {https://arxiv.org/abs/1806.04355},
+  keywords = {safety}
+}
+
+@article{Salehi2022BareMetal,
+  author = {Salehi, Majid and Degani, Luca and Roveri, Marco and Hughes, Danny and Crispo, Bruno},
+  title = {Discovery and Identification of Memory Corruption Vulnerabilities on Bare-Metal Embedded Devices},
+  journal = {IEEE Transactions on Dependable and Secure Computing},
+  year = {2023},
+  volume = {20},
+  number = {2},
+  pages = {1124--1138},
+  doi = {10.1109/TDSC.2022.3149371},
+  keywords = {safety}
+}
+
+@inproceedings{Costin2014EmbeddedFirmware,
+  author = {Costin, Andrei and Zaddach, Jonas and Francillon, Aur{\'e}lien and Balzarotti, Davide},
+  title = {A Large-Scale Analysis of the Security of Embedded Firmwares},
+  booktitle = {23rd USENIX Security Symposium (USENIX Security 14)},
+  year = {2014},
+  pages = {95--110},
+  url = {https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/costin},
+  keywords = {safety}
+}
+
+@article{Santoso2023MemorySafetyModel,
+  author = {Santoso, Oey Kevin Andrian and Kwee, Catherine and Chua, William},
+  title = {Rust's Memory Safety Model: An Evaluation of Its Effectiveness in Preventing Common Vulnerabilities},
+  journal = {Procedia Computer Science},
+  year = {2023},
+  volume = {227},
+  pages = {119--127},
+  doi = {10.1016/j.procs.2023.10.509},
+  url = {https://doi.org/10.1016/j.procs.2023.10.509},
+  keywords = {safety}
+}
+
+@inproceedings{Li2024RustForLinux,
+  author = {Li, Hongyu and Guo, Liwei and Yang, Yexuan and Wang, Shangguang and Xu, Mengwei},
+  title = {An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise},
+  booktitle = {2024 USENIX Annual Technical Conference (USENIX ATC 24)},
+  year = {2024},
+  pages = {425--443},
+  url = {https://www.usenix.org/system/files/atc24-li-hongyu.pdf},
+  keywords = {safety}
+}
+
+@inproceedings{Holtervennhoff2023Pacemaker,
+  author = {H{\"o}ltervennhoff, Sandra and Klostermeyer, Philip and W{\"o}hler, Noah and Acar, Yasemin and Fahl, Sascha},
+  title = {``{I} wouldn't want my unsafe code to run my pacemaker'': An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust},
+  booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+  year = {2023},
+  pages = {4277--4294},
+  url = {https://www.usenix.org/system/files/usenixsecurity23-holtervennhoff.pdf},
+  keywords = {safety}
+}
+
+% --- AI-assisted vulnerability discovery (2026-10-10) ------------------------
+
+@article{Shaon2025VulnerabilitySurvey,
+  author = {Shaon, Md. Shazzad Hossain and Akter, Mst Shapna},
+  title = {Modern Approaches to Software Vulnerability Detection: A Survey of Machine Learning, Deep Learning, and Large Language Models},
+  journal = {Electronics},
+  year = {2025},
+  volume = {14},
+  number = {22},
+  pages = {4449},
+  doi = {10.3390/electronics14224449},
+  url = {https://www.mdpi.com/2079-9292/14/22/4449},
+  keywords = {safety, ai}
+}
+
+@inproceedings{Deng2024PentestGPT,
+  author = {Deng, Gelei and Liu, Yi and Mayoral-Vilches, V{\'i}ctor and Liu, Peng and Li, Yuekang and Xu, Yuan and Zhang, Tianwei and Liu, Yang and Pinzger, Martin and Rass, Stefan},
+  title = {{PentestGPT}: Evaluating and Harnessing Large Language Models for Automated Penetration Testing},
+  booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+  year = {2024},
+  url = {https://www.usenix.org/conference/usenixsecurity24/presentation/deng},
+  keywords = {safety, ai}
+}
+
+@article{Saha2024SoCSecurity,
+  author = {Saha, Dipayan and Tarek, Shams and Yahyaei, Katayoon and Saha, Sujan Kumar and Zhou, Jingbo and Tehranipoor, Mark and Farahmandi, Farimah},
+  title = {{LLM} for {SoC} Security: A Paradigm Shift},
+  journal = {IEEE Access},
+  year = {2024},
+  volume = {12},
+  doi = {10.1109/ACCESS.2024.3427369},
+  url = {https://arxiv.org/abs/2310.06046},
+  keywords = {safety, ai, embedded}
+}
+
+@book{Liu2000,
+  author = {Jane W. S. Liu},
+  title = {Real-Time Systems},
+  publisher = {Prentice Hall},
+  address = {Upper Saddle River, NJ},
+  year = {2000},
+  isbn = {0-13-099651-3}
+}
+
+@book{Buttazzo2024,
+  author = {Giorgio C. Buttazzo},
+  title = {Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications},
+  edition = {4th},
+  publisher = {Springer Nature Switzerland},
+  year = {2024},
+  doi = {10.1007/978-3-031-45410-3}
+}
+
+@article{Sha1990,
+  author = {Lui Sha and Ragunathan Rajkumar and John P. Lehoczky},
+  title = {Priority Inheritance Protocols: An Approach to Real-Time Synchronization},
+  journal = {IEEE Transactions on Computers},
+  year = {1990},
+  volume = {39},
+  number = {9},
+  pages = {1175--1185},
+  doi = {10.1109/12.57058}
+}
+
+@incollection{Wilson1995,
+  author = {Paul R. Wilson and Mark S. Johnstone and Michael Neely and David Boles},
+  title = {Dynamic Storage Allocation: A Survey and Critical Review},
+  booktitle = {Memory Management, Lecture Notes in Computer Science},
+  volume = {986},
+  publisher = {Springer},
+  year = {1995},
+  pages = {1--116},
+  doi = {10.1007/3-540-60368-9_19}
+}
+
+@inproceedings{Georges2007,
+  author = {Andy Georges and Dries Buytaert and Lieven Eeckhout},
+  title = {Statistically Rigorous Java Performance Evaluation},
+  booktitle = {Proceedings of the 22nd Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)},
+  year = {2007},
+  pages = {57--76},
+  doi = {10.1145/1297027.1297033}
+}
+
+@misc{RustReference,
+  author = {{The Rust Project}},
+  title = {The Rust Reference},
+  url = {https://doc.rust-lang.org/reference/},
+  urldate = {2026-10-10}
+}
+
+@article{Ardito2020RustCodeAnalysis,
+  author = {Luca Ardito and Luca Barbato and Marco Castelluccio and Riccardo Coppola and Calixte Denizet and Sylvestre Ledru and Michele Valsesia},
+  title = {rust-code-analysis: A Rust library to analyze and extract maintainability information from source codes},
+  journal = {SoftwareX},
+  year = {2020},
+  volume = {12},
+  pages = {100635},
+  doi = {10.1016/j.softx.2020.100635}
+}
+
+@misc{RustCodeAnalysisDocs,
+  author = {{Mozilla}},
+  title = {rust-code-analysis Documentation: Supported Metrics and Supported Languages},
+  year = {2026},
+  url = {https://mozilla.github.io/rust-code-analysis/},
+  urldate = {2026-10-20},
+  note = {Version 0.0.25 used in this thesis; metrics page documents COGNITIVE and CC, languages page lists C and Rust}
+}
+
+@misc{FreeRTOSQueues,
+  author = {{FreeRTOS}},
+  title = {FreeRTOS Kernel: Queue Management API},
+  year = {2026},
+  url = {https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/include/queue.h},
+  urldate = {2026-10-20},
+  note = {Items are queued by copy, not by reference (include/queue.h)}
+}
+
+@article{Collberg2016,
+  author = {Christian Collberg and Todd A. Proebsting},
+  title = {Repeatability in Computer Systems Research},
+  journal = {Communications of the ACM},
+  year = {2016},
+  volume = {59},
+  number = {3},
+  pages = {62--69},
+  doi = {10.1145/2812803},
+  keywords = {methodology, reproducibility}
+}

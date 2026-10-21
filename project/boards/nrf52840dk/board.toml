@@ -1,0 +1,31 @@
+# Board identity template; no detected hardware or flash readiness is claimed.
+schema_version = 1
+id = "nrf52840dk"
+mcu = "NRF52840"
+architecture = "arm-cortex-m4f"
+revision = "unverified"
+carrier = "nRF52840 DK (PCA10056)"
+# Board reached through its onboard J-Link OB (USB 1366:1061,
+# serial 001050202809). The nRF52840 was APPROTECT-locked and was recovered with
+# a probe-rs mass erase; SWD read/reset/flash verified afterwards. Console is
+# UART0 on the DK default pins, exposed as the first J-Link CDC ACM interface
+# (if00); a 115200 8N1 smoke handshake and cases 0/1 run completed.
+# probe-rs 0.32.0 cannot auto-detect this part; the chip must be named explicitly.
+[build_targets]
+zephyr = "nrf52840dk/nrf52840"
+[serial]
+transport = "usb-cdc-acm"
+baud = 115200
+framing = "8N1"
+port_selector = "/dev/serial/by-id/usb-SEGGER_J-Link_001050202809-if00"
+pins = "UART0 default P0.06(TX)/P0.08(RX) via J-Link VCOM"
+verified = true
+[debug]
+probe = "1366:1061"
+probe_serial = "001050202809"
+probe_type = "jlink"
+chip = "nRF52840_xxAA"
+protocol = "swd"
+tool = "probe-rs"
+tool_version = "0.32.0"
+verified = true # SWD read/reset and Zephyr flash verified

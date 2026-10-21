@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "nuttx-nrf52840-c-benchmark",
+    "nuttx-nrf52840-c-support-rust",
+    "nuttx-nrf52840-rust"
+  ],
+  "description": "All 23 implemented NuttX STM32F4 C/Rust thesis cases",
+  "function_rows": 693,
+  "kernel_call_rows": 395,
+  "operation_rows": 3608,
+  "parse_failures": {
+    "nuttx-nrf52840-c-benchmark": 0,
+    "nuttx-nrf52840-c-support-rust": 0,
+    "nuttx-nrf52840-rust": 0
+  },
+  "profile": "nuttx-nrf52840-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 142
+}

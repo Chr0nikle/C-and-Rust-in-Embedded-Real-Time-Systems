@@ -1,0 +1,91 @@
+configuration,rtos,board,role,total
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c_application,182
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c_adapter,1204
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,shared_c,365
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c_support,1484
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust_application,404
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust_ffi_boundary,241
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,shared_rust,2
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c_application,169
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c_adapter,991
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,shared_c,8
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c_support,1160
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust_application,404
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust_ffi_boundary,241
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,shared_rust,2
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c_application,177
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c_adapter,862
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,shared_c,8
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c_support,1039
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust_application,404
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust_ffi_boundary,241
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,shared_rust,2
+freertos-stm32h723-all,FreeRTOS,STM32H723,c_application,177
+freertos-stm32h723-all,FreeRTOS,STM32H723,c_adapter,862
+freertos-stm32h723-all,FreeRTOS,STM32H723,shared_c,8
+freertos-stm32h723-all,FreeRTOS,STM32H723,c_support,1039
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust_application,404
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust_ffi_boundary,241
+freertos-stm32h723-all,FreeRTOS,STM32H723,shared_rust,2
+native-freertos-in-rust-stm32f4,,,rust_native_application,179
+native-freertos-in-rust-stm32f4,,,shared_rust,2
+native-freertos-in-rust-stm32h723,,,rust_native_application,179
+native-freertos-in-rust-stm32h723,,,shared_rust,2
+native-rivet-stm32f4,,,rust_native_application,8
+native-rivet-stm32f4,,,shared_rust,2
+nuttx-esp32c6-all,NuttX,ESP32-C6,c_application,170
+nuttx-esp32c6-all,NuttX,ESP32-C6,c_adapter,966
+nuttx-esp32c6-all,NuttX,ESP32-C6,shared_c,365
+nuttx-esp32c6-all,NuttX,ESP32-C6,c_support,1388
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust_application,58
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust_ffi_boundary,627
+nuttx-esp32c6-all,NuttX,ESP32-C6,shared_rust,2
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c_application,170
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c_adapter,898
+nuttx-nrf52840-all,NuttX,nRF52840 DK,shared_c,365
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c_support,1320
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust_application,58
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust_ffi_boundary,627
+nuttx-nrf52840-all,NuttX,nRF52840 DK,shared_rust,2
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c_application,170
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c_adapter,878
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,shared_c,365
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c_support,1300
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust_application,58
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust_ffi_boundary,627
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,shared_rust,2
+nuttx-stm32h723-all,NuttX,STM32H723,c_application,155
+nuttx-stm32h723-all,NuttX,STM32H723,c_adapter,723
+nuttx-stm32h723-all,NuttX,STM32H723,shared_c,8
+nuttx-stm32h723-all,NuttX,STM32H723,c_support,1036
+nuttx-stm32h723-all,NuttX,STM32H723,rust_application,58
+nuttx-stm32h723-all,NuttX,STM32H723,rust_ffi_boundary,627
+nuttx-stm32h723-all,NuttX,STM32H723,shared_rust,2
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c_application,163
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c_adapter,790
+zephyr-esp32c6-all,Zephyr,ESP32-C6,shared_c,365
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c_support,1214
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust_application,52
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust_ffi_boundary,557
+zephyr-esp32c6-all,Zephyr,ESP32-C6,shared_rust,2
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c_application,151
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c_adapter,747
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,shared_c,365
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c_support,1157
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust_application,52
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust_ffi_boundary,557
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,shared_rust,2
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c_application,151
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c_adapter,702
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,shared_c,365
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c_support,1052
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust_application,52
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust_ffi_boundary,557
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,shared_rust,2
+zephyr-stm32h723-all,Zephyr,STM32H723,c_application,150
+zephyr-stm32h723-all,Zephyr,STM32H723,c_adapter,698
+zephyr-stm32h723-all,Zephyr,STM32H723,shared_c,365
+zephyr-stm32h723-all,Zephyr,STM32H723,c_support,1103
+zephyr-stm32h723-all,Zephyr,STM32H723,rust_application,52
+zephyr-stm32h723-all,Zephyr,STM32H723,rust_ffi_boundary,557
+zephyr-stm32h723-all,Zephyr,STM32H723,shared_rust,2

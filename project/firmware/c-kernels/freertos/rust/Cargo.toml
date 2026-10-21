@@ -1,0 +1,17 @@
+[package]
+name = "rtos-firmware-freertos"
+version = "0.1.0"
+edition = "2021"
+description = "FreeRTOS Rust adapter: DWT CYCCNT timer and native queue via FFI"
+
+[lib]
+name = "rtos_firmware_freertos"
+crate-type = ["staticlib", "rlib"]
+# Host test binaries would need to link the FreeRTOS/board FFI symbols and a
+# panic strategy the host cannot provide; verification happens on hardware.
+test = false
+doctest = false
+bench = false
+
+[dependencies]
+rtos-bench = { path = "../../../common/rust" }

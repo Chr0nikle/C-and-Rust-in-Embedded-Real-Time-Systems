@@ -1,0 +1,779 @@
+{
+  "schema": "uastw-matched-api-cases-v2",
+  "version": "2.0.0",
+  "thesis_spec": "thesis/sections/methodology.typ",
+  "thesis_case_spec": "thesis/sections/benchmark-specification.typ",
+  "c_enum_header": "firmware/common/c/include/rtos_bench.h",
+  "c_wire_registry": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+  "c_runner": "firmware/common/c/src/runner.c",
+  "c_impl": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+  "rust_core": "firmware/common/rust/src/lib.rs",
+  "rust_impl": "firmware/c-kernels/freertos/rust/src/lib.rs",
+  "rust_extractor": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+  "cases": [
+    {
+      "thesis_case": 1,
+      "thesis_name": "timer_overhead",
+      "mechanism": "Timer and runner overhead",
+      "c_enum": "BENCH_TIMER_OVERHEAD",
+      "c_wire_id": 0,
+      "rust_variant": "TimerOverhead",
+      "rust_wire_id": 0,
+      "c_root_functions": [],
+      "c_application_methods": [],
+      "rust_application_methods": [],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 2,
+      "thesis_name": "queue_roundtrip",
+      "mechanism": "Queue operations",
+      "c_enum": "BENCH_QUEUE_ROUNDTRIP",
+      "c_wire_id": 1,
+      "rust_variant": "QueueRoundtrip",
+      "rust_wire_id": 1,
+      "c_root_functions": [
+        "port_queue_create",
+        "port_queue_send",
+        "port_queue_receive",
+        "port_queue_destroy"
+      ],
+      "c_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "rust_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 3,
+      "thesis_name": "semaphore_latency",
+      "mechanism": "Semaphore latency",
+      "c_enum": "BENCH_SEMAPHORE_LATENCY",
+      "c_wire_id": 12,
+      "rust_variant": "SemaphoreLatency",
+      "rust_wire_id": 12,
+      "c_root_functions": [
+        "port_sem_create",
+        "port_sem_measure",
+        "port_sem_destroy"
+      ],
+      "c_application_methods": [
+        "sem_create",
+        "sem_measure",
+        "sem_destroy"
+      ],
+      "rust_application_methods": [
+        "sem_create",
+        "sem_measure",
+        "sem_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 4,
+      "thesis_name": "mutex_uncontended",
+      "mechanism": "Uncontended mutex",
+      "c_enum": "BENCH_MUTEX_UNCONTENDED",
+      "c_wire_id": 13,
+      "rust_variant": "MutexUncontended",
+      "rust_wire_id": 13,
+      "c_root_functions": [
+        "port_mutex_u_create",
+        "port_mutex_u_measure",
+        "port_mutex_u_destroy"
+      ],
+      "c_application_methods": [
+        "mutex_u_create",
+        "mutex_u_measure",
+        "mutex_u_destroy"
+      ],
+      "rust_application_methods": [
+        "mutex_u_create",
+        "mutex_u_measure",
+        "mutex_u_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 5,
+      "thesis_name": "alloc_latency",
+      "mechanism": "Dynamic allocation",
+      "c_enum": "BENCH_ALLOC_LATENCY",
+      "c_wire_id": 14,
+      "rust_variant": "AllocLatency",
+      "rust_wire_id": 14,
+      "c_root_functions": [
+        "port_alloc_create",
+        "port_alloc_measure",
+        "port_alloc_destroy"
+      ],
+      "c_application_methods": [
+        "alloc_create",
+        "alloc_measure",
+        "alloc_destroy"
+      ],
+      "rust_application_methods": [
+        "alloc_create",
+        "alloc_measure",
+        "alloc_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 6,
+      "thesis_name": "task_handoff",
+      "mechanism": "Task handoff",
+      "c_enum": "BENCH_TASK_HANDOFF",
+      "c_wire_id": 2,
+      "rust_variant": "TaskHandoff",
+      "rust_wire_id": 2,
+      "c_root_functions": [
+        "port_handoff_create",
+        "port_handoff_measure",
+        "port_handoff_destroy"
+      ],
+      "c_application_methods": [
+        "handoff_create",
+        "handoff_measure",
+        "handoff_destroy"
+      ],
+      "rust_application_methods": [
+        "handoff_create",
+        "handoff_measure",
+        "handoff_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 7,
+      "thesis_name": "yield_roundtrip",
+      "mechanism": "Yield round trip",
+      "c_enum": "BENCH_YIELD_ROUNDTRIP",
+      "c_wire_id": 5,
+      "rust_variant": "YieldRoundtrip",
+      "rust_wire_id": 5,
+      "c_root_functions": [
+        "port_yield_create",
+        "port_yield_now",
+        "port_yield_destroy",
+        "port_peers_set"
+      ],
+      "c_application_methods": [
+        "yield_create",
+        "yield_now",
+        "yield_destroy",
+        "peers_set"
+      ],
+      "rust_application_methods": [
+        "yield_create",
+        "yield_now",
+        "yield_destroy",
+        "peers_set"
+      ],
+      "c_bridge_roots": [
+        "bench_yield_create",
+        "bench_yield_now",
+        "bench_yield_destroy",
+        "bench_peers_set"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 8,
+      "thesis_name": "preempt_latency",
+      "mechanism": "Preemption latency",
+      "c_enum": "BENCH_PREEMPT_LATENCY",
+      "c_wire_id": 6,
+      "rust_variant": "PreemptLatency",
+      "rust_wire_id": 6,
+      "c_root_functions": [
+        "port_preempt_create",
+        "port_preempt_measure",
+        "port_preempt_destroy"
+      ],
+      "c_application_methods": [
+        "preempt_create",
+        "preempt_measure",
+        "preempt_destroy"
+      ],
+      "rust_application_methods": [
+        "preempt_create",
+        "preempt_measure",
+        "preempt_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 9,
+      "thesis_name": "mutex_priority_inheritance",
+      "mechanism": "Mutex priority inheritance",
+      "c_enum": "BENCH_MUTEX_PRIORITY",
+      "c_wire_id": 8,
+      "rust_variant": "MutexPriority",
+      "rust_wire_id": 8,
+      "c_root_functions": [
+        "port_mutex_create",
+        "port_mutex_measure",
+        "port_mutex_destroy"
+      ],
+      "c_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "rust_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 10,
+      "thesis_name": "scheduler_overhead",
+      "mechanism": "Scheduler overhead",
+      "c_enum": "BENCH_SCHEDULER_OVERHEAD",
+      "c_wire_id": 16,
+      "rust_variant": "SchedulerOverhead",
+      "rust_wire_id": 16,
+      "c_root_functions": [
+        "port_sched_create",
+        "port_sched_measure",
+        "port_sched_destroy"
+      ],
+      "c_application_methods": [
+        "sched_create",
+        "sched_measure",
+        "sched_destroy"
+      ],
+      "rust_application_methods": [
+        "sched_create",
+        "sched_measure",
+        "sched_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 11,
+      "thesis_name": "notification_latency",
+      "mechanism": "Notification latency",
+      "c_enum": "BENCH_NOTIFICATION_LATENCY",
+      "c_wire_id": 17,
+      "rust_variant": "NotificationLatency",
+      "rust_wire_id": 17,
+      "c_root_functions": [
+        "port_notify_create",
+        "port_notify_measure",
+        "port_notify_destroy"
+      ],
+      "c_application_methods": [
+        "notify_create",
+        "notify_measure",
+        "notify_destroy"
+      ],
+      "rust_application_methods": [
+        "notify_create",
+        "notify_measure",
+        "notify_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 12,
+      "thesis_name": "ipc_pingpong",
+      "mechanism": "IPC ping-pong",
+      "c_enum": "BENCH_IPC_PINGPONG",
+      "c_wire_id": 7,
+      "rust_variant": "IpcPingpong",
+      "rust_wire_id": 7,
+      "c_root_functions": [
+        "port_ipc_create",
+        "port_ipc_measure",
+        "port_ipc_destroy"
+      ],
+      "c_application_methods": [
+        "ipc_create",
+        "ipc_measure",
+        "ipc_destroy"
+      ],
+      "rust_application_methods": [
+        "ipc_create",
+        "ipc_measure",
+        "ipc_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 13,
+      "thesis_name": "ipc_payload_sweep",
+      "mechanism": "IPC payload sweep",
+      "c_enum": "BENCH_IPC_PAYLOAD_SWEEP",
+      "c_wire_id": 18,
+      "rust_variant": "IpcPayloadSweep",
+      "rust_wire_id": 18,
+      "c_root_functions": [
+        "port_ipc_payload_create",
+        "port_ipc_payload_measure",
+        "port_ipc_payload_destroy"
+      ],
+      "c_application_methods": [
+        "ipc_payload_create",
+        "ipc_payload_measure",
+        "ipc_payload_destroy"
+      ],
+      "rust_application_methods": [
+        "ipc_payload_create",
+        "ipc_payload_measure",
+        "ipc_payload_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 14,
+      "thesis_name": "ipc_throughput",
+      "mechanism": "IPC throughput",
+      "c_enum": "BENCH_IPC_THROUGHPUT",
+      "c_wire_id": 19,
+      "rust_variant": "IpcThroughput",
+      "rust_wire_id": 19,
+      "c_root_functions": [
+        "port_tp_create",
+        "port_tp_measure",
+        "port_tp_destroy"
+      ],
+      "c_application_methods": [
+        "tp_create",
+        "tp_measure",
+        "tp_destroy"
+      ],
+      "rust_application_methods": [
+        "tp_create",
+        "tp_measure",
+        "tp_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 15,
+      "thesis_name": "zero_copy_ipc",
+      "mechanism": "Zero-copy IPC",
+      "c_enum": "BENCH_ZERO_COPY_IPC",
+      "c_wire_id": 27,
+      "rust_variant": "ZeroCopyIpc",
+      "rust_wire_id": 27,
+      "c_root_functions": [
+        "port_zcopy_create",
+        "port_zcopy_measure",
+        "port_zcopy_destroy"
+      ],
+      "c_application_methods": [
+        "zcopy_create",
+        "zcopy_measure",
+        "zcopy_destroy"
+      ],
+      "rust_application_methods": [
+        "zcopy_create",
+        "zcopy_measure",
+        "zcopy_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 16,
+      "thesis_name": "isr_to_task",
+      "mechanism": "Interrupt to task",
+      "c_enum": "BENCH_ISR_TO_TASK",
+      "c_wire_id": 4,
+      "rust_variant": "IsrToTask",
+      "rust_wire_id": 4,
+      "c_root_functions": [
+        "port_isr_create",
+        "port_isr_measure",
+        "port_isr_destroy"
+      ],
+      "c_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "rust_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_isr_create",
+        "bench_isr_measure",
+        "bench_isr_destroy"
+      ],
+      "interrupt_roots": [
+        "TIM2_IRQHandler"
+      ],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 17,
+      "thesis_name": "trigger_to_isr",
+      "mechanism": "Trigger to ISR",
+      "c_enum": "BENCH_TRIGGER_TO_ISR",
+      "c_wire_id": 10,
+      "rust_variant": "TriggerToIsr",
+      "rust_wire_id": 10,
+      "c_root_functions": [
+        "port_trigger_isr_create",
+        "port_trigger_isr_measure",
+        "port_trigger_isr_destroy"
+      ],
+      "c_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "rust_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_trigger_isr_create",
+        "bench_trigger_isr_destroy"
+      ],
+      "interrupt_roots": [
+        "EXTI0_IRQHandler"
+      ],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 18,
+      "thesis_name": "nested_irq_overhead",
+      "mechanism": "Nested interrupt overhead",
+      "c_enum": "BENCH_NESTED_IRQ_OVERHEAD",
+      "c_wire_id": 20,
+      "rust_variant": "NestedIrqOverhead",
+      "rust_wire_id": 20,
+      "c_root_functions": [
+        "port_nested_create",
+        "port_nested_measure",
+        "port_nested_destroy"
+      ],
+      "c_application_methods": [
+        "nested_create",
+        "nested_measure",
+        "nested_destroy"
+      ],
+      "rust_application_methods": [
+        "nested_create",
+        "nested_measure",
+        "nested_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_nested_create",
+        "bench_nested_destroy"
+      ],
+      "interrupt_roots": [
+        "EXTI1_IRQHandler",
+        "EXTI2_IRQHandler"
+      ],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 19,
+      "thesis_name": "tick_overhead",
+      "mechanism": "Tick overhead",
+      "c_enum": "BENCH_TICK_OVERHEAD",
+      "c_wire_id": 21,
+      "rust_variant": "TickOverhead",
+      "rust_wire_id": 21,
+      "c_root_functions": [
+        "port_tick_create",
+        "port_tick_measure",
+        "port_tick_destroy"
+      ],
+      "c_application_methods": [
+        "tick_create",
+        "tick_measure",
+        "tick_destroy"
+      ],
+      "rust_application_methods": [
+        "tick_create",
+        "tick_measure",
+        "tick_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_tick_create",
+        "bench_tick_destroy",
+        "bench_rust_tick_take"
+      ],
+      "interrupt_roots": [
+        "SysTick_Handler"
+      ],
+      "external_entry_limitations": [
+        "FreeRTOS SysTick trace-hook body executes in third-party kernel code; the tick ISR body is not a project-written root."
+      ],
+      "interrupt_source": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c"
+    },
+    {
+      "thesis_case": 20,
+      "thesis_name": "max_interrupt_disabled",
+      "mechanism": "Maximum interrupt-disabled time",
+      "c_enum": "BENCH_MAX_INTERRUPT_DISABLED",
+      "c_wire_id": 25,
+      "rust_variant": "MaxInterruptDisabled",
+      "rust_wire_id": 25,
+      "c_root_functions": [
+        "port_maxdis_create",
+        "port_maxdis_measure",
+        "port_maxdis_destroy"
+      ],
+      "c_application_methods": [
+        "maxdis_create",
+        "maxdis_measure",
+        "maxdis_destroy"
+      ],
+      "rust_application_methods": [
+        "maxdis_create",
+        "maxdis_measure",
+        "maxdis_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_maxdis_create",
+        "bench_maxdis_measure",
+        "bench_maxdis_destroy"
+      ],
+      "interrupt_roots": [
+        "TIM5_IRQHandler"
+      ],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 21,
+      "thesis_name": "periodic_jitter",
+      "mechanism": "Periodic jitter",
+      "c_enum": "BENCH_PERIODIC_JITTER",
+      "c_wire_id": 3,
+      "rust_variant": "PeriodicJitter",
+      "rust_wire_id": 3,
+      "c_root_functions": [
+        "port_jitter_create",
+        "port_jitter_measure",
+        "port_jitter_destroy"
+      ],
+      "c_application_methods": [
+        "jitter_create",
+        "jitter_measure",
+        "jitter_destroy"
+      ],
+      "rust_application_methods": [
+        "jitter_create",
+        "jitter_measure",
+        "jitter_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 22,
+      "thesis_name": "periodic_jitter_loaded",
+      "mechanism": "Periodic jitter under load",
+      "c_enum": "BENCH_PERIODIC_JITTER_LOADED",
+      "c_wire_id": 11,
+      "rust_variant": "PeriodicJitterLoaded",
+      "rust_wire_id": 11,
+      "c_root_functions": [
+        "port_pjit_create",
+        "port_pjit_measure",
+        "port_pjit_set_load",
+        "port_pjit_destroy"
+      ],
+      "c_application_methods": [
+        "pjit_create",
+        "pjit_measure",
+        "pjit_set_load",
+        "pjit_destroy"
+      ],
+      "rust_application_methods": [
+        "pjit_create",
+        "pjit_measure",
+        "pjit_set_load",
+        "pjit_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_pjit_create",
+        "bench_pjit_measure",
+        "bench_pjit_set_load",
+        "bench_pjit_destroy"
+      ],
+      "interrupt_roots": [
+        "TIM3_IRQHandler",
+        "TIM4_IRQHandler"
+      ],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 23,
+      "thesis_name": "sleep_accuracy",
+      "mechanism": "Sleep accuracy",
+      "c_enum": "BENCH_SLEEP_ACCURACY",
+      "c_wire_id": 15,
+      "rust_variant": "SleepAccuracy",
+      "rust_wire_id": 15,
+      "c_root_functions": [
+        "port_sleep_create",
+        "port_sleep_measure",
+        "port_sleep_destroy"
+      ],
+      "c_application_methods": [
+        "sleep_create",
+        "sleep_measure",
+        "sleep_destroy"
+      ],
+      "rust_application_methods": [
+        "sleep_create",
+        "sleep_measure",
+        "sleep_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    },
+    {
+      "thesis_case": 24,
+      "thesis_name": "idle_cpu_overhead",
+      "mechanism": "Idle CPU overhead",
+      "c_enum": "BENCH_IDLE_CPU_OVERHEAD",
+      "c_wire_id": 22,
+      "rust_variant": "IdleCpuOverhead",
+      "rust_wire_id": 22,
+      "c_root_functions": [
+        "port_cpu_create",
+        "port_cpu_measure",
+        "port_cpu_destroy"
+      ],
+      "c_application_methods": [
+        "cpu_create",
+        "cpu_measure",
+        "cpu_destroy"
+      ],
+      "rust_application_methods": [
+        "cpu_create",
+        "cpu_measure",
+        "cpu_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_cpu_create",
+        "bench_cpu_destroy"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": [
+        "CPU share uses FreeRTOS SysTick trace-hook accounting in third-party kernel code; the tick-ISR body is not a project-written root."
+      ]
+    },
+    {
+      "thesis_case": 25,
+      "thesis_name": "cpu_overhead_under_load",
+      "mechanism": "CPU overhead under load",
+      "c_enum": "BENCH_CPU_OVERHEAD_UNDER_LOAD",
+      "c_wire_id": 23,
+      "rust_variant": "CpuOverheadUnderLoad",
+      "rust_wire_id": 23,
+      "c_root_functions": [
+        "port_cpu_create",
+        "port_cpu_measure",
+        "port_cpu_destroy"
+      ],
+      "c_application_methods": [
+        "cpu_create",
+        "cpu_measure",
+        "cpu_destroy"
+      ],
+      "rust_application_methods": [
+        "cpu_create",
+        "cpu_measure",
+        "cpu_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_cpu_create",
+        "bench_cpu_destroy"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": [
+        "CPU share uses FreeRTOS SysTick trace-hook accounting in third-party kernel code; the tick-ISR body is not a project-written root."
+      ]
+    },
+    {
+      "thesis_case": 26,
+      "thesis_name": "heap_fragmentation",
+      "mechanism": "Heap fragmentation",
+      "c_enum": "BENCH_HEAP_FRAGMENTATION",
+      "c_wire_id": 24,
+      "rust_variant": "HeapFragmentation",
+      "rust_wire_id": 24,
+      "c_root_functions": [
+        "port_frag_create",
+        "port_frag_measure",
+        "port_frag_destroy"
+      ],
+      "c_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "rust_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_frag_create",
+        "bench_frag_measure",
+        "bench_frag_destroy"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": []
+    }
+  ],
+  "common_c_application_methods": [
+    "now_ticks"
+  ],
+  "common_rust_application_methods": [
+    "now_ticks"
+  ]
+}

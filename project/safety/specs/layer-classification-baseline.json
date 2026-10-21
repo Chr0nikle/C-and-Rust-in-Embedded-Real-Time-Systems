@@ -1,0 +1,296 @@
+{
+  "configurations": {
+    "freertos-esp32c6-all": {
+      "active_resolved": 3882,
+      "active_resolved_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 241,
+        "shared_infrastructure": 367,
+        "unclassified": 2870
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1386,
+        "c-support|unclassified": 1484,
+        "rust|benchmark_application": 404,
+        "rust|rust_ffi_boundary": 241,
+        "rust|shared_infrastructure": 2
+      },
+      "all_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 242,
+        "shared_infrastructure": 490,
+        "unclassified": 2870
+      },
+      "operation_rows": 4006
+    },
+    "freertos-nrf52840-all": {
+      "active_resolved": 4404,
+      "active_resolved_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 241,
+        "shared_infrastructure": 367,
+        "unclassified": 3392
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1692,
+        "c-support|unclassified": 1700,
+        "rust|benchmark_application": 404,
+        "rust|rust_ffi_boundary": 241,
+        "rust|shared_infrastructure": 2
+      },
+      "all_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 242,
+        "shared_infrastructure": 490,
+        "unclassified": 3392
+      },
+      "operation_rows": 4528
+    },
+    "freertos-stm32f4-all": {
+      "active_resolved": 4427,
+      "active_resolved_by_layer": {
+        "benchmark_application": 595,
+        "c_benchmark_rtos_adapter": 1512,
+        "c_support_linked_with_rust": 1712,
+        "rust_ffi_boundary": 241,
+        "shared_infrastructure": 367
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|benchmark_application": 191,
+        "c-benchmark|c_benchmark_rtos_adapter": 1512,
+        "c-benchmark|shared_infrastructure": 365,
+        "c-support|c_support_linked_with_rust": 1712,
+        "rust|benchmark_application": 404,
+        "rust|rust_ffi_boundary": 241,
+        "rust|shared_infrastructure": 2
+      },
+      "all_by_layer": {
+        "benchmark_application": 595,
+        "c_benchmark_rtos_adapter": 1512,
+        "c_support_linked_with_rust": 1712,
+        "rust_ffi_boundary": 242,
+        "shared_infrastructure": 490
+      },
+      "operation_rows": 4551
+    },
+    "freertos-stm32h723-all": {
+      "active_resolved": 4427,
+      "active_resolved_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 241,
+        "shared_infrastructure": 367,
+        "unclassified": 3415
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1703,
+        "c-support|unclassified": 1712,
+        "rust|benchmark_application": 404,
+        "rust|rust_ffi_boundary": 241,
+        "rust|shared_infrastructure": 2
+      },
+      "all_by_layer": {
+        "benchmark_application": 404,
+        "rust_ffi_boundary": 242,
+        "shared_infrastructure": 490,
+        "unclassified": 3415
+      },
+      "operation_rows": 4551
+    },
+    "native-freertos-in-rust-stm32f4": {
+      "active_resolved": 181,
+      "active_resolved_by_layer": {
+        "unclassified": 181
+      },
+      "active_resolved_by_scope_layer": {
+        "rust|unclassified": 181
+      },
+      "all_by_layer": {
+        "unclassified": 250
+      },
+      "operation_rows": 250
+    },
+    "native-freertos-in-rust-stm32h723": {
+      "active_resolved": 181,
+      "active_resolved_by_layer": {
+        "unclassified": 181
+      },
+      "active_resolved_by_scope_layer": {
+        "rust|unclassified": 181
+      },
+      "all_by_layer": {
+        "unclassified": 250
+      },
+      "operation_rows": 250
+    },
+    "native-rivet-stm32f4": {
+      "active_resolved": 10,
+      "active_resolved_by_layer": {
+        "unclassified": 10
+      },
+      "active_resolved_by_scope_layer": {
+        "rust|unclassified": 10
+      },
+      "all_by_layer": {
+        "unclassified": 53
+      },
+      "operation_rows": 53
+    },
+    "nuttx-esp32c6-all": {
+      "active_resolved": 3576,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 3209
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1136,
+        "c-support|unclassified": 1388,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 685
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 3254
+      },
+      "operation_rows": 3744
+    },
+    "nuttx-nrf52840-all": {
+      "active_resolved": 3440,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 3073
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1068,
+        "c-support|unclassified": 1320,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 685
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 3118
+      },
+      "operation_rows": 3608
+    },
+    "nuttx-stm32f4-all": {
+      "active_resolved": 3400,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 3033
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1048,
+        "c-support|unclassified": 1300,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 685
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 3078
+      },
+      "operation_rows": 3568
+    },
+    "nuttx-stm32h723-all": {
+      "active_resolved": 3400,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 3033
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 1048,
+        "c-support|unclassified": 1300,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 685
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 3078
+      },
+      "operation_rows": 3568
+    },
+    "zephyr-esp32c6-all": {
+      "active_resolved": 3143,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 2776
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 953,
+        "c-support|unclassified": 1214,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 609
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 2826
+      },
+      "operation_rows": 3316
+    },
+    "zephyr-nrf52840-all": {
+      "active_resolved": 3031,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 2664
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 898,
+        "c-support|unclassified": 1157,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 609
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 2714
+      },
+      "operation_rows": 3204
+    },
+    "zephyr-stm32f4-all": {
+      "active_resolved": 2881,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 2514
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 853,
+        "c-support|unclassified": 1052,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 609
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 2564
+      },
+      "operation_rows": 3054
+    },
+    "zephyr-stm32h723-all": {
+      "active_resolved": 2927,
+      "active_resolved_by_layer": {
+        "shared_infrastructure": 367,
+        "unclassified": 2560
+      },
+      "active_resolved_by_scope_layer": {
+        "c-benchmark|shared_infrastructure": 365,
+        "c-benchmark|unclassified": 848,
+        "c-support|unclassified": 1103,
+        "rust|shared_infrastructure": 2,
+        "rust|unclassified": 609
+      },
+      "all_by_layer": {
+        "shared_infrastructure": 490,
+        "unclassified": 2610
+      },
+      "operation_rows": 3100
+    }
+  },
+  "description": "Frozen pre-correction layer counts from generated_inventory; used only to report before/after classification changes.",
+  "schema": "uastw-layer-classification-baseline-v1"
+}

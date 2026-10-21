@@ -1,0 +1,344 @@
+{
+  "analysis_scope": "rust_only_unmatched",
+  "case_count": 26,
+  "cases": [
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 1,
+      "wire_case": 0
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 2,
+      "wire_case": 1
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 6,
+      "wire_case": 2
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 21,
+      "wire_case": 3
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 16,
+      "wire_case": 4
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 7,
+      "wire_case": 5
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 8,
+      "wire_case": 6
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 12,
+      "wire_case": 7
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 9,
+      "wire_case": 8
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 17,
+      "wire_case": 10
+    },
+    {
+      "boundary_edges": 13,
+      "boundary_targets": [
+        "bits",
+        "black_box",
+        "cen",
+        "clear_bit",
+        "cnt",
+        "cycle_count",
+        "load",
+        "ptr",
+        "set_bit",
+        "store",
+        "take",
+        "try_take",
+        "uif"
+      ],
+      "edge_rows": 50,
+      "roots": [
+        "measure_case11"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 22,
+      "wire_case": 11
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 3,
+      "wire_case": 12
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 4,
+      "wire_case": 13
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 5,
+      "wire_case": 14
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 23,
+      "wire_case": 15
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 10,
+      "wire_case": 16
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 11,
+      "wire_case": 17
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 13,
+      "wire_case": 18
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 14,
+      "wire_case": 19
+    },
+    {
+      "boundary_edges": 5,
+      "boundary_targets": [
+        "cycle_count",
+        "load",
+        "pend",
+        "spin_loop",
+        "store"
+      ],
+      "edge_rows": 9,
+      "roots": [
+        "nested_run"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 18,
+      "wire_case": 20
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 19,
+      "wire_case": 21
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 24,
+      "wire_case": 22
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 25,
+      "wire_case": 23
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 26,
+      "wire_case": 24
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 20,
+      "wire_case": 25
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now_ticks"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 15,
+      "wire_case": 27
+    }
+  ],
+  "configuration": "freertos-in-rust-stm32f4",
+  "measure_function": "measure_u32",
+  "note": "Per-case source trace only. No C counterpart or matched A/B/C classification is claimed.",
+  "schema": "uastw-native-case-trace-v1"
+}

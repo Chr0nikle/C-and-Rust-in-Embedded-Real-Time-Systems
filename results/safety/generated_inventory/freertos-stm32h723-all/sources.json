@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    "freertos-stm32h723-c-benchmark",
+    "freertos-stm32h723-c-support-rust",
+    "freertos-stm32h723-rust"
+  ],
+  "description": "All 26 implemented FreeRTOS STM32F4 C/Rust thesis cases",
+  "files": [
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/bench.c",
+      "sha256": "88aa51f552b2f1b67f098921979e86358789d7f647561b050f643ce1db9ab1b7"
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/main.c",
+      "sha256": "30e497c7db0a1a39bb0a4e1fa7a3ff0f9f9a5259b161ce359676fd70bc26849b"
+    },
+    {
+      "path": "firmware/c-kernels/freertos/c/stm32h723/src/stm32h7xx_it.c",
+      "sha256": "d4ff62d07dc20b73e2c44a9f50e903e4e8e159acb15da7b66430863f558c5ad2"
+    },
+    {
+      "path": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+      "sha256": "1ee81c58f0e788140b6272e1285fe2909c64c27ce7cfb929b82460fd851e50b2"
+    },
+    {
+      "path": "firmware/c-kernels/freertos/rust/src/lib.rs",
+      "sha256": "4211baa38a8080610119ab88885ee4f669bb3a8524c542ed69364a06c939ab0f"
+    },
+    {
+      "path": "firmware/common/c/src/runner.c",
+      "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+    },
+    {
+      "path": "firmware/common/rust/src/arena.rs",
+      "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+    },
+    {
+      "path": "firmware/common/rust/src/lib.rs",
+      "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    }
+  ],
+  "profile": "freertos-stm32h723-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-sources-v1",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+}

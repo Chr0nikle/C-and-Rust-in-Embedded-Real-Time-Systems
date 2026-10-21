@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "selected_campaign": "campaign-replication-20261019T214853Z",
+  "supplementary_evidence": "rust-native-timing (campaign-replication-20261014T075134Z, raw bundle missing; preserved derived statistics)",
+  "outputs": {
+    "generated/figures/fig-integration.svg": {
+      "generator": "thesis/analysis/integration/surface.py",
+      "evidence": [
+        "project source tree at analyzer revision"
+      ],
+      "status": "reproducible_from_source"
+    },
+    "generated/figures/memory-footprint.svg": {
+      "generator": "thesis/analysis/benchmark/memory.py",
+      "evidence": [
+        "historical published static table",
+        "preserved figure"
+      ],
+      "status": "historical_preserved"
+    },
+    "generated/figures/performance-comparison.svg": {
+      "generator": "thesis/analysis/benchmark/performance.py",
+      "evidence": [
+        "campaign-replication-20261019T214853Z"
+      ],
+      "status": "reproducible"
+    },
+    "generated/figures/rust-kernel-comparison.svg": {
+      "generator": "thesis/analysis/benchmark/rust_kernel.py",
+      "evidence": [
+        "campaign-replication-20261019T214853Z",
+        "supplementary:rust-native-timing"
+      ],
+      "status": "reproducible_with_supplement"
+    },
+    "generated/figures/safety-c-rust-source-roles.svg": {
+      "generator": "thesis/analysis/safety/compare_figures.py",
+      "evidence": [
+        "thesis/generated/typ/safety-comparison.typ",
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/figures/safety-freertos-vs-fir-unsafe.svg": {
+      "generator": "thesis/analysis/safety/compare_figures.py",
+      "evidence": [
+        "thesis/generated/typ/safety-comparison.typ",
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/figures/safety-pointer-roles.svg": {
+      "generator": "thesis/analysis/safety/figures.py",
+      "evidence": [
+        "thesis/generated/typ/safety-comparison.typ",
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/figures/safety-rust-pointer-roles.svg": {
+      "generator": "thesis/analysis/safety/safety_two_figures.py",
+      "evidence": [
+        "thesis/generated/typ/safety-comparison.typ",
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/figures/safety-rust-unsafe-context.svg": {
+      "generator": "thesis/analysis/safety/safety_two_figures.py",
+      "evidence": [
+        "thesis/generated/typ/safety-comparison.typ",
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/figures/safety-unsafe-context.svg": {
+      "generator": "thesis/analysis/safety/figures.py.bak",
+      "evidence": [
+        "historical legacy safety overview generated from thesis/generated/typ/safety-comparison.typ",
+        "not referenced by the current thesis"
+      ],
+      "status": "historical_preserved"
+    },
+    "generated/typ/all-results.typ": {
+      "generator": "thesis/analysis/benchmark/tables.py",
+      "evidence": [
+        "campaign-replication-20261019T214853Z",
+        "supplementary:rust-native-timing"
+      ],
+      "status": "reproducible_with_supplement"
+    },
+    "generated/typ/campaign-coverage.typ": {
+      "generator": "thesis/analysis/benchmark/campaign.py",
+      "evidence": [
+        "historical published 27-row table",
+        "no preserved raw bundle for Rust-native rows"
+      ],
+      "status": "historical_preserved"
+    },
+    "generated/typ/campaign-memory.typ": {
+      "generator": "thesis/analysis/benchmark/campaign.py",
+      "evidence": [
+        "historical published 27-row table",
+        "no preserved raw bundle for Rust-native rows"
+      ],
+      "status": "historical_preserved"
+    },
+    "generated/typ/campaign-static.typ": {
+      "generator": "thesis/analysis/benchmark/campaign.py",
+      "evidence": [
+        "campaign-replication-20261019T214853Z for matched rows",
+        "historical published Rust-native rows",
+        "thesis/generated/data/static-evidence.json"
+      ],
+      "status": "mixed_historical"
+    },
+    "generated/typ/complexity.typ": {
+      "generator": "thesis/analysis/integration/complexity.py",
+      "evidence": [
+        "project source tree at the revision and dirty-state hash recorded in thesis/generated/data/complexity.json"
+      ],
+      "status": "reproducible_from_source"
+    },
+    "generated/typ/duplication.typ": {
+      "generator": "thesis/analysis/integration/duplication.py",
+      "evidence": [
+        "project source tree at analyzer revision"
+      ],
+      "status": "reproducible_from_source"
+    },
+    "generated/typ/integration-surface.typ": {
+      "generator": "thesis/analysis/integration/surface.py",
+      "evidence": [
+        "project source tree at analyzer revision"
+      ],
+      "status": "reproducible_from_source"
+    },
+    "generated/typ/safety-c-categories.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/typ/safety-comparison.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/typ/safety-native-results.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/typ/safety-overview.typ": {
+      "generator": "thesis/analysis/safety/figures.py.bak",
+      "evidence": [
+        "historical legacy safety overview generated from thesis/generated/typ/safety-comparison.typ",
+        "not referenced by the current thesis"
+      ],
+      "status": "historical_preserved"
+    },
+    "generated/typ/safety-role-counts.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/typ/safety-rust-categories.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    },
+    "generated/typ/safety-trace-coverage.typ": {
+      "generator": "project/safety/tables.py",
+      "evidence": [
+        "results/safety/generated_inventory",
+        "results/safety/generated_outputs",
+        "safety_evidence in campaign.lock.json"
+      ],
+      "status": "requires_local_safety_evidence"
+    }
+  }
+}

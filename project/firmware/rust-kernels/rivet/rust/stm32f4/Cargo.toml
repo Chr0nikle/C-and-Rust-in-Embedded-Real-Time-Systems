@@ -1,0 +1,30 @@
+[package]
+name = "rtos-bench-rivet"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace]
+
+[dependencies]
+# Kernel (published as `rivet-rtos`, imported as `rivet`).
+rivet = { path = "../../../../../.local/source/rivet-rtos/rivet", package = "rivet-rtos" }
+# Boot glue (_start/Reset, vector table, panic handler).
+rivet-rt = { path = "../../../../../.local/source/rivet-rtos/rivet-rt" }
+# PAC for the STM32F407 (bare register access, no `rt` feature so the
+# workspace's own rivet-rt owns Reset/vector-table symbols).
+stm32f4 = { version = "0.16", default-features = false, features = ["stm32f407"] }
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+
+[target.'cfg(target_arch = "arm")'.dependencies]
+rivet-arch-cortex-m = { path = "../../../../../.local/source/rivet-rtos/rivet-arch-cortex-m", features = ["systick", "nvic"] }
+
+[profile.release]
+lto = true
+opt-level = "z"
+codegen-units = 1
+debug = true
+panic = "abort"
+
+[profile.dev]
+panic = "abort"

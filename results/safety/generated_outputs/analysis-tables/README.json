@@ -1,0 +1,15 @@
+{
+  "schema": "uastw-analysis-tables-v2",
+  "operation_unit": "configuration-specific active resolved operation occurrence; category counts may overlap",
+  "trace_unit": "per-configuration call-site/membership rows",
+  "layer_baseline": "matched_api/layer-classification-baseline.json is the frozen pre-correction snapshot; layer-classification-comparison.csv reports before/after active-resolved counts per configuration and layer.",
+  "files": [
+    "operation-summary.csv",
+    "operation-role-totals.csv",
+    "matched-operation-comparison.csv",
+    "matched-trace-summary.csv",
+    "native-summary.csv",
+    "layer-classification-comparison.csv",
+    "safety-revalidation.json (written by matched_api.thesis_safety_tables)"
+  ]
+}

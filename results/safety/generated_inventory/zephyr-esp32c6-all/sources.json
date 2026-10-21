@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    "zephyr-esp32c6-c-benchmark",
+    "zephyr-esp32c6-c-support-rust",
+    "zephyr-esp32c6-rust"
+  ],
+  "description": "All 23 implemented Zephyr STM32F4 C/Rust thesis cases",
+  "files": [
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/main.c",
+      "sha256": "83a147278b0695dbbea8b204c3e47b5c55f50f754e2494a8f3fc1c77bf9cb1c5"
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/c/esp32c6/port.c",
+      "sha256": "f5a0d996a824b8af18de8e50adb496436f17c90b2fe794676e44b4b15dd23afa"
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+      "sha256": "da028b30a8aac0e5864073040abbfa178224a8f8cc4394dd2eec27d705d72e14"
+    },
+    {
+      "path": "firmware/c-kernels/zephyr/rust/src/lib.rs",
+      "sha256": "39332109802223065e7ee8814385a438052b21f3f7ac19a44ac59e228be7c95a"
+    },
+    {
+      "path": "firmware/common/c/include/bench_arena.h",
+      "sha256": "9a9db6ee2c3217e7bde0772e4b4a971401e81fddffdc63fad4214dce74bdb682"
+    },
+    {
+      "path": "firmware/common/c/src/runner.c",
+      "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+    },
+    {
+      "path": "firmware/common/rust/src/arena.rs",
+      "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+    },
+    {
+      "path": "firmware/common/rust/src/lib.rs",
+      "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    }
+  ],
+  "profile": "zephyr-esp32c6-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-sources-v1",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+}

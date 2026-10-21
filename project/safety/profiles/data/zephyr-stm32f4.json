@@ -1,0 +1,504 @@
+{
+  "schema": "uastw-matched-api-profile-v1",
+  "id": "zephyr-stm32f4-pilot",
+  "rtos": "Zephyr",
+  "board": "STM32F4 Discovery",
+  "description": "Five-case Zephyr STM32F4 C/Rust Stage 2 pilot",
+  "thesis_spec": "thesis/sections/methodology.typ",
+  "thesis_case_spec": "thesis/sections/benchmark-specification.typ",
+  "c_enum_header": "firmware/common/c/include/rtos_bench.h",
+  "c_wire_registry": "firmware/c-kernels/zephyr/c/stm32f4/main.c",
+  "c_wire_function": "protocol_id",
+  "c_runner": "firmware/common/c/src/runner.c",
+  "c_impl": "firmware/c-kernels/zephyr/c/stm32f4/port.c",
+  "c_port_initializer": "zephyr_bench_port_init(bench_port *port)",
+  "c_root_search_files": [
+    "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+  ],
+  "c_bridge_search_files": [
+    "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+  ],
+  "interrupt_search_files": [
+    "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+  ],
+  "rust_core": "firmware/common/rust/src/lib.rs",
+  "rust_impl": "firmware/c-kernels/zephyr/rust/src/lib.rs",
+  "rust_impl_type": "ZephyrPort",
+  "common_c_application_methods": [
+    "now_ticks"
+  ],
+  "common_rust_application_methods": [
+    "now_ticks"
+  ],
+  "compiler": "arm-none-eabi-gcc 14.2 rel1",
+  "external_source": ".local/west/zephyr",
+  "source_roots": [
+    "firmware/common/c/src",
+    "firmware/c-kernels/zephyr/c/stm32f4",
+    "firmware/common/rust/src",
+    "firmware/c-kernels/zephyr/rust/src"
+  ],
+  "source_configs": {
+    "c_benchmark": {
+      "configuration": "zephyr-stm32f4-c-benchmark",
+      "compile_commands": ".local/west/build-test/compile_commands.json",
+      "build_id": "zephyr-stm32f4-c-9fc56aa0",
+      "replace_build_id": "zephyr-stm32f4-c-9fc56aa0",
+      "source_units": [
+        "firmware/c-kernels/zephyr/c/stm32f4/main.c",
+        "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+      ],
+      "extra_units": [
+        "firmware/common/c/src/runner.c"
+      ],
+      "remove_defines": [
+        "BENCH_LANGUAGE_RUST"
+      ],
+      "source_scope": "Zephyr STM32F4 standalone C benchmark (BENCH_LANGUAGE_RUST undefined)",
+      "rebuild_evidence": "Project C units and board flags are taken from the current STM32F4 Rust build database after removing BENCH_LANGUAGE_RUST; the shared runner is the same source compiled in the C build. Generated Zephyr headers come from that board build."
+    },
+    "c_support": {
+      "configuration": "zephyr-stm32f4-c-support-rust",
+      "compile_commands": ".local/west/build-test/compile_commands.json",
+      "build_id": "zephyr-stm32f4-rust-9fc56aa0",
+      "replace_build_id": null,
+      "source_units": [
+        "firmware/c-kernels/zephyr/c/stm32f4/main.c",
+        "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+      ],
+      "extra_units": [],
+      "remove_defines": [],
+      "source_scope": "Zephyr STM32F4 C support compiled into the Rust benchmark (BENCH_LANGUAGE_RUST defined)",
+      "rebuild_evidence": "Current STM32F4 Rust build database and compile definitions."
+    },
+    "rust": {
+      "configuration": "zephyr-stm32f4-rust",
+      "target": "thumbv7em-none-eabi",
+      "crate_roots": [
+        "firmware/common/rust/Cargo.toml",
+        "firmware/c-kernels/zephyr/rust/Cargo.toml"
+      ],
+      "source_scope": "Zephyr STM32F4 shared Rust core plus Zephyr adapter"
+    }
+  },
+  "api": {
+    "rtos_symbols": [
+      "k_msgq_init",
+      "k_msgq_put",
+      "k_msgq_get",
+      "z_impl_k_msgq_put",
+      "z_impl_k_msgq_get",
+      "k_mutex_init",
+      "k_mutex_lock",
+      "k_mutex_unlock",
+      "z_impl_k_mutex_init",
+      "z_impl_k_mutex_lock",
+      "z_impl_k_mutex_unlock",
+      "k_sem_init",
+      "k_sem_give",
+      "k_sem_take",
+      "z_impl_k_sem_init",
+      "z_impl_k_sem_give",
+      "z_impl_k_sem_take",
+      "k_timer_init",
+      "k_timer_start",
+      "k_timer_stop",
+      "z_impl_k_timer_start",
+      "z_impl_k_timer_stop",
+      "k_cycle_get_64",
+      "k_malloc",
+      "k_free",
+      "sys_heap_runtime_stats_get",
+      "irq_enable",
+      "irq_disable",
+      "irq_lock",
+      "irq_unlock",
+      "k_thread_create",
+      "z_impl_k_thread_create",
+      "k_thread_join",
+      "z_impl_k_thread_join",
+      "k_thread_priority_get",
+      "z_impl_k_thread_priority_get",
+      "k_current_get",
+      "z_impl_k_sched_current_thread_query",
+      "arch_irq_lock",
+      "arch_irq_unlock",
+      "arm_irq_enable",
+      "arm_irq_disable"
+    ],
+    "allocation_symbols": [
+      "k_malloc",
+      "k_free"
+    ],
+    "aliases": [
+      {
+        "c_symbol": "k_msgq_put",
+        "rust_symbol": "z_impl_k_msgq_put",
+        "canonical": "k_msgq_put",
+        "justification": "The Rust binding calls the non-inline implementation; the generated Zephyr syscall header defines the C k_msgq_put inline wrapper as calling z_impl_k_msgq_put.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_msgq_get",
+        "rust_symbol": "z_impl_k_msgq_get",
+        "canonical": "k_msgq_get",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_mutex_init",
+        "rust_symbol": "z_impl_k_mutex_init",
+        "canonical": "k_mutex_init",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_mutex_lock",
+        "rust_symbol": "z_impl_k_mutex_lock",
+        "canonical": "k_mutex_lock",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_mutex_unlock",
+        "rust_symbol": "z_impl_k_mutex_unlock",
+        "canonical": "k_mutex_unlock",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_sem_init",
+        "rust_symbol": "z_impl_k_sem_init",
+        "canonical": "k_sem_init",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_sem_give",
+        "rust_symbol": "z_impl_k_sem_give",
+        "canonical": "k_sem_give",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_sem_take",
+        "rust_symbol": "z_impl_k_sem_take",
+        "canonical": "k_sem_take",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_timer_start",
+        "rust_symbol": "z_impl_k_timer_start",
+        "canonical": "k_timer_start",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_timer_stop",
+        "rust_symbol": "z_impl_k_timer_stop",
+        "canonical": "k_timer_stop",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_thread_create",
+        "rust_symbol": "z_impl_k_thread_create",
+        "canonical": "k_thread_create",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_thread_join",
+        "rust_symbol": "z_impl_k_thread_join",
+        "canonical": "k_thread_join",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_thread_priority_get",
+        "rust_symbol": "z_impl_k_thread_priority_get",
+        "canonical": "k_thread_priority_get",
+        "justification": "Generated Zephyr syscall wrapper.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          ".local/west/build-test/zephyr/include/generated/zephyr/syscalls/kernel.h"
+        ]
+      },
+      {
+        "c_symbol": "k_current_get",
+        "rust_symbol": "z_impl_k_sched_current_thread_query",
+        "canonical": "k_current_get",
+        "justification": "The Rust boundary documents current priority as k_thread_priority_get(k_current_get()); the C current-thread query is k_current_get.",
+        "source_locations": [
+          "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+          "firmware/c-kernels/zephyr/c/stm32f4/port.c"
+        ]
+      }
+    ],
+    "callback_apis": {
+      "k_thread_create": {
+        "invocation_kind": "thread_entry",
+        "callback_parameter": 3
+      },
+      "z_impl_k_thread_create": {
+        "invocation_kind": "thread_entry",
+        "callback_parameter": 3
+      },
+      "k_timer_init": {
+        "invocation_kind": "timer_expiry",
+        "callback_parameter": 1
+      }
+    },
+    "language_builtin_methods": [
+      "map_err",
+      "step_by",
+      "cast",
+      "spin_loop"
+    ],
+    "language_builtin_calls": [
+      "spin_loop",
+      "cast"
+    ],
+    "allocator_size_arguments": {
+      "k_malloc": [
+        0
+      ]
+    }
+  },
+  "cases": [
+    {
+      "thesis_case": 2,
+      "thesis_name": "queue_roundtrip",
+      "mechanism": "Queue operations",
+      "c_enum": "BENCH_QUEUE_ROUNDTRIP",
+      "c_wire_id": 1,
+      "rust_variant": "QueueRoundtrip",
+      "rust_wire_id": 1,
+      "c_root_functions": [
+        "port_queue_create",
+        "port_queue_send",
+        "port_queue_receive",
+        "port_queue_destroy"
+      ],
+      "c_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "rust_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": [],
+      "c_enum_value": 1,
+      "rust_discriminant": 1
+    },
+    {
+      "thesis_case": 9,
+      "thesis_name": "mutex_priority_inheritance",
+      "mechanism": "Mutex priority inheritance",
+      "c_enum": "BENCH_MUTEX_PRIORITY",
+      "c_wire_id": 8,
+      "rust_variant": "MutexPriority",
+      "rust_wire_id": 8,
+      "c_root_functions": [
+        "port_mutex_create",
+        "port_mutex_measure",
+        "port_mutex_destroy"
+      ],
+      "c_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "rust_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "c_bridge_roots": [],
+      "interrupt_roots": [],
+      "external_entry_limitations": [],
+      "c_enum_value": 8,
+      "rust_discriminant": 8
+    },
+    {
+      "thesis_case": 16,
+      "thesis_name": "isr_to_task",
+      "mechanism": "Interrupt to task",
+      "c_enum": "BENCH_ISR_TO_TASK",
+      "c_wire_id": 4,
+      "rust_variant": "IsrToTask",
+      "rust_wire_id": 4,
+      "c_root_functions": [
+        "port_isr_create",
+        "port_isr_measure",
+        "port_isr_destroy"
+      ],
+      "c_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "rust_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_isr_create",
+        "bench_isr_measure",
+        "bench_rust_isr_destroy"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": [],
+      "c_enum_value": 4,
+      "rust_discriminant": 4
+    },
+    {
+      "thesis_case": 17,
+      "thesis_name": "trigger_to_isr",
+      "mechanism": "Trigger to ISR",
+      "c_enum": "BENCH_TRIGGER_TO_ISR",
+      "c_wire_id": 10,
+      "rust_variant": "TriggerToIsr",
+      "rust_wire_id": 10,
+      "c_root_functions": [
+        "port_trigger_isr_create",
+        "port_trigger_isr_measure",
+        "port_trigger_isr_destroy"
+      ],
+      "c_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "rust_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_trigger_isr_create",
+        "bench_rust_trig_drain",
+        "bench_rust_trig_fire",
+        "bench_rust_trig_wait",
+        "bench_rust_trig_entry",
+        "bench_rust_trigger_isr_destroy"
+      ],
+      "interrupt_roots": [
+        "trigger_isr"
+      ],
+      "external_entry_limitations": [],
+      "c_enum_value": 10,
+      "rust_discriminant": 10
+    },
+    {
+      "thesis_case": 26,
+      "thesis_name": "heap_fragmentation",
+      "mechanism": "Heap fragmentation",
+      "c_enum": "BENCH_HEAP_FRAGMENTATION",
+      "c_wire_id": 24,
+      "rust_variant": "HeapFragmentation",
+      "rust_wire_id": 24,
+      "c_root_functions": [
+        "port_frag_create",
+        "port_frag_measure",
+        "port_frag_destroy"
+      ],
+      "c_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "rust_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_frag_create",
+        "bench_rust_frag_baseline",
+        "bench_rust_frag_bytes",
+        "bench_rust_frag_n",
+        "bench_rust_frag_alloc",
+        "bench_rust_frag_free",
+        "bench_rust_frag_free_bytes",
+        "bench_rust_frag_try",
+        "bench_rust_frag_destroy"
+      ],
+      "interrupt_roots": [],
+      "external_entry_limitations": [],
+      "c_enum_value": 27,
+      "rust_discriminant": 27
+    }
+  ],
+  "absent_cases": [
+    {
+      "thesis_case": 19,
+      "thesis_name": "tick_overhead",
+      "c_enum": "BENCH_TICK_OVERHEAD",
+      "c_wire_id": 21,
+      "status": "absent",
+      "reason": "No C or Rust implementation is advertised or defined for STM32F4: the supported-case table in firmware/c-kernels/zephyr/c/stm32f4/main.c excludes wire 21, no tick-overhead root exists in port.c or the shared Rust core, and ZephyrPort has no tick case method."
+    },
+    {
+      "thesis_case": 24,
+      "thesis_name": "idle_cpu_overhead",
+      "c_enum": "BENCH_IDLE_CPU_OVERHEAD",
+      "c_wire_id": 22,
+      "status": "absent",
+      "reason": "No C or Rust implementation is advertised or defined for STM32F4: the supported-case table excludes wire 22, no cpu_create/cpu_measure/cpu_destroy path exists in port.c, and ZephyrPort has no cpu override; the common Rust trait default returns Unsupported."
+    },
+    {
+      "thesis_case": 25,
+      "thesis_name": "cpu_overhead_under_load",
+      "c_enum": "BENCH_CPU_OVERHEAD_UNDER_LOAD",
+      "c_wire_id": 23,
+      "status": "absent",
+      "reason": "No C or Rust implementation is advertised or defined for STM32F4: the supported-case table excludes wire 23, no cpu_create/cpu_measure/cpu_destroy path exists in port.c, and ZephyrPort has no cpu override; the common Rust trait default returns Unsupported."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "benchmark_campaign": "campaign-replication-20261019T214853Z",
+  "safety_run": "safety-boundary-20261018T230156Z",
+  "supplementary_evidence": [
+    {
+      "id": "rust-native-timing",
+      "campaign": "campaign-replication-20261014T075134Z",
+      "bundle_sha256": "9ca150d7d888257b8e949d6758e56004c4c5d7635fad205a7669066e00b573e2",
+      "status": "missing",
+      "preserved_derived": "thesis/generated/data/replication-stats.json",
+      "used_by": [
+        "thesis/generated/data/replication-stats.json",
+        "thesis/generated/typ/all-results.typ",
+        "thesis/generated/figures/rust-kernel-comparison.svg"
+      ],
+      "limitation": "Raw campaign bundle is not present; only the preserved derived statistics and published outputs remain."
+    }
+  ],
+  "notes": "Update this file deliberately when new evidence is reviewed; analysis must not auto-select the newest campaign.",
+  "safety_evidence": {
+    "generated_inventory": "results/safety/generated_inventory",
+    "generated_outputs": "results/safety/generated_outputs",
+    "generated_inventory_sha256": "466ba49166e0e91b62d0844601b7f043783e45ef38ca6f1c298836002f43850e",
+    "generated_outputs_sha256": "fa1580b112853c9e0cf529b6c3cc4394a1db9a51f86e6891f8e1b1c65232238b",
+    "status": "present-local",
+    "generator": "project/safety/tables.py",
+    "legacy_boundary_run": "safety-boundary-20261018T230156Z",
+    "profiles": "results/safety/profiles",
+    "profiles_sha256": "6679671f04ad32e0b38dfcda86ceb5baff3120ab5d22c550298265aba39dbb4c"
+  }
+}

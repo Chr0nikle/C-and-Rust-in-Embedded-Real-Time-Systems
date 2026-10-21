@@ -1,0 +1,2788 @@
+{
+  "cases": [
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "The benchmark root calls the project tick/CPU adapter; the timed body runs in FreeRTOS xPortSysTickHandler and invokes the project traceISR_* macros defined in FreeRTOSConfig.h. The kernel body beyond that documented hook boundary is outside the project source scope.",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "ESP32-C6",
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "nRF52840 DK",
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32F4 Discovery",
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 26
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 1
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 2
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 3
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 4
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 5
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 6
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 7
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 8
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 9
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 10
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 11
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 12
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 13
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 14
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 15
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 16
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 17
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 18
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 20
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 21
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 22
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 23
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "analysis_boundary": "",
+      "board": "STM32H723",
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "status": "complete",
+      "thesis_case": 26
+    }
+  ],
+  "configurations": [
+    {
+      "absent_cases": 4,
+      "board": "ESP32-C6",
+      "bridge_definitions": 28,
+      "call_sites": 727,
+      "common_only": 1,
+      "comparable": 21,
+      "evidence_dir": "generated_outputs/freertos-esp32c6-all",
+      "inventory_operations": 4006,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 123,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "freertos-esp32c6-all",
+      "rtos": "FreeRTOS",
+      "selected_cases": 22,
+      "validation": "passed",
+      "verified_roots": 22
+    },
+    {
+      "absent_cases": 2,
+      "board": "nRF52840 DK",
+      "bridge_definitions": 35,
+      "call_sites": 765,
+      "common_only": 1,
+      "comparable": 23,
+      "evidence_dir": "generated_outputs/freertos-nrf52840-all",
+      "inventory_operations": 4528,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 102,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "freertos-nrf52840-all",
+      "rtos": "FreeRTOS",
+      "selected_cases": 24,
+      "validation": "passed",
+      "verified_roots": 24
+    },
+    {
+      "absent_cases": 0,
+      "board": "STM32F4 Discovery",
+      "bridge_definitions": 44,
+      "call_sites": 790,
+      "common_only": 1,
+      "comparable": 25,
+      "evidence_dir": "generated_outputs/freertos-stm32f4-all",
+      "inventory_operations": 4551,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 123,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "freertos-stm32f4-all",
+      "rtos": "FreeRTOS",
+      "selected_cases": 26,
+      "validation": "passed",
+      "verified_roots": 26
+    },
+    {
+      "absent_cases": 0,
+      "board": "STM32H723",
+      "bridge_definitions": 44,
+      "call_sites": 790,
+      "common_only": 1,
+      "comparable": 25,
+      "evidence_dir": "generated_outputs/freertos-stm32h723-all",
+      "inventory_operations": 4551,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 138,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "freertos-stm32h723-all",
+      "rtos": "FreeRTOS",
+      "selected_cases": 26,
+      "validation": "passed",
+      "verified_roots": 26
+    },
+    {
+      "absent_cases": 3,
+      "board": "ESP32-C6",
+      "bridge_definitions": 29,
+      "call_sites": 970,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/nuttx-esp32c6-all",
+      "inventory_operations": 3744,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 177,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "nuttx-esp32c6-all",
+      "rtos": "NuttX",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "nRF52840 DK",
+      "bridge_definitions": 29,
+      "call_sites": 956,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/nuttx-nrf52840-all",
+      "inventory_operations": 3608,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 184,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "nuttx-nrf52840-all",
+      "rtos": "NuttX",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "STM32F4 Discovery",
+      "bridge_definitions": 29,
+      "call_sites": 961,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/nuttx-stm32f4-all",
+      "inventory_operations": 3568,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 193,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "nuttx-stm32f4-all",
+      "rtos": "NuttX",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "STM32H723",
+      "bridge_definitions": 29,
+      "call_sites": 961,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/nuttx-stm32h723-all",
+      "inventory_operations": 3568,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 193,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "nuttx-stm32h723-all",
+      "rtos": "NuttX",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "ESP32-C6",
+      "bridge_definitions": 32,
+      "call_sites": 744,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/zephyr-esp32c6-all",
+      "inventory_operations": 3316,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 115,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "zephyr-esp32c6-all",
+      "rtos": "Zephyr",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "nRF52840 DK",
+      "bridge_definitions": 32,
+      "call_sites": 782,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/zephyr-nrf52840-all",
+      "inventory_operations": 3204,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 99,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "zephyr-nrf52840-all",
+      "rtos": "Zephyr",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "STM32F4 Discovery",
+      "bridge_definitions": 32,
+      "call_sites": 780,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/zephyr-stm32f4-all",
+      "inventory_operations": 3054,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 118,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "zephyr-stm32f4-all",
+      "rtos": "Zephyr",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": 3,
+      "board": "STM32H723",
+      "bridge_definitions": 32,
+      "call_sites": 792,
+      "common_only": 1,
+      "comparable": 22,
+      "evidence_dir": "generated_outputs/zephyr-stm32h723-all",
+      "inventory_operations": 3100,
+      "language_scope": "C/Rust matched",
+      "matched_rtos_targets": 121,
+      "not_assessed": 0,
+      "partial": 0,
+      "profile": "zephyr-stm32h723-all",
+      "rtos": "Zephyr",
+      "selected_cases": 23,
+      "validation": "passed",
+      "verified_roots": 23
+    },
+    {
+      "absent_cases": "not_applicable",
+      "board": "STM32F4 Discovery",
+      "bridge_definitions": "not_applicable",
+      "call_sites": 227,
+      "common_only": "not_applicable",
+      "comparable": "not_applicable",
+      "evidence_dir": "generated_inventory/native-freertos-in-rust-stm32f4",
+      "inventory_operations": 250,
+      "language_scope": "Rust-native only",
+      "matched_rtos_targets": "not_applicable",
+      "not_assessed": "not_applicable",
+      "partial": "not_applicable",
+      "profile": "native-freertos-in-rust-stm32f4",
+      "rtos": "FreeRTOS-in-Rust",
+      "selected_cases": "not_applicable",
+      "validation": "inventory_and_case_trace",
+      "verified_roots": "not_applicable"
+    },
+    {
+      "absent_cases": "not_applicable",
+      "board": "STM32H723",
+      "bridge_definitions": "not_applicable",
+      "call_sites": 228,
+      "common_only": "not_applicable",
+      "comparable": "not_applicable",
+      "evidence_dir": "generated_inventory/native-freertos-in-rust-stm32h723",
+      "inventory_operations": 250,
+      "language_scope": "Rust-native only",
+      "matched_rtos_targets": "not_applicable",
+      "not_assessed": "not_applicable",
+      "partial": "not_applicable",
+      "profile": "native-freertos-in-rust-stm32h723",
+      "rtos": "FreeRTOS-in-Rust",
+      "selected_cases": "not_applicable",
+      "validation": "inventory_and_case_trace",
+      "verified_roots": "not_applicable"
+    },
+    {
+      "absent_cases": "not_applicable",
+      "board": "STM32F4 Discovery",
+      "bridge_definitions": "not_applicable",
+      "call_sites": 66,
+      "common_only": "not_applicable",
+      "comparable": "not_applicable",
+      "evidence_dir": "generated_inventory/native-rivet-stm32f4",
+      "inventory_operations": 53,
+      "language_scope": "Rust-native only",
+      "matched_rtos_targets": "not_applicable",
+      "not_assessed": "not_applicable",
+      "partial": "not_applicable",
+      "profile": "native-rivet-stm32f4",
+      "rtos": "Rivet",
+      "selected_cases": "not_applicable",
+      "validation": "inventory_and_case_trace",
+      "verified_roots": "not_applicable"
+    }
+  ],
+  "schema": "uastw-generated-coverage-matrix-v1"
+}

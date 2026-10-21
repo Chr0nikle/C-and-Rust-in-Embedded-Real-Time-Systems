@@ -1,0 +1,609 @@
+configuration,rtos,board,language,role,category,count,unit
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,array_index,68,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,kernel_api_call,235,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,macro_pointer_conversion,309,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,mutable_global_address,23,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,mutable_global_read,346,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,mutable_global_readwrite,10,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,mutable_global_write,146,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,pointer_arithmetic,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,pointer_conversion,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_adapter,pointer_dereference,59,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,array_index,15,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,kernel_api_call,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,macro_pointer_conversion,25,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,mutable_global_read,28,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,mutable_global_readwrite,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,mutable_global_write,8,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,pointer_arithmetic,18,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,pointer_dereference,43,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_application,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,array_index,79,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,kernel_api_call,290,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,macro_pointer_conversion,379,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,mutable_global_address,24,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,mutable_global_read,374,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,mutable_global_readwrite,11,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,mutable_global_write,154,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,pointer_arithmetic,20,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,pointer_conversion,6,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,pointer_dereference,102,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,c_support,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_application,kernel_api_call,186,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_application,mutable_global_read,134,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_application,mutable_global_write,82,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,kernel_api_call,66,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,mutable_global_address,22,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,mutable_global_read,54,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,mutable_global_write,14,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,rust_ffi_boundary,raw_pointer_dereference,17,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,array_index,70,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,kernel_api_call,111,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,macro_pointer_conversion,362,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,mutable_global_address,9,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,mutable_global_read,102,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,mutable_global_readwrite,11,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,mutable_global_write,167,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,pointer_arithmetic,6,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_adapter,pointer_dereference,142,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,array_index,15,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,kernel_api_call,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,macro_pointer_conversion,22,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,mutable_global_read,15,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,mutable_global_readwrite,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,mutable_global_write,11,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,pointer_conversion,3,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,pointer_dereference,43,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_application,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,array_index,85,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,kernel_api_call,112,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,macro_pointer_conversion,384,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,mutable_global_address,10,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,mutable_global_read,117,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,mutable_global_readwrite,12,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,mutable_global_write,178,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,pointer_arithmetic,22,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,pointer_conversion,3,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,pointer_dereference,185,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,c_support,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_application,kernel_api_call,186,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_application,mutable_global_read,134,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_application,mutable_global_write,82,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,kernel_api_call,66,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_address,22,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_read,54,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_write,14,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,rust_ffi_boundary,raw_pointer_dereference,17,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,c,shared_c,array_index,8,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,array_index,70,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,kernel_api_call,125,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,macro_pointer_conversion,281,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,mutable_global_read,118,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,mutable_global_readwrite,13,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,mutable_global_write,191,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,pointer_arithmetic,2,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,pointer_conversion,4,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_adapter,pointer_dereference,47,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,array_index,15,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,kernel_api_call,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,macro_pointer_conversion,22,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,mutable_global_read,22,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,mutable_global_readwrite,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,mutable_global_write,12,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,pointer_conversion,3,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,pointer_dereference,43,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_application,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,array_index,85,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,kernel_api_call,126,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,macro_pointer_conversion,303,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,mutable_global_read,140,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,mutable_global_readwrite,14,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,mutable_global_write,203,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,pointer_arithmetic,18,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,pointer_conversion,7,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,pointer_dereference,90,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,c_support,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_application,kernel_api_call,186,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_application,mutable_global_read,134,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_application,mutable_global_write,82,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,kernel_api_call,66,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_address,22,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_read,54,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_write,14,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,rust_ffi_boundary,raw_pointer_dereference,17,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,c,shared_c,array_index,8,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,array_index,70,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,kernel_api_call,125,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,macro_pointer_conversion,281,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,mutable_global_read,118,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,mutable_global_readwrite,13,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,mutable_global_write,191,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,pointer_arithmetic,2,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,pointer_conversion,4,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_adapter,pointer_dereference,47,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,array_index,15,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,kernel_api_call,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,macro_pointer_conversion,22,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,mutable_global_read,22,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,mutable_global_readwrite,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,mutable_global_write,12,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,pointer_conversion,3,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,pointer_dereference,43,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_application,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,array_index,85,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,deallocation,7,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,kernel_api_call,126,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,macro_pointer_conversion,303,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,mutable_global_read,140,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,mutable_global_readwrite,14,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,mutable_global_write,203,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,pointer_arithmetic,18,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,pointer_conversion,7,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,pointer_dereference,90,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,c_support,pointer_field_access,41,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_application,kernel_api_call,186,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_application,mutable_global_read,134,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_application,mutable_global_write,82,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,deallocation,2,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,dynamic_allocation,2,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,kernel_api_call,66,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,mutable_global_address,22,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,mutable_global_read,54,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,mutable_global_write,14,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,rust_ffi_boundary,raw_pointer_dereference,17,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,c,shared_c,array_index,8,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+freertos-stm32h723-all,FreeRTOS,STM32H723,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,deallocation,6,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,kernel_api_call,30,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,mutable_global_address,34,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,mutable_global_read,67,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,rust_native_application,mutable_global_write,38,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32f4,,,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,deallocation,6,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,dynamic_allocation,4,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,kernel_api_call,30,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,mutable_global_address,34,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,mutable_global_read,67,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,rust_native_application,mutable_global_write,38,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+native-freertos-in-rust-stm32h723,,,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+native-rivet-stm32f4,,,rust,rust_native_application,kernel_api_call,6,configuration-specific active resolved operation occurrence
+native-rivet-stm32f4,,,rust,rust_native_application,mutable_global_address,1,configuration-specific active resolved operation occurrence
+native-rivet-stm32f4,,,rust,rust_native_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+native-rivet-stm32f4,,,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+native-rivet-stm32f4,,,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,array_index,33,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,deallocation,6,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,dynamic_allocation,3,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,kernel_api_call,11,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,macro_pointer_conversion,189,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,mutable_global_address,129,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,mutable_global_read,231,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,mutable_global_readwrite,14,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,mutable_global_write,141,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,pointer_conversion,27,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,pointer_dereference,104,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_adapter,pointer_field_access,78,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,array_index,32,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,mutable_global_read,69,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,mutable_global_write,21,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_application,pointer_field_access,9,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,array_index,78,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,deallocation,8,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,dynamic_allocation,5,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,kernel_api_call,80,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,macro_pointer_conversion,278,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,mutable_global_address,153,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,mutable_global_read,344,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,mutable_global_readwrite,17,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,mutable_global_write,168,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,pointer_conversion,37,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,pointer_dereference,116,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,c_support,pointer_field_access,87,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_application,kernel_api_call,56,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_ffi_boundary,kernel_api_call,159,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_ffi_boundary,mutable_global_address,255,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,rust_ffi_boundary,raw_pointer_dereference,169,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+nuttx-esp32c6-all,NuttX,ESP32-C6,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,array_index,33,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,deallocation,6,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,dynamic_allocation,3,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,kernel_api_call,11,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,macro_pointer_conversion,186,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,mutable_global_address,128,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,mutable_global_read,203,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,mutable_global_readwrite,12,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,mutable_global_write,117,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,pointer_conversion,27,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,pointer_dereference,94,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_adapter,pointer_field_access,78,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,array_index,32,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,mutable_global_read,69,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,mutable_global_write,21,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_application,pointer_field_access,9,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,array_index,78,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,deallocation,8,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,dynamic_allocation,5,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,kernel_api_call,80,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,macro_pointer_conversion,275,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,mutable_global_address,152,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,mutable_global_read,316,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,mutable_global_readwrite,15,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,mutable_global_write,144,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,pointer_conversion,37,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,pointer_dereference,106,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,c_support,pointer_field_access,87,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_application,kernel_api_call,56,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_ffi_boundary,kernel_api_call,159,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_address,255,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,rust_ffi_boundary,raw_pointer_dereference,169,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+nuttx-nrf52840-all,NuttX,nRF52840 DK,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,array_index,33,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,deallocation,6,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,dynamic_allocation,3,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,kernel_api_call,11,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,macro_pointer_conversion,172,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,mutable_global_address,135,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,mutable_global_read,204,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,mutable_global_readwrite,12,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,mutable_global_write,118,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,pointer_conversion,27,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,pointer_dereference,79,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_adapter,pointer_field_access,78,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,array_index,32,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,mutable_global_read,69,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,mutable_global_write,21,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_application,pointer_field_access,9,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,array_index,78,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,deallocation,8,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,dynamic_allocation,5,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,kernel_api_call,80,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,macro_pointer_conversion,261,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,mutable_global_address,159,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,mutable_global_read,317,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,mutable_global_readwrite,15,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,mutable_global_write,145,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,pointer_conversion,37,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,pointer_dereference,91,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,c_support,pointer_field_access,87,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_application,kernel_api_call,56,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_ffi_boundary,kernel_api_call,159,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_address,255,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,rust_ffi_boundary,raw_pointer_dereference,169,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,array_index,33,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,deallocation,6,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,dynamic_allocation,3,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,macro_pointer_conversion,160,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,mutable_global_address,130,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,mutable_global_read,191,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,mutable_global_readwrite,12,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,mutable_global_write,107,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,pointer_conversion,27,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_adapter,pointer_dereference,54,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,array_index,27,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,macro_pointer_conversion,9,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,mutable_global_read,68,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,mutable_global_readwrite,2,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,mutable_global_write,14,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_application,pointer_field_access,9,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,array_index,74,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,deallocation,8,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,dynamic_allocation,5,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,kernel_api_call,6,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,macro_pointer_conversion,249,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,mutable_global_address,136,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,mutable_global_read,294,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,mutable_global_readwrite,14,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,mutable_global_write,127,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,pointer_arithmetic,17,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,pointer_conversion,34,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,pointer_dereference,63,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,c_support,pointer_field_access,9,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_application,deallocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_application,kernel_api_call,56,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_ffi_boundary,kernel_api_call,159,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_ffi_boundary,mutable_global_address,255,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_ffi_boundary,pointer_conversion,44,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,rust_ffi_boundary,raw_pointer_dereference,169,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,c,shared_c,array_index,8,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+nuttx-stm32h723-all,NuttX,STM32H723,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,array_index,52,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,kernel_api_call,12,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,macro_pointer_conversion,146,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,mutable_global_address,148,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,mutable_global_read,165,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,mutable_global_readwrite,12,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,mutable_global_write,105,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,pointer_conversion,3,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,pointer_dereference,70,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_adapter,pointer_field_access,77,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,array_index,27,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,mutable_global_read,62,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,mutable_global_write,18,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,pointer_arithmetic,20,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,pointer_dereference,13,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_application,pointer_field_access,7,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,array_index,94,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,kernel_api_call,79,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,macro_pointer_conversion,234,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,mutable_global_address,186,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,mutable_global_read,268,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,mutable_global_readwrite,15,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,mutable_global_write,135,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,pointer_arithmetic,20,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,pointer_conversion,4,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,pointer_dereference,93,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,c_support,pointer_field_access,84,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,rust_application,kernel_api_call,52,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,rust_ffi_boundary,kernel_api_call,81,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,rust_ffi_boundary,mutable_global_address,249,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,rust_ffi_boundary,pointer_conversion,55,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,rust_ffi_boundary,raw_pointer_dereference,172,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+zephyr-esp32c6-all,Zephyr,ESP32-C6,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,array_index,52,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,kernel_api_call,12,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,macro_pointer_conversion,145,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,mutable_global_address,146,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,mutable_global_read,139,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,mutable_global_readwrite,10,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,mutable_global_write,94,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,pointer_conversion,3,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,pointer_dereference,69,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_adapter,pointer_field_access,77,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,array_index,26,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,mutable_global_read,62,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,mutable_global_write,18,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_application,pointer_field_access,7,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,array_index,93,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,kernel_api_call,79,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,macro_pointer_conversion,232,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,mutable_global_address,186,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,mutable_global_read,240,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,mutable_global_readwrite,13,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,mutable_global_write,124,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,pointer_conversion,4,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,pointer_dereference,84,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,c_support,pointer_field_access,84,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,rust_application,kernel_api_call,52,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,rust_ffi_boundary,kernel_api_call,81,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,rust_ffi_boundary,mutable_global_address,249,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,rust_ffi_boundary,pointer_conversion,55,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,rust_ffi_boundary,raw_pointer_dereference,172,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,array_index,52,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,kernel_api_call,12,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,macro_pointer_conversion,140,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,mutable_global_address,150,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,mutable_global_read,139,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,mutable_global_readwrite,10,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,mutable_global_write,94,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,pointer_conversion,3,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,pointer_dereference,25,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_adapter,pointer_field_access,77,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,array_index,26,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,mutable_global_read,62,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,mutable_global_write,18,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_application,pointer_field_access,7,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,array_index,93,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,kernel_api_call,79,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,macro_pointer_conversion,227,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,mutable_global_address,192,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,mutable_global_read,240,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,mutable_global_readwrite,13,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,mutable_global_write,123,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,pointer_conversion,4,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,pointer_dereference,35,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,c_support,pointer_field_access,28,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,rust_application,kernel_api_call,52,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,rust_ffi_boundary,kernel_api_call,81,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,rust_ffi_boundary,mutable_global_address,249,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,rust_ffi_boundary,pointer_conversion,55,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,rust_ffi_boundary,raw_pointer_dereference,172,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,array_index,52,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,kernel_api_call,12,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,macro_pointer_conversion,135,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,mutable_global_address,150,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,mutable_global_read,139,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,mutable_global_readwrite,10,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,mutable_global_write,95,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,pointer_conversion,3,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,pointer_dereference,25,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_adapter,pointer_field_access,77,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,array_index,25,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,macro_pointer_conversion,10,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,mutable_global_read,62,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,mutable_global_readwrite,3,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,mutable_global_write,18,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,pointer_conversion,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,pointer_dereference,6,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_application,pointer_field_access,7,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,array_index,93,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,deallocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,dynamic_allocation,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,kernel_api_call,79,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,macro_pointer_conversion,220,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,mutable_global_address,192,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,mutable_global_read,240,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,mutable_global_readwrite,13,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,mutable_global_write,125,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,pointer_arithmetic,16,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,pointer_conversion,4,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,pointer_dereference,35,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,c_support,pointer_field_access,84,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,rust_application,kernel_api_call,52,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,rust_ffi_boundary,kernel_api_call,81,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,rust_ffi_boundary,mutable_global_address,249,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,rust_ffi_boundary,pointer_conversion,55,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,rust_ffi_boundary,raw_pointer_dereference,172,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,shared_c,array_index,48,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,shared_c,macro_pointer_conversion,2,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,shared_c,pointer_dereference,5,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,c,shared_c,pointer_field_access,310,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,shared_rust,mutable_global_address,1,configuration-specific active resolved operation occurrence
+zephyr-stm32h723-all,Zephyr,STM32H723,rust,shared_rust,raw_pointer_dereference,1,configuration-specific active resolved operation occurrence

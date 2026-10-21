@@ -1,0 +1,14 @@
+/*
+ * STM32H723 common 520 MHz clock for all H7 RTOSes. The board is the upstream
+ * fanke/fk723m1_zgt6 (25 MHz HSE crystal, USART1 PA9/PA10 console on the
+ * CP2102); this overlay only lowers PLL1 from the board default 550 MHz to the
+ * common 520 MHz (25/5 = 5 MHz input, x104 = 520 MHz VCO, div-p = 1).
+ */
+&pll {
+	div-m = <5>;
+	mul-n = <104>;
+};
+
+&rcc {
+	clock-frequency = <DT_FREQ_M(520)>;
+};

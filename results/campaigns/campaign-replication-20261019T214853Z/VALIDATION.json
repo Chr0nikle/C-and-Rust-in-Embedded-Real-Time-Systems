@@ -1,0 +1,59 @@
+{
+  "bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+  "exit": 0,
+  "campaign_complete": true,
+  "units": 240,
+  "missing": [],
+  "failures": [],
+  "pair_complete": {
+    "freertos/esp32c6": {
+      "c": 10,
+      "rust": 10
+    },
+    "freertos/nrf52840dk": {
+      "c": 10,
+      "rust": 10
+    },
+    "freertos/stm32f4discovery": {
+      "c": 10,
+      "rust": 10
+    },
+    "nuttx/esp32c6": {
+      "c": 10,
+      "rust": 10
+    },
+    "nuttx/nrf52840dk": {
+      "c": 10,
+      "rust": 10
+    },
+    "nuttx/stm32f4discovery": {
+      "c": 10,
+      "rust": 10
+    },
+    "zephyr/esp32c6": {
+      "c": 10,
+      "rust": 10
+    },
+    "zephyr/nrf52840dk": {
+      "c": 10,
+      "rust": 10
+    },
+    "zephyr/stm32f4discovery": {
+      "c": 10,
+      "rust": 10
+    },
+    "freertos/stm32h723": {
+      "c": 10,
+      "rust": 10
+    },
+    "nuttx/stm32h723": {
+      "c": 10,
+      "rust": 10
+    },
+    "zephyr/stm32h723": {
+      "c": 10,
+      "rust": 10
+    }
+  },
+  "sample_issues": []
+}

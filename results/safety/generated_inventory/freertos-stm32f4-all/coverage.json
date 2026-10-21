@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "freertos-stm32f4-c-benchmark",
+    "freertos-stm32f4-c-support-rust",
+    "freertos-stm32f4-rust"
+  ],
+  "description": "All 26 implemented FreeRTOS STM32F4 C/Rust thesis cases",
+  "function_rows": 716,
+  "kernel_call_rows": 679,
+  "operation_rows": 2942,
+  "parse_failures": {
+    "freertos-stm32f4-c-benchmark": 4,
+    "freertos-stm32f4-c-support-rust": 3,
+    "freertos-stm32f4-rust": 0
+  },
+  "profile": "freertos-stm32f4-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 133
+}

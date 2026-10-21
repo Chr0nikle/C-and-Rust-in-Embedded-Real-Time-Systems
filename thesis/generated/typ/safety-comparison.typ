@@ -1,0 +1,27 @@
+#set text(size: 8.0pt)
+#figure(
+  text(size: 8.0pt, align(center, table(
+    columns: (auto, auto, auto, auto, auto, auto, auto),
+    align: (left, left, right, right, right, right, right),
+    stroke: (x: none, y: 0.2pt + luma(210)),
+    inset: (x: 2.5pt, y: 1.8pt),
+    column-gutter: 3pt,
+    table.header(table.cell(fill: luma(235))[*RTOS*], table.cell(fill: luma(235))[*Component*], table.cell(fill: luma(235))[*Raw deref.*], table.cell(fill: luma(235))[*Pointer arith.*], table.cell(fill: luma(235))[*Pointer conv.*], table.cell(fill: luma(235))[*Macro ptr. cast*], table.cell(fill: luma(235))[*Unsafe context*]),
+    table.hline(stroke: 0.6pt + luma(150)),
+    table.cell(rowspan: 4, fill: luma(248))[*FreeRTOS*], [C application], [43], [16–18], [1–3], [22–25], [·],
+    [C adapter], [47–142], [2–6], [0–4], [281–362], [·],
+    [Rust application], [0], [0], [0], [·], [403/404],
+    [Rust FFI boundary], [17], [17], [44], [·], [241/241],
+    table.hline(stroke: 0.6pt + luma(150)),
+    table.cell(rowspan: 4, fill: luma(248))[*Zephyr*], [C application], [6–13], [16–20], [1], [10], [·],
+    [C adapter], [25–70], [0], [3], [135–146], [·],
+    [Rust application], [0], [0], [0], [·], [37/52],
+    [Rust FFI boundary], [172], [0], [55], [·], [557/557],
+    table.hline(stroke: 0.6pt + luma(150)),
+    table.cell(rowspan: 4, fill: luma(248))[*NuttX*], [C application], [6], [17], [1], [9–10], [·],
+    [C adapter], [54–104], [0], [27], [160–189], [·],
+    [Rust application], [0], [0], [0], [·], [42/58],
+    [Rust FFI boundary], [169], [0], [44], [·], [627/627],
+  ))),
+  caption: [Active resolved operations by source-path role. Ranges span boards; C and Rust categories are not directly comparable.],
+) <safety-comparison>

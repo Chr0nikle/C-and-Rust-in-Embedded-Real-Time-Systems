@@ -1,0 +1,17 @@
+{
+  "build_id": "freertos-h723-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 178948,
+        "data": 28,
+        "flash": 54692,
+        "image": "freertos-stm32h723-bench.elf",
+        "ram": 178976,
+        "rodata": 8432,
+        "text": 46232
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

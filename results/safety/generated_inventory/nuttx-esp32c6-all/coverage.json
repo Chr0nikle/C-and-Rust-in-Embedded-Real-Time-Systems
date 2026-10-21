@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "nuttx-esp32c6-c-benchmark",
+    "nuttx-esp32c6-c-support-rust",
+    "nuttx-esp32c6-rust"
+  ],
+  "description": "All 23 implemented NuttX STM32F4 C/Rust thesis cases",
+  "function_rows": 703,
+  "kernel_call_rows": 395,
+  "operation_rows": 3744,
+  "parse_failures": {
+    "nuttx-esp32c6-c-benchmark": 0,
+    "nuttx-esp32c6-c-support-rust": 0,
+    "nuttx-esp32c6-rust": 0
+  },
+  "profile": "nuttx-esp32c6-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 142
+}

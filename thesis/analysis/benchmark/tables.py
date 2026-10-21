@@ -1,0 +1,270 @@
+#!/usr/bin/env python3
+"""Per-RTOS results tables for the thesis benchmark appendix.
+
+Reads ``analysis/generated/replication-stats.json`` (produced by
+``replication.py``) and writes ``analysis/generated/all-results.typ``:
+one table per RTOS, with the benchmark cases as rows and the RTOS's board and
+language configurations as columns. Each cell lists the pooled median (top) and
+the pooled p99 (bottom) where available, in the case's reported unit; a dot marks
+a case the path does not advertise and a single value means p99 is unavailable. Run with:
+
+    python3 analysis/benchmark/tables.py
+"""
+from __future__ import annotations
+
+import json
+import math
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+GENERATED = HERE.parents[1] / "generated"
+TYP = GENERATED / "typ"
+DATA = GENERATED / "data"
+FIGS = GENERATED / "figures"
+
+CASE_NAMES = {
+    0: "timer_overhead", 1: "queue_roundtrip", 2: "task_handoff",
+    3: "periodic_jitter", 4: "isr_to_task", 5: "yield_roundtrip",
+    6: "preempt_latency", 7: "ipc_pingpong", 8: "mutex_priority_inheritance",
+    10: "trigger_to_isr",
+    11: "periodic_jitter_loaded", 12: "semaphore_latency",
+    13: "mutex_uncontended", 14: "alloc_latency", 15: "sleep_accuracy",
+    16: "scheduler_overhead", 17: "notification_latency",
+    18: "ipc_payload_sweep", 19: "ipc_throughput", 20: "nested_irq_overhead",
+    21: "tick_overhead", 22: "idle_cpu_overhead", 23: "cpu_overhead_under_load",
+    24: "heap_fragmentation", 25: "max_interrupt_disabled",
+    27: "zero_copy_ipc",
+}
+# Short column headers, in case order (grouped by operation).
+CASE_SHORT = {
+    0: "Timer and runner overhead", 1: "Queue send and receive",
+    2: "Task release to receiver", 3: "Periodic jitter",
+    4: "Interrupt handler to task", 5: "Yield round trip",
+    6: "Preemption latency", 7: "IPC ping-pong",
+    8: "Priority inheritance", 10: "Trigger to interrupt",
+    11: "Loaded periodic jitter", 12: "Semaphore latency",
+    13: "Mutex uncontended", 14: "Allocation latency",
+    15: "Sleep accuracy", 16: "Scheduler overhead",
+    17: "Task notification", 18: "Payload sweep",
+    19: "IPC throughput", 20: "Nested interrupt",
+    21: "Tick overhead", 22: "Tick-related CPU share while idle",
+    23: "CPU share under load", 24: "Heap fragmentation",
+    25: "Observed interrupt deferral", 27: "Zero-copy IPC",
+}
+COUNT_CASES = {19: "B/s", 22: "ppm", 23: "ppm", 24: "ppm", 27: "ticks"}
+BINARY_CASES = {}
+
+CASE_ORDER = [0, 1, 12, 13, 14, 2, 5, 6, 8, 16, 17, 7, 18, 19, 27,
+              4, 10, 20, 21, 25, 3, 11, 15, 22, 23, 24]
+
+RTOS_SEQ = ["freertos", "nuttx", "zephyr", "freertos-in-rust", "rivet"]
+RTOS_NAMES = {
+    "freertos": "FreeRTOS", "nuttx": "NuttX", "zephyr": "Zephyr",
+    "freertos-in-rust": "FreeRTOS-in-Rust", "rivet": "Rivet",
+}
+BOARD_SEQ = ["stm32f4", "stm32h723", "esp32c6", "nrf52840dk", "pico2"]
+BOARD_NAMES = {"stm32f4": "STM32F4", "stm32h723": "STM32H723",
+               "esp32c6": "ESP32-C6", "nrf52840dk": "nRF52840", "pico2": "Pico 2"}
+LANG_NAMES = {"bench": "C", "rust": "Rust"}
+BOARD_DISPLAY = {
+    "stm32f4": "STM32F4",
+    "stm32h723": "STM32H723",
+    "esp32c6": "ESP32-C6",
+    "nrf52840dk": "nRF52840",
+}
+
+
+def format_percent(count: int, total: int) -> str:
+    """Format a sentinel/invalid fraction without rounding it to zero.
+
+    Exact zero stays "0". Small nonzero fractions keep enough precision to be
+    visible: below 0.1 % two decimals, below 1 % one decimal.
+    """
+    if count <= 0 or total <= 0:
+        return "0"
+    pct = 100.0 * count / total
+    if pct < 0.1:
+        return f"{pct:.2f}"
+    if pct < 1.0:
+        return f"{pct:.1f}"
+    return f"{pct:.0f}"
+
+
+def fmt_cell(v: float, unit: str) -> str:
+    if v == 0:
+        return "0"
+    # Round to 3 significant figures before choosing the suffix, so a value just
+    # below a boundary (e.g. 999.6) crosses it once and never renders as
+    # scientific notation (``:.3g`` would emit ``1e+03``).
+    r = round(v, 2 - math.floor(math.log10(abs(v))))
+    a = abs(r)
+    if a >= 1e6:
+        return f"{r / 1e6:.3g}M"
+    if a >= 1e3:
+        return f"{r / 1e3:.3g}k"
+    return f"{r:.3g}"
+
+
+def unit_tag(case: int) -> str:
+    return BINARY_CASES.get(case) or COUNT_CASES.get(case) or "µs"
+
+
+CASE_GROUPS = [(0, 5, "Basic API"), (5, 6, "Scheduling"), (11, 4, "IPC"),
+               (15, 5, "Interrupts"), (20, 3, "Timing & Sleep"),
+               (23, 2, "Load"), (25, 1, "Memory")]
+
+
+def main() -> int:
+    TYP.mkdir(parents=True, exist_ok=True)
+    stats = json.load(open(DATA / "replication-stats.json"))
+    paths = stats["paths"]
+
+    by_rtos = {rtos: [] for rtos in RTOS_SEQ}
+    for rtos in RTOS_SEQ:
+        for board in BOARD_SEQ:
+            for lang in ("bench", "rust"):
+                key = f"{rtos}/{board}/{lang}"
+                if key in paths:
+                    by_rtos[rtos].append((board, lang, key))
+
+    out: list[str] = ["// Generated by analysis/benchmark/tables.py -- do not edit."]
+    filtered: list[tuple[int, str, str, str]] = []
+    emitted = 0
+
+    for rtos in RTOS_SEQ:
+        configs = by_rtos[rtos]
+        if not configs:
+            continue
+        if emitted:
+            out.append("#pagebreak()")
+        emitted += 1
+        label = f"results-{rtos}"
+
+        if len(configs) > 2:
+            widths = ["1fr"] * len(configs)
+        elif len(configs) == 2:
+            widths = ["5cm", "5cm"]
+        else:
+            widths = ["10cm"]
+
+        board_groups: list[tuple[str, int]] = []
+        for board, _lang, _key in configs:
+            if board_groups and board_groups[-1][0] == board:
+                board_groups[-1] = (board, board_groups[-1][1] + 1)
+            else:
+                board_groups.append((board, 1))
+
+        def emit_part(groups: list[tuple[int, int, str]], part: int) -> None:
+            out.append("  #set text(size: 7.2pt)")
+            out.append("  #figure(table(")
+            out.append("      columns: (auto, auto, " +
+                       ", ".join(widths) + "),")
+            out.append("      align: (left, left" +
+                       ", right" * len(configs) + "),")
+            out.append("      stroke: (x: none, y: 0.2pt + luma(210)),")
+            out.append("      inset: (x: 3pt, y: 1.4pt),")
+            out.append("      column-gutter: 2pt,")
+            boundary = 2
+            for _board, span in board_groups[:-1]:
+                boundary += span
+                out.append(f"      table.vline(x: {boundary}, "
+                           "stroke: 0.4pt + luma(185)),")
+            out.append("      table.hline(stroke: 0.6pt + luma(150)),")
+            out.append("      table.header(table.cell(fill: luma(235))[*Benchmark*], "
+                       "table.cell(fill: luma(235))[*Unit*],")
+            for board, span in board_groups:
+                out.append(f"        table.cell(colspan: {span}, fill: luma(235))"
+                           f"[*{BOARD_NAMES[board]}*],")
+            out.append("      ),")
+            out.append("      table.header(table.cell(fill: luma(245))[], "
+                       "table.cell(fill: luma(245))[],")
+            for _board, lang, _key in configs:
+                out.append(f"        table.cell(fill: luma(245))[*{LANG_NAMES[lang]}*],")
+            out.append("      ),")
+            out.append("      table.hline(stroke: 0.6pt + luma(150)),")
+            for gi, (start, span, group_name) in enumerate(groups):
+                if gi:
+                    out.append("      table.hline(stroke: 0.6pt + luma(150)),")
+                out.append(f"      table.cell(colspan: {2 + len(configs)}, "
+                           f"align: left, fill: luma(248))[#v(0.15em) *{group_name}* #v(0.45em)],")
+                for i in range(start, start + span):
+                    c = CASE_ORDER[i]
+                    out.append(f"      [{i + 1} {CASE_SHORT[c]}], [{unit_tag(c)}],")
+                    for _board, _lang, key in configs:
+                        rec = paths[key].get("cases", {}).get(str(c))
+                        if not rec or rec.get("median") is None:
+                            out.append("      [·],")
+                            continue
+                        u = rec["unit"]
+                        vals = [fmt_cell(rec["median"], u)]
+                        if rec.get("p99") is not None:
+                            vals.append(fmt_cell(rec["p99"], u))
+                        miss = rec.get("miss_count") or 0
+                        invalid = rec.get("invalid_count") or 0
+                        total = rec.get("sample_count") or 0
+                        if invalid:
+                            surv = total - miss - invalid
+                            filtered.append((
+                                c, rtos,
+                                f"{BOARD_DISPLAY.get(_board, _board)} {LANG_NAMES[_lang]}",
+                                f"{format_percent(invalid, total)}\u2009% invalid, n={surv}",
+                            ))
+                        elif miss and c in (11, 27):
+                            surv = total - miss
+                            sentinel_label = "miss" if c == 11 else "no benefit"
+                            filtered.append((
+                                c, rtos,
+                                f"{BOARD_DISPLAY.get(_board, _board)} {LANG_NAMES[_lang]}",
+                                f"{format_percent(miss, total)}\u2009% {sentinel_label}, n={surv}",
+                            ))
+                        if invalid or (miss and c in (11, 27)):
+                            vals[-1] = f"{vals[-1]}\\*"
+                        cell = " \\ ".join(vals)
+                        out.append(f"      [{cell}],")
+            out.append("      table.hline(stroke: 0.6pt + luma(150)),")
+            out.append("    ), placement: top,")
+            suffix = " (continued)" if part else ""
+            caption = (f"{RTOS_NAMES[rtos]} benchmark results by board and "
+                       f"language{suffix}")
+            if part:
+                out.append(f"    caption: [{caption}], numbering: none, outlined: false,")
+                out.append("  )")
+            else:
+                out.append(f"    caption: [{caption}],")
+                out.append(f"  ) <{label}>")
+
+        # Split at the IPC/Interrupts boundary so each unbreakable figure
+        # fits on one page. The continuation stays unnumbered, preserving
+        # existing table references and Appendix C numbering.
+        emit_part(CASE_GROUPS[:3], 0)
+        emit_part(CASE_GROUPS[3:], 1)
+
+    if filtered:
+        out.append("#pagebreak()")
+        out.append("#heading(level: 2, outlined: false)[Filtered observations]")
+        out.append("#text(size: 8pt)[Fractions are the excluded or sentinel "
+                   "proportions of all observations; n is the retained count. They are "
+                   "separated from the dense value tables so no table is clipped.]")
+        out.append("")
+        out.append("#table(")
+        out.append("  columns: (auto, auto, auto, 1fr),")
+        out.append("  inset: 6pt,")
+        out.append("  stroke: (x: none, y: 0.2pt + luma(210)),")
+        out.append("  table.header(")
+        out.append("    table.cell(fill: luma(235))[*Case*],")
+        out.append("    table.cell(fill: luma(235))[*RTOS*],")
+        out.append("    table.cell(fill: luma(235))[*Configuration*],")
+        out.append("    table.cell(fill: luma(235))[*Excluded fraction*],")
+        out.append("  ),")
+        for c, rtos, config, note in sorted(filtered):
+            out.append(f"  [{c + 1} {CASE_SHORT[c]}], [{RTOS_NAMES[rtos]}], "
+                       f"[{config}], [{note}],")
+        out.append(")")
+    (TYP / "all-results.typ").write_text("\n".join(out) + "\n")
+    print(f"wrote {len([r for r in by_rtos if by_rtos[r]])} per-RTOS result "
+          f"tables from {len(paths)} paths")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

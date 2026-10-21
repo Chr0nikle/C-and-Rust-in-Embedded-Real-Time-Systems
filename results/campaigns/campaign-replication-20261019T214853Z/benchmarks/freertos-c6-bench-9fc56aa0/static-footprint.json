@@ -1,0 +1,17 @@
+{
+  "build_id": "freertos-c6-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 171916,
+        "data": 6664,
+        "flash": 199784,
+        "image": "freertos-c6-bench.elf",
+        "ram": 178580,
+        "rodata": 41692,
+        "text": 151428
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

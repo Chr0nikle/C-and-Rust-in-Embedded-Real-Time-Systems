@@ -1,0 +1,12 @@
+%%{init: {"theme": "base", "themeVariables": {"background": "#ffffff", "textColor": "#111111", "taskTextColor": "#111111", "taskTextDarkColor": "#111111", "taskTextLightColor": "#111111", "doneTaskBkgColor": "#d5dce3", "doneTaskBorderColor": "#8895a3", "activeTaskBkgColor": "#83b8d7", "activeTaskBorderColor": "#457b9d", "critBkgColor": "#e8b18d", "critBorderColor": "#ba7954", "taskBkgColor": "#edf1f4"}}}%%
+gantt
+    dateFormat X
+    axisFormat %s
+    section Task state
+    Waiting              :done, w, 0, 3
+    Running              :active, r1, 3, 5
+    Preempted            :crit, p, 5, 7
+    Running again        :active, r2, 7, 9
+    section Timing
+    Response time        :rt, 0, 9
+    Deadline margin      :done, dm, 9, 11

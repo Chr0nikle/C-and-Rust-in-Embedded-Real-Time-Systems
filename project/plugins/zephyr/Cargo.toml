@@ -1,0 +1,7 @@
+[package]
+name = "rtos-plugin-zephyr"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rtos-core = { path = "../../core" }

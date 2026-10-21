@@ -1,0 +1,50 @@
+{
+ "versions": {
+  "cargo": "cargo 1.98.1 (797e8a9bc 2026-08-05)",
+  "clippy": "clippy 0.1.98 (48a229ceae 2026-09-01)",
+  "target": "thumbv7em-none-eabihf",
+  "lints": [
+   "unsafe_op_in_unsafe_fn",
+   "clippy::undocumented_unsafe_blocks",
+   "clippy::missing_safety_doc"
+  ]
+ },
+ "rows": [
+  {
+   "path": "freertos",
+   "unsafe_blocks": 99,
+   "extern_c": 21,
+   "undocumented_unsafe_blocks": 99,
+   "unsafe_op_in_unsafe_fn": 101,
+   "missing_safety_doc": 0,
+   "exit": 0
+  },
+  {
+   "path": "nuttx",
+   "unsafe_blocks": 140,
+   "extern_c": 24,
+   "undocumented_unsafe_blocks": 140,
+   "unsafe_op_in_unsafe_fn": 0,
+   "missing_safety_doc": 0,
+   "exit": 0
+  },
+  {
+   "path": "zephyr",
+   "unsafe_blocks": 134,
+   "extern_c": 23,
+   "undocumented_unsafe_blocks": 134,
+   "unsafe_op_in_unsafe_fn": 0,
+   "missing_safety_doc": 0,
+   "exit": 0
+  },
+  {
+   "path": "common/rust",
+   "unsafe_blocks": 1,
+   "extern_c": 0,
+   "undocumented_unsafe_blocks": 0,
+   "unsafe_op_in_unsafe_fn": 0,
+   "missing_safety_doc": 0,
+   "exit": 0
+  }
+ ]
+}

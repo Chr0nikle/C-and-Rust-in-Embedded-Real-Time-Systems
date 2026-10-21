@@ -1,0 +1,114 @@
+{
+  "checks": [
+    "coverage counts equal contracts.csv",
+    "structural rows are exact-unique within each scope",
+    "C benchmark has no BENCH_LANGUAGE_RUST",
+    "C support has BENCH_LANGUAGE_RUST",
+    "FFI interface names are unique"
+  ],
+  "checks_by_configuration": {
+    "freertos-stm32f4-c-benchmark": {
+      "CHECK-04": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 19,
+        "NOT_CHECKED": 0,
+        "PASS": 20,
+        "UNKNOWN": 0,
+        "applicable_discovered": 20,
+        "instances_checked": 20,
+        "not_applicable": 19,
+        "rows": 39
+      },
+      "CHECK-05": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 1,
+        "PASS": 0,
+        "UNKNOWN": 0,
+        "applicable_discovered": 0,
+        "instances_checked": 0,
+        "not_applicable": 0,
+        "rows": 1
+      }
+    },
+    "freertos-stm32f4-c-support-rust": {
+      "CHECK-01": {
+        "FAIL": 1,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 1,
+        "PASS": 74,
+        "UNKNOWN": 0,
+        "applicable_discovered": 75,
+        "instances_checked": 75,
+        "not_applicable": 0,
+        "rows": 76
+      },
+      "CHECK-02": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 1,
+        "PASS": 0,
+        "UNKNOWN": 0,
+        "applicable_discovered": 0,
+        "instances_checked": 0,
+        "not_applicable": 0,
+        "rows": 1
+      },
+      "CHECK-03": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 0,
+        "PASS": 1,
+        "UNKNOWN": 0,
+        "applicable_discovered": 1,
+        "instances_checked": 1,
+        "not_applicable": 0,
+        "rows": 1
+      },
+      "CHECK-05": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 1,
+        "PASS": 0,
+        "UNKNOWN": 0,
+        "applicable_discovered": 0,
+        "instances_checked": 0,
+        "not_applicable": 0,
+        "rows": 1
+      }
+    },
+    "freertos-stm32f4-rust": {
+      "CHECK-04": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 1,
+        "NOT_CHECKED": 0,
+        "PASS": 18,
+        "UNKNOWN": 0,
+        "applicable_discovered": 18,
+        "instances_checked": 18,
+        "not_applicable": 1,
+        "rows": 19
+      },
+      "CHECK-05": {
+        "FAIL": 0,
+        "NOT_APPLICABLE": 0,
+        "NOT_CHECKED": 1,
+        "PASS": 0,
+        "UNKNOWN": 0,
+        "applicable_discovered": 0,
+        "instances_checked": 0,
+        "not_applicable": 0,
+        "rows": 1
+      }
+    }
+  },
+  "contract_rows": 139,
+  "ffi_interfaces": 76,
+  "schema": "uastw-safety-validation-v1",
+  "status": "passed",
+  "structural": {
+    "c_benchmark": 2115,
+    "c_support": 2149,
+    "rust": 969
+  }
+}

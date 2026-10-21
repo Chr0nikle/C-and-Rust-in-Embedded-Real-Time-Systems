@@ -1,0 +1,24 @@
+# Separate firmware workspace. Host unit tests use the native target; board integration
+# must select the SDK's target, ABI, panic strategy and linker configuration explicitly.
+[workspace]
+members = [
+    "common/rust",
+    "c-kernels/freertos/rust",
+    "c-kernels/zephyr/rust",
+    "c-kernels/nuttx/rust",
+]
+resolver = "2"
+
+# Board Rust firmware is `no_std`; panic=abort removes the need for
+# eh_personality and keeps the staticlib linkable into the C image.
+[profile.release]
+opt-level = 2
+panic = "abort"
+codegen-units = 1
+lto = true
+
+# Host `cargo clippy`/`cargo check` build the firmware crates for the host too;
+# abort avoids "unwinding panics are not supported without std". Test targets
+# keep the default unwind (RTOS adapters disable host tests).
+[profile.dev]
+panic = "abort"

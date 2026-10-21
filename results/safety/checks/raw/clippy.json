@@ -1,0 +1,42 @@
+{
+  "command": [
+    "/home/chronikle/.cargo/bin/cargo",
+    "clippy",
+    "--offline",
+    "--target",
+    "thumbv7em-none-eabihf",
+    "--message-format=json"
+  ],
+  "configuration": "freertos-stm32f4-rust",
+  "cwd": "temporary copy of firmware/common/rust and firmware/c-kernels/freertos/rust",
+  "diagnostics": [
+    {
+      "column": 16,
+      "configuration": "freertos-stm32f4-rust",
+      "file": "src/boundary.rs",
+      "line": 170,
+      "message": "casting raw pointers to the same type and constness is unnecessary (`*const u8` -> `*const u8`)",
+      "rule_id": "clippy::unnecessary_cast",
+      "run_status": "completed",
+      "scope": "project",
+      "severity": "warning",
+      "tool": "clippy",
+      "tool_version": "clippy 0.1.98 (48a229ceae 2026-09-01)"
+    },
+    {
+      "column": 9,
+      "configuration": "freertos-stm32f4-rust",
+      "file": "src/boundary.rs",
+      "line": 559,
+      "message": "casting raw pointers to the same type and constness is unnecessary (`*const u8` -> `*const u8`)",
+      "rule_id": "clippy::unnecessary_cast",
+      "run_status": "completed",
+      "scope": "project",
+      "severity": "warning",
+      "tool": "clippy",
+      "tool_version": "clippy 0.1.98 (48a229ceae 2026-09-01)"
+    }
+  ],
+  "returncode": 0,
+  "stderr": ""
+}

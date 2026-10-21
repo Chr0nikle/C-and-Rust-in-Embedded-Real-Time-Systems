@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    "rivet-stm32f4"
+  ],
+  "description": "Rivet, STM32F4",
+  "files": [
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/arena.rs",
+      "sha256": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db"
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/bsp.rs",
+      "sha256": "4d169261db922337b0afb1f8e4d80664a9dae36997d092b30e32ff8da9391868"
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/coop.rs",
+      "sha256": "303ca69b6b861ff584290d33dc4db8c4d01cb8685003a203bba043c58610683c"
+    },
+    {
+      "path": "firmware/rust-kernels/rivet/rust/stm32f4/src/main.rs",
+      "sha256": "b700d21c8d8606183870d9e0d6f5d67ea66308e3d02f754af84bacf625c064a0"
+    }
+  ],
+  "profile": "native-rivet-stm32f4",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-sources-v1",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+}

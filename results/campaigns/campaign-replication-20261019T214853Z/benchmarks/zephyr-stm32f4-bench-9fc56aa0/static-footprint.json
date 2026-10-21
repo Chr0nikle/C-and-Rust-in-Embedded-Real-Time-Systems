@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-stm32f4-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 128902,
+        "data": 176,
+        "flash": 41096,
+        "image": "zephyr.elf",
+        "ram": 129078,
+        "rodata": 4516,
+        "text": 36404
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

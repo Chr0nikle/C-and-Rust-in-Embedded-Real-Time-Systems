@@ -1,0 +1,25 @@
+#set text(size: 7.2pt)
+#figure(
+  text(size: 7.2pt, align(center, table(
+    columns: (auto, auto, auto, auto, auto, auto, auto),
+    align: (left, right, right, right, right, right, right),
+    stroke: (x: none, y: 0.2pt + luma(210)),
+    inset: (x: 2.5pt, y: 1.3pt),
+    column-gutter: 2pt,
+    table.header(table.cell(fill: luma(235))[*Path*], table.cell(fill: luma(235))[*Cases*], table.cell(fill: luma(235))[*Comparable*], table.cell(fill: luma(235))[*C call sites*], table.cell(fill: luma(235))[*Rust call sites*], table.cell(fill: luma(235))[*FFI symbols*], table.cell(fill: luma(235))[*Unsafe calls*]),
+    table.hline(stroke: 0.6pt + luma(150)),
+    [freertos-esp32c6-all], [22], [21], [431], [296], [75], [213],
+    [freertos-nrf52840-all], [24], [23], [439], [326], [75], [237],
+    [freertos-stm32f4-all], [26], [25], [447], [343], [75], [250],
+    [freertos-stm32h723-all], [26], [25], [447], [343], [75], [250],
+    [nuttx-esp32c6-all], [23], [22], [562], [408], [73], [227],
+    [nuttx-nrf52840-all], [23], [22], [548], [408], [73], [227],
+    [nuttx-stm32f4-all], [23], [22], [553], [408], [73], [227],
+    [nuttx-stm32h723-all], [23], [22], [553], [408], [73], [227],
+    [zephyr-esp32c6-all], [23], [22], [380], [364], [63], [190],
+    [zephyr-nrf52840-all], [23], [22], [418], [364], [63], [190],
+    [zephyr-stm32f4-all], [23], [22], [416], [364], [63], [190],
+    [zephyr-stm32h723-all], [23], [22], [428], [364], [63], [190],
+  ))),
+  caption: [Source-tracing coverage and call-site volume],
+) <safety-trace-coverage>

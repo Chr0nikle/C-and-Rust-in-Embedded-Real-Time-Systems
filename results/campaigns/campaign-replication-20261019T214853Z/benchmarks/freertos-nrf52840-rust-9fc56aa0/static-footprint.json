@@ -1,0 +1,17 @@
+{
+  "build_id": "freertos-nrf52840-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 177308,
+        "data": 4,
+        "flash": 46092,
+        "image": "freertos-nrf52840-bench.elf",
+        "ram": 177312,
+        "rodata": 256,
+        "text": 45832
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

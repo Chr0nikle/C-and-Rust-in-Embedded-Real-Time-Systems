@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "zephyr-nrf52840-c-benchmark",
+    "zephyr-nrf52840-c-support-rust",
+    "zephyr-nrf52840-rust"
+  ],
+  "description": "All 23 implemented Zephyr STM32F4 C/Rust thesis cases",
+  "function_rows": 632,
+  "kernel_call_rows": 313,
+  "operation_rows": 3204,
+  "parse_failures": {
+    "zephyr-nrf52840-c-benchmark": 0,
+    "zephyr-nrf52840-c-support-rust": 0,
+    "zephyr-nrf52840-rust": 0
+  },
+  "profile": "zephyr-nrf52840-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 136
+}

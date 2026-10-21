@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/rtos/campaign-schema-v2.json",
+  "title": "RTOS benchmark campaign",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "campaign_id",
+    "created",
+    "complete",
+    "repository",
+    "software",
+    "environment",
+    "targets",
+    "units",
+    "validation"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "campaign_id": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "format": "date-time" },
+    "complete": { "type": "boolean" },
+    "requested_cases": { "type": ["array", "null"], "items": { "type": "integer", "minimum": 0, "maximum": 28 } },
+    "repository": {
+      "type": "object",
+      "required": ["revision", "dirty", "branch"],
+      "properties": {
+        "revision": { "type": "string" },
+        "dirty": { "type": "boolean" },
+        "branch": { "type": "string" },
+        "status_file": { "type": ["string", "null"] },
+        "worktree_diff": { "type": ["string", "null"] }
+      }
+    },
+    "software": {
+      "type": "object",
+      "required": ["suite_sha256", "config_sha256", "runs_per_combo"],
+      "properties": {
+        "suite_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "config_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "runs_per_combo": { "type": "integer", "minimum": 1 },
+        "requested_cases": { "type": ["array", "null"], "items": { "type": "integer", "minimum": 0, "maximum": 28 } },
+        "repetitions": { "type": ["integer", "null"] },
+        "warmup": { "type": ["integer", "null"] }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "required": ["toolchains"],
+      "properties": {
+        "toolchains": { "type": "object" },
+        "devices_file": { "type": ["string", "null"] },
+        "preflight_file": { "type": ["string", "null"] },
+        "input_manifest": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      }
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rtos", "board", "language"],
+        "properties": {
+          "rtos": { "type": "string" },
+          "board": { "type": "string" },
+          "language": { "type": "string", "enum": ["c", "rust"] }
+        }
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rtos", "board", "language", "run"],
+        "properties": {
+          "rtos": { "type": "string" },
+          "board": { "type": "string" },
+          "language": { "type": "string", "enum": ["c", "rust"] },
+          "run": { "type": "integer", "minimum": 0 },
+          "result": { "type": ["string", "null"] },
+          "build_id": { "type": ["string", "null"] },
+          "repetitions": { "type": ["integer", "null"] },
+          "warmup": { "type": ["integer", "null"] },
+          "ticks_per_second": { "type": ["integer", "null"] },
+          "cases": { "type": ["array", "null"] },
+          "validation_status": { "type": "string", "enum": ["recorded", "missing", "failed"] },
+          "measurement_status": { "type": "string", "enum": ["valid", "invalid_samples"] },
+          "sample_issues": { "type": "array" }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["status", "units_recorded", "units_missing", "units_failed"],
+      "properties": {
+        "status": { "type": "string", "enum": ["complete", "incomplete"] },
+        "units_recorded": { "type": "integer", "minimum": 0 },
+        "units_missing": { "type": "integer", "minimum": 0 },
+        "units_failed": { "type": "integer", "minimum": 0 },
+        "scientific_status": { "type": "string", "enum": ["valid", "invalid_samples"] },
+        "publication_ready": { "type": "boolean" },
+        "invalid_samples": { "type": "integer", "minimum": 0 },
+        "sample_issues": { "type": "array" }
+      }
+    },
+    "missing": { "type": "array" },
+    "failures": { "type": "array" }
+  }
+}

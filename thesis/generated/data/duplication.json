@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "generated_by": "analysis/integration/duplication.py",
+  "method": "jaccard(identifier sets, comments/strings removed, keywords excluded)",
+  "pairs": [
+    {
+      "c_path": "firmware/common/c/src/runner.c",
+      "rust_path": "firmware/common/rust/src/lib.rs",
+      "c_identifiers": 194,
+      "rust_identifiers": 189,
+      "shared_identifiers": 104,
+      "similarity": 0.3728,
+      "examples": [
+        "RUNNER_FLUSH_EVERY",
+        "alloc_create",
+        "alloc_destroy",
+        "alloc_measure",
+        "cases",
+        "cleanup",
+        "count",
+        "cpu_create"
+      ]
+    }
+  ],
+  "provenance": {
+    "script_sha256": "fe686adb3439a5ffb42db401327ae54411a95d0b9f46acbc0e9591a80e3a2182",
+    "inputs": {
+      "firmware/common/c/src/runner.c": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4",
+      "firmware/common/rust/src/lib.rs": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    }
+  }
+}

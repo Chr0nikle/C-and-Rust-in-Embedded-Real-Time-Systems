@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-stm32f4-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 129378,
+        "data": 176,
+        "flash": 52308,
+        "image": "zephyr.elf",
+        "ram": 129554,
+        "rodata": 9216,
+        "text": 42916
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

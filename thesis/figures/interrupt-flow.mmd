@@ -1,0 +1,8 @@
+%%{init: {"flowchart": {"rankSpacing": 35, "nodeSpacing": 40, "curve": "basis"}}}%%
+flowchart LR
+  A["Interrupt trigger"] -->|"Interrupt latency"| B["ISR entry"]
+  B --> C["ISR handles event"]
+  C --> D["Task resumes"]
+  D -.->|"Next event cycle"| A
+  classDef default fill:#edf3f8,stroke:#7890a5,color:#243343,font-size:14px
+  linkStyle default stroke:#64748b,stroke-width:1.5px

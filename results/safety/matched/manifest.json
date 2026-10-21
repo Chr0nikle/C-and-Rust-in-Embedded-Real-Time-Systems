@@ -1,0 +1,120 @@
+{
+  "notes": [
+    "Canonical rows and JSON keys are sorted; timestamps are omitted."
+  ],
+  "outputs": [
+    {
+      "bytes": 25767,
+      "path": "benchmark-roots.csv",
+      "sha256": "fd029e63afcc1d07feda78f878e7bd79fff786dc2bfa093206bfe76703188088"
+    },
+    {
+      "bytes": 20681,
+      "path": "c-bridge-definitions.csv",
+      "sha256": "3269f36b60fb5ee3f2a10a90aac4bc412f4b40631a51be4a6048df5ce76bb870"
+    },
+    {
+      "bytes": 311611,
+      "path": "call-arguments.csv",
+      "sha256": "7206996e0774cba30c64dcc9849c712d0229108862ae1589f9ad39b024f8b519"
+    },
+    {
+      "bytes": 366768,
+      "path": "call-edges.csv",
+      "sha256": "bbb281fd533ab9bdab45cf8b47ebbd39bc1e3924edef00db9f83f46eb92131e9"
+    },
+    {
+      "bytes": 314172,
+      "path": "call-sites.csv",
+      "sha256": "b73491210dfb234d1db85b0fdb2203660c5f7023bbac21b89b354d1d6ae8b7da"
+    },
+    {
+      "bytes": 11988,
+      "path": "callback-registrations.csv",
+      "sha256": "0c27319565befc389a4dde96add89277ca5f2c51bec5fc9fd88a41890fe080d3"
+    },
+    {
+      "bytes": 8603,
+      "path": "case-comparison.csv",
+      "sha256": "a2e025a07124932354df7e1451f6e2f0afdb20df0f1eef9709cac7515291a1c3"
+    },
+    {
+      "bytes": 4081,
+      "path": "case-coverage.csv",
+      "sha256": "e18b248557e90f259b69a2a111461853137cca5320de82d61d40370fd8ca02d8"
+    },
+    {
+      "bytes": 230028,
+      "path": "case-memberships.csv",
+      "sha256": "c9137d24ffc961f8219668c425fd65900b908ce7093596c4c69a61e1a4ea6406"
+    },
+    {
+      "bytes": 331170,
+      "path": "checks.csv",
+      "sha256": "05881999c3759413e769df298730e73d3b8a89237c8efe17fc1b99aff2e8c911"
+    },
+    {
+      "bytes": 3894,
+      "path": "coverage.json",
+      "sha256": "8a4d7c3053b7c58a51d9f98033f777ed7657f500384a2316ab5fcb6423001fc8"
+    },
+    {
+      "bytes": 37093,
+      "path": "exposure-comparison.csv",
+      "sha256": "98eaee687fa5799b5a7dc3dfee01aac02d40dd179bacd1714b43f9714892991e"
+    },
+    {
+      "bytes": 22566,
+      "path": "exposure-summary.csv",
+      "sha256": "e264d762ddcb383c1c519eaab87fffd4c54c6c385d1eae04bbf34ef3536da040"
+    },
+    {
+      "bytes": 37462,
+      "path": "ffi-symbols.csv",
+      "sha256": "784d239d15ca1b529237a9d5d4eec1403004be0d034b6209d95a06bbcb8a8b2c"
+    },
+    {
+      "bytes": 489981,
+      "path": "function-signatures.csv",
+      "sha256": "bbc18db64a457b853f64c870f829860eff33dc41ecf017ba46926f916499c81b"
+    },
+    {
+      "bytes": 7608,
+      "path": "macro-sites.csv",
+      "sha256": "716af3b414f8f26ceebaecbd2bb25bbd46a36a6bd81ac43046a39f77956699ba"
+    },
+    {
+      "bytes": 55589,
+      "path": "matched-operations.csv",
+      "sha256": "0f16d65e297cca41097093db704014d88f05080acf1587aacf8ea9077de23d46"
+    },
+    {
+      "bytes": 2769,
+      "path": "path-coverage.csv",
+      "sha256": "587ee4bdbb1a00a6a21b605f0f0e9a68892719cd9bf42186b9d9c5c603d04ecd"
+    },
+    {
+      "bytes": 36484,
+      "path": "rtos-target-relationships.csv",
+      "sha256": "73a28900c1a39f9a00360c3bb7ea01dffba621e9a2c31fc766ba512d2dae5d53"
+    },
+    {
+      "bytes": 4270,
+      "path": "sources.json",
+      "sha256": "8ef992ad01e9543090d1d1ea4502b1056407adf997716222e34608ce9a01a16a"
+    },
+    {
+      "bytes": 378208,
+      "path": "summary.json",
+      "sha256": "52eee4031acba8d99532d08ef62c69524a6e3708a0a0b8bae070abdc9ce30f3d"
+    },
+    {
+      "bytes": 949,
+      "path": "validation.json",
+      "sha256": "686176057503a167e7fc6024c7b2bd584e86794fc850759770339c09c014474a"
+    }
+  ],
+  "schema": "uastw-matched-api-manifest-v2",
+  "source_revision": "9ba13e022b85ecfad687f0fbbfee58cc64dc9332",
+  "version": "3.0.1"
+}

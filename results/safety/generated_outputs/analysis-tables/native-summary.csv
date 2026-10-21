@@ -1,0 +1,4 @@
+configuration,cases,complete,complete_with_boundary,operation_rows,rust_features
+native-freertos-in-rust-stm32f4,26,5,21,250,f4
+native-freertos-in-rust-stm32h723,26,5,21,250,stm32h723
+native-rivet-stm32f4,24,1,23,53,

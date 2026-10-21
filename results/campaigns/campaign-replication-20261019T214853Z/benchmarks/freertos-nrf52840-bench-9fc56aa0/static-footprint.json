@@ -1,0 +1,17 @@
+{
+  "build_id": "freertos-nrf52840-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 177672,
+        "data": 84,
+        "flash": 38136,
+        "image": "freertos-nrf52840-bench.elf",
+        "ram": 177756,
+        "rodata": 256,
+        "text": 37796
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

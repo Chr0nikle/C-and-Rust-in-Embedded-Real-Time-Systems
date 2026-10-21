@@ -1,0 +1,9 @@
+[workspace]
+members = ["cli", "core", "plugins/freertos", "plugins/zephyr", "plugins/nuttx", "plugins/freertos-in-rust", "plugins/rivet"]
+exclude = ["firmware"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Simon Nenning"]

@@ -1,0 +1,974 @@
+{
+  "absent_cases": [
+    {
+      "c_enum": "BENCH_TICK_OVERHEAD",
+      "c_wire_id": 21,
+      "reason": "wire ID or implementation roots are absent",
+      "status": "absent",
+      "thesis_case": 19,
+      "thesis_name": "tick_overhead"
+    },
+    {
+      "c_enum": "BENCH_IDLE_CPU_OVERHEAD",
+      "c_wire_id": 22,
+      "reason": "wire ID or implementation roots are absent",
+      "status": "absent",
+      "thesis_case": 24,
+      "thesis_name": "idle_cpu_overhead"
+    },
+    {
+      "c_enum": "BENCH_CPU_OVERHEAD_UNDER_LOAD",
+      "c_wire_id": 23,
+      "reason": "wire ID or implementation roots are absent",
+      "status": "absent",
+      "thesis_case": 25,
+      "thesis_name": "cpu_overhead_under_load"
+    }
+  ],
+  "api": {
+    "aliases": [
+      {
+        "c_symbol": "wd_start",
+        "canonical": "wd_start",
+        "justification": "Source-level wrapper chain starting at wd_start reaches wd_start_abstick.",
+        "rust_symbol": "wd_start_abstick",
+        "source_locations": [
+          ".local/source/nuttx/include/nuttx/wdog.h"
+        ]
+      }
+    ],
+    "allocation_symbols": [
+      "free",
+      "malloc"
+    ],
+    "allocator_size_arguments": {
+      "malloc": [
+        0
+      ]
+    },
+    "callback_apis": {
+      "pthread_create": {
+        "callback_parameter": 2,
+        "invocation_kind": "thread_entry"
+      },
+      "wd_start": {
+        "callback_parameter": 2,
+        "invocation_kind": "watchdog_callback"
+      },
+      "wd_start_abstick": {
+        "callback_parameter": 2,
+        "invocation_kind": "watchdog_callback"
+      }
+    },
+    "language_builtin_calls": [
+      "Err",
+      "Ok",
+      "any",
+      "assume",
+      "black_box",
+      "from",
+      "from_ne_bytes",
+      "null_mut",
+      "size_of",
+      "spin_loop"
+    ],
+    "language_builtin_methods": [
+      "and",
+      "contains",
+      "cpu_create",
+      "cpu_destroy",
+      "cpu_measure",
+      "enumerate",
+      "is_empty",
+      "is_err",
+      "is_ok",
+      "iter_mut",
+      "map_err",
+      "pjit_set_load",
+      "saturating_add",
+      "step_by",
+      "take",
+      "tick_create",
+      "tick_destroy",
+      "tick_measure",
+      "to_ne_bytes"
+    ],
+    "rtos_symbols": [
+      "clock_gettime",
+      "clock_nanosleep",
+      "enter_critical_section",
+      "free",
+      "irq_attach",
+      "irq_detach",
+      "leave_critical_section",
+      "mallinfo",
+      "malloc",
+      "mq_close",
+      "mq_open",
+      "mq_receive",
+      "mq_send",
+      "mq_unlink",
+      "nanosleep",
+      "nxsem_post",
+      "nxsem_tickwait",
+      "nxsem_trywait",
+      "pthread_attr_destroy",
+      "pthread_attr_init",
+      "pthread_attr_setinheritsched",
+      "pthread_attr_setschedparam",
+      "pthread_attr_setschedpolicy",
+      "pthread_create",
+      "pthread_getschedparam",
+      "pthread_join",
+      "pthread_mutex_destroy",
+      "pthread_mutex_init",
+      "pthread_mutex_lock",
+      "pthread_mutex_unlock",
+      "pthread_self",
+      "sched_get_priority_max",
+      "sched_get_priority_min",
+      "sched_yield",
+      "sem_destroy",
+      "sem_init",
+      "sem_post",
+      "sem_trywait",
+      "sem_wait",
+      "up_disable_irq",
+      "up_enable_irq",
+      "up_irq_restore",
+      "up_irq_save",
+      "up_trigger_irq",
+      "wd_cancel",
+      "wd_start",
+      "wd_start_abstick"
+    ]
+  },
+  "board": "nRF52840 DK",
+  "c_bridge_search_files": [
+    "firmware/c-kernels/nuttx/c/port.c",
+    "firmware/c-kernels/nuttx/c/isr.c"
+  ],
+  "c_enum_header": "firmware/common/c/include/rtos_bench.h",
+  "c_impl": "firmware/c-kernels/nuttx/c/port.c",
+  "c_port_initializer": "bench_port port = ",
+  "c_root_search_files": [
+    "firmware/c-kernels/nuttx/c/port.c",
+    "firmware/c-kernels/nuttx/c/isr.c"
+  ],
+  "c_runner": "firmware/common/c/src/runner.c",
+  "c_wire_function": "protocol_id",
+  "c_wire_registry": "firmware/c-kernels/nuttx/c/main.c",
+  "cases": [
+    {
+      "c_application_methods": [],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_TIMER_OVERHEAD",
+      "c_enum_value": 0,
+      "c_root_functions": [],
+      "c_wire_id": 0,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Basic API operations",
+      "rust_application_methods": [],
+      "rust_discriminant": 0,
+      "rust_variant": "TimerOverhead",
+      "rust_wire_id": 0,
+      "thesis_case": 1,
+      "thesis_name": "timer_overhead"
+    },
+    {
+      "c_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_QUEUE_ROUNDTRIP",
+      "c_enum_value": 1,
+      "c_root_functions": [
+        "port_queue_create",
+        "port_queue_send",
+        "port_queue_receive",
+        "port_queue_destroy"
+      ],
+      "c_wire_id": 1,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Basic API operations",
+      "rust_application_methods": [
+        "queue_create",
+        "queue_send",
+        "queue_receive",
+        "queue_destroy"
+      ],
+      "rust_discriminant": 1,
+      "rust_variant": "QueueRoundtrip",
+      "rust_wire_id": 1,
+      "thesis_case": 2,
+      "thesis_name": "queue_roundtrip"
+    },
+    {
+      "c_application_methods": [
+        "sem_create",
+        "sem_measure",
+        "sem_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_SEMAPHORE_LATENCY",
+      "c_enum_value": 12,
+      "c_root_functions": [
+        "port_sem_create",
+        "port_sem_measure",
+        "port_sem_destroy"
+      ],
+      "c_wire_id": 12,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Basic API operations",
+      "rust_application_methods": [
+        "sem_create",
+        "sem_measure",
+        "sem_destroy"
+      ],
+      "rust_discriminant": 12,
+      "rust_variant": "SemaphoreLatency",
+      "rust_wire_id": 12,
+      "thesis_case": 3,
+      "thesis_name": "semaphore_latency"
+    },
+    {
+      "c_application_methods": [
+        "mutex_u_create",
+        "mutex_u_measure",
+        "mutex_u_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_MUTEX_UNCONTENDED",
+      "c_enum_value": 13,
+      "c_root_functions": [
+        "port_mutex_u_create",
+        "port_mutex_u_measure",
+        "port_mutex_u_destroy"
+      ],
+      "c_wire_id": 13,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Basic API operations",
+      "rust_application_methods": [
+        "mutex_u_create",
+        "mutex_u_measure",
+        "mutex_u_destroy"
+      ],
+      "rust_discriminant": 13,
+      "rust_variant": "MutexUncontended",
+      "rust_wire_id": 13,
+      "thesis_case": 4,
+      "thesis_name": "mutex_uncontended"
+    },
+    {
+      "c_application_methods": [
+        "alloc_create",
+        "alloc_measure",
+        "alloc_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_alloc_create",
+        "bench_rust_alloc_destroy"
+      ],
+      "c_enum": "BENCH_ALLOC_LATENCY",
+      "c_enum_value": 14,
+      "c_root_functions": [
+        "port_alloc_create",
+        "port_alloc_measure",
+        "port_alloc_destroy"
+      ],
+      "c_wire_id": 14,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Basic API operations",
+      "rust_application_methods": [
+        "alloc_create",
+        "alloc_measure",
+        "alloc_destroy"
+      ],
+      "rust_discriminant": 14,
+      "rust_variant": "AllocLatency",
+      "rust_wire_id": 14,
+      "thesis_case": 5,
+      "thesis_name": "alloc_latency"
+    },
+    {
+      "c_application_methods": [
+        "handoff_create",
+        "handoff_measure",
+        "handoff_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_TASK_HANDOFF",
+      "c_enum_value": 2,
+      "c_root_functions": [
+        "port_handoff_create",
+        "port_handoff_measure",
+        "port_handoff_destroy"
+      ],
+      "c_wire_id": 2,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "handoff_create",
+        "handoff_measure",
+        "handoff_destroy"
+      ],
+      "rust_discriminant": 2,
+      "rust_variant": "TaskHandoff",
+      "rust_wire_id": 2,
+      "thesis_case": 6,
+      "thesis_name": "task_handoff"
+    },
+    {
+      "c_application_methods": [
+        "yield_create",
+        "yield_now",
+        "yield_destroy",
+        "peers_set"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_YIELD_ROUNDTRIP",
+      "c_enum_value": 5,
+      "c_root_functions": [
+        "port_yield_create",
+        "port_yield_now",
+        "port_yield_destroy",
+        "port_peers_set"
+      ],
+      "c_wire_id": 5,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "yield_create",
+        "yield_now",
+        "yield_destroy",
+        "peers_set"
+      ],
+      "rust_discriminant": 5,
+      "rust_variant": "YieldRoundtrip",
+      "rust_wire_id": 5,
+      "thesis_case": 7,
+      "thesis_name": "yield_roundtrip"
+    },
+    {
+      "c_application_methods": [
+        "preempt_create",
+        "preempt_measure",
+        "preempt_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_PREEMPT_LATENCY",
+      "c_enum_value": 6,
+      "c_root_functions": [
+        "port_preempt_create",
+        "port_preempt_measure",
+        "port_preempt_destroy"
+      ],
+      "c_wire_id": 6,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "preempt_create",
+        "preempt_measure",
+        "preempt_destroy"
+      ],
+      "rust_discriminant": 6,
+      "rust_variant": "PreemptLatency",
+      "rust_wire_id": 6,
+      "thesis_case": 8,
+      "thesis_name": "preempt_latency"
+    },
+    {
+      "c_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_MUTEX_PRIORITY",
+      "c_enum_value": 8,
+      "c_root_functions": [
+        "port_mutex_create",
+        "port_mutex_measure",
+        "port_mutex_destroy"
+      ],
+      "c_wire_id": 8,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "mutex_create",
+        "mutex_measure",
+        "mutex_destroy"
+      ],
+      "rust_discriminant": 8,
+      "rust_variant": "MutexPriority",
+      "rust_wire_id": 8,
+      "semantic_limitations": [
+        "priority_inheritance_protocol_not_explicitly_established"
+      ],
+      "thesis_case": 9,
+      "thesis_name": "mutex_priority_inheritance"
+    },
+    {
+      "c_application_methods": [
+        "sched_create",
+        "sched_measure",
+        "sched_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_SCHEDULER_OVERHEAD",
+      "c_enum_value": 17,
+      "c_root_functions": [
+        "port_sched_create",
+        "port_sched_measure",
+        "port_sched_destroy"
+      ],
+      "c_wire_id": 16,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "sched_create",
+        "sched_measure",
+        "sched_destroy"
+      ],
+      "rust_discriminant": 17,
+      "rust_variant": "SchedulerOverhead",
+      "rust_wire_id": 16,
+      "thesis_case": 10,
+      "thesis_name": "scheduler_overhead"
+    },
+    {
+      "c_application_methods": [
+        "notify_create",
+        "notify_measure",
+        "notify_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_NOTIFICATION_LATENCY",
+      "c_enum_value": 16,
+      "c_root_functions": [
+        "port_notify_create",
+        "port_notify_measure",
+        "port_notify_destroy"
+      ],
+      "c_wire_id": 17,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Scheduling and synchronisation",
+      "rust_application_methods": [
+        "notify_create",
+        "notify_measure",
+        "notify_destroy"
+      ],
+      "rust_discriminant": 16,
+      "rust_variant": "NotificationLatency",
+      "rust_wire_id": 17,
+      "thesis_case": 11,
+      "thesis_name": "notification_latency"
+    },
+    {
+      "c_application_methods": [
+        "ipc_create",
+        "ipc_measure",
+        "ipc_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_IPC_PINGPONG",
+      "c_enum_value": 7,
+      "c_root_functions": [
+        "port_ipc_create",
+        "port_ipc_measure",
+        "port_ipc_destroy"
+      ],
+      "c_wire_id": 7,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Inter-task communication",
+      "rust_application_methods": [
+        "ipc_create",
+        "ipc_measure",
+        "ipc_destroy"
+      ],
+      "rust_discriminant": 7,
+      "rust_variant": "IpcPingpong",
+      "rust_wire_id": 7,
+      "thesis_case": 12,
+      "thesis_name": "ipc_pingpong"
+    },
+    {
+      "c_application_methods": [
+        "ipc_payload_create",
+        "ipc_payload_measure",
+        "ipc_payload_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_IPC_PAYLOAD_SWEEP",
+      "c_enum_value": 22,
+      "c_root_functions": [
+        "port_ipc_payload_create",
+        "port_ipc_payload_measure",
+        "port_ipc_payload_destroy"
+      ],
+      "c_wire_id": 18,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Inter-task communication",
+      "rust_application_methods": [
+        "ipc_payload_create",
+        "ipc_payload_measure",
+        "ipc_payload_destroy"
+      ],
+      "rust_discriminant": 22,
+      "rust_variant": "IpcPayloadSweep",
+      "rust_wire_id": 18,
+      "thesis_case": 13,
+      "thesis_name": "ipc_payload_sweep"
+    },
+    {
+      "c_application_methods": [
+        "tp_create",
+        "tp_measure",
+        "tp_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_IPC_THROUGHPUT",
+      "c_enum_value": 23,
+      "c_root_functions": [
+        "port_tp_create",
+        "port_tp_measure",
+        "port_tp_destroy"
+      ],
+      "c_wire_id": 19,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Inter-task communication",
+      "rust_application_methods": [
+        "tp_create",
+        "tp_measure",
+        "tp_destroy"
+      ],
+      "rust_discriminant": 23,
+      "rust_variant": "IpcThroughput",
+      "rust_wire_id": 19,
+      "thesis_case": 14,
+      "thesis_name": "ipc_throughput"
+    },
+    {
+      "c_application_methods": [
+        "zcopy_create",
+        "zcopy_measure",
+        "zcopy_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_ZERO_COPY_IPC",
+      "c_enum_value": 24,
+      "c_root_functions": [
+        "port_zcopy_create",
+        "port_zcopy_measure",
+        "port_zcopy_destroy"
+      ],
+      "c_wire_id": 27,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Inter-task communication",
+      "rust_application_methods": [
+        "zcopy_create",
+        "zcopy_measure",
+        "zcopy_destroy"
+      ],
+      "rust_discriminant": 24,
+      "rust_variant": "ZeroCopyIpc",
+      "rust_wire_id": 27,
+      "thesis_case": 15,
+      "thesis_name": "zero_copy_ipc"
+    },
+    {
+      "c_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_isr_create",
+        "bench_isr_measure",
+        "bench_rust_isr_destroy"
+      ],
+      "c_enum": "BENCH_ISR_TO_TASK",
+      "c_enum_value": 4,
+      "c_root_functions": [
+        "nuttx_bench_isr_create",
+        "nuttx_bench_isr_measure",
+        "nuttx_bench_isr_destroy"
+      ],
+      "c_wire_id": 4,
+      "external_entry_limitations": [],
+      "interrupt_roots": [
+        "timer1_isr"
+      ],
+      "mechanism": "Interrupt behaviour",
+      "rust_application_methods": [
+        "isr_create",
+        "isr_measure",
+        "isr_destroy"
+      ],
+      "rust_discriminant": 4,
+      "rust_variant": "IsrToTask",
+      "rust_wire_id": 4,
+      "thesis_case": 16,
+      "thesis_name": "isr_to_task"
+    },
+    {
+      "c_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_trigger_isr_create",
+        "bench_rust_trig_drain",
+        "bench_rust_trig_fire",
+        "bench_rust_trig_wait",
+        "bench_rust_trig_entry",
+        "bench_rust_trigger_isr_destroy"
+      ],
+      "c_enum": "BENCH_TRIGGER_TO_ISR",
+      "c_enum_value": 10,
+      "c_root_functions": [
+        "nuttx_bench_trigger_isr_create",
+        "nuttx_bench_trigger_isr_measure",
+        "nuttx_bench_trigger_isr_destroy"
+      ],
+      "c_wire_id": 10,
+      "external_entry_limitations": [],
+      "interrupt_roots": [
+        "trig_isr"
+      ],
+      "mechanism": "Interrupt behaviour",
+      "rust_application_methods": [
+        "trigger_isr_create",
+        "trigger_isr_measure",
+        "trigger_isr_destroy"
+      ],
+      "rust_discriminant": 10,
+      "rust_variant": "TriggerToIsr",
+      "rust_wire_id": 10,
+      "thesis_case": 17,
+      "thesis_name": "trigger_to_isr"
+    },
+    {
+      "c_application_methods": [
+        "nested_create",
+        "nested_measure",
+        "nested_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_nested_create",
+        "bench_rust_nested_run",
+        "bench_rust_nested_destroy"
+      ],
+      "c_enum": "BENCH_NESTED_IRQ_OVERHEAD",
+      "c_enum_value": 21,
+      "c_root_functions": [
+        "nuttx_bench_nested_create",
+        "nuttx_bench_nested_measure",
+        "nuttx_bench_nested_destroy"
+      ],
+      "c_wire_id": 20,
+      "external_entry_limitations": [],
+      "interrupt_roots": [
+        "nested_low_isr",
+        "nested_high_isr"
+      ],
+      "mechanism": "Interrupt behaviour",
+      "rust_application_methods": [
+        "nested_create",
+        "nested_measure",
+        "nested_destroy"
+      ],
+      "rust_discriminant": 21,
+      "rust_variant": "NestedIrqOverhead",
+      "rust_wire_id": 20,
+      "thesis_case": 18,
+      "thesis_name": "nested_irq_overhead"
+    },
+    {
+      "c_application_methods": [
+        "maxdis_create",
+        "maxdis_measure",
+        "maxdis_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_maxdis_create",
+        "bench_maxdis_measure",
+        "bench_rust_maxdis_destroy"
+      ],
+      "c_enum": "BENCH_MAX_INTERRUPT_DISABLED",
+      "c_enum_value": 20,
+      "c_root_functions": [
+        "nuttx_bench_maxdis_create",
+        "nuttx_bench_maxdis_measure",
+        "nuttx_bench_maxdis_destroy"
+      ],
+      "c_wire_id": 25,
+      "external_entry_limitations": [],
+      "interrupt_roots": [
+        "maxdis_isr"
+      ],
+      "mechanism": "Interrupt behaviour",
+      "rust_application_methods": [
+        "maxdis_create",
+        "maxdis_measure",
+        "maxdis_destroy"
+      ],
+      "rust_discriminant": 20,
+      "rust_variant": "MaxInterruptDisabled",
+      "rust_wire_id": 25,
+      "thesis_case": 20,
+      "thesis_name": "max_interrupt_disabled"
+    },
+    {
+      "c_application_methods": [
+        "jitter_create",
+        "jitter_measure",
+        "jitter_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_PERIODIC_JITTER",
+      "c_enum_value": 3,
+      "c_root_functions": [
+        "port_jitter_create",
+        "port_jitter_measure",
+        "port_jitter_destroy"
+      ],
+      "c_wire_id": 3,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Periodic timing and sleep",
+      "rust_application_methods": [
+        "jitter_create",
+        "jitter_measure",
+        "jitter_destroy"
+      ],
+      "rust_discriminant": 3,
+      "rust_variant": "PeriodicJitter",
+      "rust_wire_id": 3,
+      "thesis_case": 21,
+      "thesis_name": "periodic_jitter"
+    },
+    {
+      "c_application_methods": [
+        "pjit_create",
+        "pjit_measure",
+        "pjit_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_pjit_create",
+        "bench_pjit_measure",
+        "bench_rust_pjit_destroy"
+      ],
+      "c_enum": "BENCH_PERIODIC_JITTER_LOADED",
+      "c_enum_value": 11,
+      "c_root_functions": [
+        "nuttx_bench_pjit_create",
+        "nuttx_bench_pjit_measure",
+        "nuttx_bench_pjit_destroy"
+      ],
+      "c_wire_id": 11,
+      "external_entry_limitations": [],
+      "interrupt_roots": [
+        "pjit_release_isr",
+        "pjit_load_isr"
+      ],
+      "mechanism": "Periodic timing and sleep",
+      "rust_application_methods": [
+        "pjit_create",
+        "pjit_measure",
+        "pjit_destroy"
+      ],
+      "rust_discriminant": 11,
+      "rust_variant": "PeriodicJitterLoaded",
+      "rust_wire_id": 11,
+      "thesis_case": 22,
+      "thesis_name": "periodic_jitter_loaded"
+    },
+    {
+      "c_application_methods": [
+        "sleep_create",
+        "sleep_measure",
+        "sleep_destroy"
+      ],
+      "c_bridge_roots": [],
+      "c_enum": "BENCH_SLEEP_ACCURACY",
+      "c_enum_value": 15,
+      "c_root_functions": [
+        "port_sleep_create",
+        "port_sleep_measure",
+        "port_sleep_destroy"
+      ],
+      "c_wire_id": 15,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Periodic timing and sleep",
+      "rust_application_methods": [
+        "sleep_create",
+        "sleep_measure",
+        "sleep_destroy"
+      ],
+      "rust_discriminant": 15,
+      "rust_variant": "SleepAccuracy",
+      "rust_wire_id": 15,
+      "thesis_case": 23,
+      "thesis_name": "sleep_accuracy"
+    },
+    {
+      "c_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "c_bridge_roots": [
+        "bench_rust_frag_create",
+        "bench_rust_frag_n",
+        "bench_rust_fordblks",
+        "bench_rust_frag_alloc",
+        "bench_rust_frag_free",
+        "bench_rust_mxordblk",
+        "bench_rust_frag_destroy"
+      ],
+      "c_enum": "BENCH_HEAP_FRAGMENTATION",
+      "c_enum_value": 27,
+      "c_root_functions": [
+        "port_frag_create",
+        "port_frag_measure",
+        "port_frag_destroy"
+      ],
+      "c_wire_id": 24,
+      "external_entry_limitations": [],
+      "interrupt_roots": [],
+      "mechanism": "Memory",
+      "rust_application_methods": [
+        "frag_create",
+        "frag_measure",
+        "frag_destroy"
+      ],
+      "rust_discriminant": 27,
+      "rust_variant": "HeapFragmentation",
+      "rust_wire_id": 24,
+      "thesis_case": 26,
+      "thesis_name": "heap_fragmentation"
+    }
+  ],
+  "common_c_application_methods": [
+    "now_ticks"
+  ],
+  "common_rust_application_methods": [
+    "now_ticks"
+  ],
+  "compiler": "arm-none-eabi-gcc 14.2",
+  "config_provenance": {
+    "external_path": ".local/source/nuttx/boards/arm/stm32f4/stm32f4discovery/configs/bench/defconfig",
+    "project_path": "firmware/c-kernels/nuttx/c/bench_defconfig",
+    "relationship": "expected_byte_identical"
+  },
+  "description": "All 23 implemented NuttX STM32F4 C/Rust thesis cases",
+  "external_source": ".local/source/nuttx",
+  "generator": {
+    "schema": "uastw-matched-api-profile-generator-v1",
+    "source_guards": {
+      "firmware/Cargo.toml": "1db3bdd9bab6bb007ecc7aaeb2da2c80e15723b8d9dd5a72d0feec5c7215f599",
+      "firmware/c-kernels/nuttx/c/CMakeLists.txt": "56172be3ffa8f30f71ef1a03a74f8dd39d96de69257fe476848c1fa1e348dca1",
+      "firmware/c-kernels/nuttx/c/Kconfig": "380c68537df5449bf99f9377c0c29db4a15b95b5c750a770a4c9946d9890ca74",
+      "firmware/c-kernels/nuttx/c/Makefile": "f9db7cd633f06e08456d23ccc23e07cee47a1c113432426115e1172dca2a1046",
+      "firmware/c-kernels/nuttx/c/bench_c6_defconfig": "fccb9769362a376849492dfe23f6f4a2191121719c73e0c431d59421fcf8cdc8",
+      "firmware/c-kernels/nuttx/c/bench_defconfig": "ad3adfa671a9bc515e75a5a6c5fe72da9866dbb111292a57862cd7a277f79473",
+      "firmware/c-kernels/nuttx/c/bench_h723_defconfig": "cbad223eb82d5a32a9bfe2dc2b4938326e2346bbf9dc9186f001c9b4ea5461df",
+      "firmware/c-kernels/nuttx/c/bench_nrf52840dk_defconfig": "b0a552d84b7b9dc02f35d74a9390390487da762a88e09d8a09108a389d3361b0",
+      "firmware/c-kernels/nuttx/c/isr.c": "476f0c21a34b091b8fb9a5ca2a42cab8a1622bd2d01e548bba6aa45ba408002f",
+      "firmware/c-kernels/nuttx/c/main.c": "18eb61f7807f0bafa37f4e1299fad04daea8fda6090ba2043ca4331c8b965423",
+      "firmware/c-kernels/nuttx/c/port.c": "65584c9d8a386ff546b16cb7afc0d661adac8feb481d5aab5a69d280c31b9a48",
+      "firmware/c-kernels/nuttx/rust/src/boundary.rs": "92c18c92d6bc3518344fb5ffed89a87d11406d2583724b9dad8c12bda1c3008f",
+      "firmware/c-kernels/nuttx/rust/src/lib.rs": "07586f4e6aaccca33bf26e1e1b817df6c6db11a36758bce05ac2ed2f98dbf1a7",
+      "firmware/common/c/include/rtos_bench.h": "3f3958a1742edd6569cd1383b36ddb6e4d47ff6788d9b3b88f22dacde19f7138",
+      "firmware/common/c/src/runner.c": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4",
+      "firmware/common/rust/src/arena.rs": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0",
+      "firmware/common/rust/src/lib.rs": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    },
+    "source_revision": "9fc56aa0",
+    "unresolved": []
+  },
+  "id": "nuttx-nrf52840-all",
+  "interrupt_search_files": [
+    "firmware/c-kernels/nuttx/c/port.c",
+    "firmware/c-kernels/nuttx/c/isr.c"
+  ],
+  "rtos": "NuttX",
+  "rust_core": "firmware/common/rust/src/lib.rs",
+  "rust_impl": "firmware/c-kernels/nuttx/rust/src/lib.rs",
+  "rust_impl_type": "NuttXPort",
+  "schema": "uastw-matched-api-profile-v1",
+  "source_configs": {
+    "c_benchmark": {
+      "add_defines": [],
+      "build_id": "nuttx-nrf52840-c-9fc56aa0",
+      "compile_commands": ".local/source/nuttx/build-nrf52840dk-bench/compile_commands.json",
+      "configuration": "nuttx-nrf52840-c-benchmark",
+      "extra_units": [
+        "firmware/common/c/src/runner.c"
+      ],
+      "remove_defines": [
+        "BENCH_LANGUAGE_RUST"
+      ],
+      "replace_build_id": "nuttx-nrf52840-c-9fc56aa0",
+      "source_scope": "NuttX STM32F4 standalone C benchmark",
+      "source_units": [
+        "firmware/c-kernels/nuttx/c/isr.c",
+        "firmware/c-kernels/nuttx/c/main.c",
+        "firmware/c-kernels/nuttx/c/port.c"
+      ]
+    },
+    "c_support": {
+      "add_defines": [],
+      "build_id": "nuttx-nrf52840-rust-9fc56aa0",
+      "compile_commands": ".local/source/nuttx/build-nrf52840dk-bench/compile_commands.json",
+      "configuration": "nuttx-nrf52840-c-support-rust",
+      "extra_units": [],
+      "remove_defines": [],
+      "replace_build_id": null,
+      "source_scope": "NuttX STM32F4 C support compiled into the Rust benchmark",
+      "source_units": [
+        "firmware/c-kernels/nuttx/c/isr.c",
+        "firmware/c-kernels/nuttx/c/main.c",
+        "firmware/c-kernels/nuttx/c/port.c"
+      ]
+    },
+    "rust": {
+      "configuration": "nuttx-nrf52840-rust",
+      "crate_roots": [
+        "firmware/common/rust/Cargo.toml",
+        "firmware/c-kernels/nuttx/rust/Cargo.toml"
+      ],
+      "source_scope": "NuttX STM32F4 shared Rust core plus adapter",
+      "target": "thumbv7em-none-eabi"
+    }
+  },
+  "source_roots": [
+    "firmware/common/c/src",
+    "firmware/c-kernels/nuttx/c",
+    "firmware/common/rust/src",
+    "firmware/c-kernels/nuttx/rust/src"
+  ],
+  "thesis_case_spec": "thesis/sections/benchmark-specification.typ",
+  "thesis_spec": "thesis/sections/methodology.typ"
+}

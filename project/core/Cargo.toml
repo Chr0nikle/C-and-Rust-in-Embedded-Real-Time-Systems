@@ -1,0 +1,17 @@
+[package]
+name = "rtos-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+serialport = { version = "4.10.1", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+sha2 = "0.11"
+object = { version = "0.37", default-features = false, features = ["read_core", "elf"] }
+zip = { version = "8.6", default-features = false, features = ["deflate"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+signal-hook = "0.3"

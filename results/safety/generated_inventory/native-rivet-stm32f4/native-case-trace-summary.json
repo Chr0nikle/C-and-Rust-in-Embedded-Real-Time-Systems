@@ -1,0 +1,417 @@
+{
+  "analysis_scope": "rust_only_unmatched",
+  "case_count": 24,
+  "cases": [
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 1,
+      "wire_case": 0
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 2,
+      "wire_case": 1
+    },
+    {
+      "boundary_edges": 4,
+      "boundary_targets": [
+        "cycle_count",
+        "load",
+        "release",
+        "sleep_ms"
+      ],
+      "edge_rows": 4,
+      "roots": [
+        "handoff_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 6,
+      "wire_case": 2
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 21,
+      "wire_case": 3
+    },
+    {
+      "boundary_edges": 21,
+      "boundary_targets": [
+        "apb1enr",
+        "arr",
+        "bits",
+        "cen",
+        "clear_bit",
+        "cr1",
+        "dier",
+        "egr",
+        "load",
+        "modify",
+        "opm",
+        "psc",
+        "ptr",
+        "set_bit",
+        "sleep_ms",
+        "sr",
+        "tim2en",
+        "ug",
+        "uie",
+        "uif",
+        "unpend"
+      ],
+      "edge_rows": 34,
+      "roots": [
+        "isr_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 16,
+      "wire_case": 4
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 7,
+      "wire_case": 5
+    },
+    {
+      "boundary_edges": 3,
+      "boundary_targets": [
+        "cycle_count",
+        "pause",
+        "sleep_ms"
+      ],
+      "edge_rows": 3,
+      "roots": [
+        "now",
+        "pause_task"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 8,
+      "wire_case": 6
+    },
+    {
+      "boundary_edges": 6,
+      "boundary_targets": [
+        "expect",
+        "get",
+        "is_err",
+        "load",
+        "sleep_ms",
+        "try_send"
+      ],
+      "edge_rows": 6,
+      "roots": [
+        "ipc_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 12,
+      "wire_case": 7
+    },
+    {
+      "boundary_edges": 3,
+      "boundary_targets": [
+        "cycle_count",
+        "pause",
+        "sleep_ms"
+      ],
+      "edge_rows": 3,
+      "roots": [
+        "now",
+        "pause_task"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 9,
+      "wire_case": 8
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 17,
+      "wire_case": 10
+    },
+    {
+      "boundary_edges": 23,
+      "boundary_targets": [
+        "apb1enr",
+        "arr",
+        "bits",
+        "cen",
+        "clear_bit",
+        "cr1",
+        "dier",
+        "egr",
+        "expect",
+        "get",
+        "modify",
+        "psc",
+        "ptr",
+        "set_bit",
+        "sleep_ms",
+        "sr",
+        "swap",
+        "tim5en",
+        "tim7en",
+        "try_recv",
+        "ug",
+        "uie",
+        "uif"
+      ],
+      "edge_rows": 59,
+      "roots": [
+        "jitter_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 22,
+      "wire_case": 11
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 3,
+      "wire_case": 12
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 4,
+      "wire_case": 13
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 23,
+      "wire_case": 15
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 10,
+      "wire_case": 16
+    },
+    {
+      "boundary_edges": 5,
+      "boundary_targets": [
+        "cycle_count",
+        "load",
+        "reset",
+        "signal",
+        "sleep_ms"
+      ],
+      "edge_rows": 5,
+      "roots": [
+        "notify_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 11,
+      "wire_case": 17
+    },
+    {
+      "boundary_edges": 6,
+      "boundary_targets": [
+        "expect",
+        "get",
+        "is_err",
+        "load",
+        "sleep_ms",
+        "try_send"
+      ],
+      "edge_rows": 6,
+      "roots": [
+        "ipc_payload_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 13,
+      "wire_case": 18
+    },
+    {
+      "boundary_edges": 6,
+      "boundary_targets": [
+        "expect",
+        "get",
+        "is_err",
+        "load",
+        "sleep_ms",
+        "try_send"
+      ],
+      "edge_rows": 8,
+      "roots": [
+        "tp_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 14,
+      "wire_case": 19
+    },
+    {
+      "boundary_edges": 5,
+      "boundary_targets": [
+        "cycle_count",
+        "load",
+        "pend",
+        "spin_loop",
+        "store"
+      ],
+      "edge_rows": 9,
+      "roots": [
+        "nested_run"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 18,
+      "wire_case": 20
+    },
+    {
+      "boundary_edges": 0,
+      "boundary_targets": [],
+      "edge_rows": 0,
+      "roots": [],
+      "status": "complete",
+      "thesis_case": 19,
+      "wire_case": 21
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 24,
+      "wire_case": 22
+    },
+    {
+      "boundary_edges": 1,
+      "boundary_targets": [
+        "cycle_count"
+      ],
+      "edge_rows": 1,
+      "roots": [
+        "now"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 25,
+      "wire_case": 23
+    },
+    {
+      "boundary_edges": 20,
+      "boundary_targets": [
+        "apb1enr",
+        "arr",
+        "bits",
+        "cen",
+        "clear_bit",
+        "cr1",
+        "cycle_count",
+        "dier",
+        "egr",
+        "modify",
+        "opm",
+        "psc",
+        "ptr",
+        "set_bit",
+        "sr",
+        "tim4en",
+        "ug",
+        "uie",
+        "uif",
+        "unpend"
+      ],
+      "edge_rows": 31,
+      "roots": [
+        "now",
+        "tim4_arm"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 20,
+      "wire_case": 25
+    },
+    {
+      "boundary_edges": 6,
+      "boundary_targets": [
+        "expect",
+        "get",
+        "is_err",
+        "load",
+        "sleep_ms",
+        "try_send"
+      ],
+      "edge_rows": 15,
+      "roots": [
+        "zcopy_measure"
+      ],
+      "status": "complete_with_external_boundary",
+      "thesis_case": 15,
+      "wire_case": 27
+    }
+  ],
+  "configuration": "rivet-stm32f4",
+  "measure_function": "measure",
+  "note": "Per-case source trace only. No C counterpart or matched A/B/C classification is claimed.",
+  "schema": "uastw-native-case-trace-v1"
+}

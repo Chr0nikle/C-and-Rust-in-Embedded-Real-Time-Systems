@@ -1,0 +1,146 @@
+{
+  "freertos/stm32f4discovery/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/stm32f4discovery/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/stm32h723/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/stm32h723/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/nrf52840dk/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/nrf52840dk/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/esp32c6/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "freertos/esp32c6/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the freertos route"
+    ]
+  },
+  "zephyr/stm32f4discovery/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/stm32f4discovery/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/stm32h723/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/stm32h723/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/nrf52840dk/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/nrf52840dk/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/esp32c6/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "zephyr/esp32c6/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the zephyr route"
+    ]
+  },
+  "nuttx/stm32f4discovery/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/stm32f4discovery/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/stm32h723/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/stm32h723/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/nrf52840dk/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/nrf52840dk/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/esp32c6/c": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  },
+  "nuttx/esp32c6/rust": {
+    "exit": 0,
+    "tail": [
+      "all required tools resolved for the nuttx route"
+    ]
+  }
+}

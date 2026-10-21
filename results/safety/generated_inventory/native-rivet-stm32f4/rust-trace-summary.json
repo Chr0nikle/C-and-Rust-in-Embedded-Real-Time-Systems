@@ -1,0 +1,18 @@
+{
+  "analysis_scope": "rust_only_unmatched",
+  "configuration": "rivet-stm32f4",
+  "edge_rows": 66,
+  "note": "No matched C/Rust Level A/B/C comparison is claimed for Rust-native kernels.",
+  "roots": [
+    "main"
+  ],
+  "schema": "uastw-native-rust-trace-v1",
+  "unresolved_roots": [
+    {
+      "file": "firmware/rust-kernels/rivet/rust/stm32f4/src/main.rs",
+      "line": 970,
+      "root": "main",
+      "status": "resolved_root"
+    }
+  ]
+}

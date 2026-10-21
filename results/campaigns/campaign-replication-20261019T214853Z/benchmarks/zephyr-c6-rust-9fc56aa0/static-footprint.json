@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-c6-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 278040,
+        "data": 48908,
+        "flash": 121864,
+        "image": "zephyr.elf",
+        "ram": 326948,
+        "rodata": 34636,
+        "text": 38320
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

@@ -1,0 +1,33 @@
+{
+  "analysis_1": "operation_inventory",
+  "analysis_2": "rust_only_source_trace",
+  "board": "STM32F4 Discovery",
+  "configuration": "freertos-in-rust-stm32f4",
+  "crate": "firmware/rust-kernels/freertos-in-rust/rust",
+  "entry_roots": [
+    "main"
+  ],
+  "features": [
+    "f4"
+  ],
+  "generator": {
+    "schema": "uastw-native-profile-generator-v1",
+    "source_guards": {
+      "firmware/rust-kernels/freertos-in-rust/rust/src/arena.rs": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db",
+      "firmware/rust-kernels/freertos-in-rust/rust/src/main.rs": "4e5e6dedd4b75a55b044168958324da7e105c4c77e80333b4c72e631c10e6771"
+    },
+    "source_revision": "9fc56aa0",
+    "unresolved": []
+  },
+  "id": "native-freertos-in-rust-stm32f4",
+  "language": "rust",
+  "matched_analysis": "not_applicable",
+  "note": "This profile does not define a C counterpart or a matched Level A/B/C comparison.",
+  "rtos": "FreeRTOS-in-Rust",
+  "schema": "uastw-native-safety-profile-v1",
+  "source_files": [
+    "firmware/rust-kernels/freertos-in-rust/rust/src/arena.rs",
+    "firmware/rust-kernels/freertos-in-rust/rust/src/main.rs"
+  ],
+  "target": "thumbv7em-none-eabihf"
+}

@@ -1,0 +1,14 @@
+configuration,tool,tool_version,severity,rule_id,file,line,column,message,scope,run_status
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,48,,unused variable 's_case_map',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,477,,unused function 'port_queue_create',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,490,,unused function 'port_queue_send',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,502,,unused function 'port_queue_receive',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,514,,unused function 'port_queue_destroy',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,592,,unused function 'port_handoff_create',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,611,,unused function 'port_handoff_measure',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,627,,unused function 'port_handoff_destroy',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,657,,unused function 'port_jitter_create',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,667,,unused function 'port_jitter_measure',project,parse
+freertos-stm32f4-c-support-rust,clang-ast,clang version 23.1.1,warning,parse-diagnostic,firmware/c-kernels/freertos/c/stm32f4/src/bench.c,683,,unused function 'port_jitter_destroy',project,parse
+freertos-stm32f4-rust,clippy,clippy 0.1.98 (48a229ceae 2026-09-01),warning,clippy::unnecessary_cast,src/boundary.rs,170,16,casting raw pointers to the same type and constness is unnecessary (`*const u8` -> `*const u8`),project,completed
+freertos-stm32f4-rust,clippy,clippy 0.1.98 (48a229ceae 2026-09-01),warning,clippy::unnecessary_cast,src/boundary.rs,559,9,casting raw pointers to the same type and constness is unnecessary (`*const u8` -> `*const u8`),project,completed

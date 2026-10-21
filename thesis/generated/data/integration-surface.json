@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "generated_by": "analysis/integration/surface.py",
+  "shared_runner": {
+    "c_lines": 493,
+    "rust_lines": 636,
+    "lines": 1129
+  },
+  "port_primitives": {
+    "rust_port_methods": 83,
+    "c_port_pointers": 82
+  },
+  "systems": [
+    {
+      "system": "freertos",
+      "adapter_c_lines": 14109,
+      "adapter_rust_lines": 1893,
+      "adapter_lines": 16002,
+      "cfg_branches": 181,
+      "staged_patches": 0,
+      "patch_keyword_scope": "case-insensitive patch/replace/stage/overlay matches in plugins/<system>/src/*.rs",
+      "build_files": 6,
+      "build_file_paths": [
+        "firmware/c-kernels/freertos/c/CMakeLists.txt",
+        "firmware/c-kernels/freertos/c/main/CMakeLists.txt",
+        "firmware/c-kernels/freertos/c/nrf52840dk/Makefile",
+        "firmware/c-kernels/freertos/c/stm32f4/Makefile",
+        "firmware/c-kernels/freertos/c/stm32h723/Makefile",
+        "firmware/c-kernels/freertos/rust/Cargo.toml"
+      ]
+    },
+    {
+      "system": "freertos-in-rust",
+      "adapter_c_lines": 0,
+      "adapter_rust_lines": 1771,
+      "adapter_lines": 1771,
+      "cfg_branches": 28,
+      "staged_patches": 0,
+      "patch_keyword_scope": "case-insensitive patch/replace/stage/overlay matches in plugins/<system>/src/*.rs",
+      "build_files": 1,
+      "build_file_paths": [
+        "firmware/rust-kernels/freertos-in-rust/rust/Cargo.toml"
+      ]
+    },
+    {
+      "system": "nuttx",
+      "adapter_c_lines": 5920,
+      "adapter_rust_lines": 2050,
+      "adapter_lines": 7970,
+      "cfg_branches": 96,
+      "staged_patches": 5,
+      "patch_keyword_scope": "case-insensitive patch/replace/stage/overlay matches in plugins/<system>/src/*.rs",
+      "build_files": 4,
+      "build_file_paths": [
+        "firmware/c-kernels/nuttx/c/CMakeLists.txt",
+        "firmware/c-kernels/nuttx/c/Kconfig",
+        "firmware/c-kernels/nuttx/c/Makefile",
+        "firmware/c-kernels/nuttx/rust/Cargo.toml"
+      ]
+    },
+    {
+      "system": "rivet",
+      "adapter_c_lines": 0,
+      "adapter_rust_lines": 1763,
+      "adapter_lines": 1763,
+      "cfg_branches": 2,
+      "staged_patches": 0,
+      "patch_keyword_scope": "case-insensitive patch/replace/stage/overlay matches in plugins/<system>/src/*.rs",
+      "build_files": 1,
+      "build_file_paths": [
+        "firmware/rust-kernels/rivet/rust/stm32f4/Cargo.toml"
+      ]
+    },
+    {
+      "system": "zephyr",
+      "adapter_c_lines": 12138,
+      "adapter_rust_lines": 2082,
+      "adapter_lines": 14220,
+      "cfg_branches": 78,
+      "staged_patches": 2,
+      "patch_keyword_scope": "case-insensitive patch/replace/stage/overlay matches in plugins/<system>/src/*.rs",
+      "build_files": 9,
+      "build_file_paths": [
+        "firmware/c-kernels/zephyr/c/esp32c6/CMakeLists.txt",
+        "firmware/c-kernels/zephyr/c/esp32c6/prj.conf",
+        "firmware/c-kernels/zephyr/c/nrf52840dk/CMakeLists.txt",
+        "firmware/c-kernels/zephyr/c/nrf52840dk/prj.conf",
+        "firmware/c-kernels/zephyr/c/stm32f4/CMakeLists.txt",
+        "firmware/c-kernels/zephyr/c/stm32f4/prj.conf",
+        "firmware/c-kernels/zephyr/c/stm32h723/CMakeLists.txt",
+        "firmware/c-kernels/zephyr/c/stm32h723/prj.conf",
+        "firmware/c-kernels/zephyr/rust/Cargo.toml"
+      ]
+    }
+  ],
+  "notes": [
+    "Adapter lines count non-blank, non-comment lines under firmware/<system>.",
+    "cfg_branches counts #[cfg in Rust and #if/#ifdef/#ifndef in C.",
+    "staged_patches is retained as a data key; it counts case-insensitive patch/replace/stage/overlay keyword matches in plugins/<system>/src/*.rs, including comments and strings.",
+    "adapter_c_lines and adapter_rust_lines cover project-owned files under the system's C adapter root and Rust crate source; vendored SDKs, generated trees and retained blink examples are excluded.",
+    "build_files counts recognised project-owned build/configuration files in those crate and adapter roots; it excludes vendor, target and build trees.",
+    "Counts are review-oriented proxies, not effort measurements."
+  ],
+  "provenance": {
+    "script_sha256": "34585595769c17366dbae1d73c9ca6a14100960297319a12a63204ddeab3a80f"
+  }
+}

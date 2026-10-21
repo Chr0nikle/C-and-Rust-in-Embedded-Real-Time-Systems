@@ -1,0 +1,198 @@
+{
+  "campaign_id": "optimization-aligned-20261019T184311Z",
+  "created_utc": "2026-10-19T18:43:11.936481+00:00",
+  "thesis_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e",
+  "worktree_dirty": true,
+  "changed_paths_initial": [
+    "docs/research/uastw-thesis/analysis/generated/all-results.typ",
+    "docs/research/uastw-thesis/analysis/generated/campaign-memory.typ",
+    "docs/research/uastw-thesis/analysis/generated/campaign-provenance.json",
+    "docs/research/uastw-thesis/analysis/generated/campaign-static.typ",
+    "docs/research/uastw-thesis/analysis/generated/complexity.json",
+    "docs/research/uastw-thesis/analysis/generated/complexity.typ",
+    "docs/research/uastw-thesis/analysis/generated/fig-agreement.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-fir.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-integration.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-kernel-maintainability.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-maintainability.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-performance.svg",
+    "docs/research/uastw-thesis/analysis/generated/fig-safety.svg",
+    "docs/research/uastw-thesis/analysis/generated/integration-surface.json",
+    "docs/research/uastw-thesis/analysis/generated/integration-surface.typ",
+    "docs/research/uastw-thesis/analysis/generated/replication-stats.json",
+    "docs/research/uastw-thesis/analysis/generated/runner-comparison.json",
+    "docs/research/uastw-thesis/analysis/generated/runner-comparison.typ",
+    "docs/research/uastw-thesis/analysis/generated/safety-boundary.typ",
+    "docs/research/uastw-thesis/analysis/generated/unchecked-ops.json",
+    "docs/research/uastw-thesis/analysis/generated/unchecked-ops.typ",
+    "docs/research/uastw-thesis/sections/background.typ",
+    "docs/research/uastw-thesis/sections/introduction.typ",
+    "docs/research/uastw-thesis/sections/methodology.typ",
+    "docs/research/uastw-thesis/sections/results.typ",
+    "docs/research/uastw-thesis/sections/state-of-the-art.typ",
+    "docs/research/uastw-thesis/thesis.pdf",
+    "docs/research/uastw-thesis/thesis.typ",
+    "firmware/Cargo.toml",
+    "firmware/c-kernels/freertos/c/main/CMakeLists.txt",
+    "firmware/c-kernels/nuttx/c/CMakeLists.txt",
+    "firmware/c-kernels/zephyr/c/esp32c6/CMakeLists.txt",
+    "firmware/c-kernels/zephyr/c/nrf52840dk/CMakeLists.txt",
+    "firmware/c-kernels/zephyr/c/stm32f4/CMakeLists.txt",
+    "firmware/c-kernels/zephyr/c/stm32h723/CMakeLists.txt",
+    "scripts/analysis/full_campaign.py"
+  ],
+  "optimization_policy": {
+    "c_application": "-O2",
+    "rust_application": "opt-level=2",
+    "kernel_optimization": "unchanged"
+  },
+  "matched_combinations": [
+    {
+      "rtos": "freertos",
+      "board": "esp32c6",
+      "language": "c"
+    },
+    {
+      "rtos": "freertos",
+      "board": "esp32c6",
+      "language": "rust"
+    },
+    {
+      "rtos": "freertos",
+      "board": "nrf52840dk",
+      "language": "c"
+    },
+    {
+      "rtos": "freertos",
+      "board": "nrf52840dk",
+      "language": "rust"
+    },
+    {
+      "rtos": "freertos",
+      "board": "stm32f4discovery",
+      "language": "c"
+    },
+    {
+      "rtos": "freertos",
+      "board": "stm32f4discovery",
+      "language": "rust"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "esp32c6",
+      "language": "c"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "esp32c6",
+      "language": "rust"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "nrf52840dk",
+      "language": "c"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "nrf52840dk",
+      "language": "rust"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "stm32f4discovery",
+      "language": "c"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "stm32f4discovery",
+      "language": "rust"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "esp32c6",
+      "language": "c"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "esp32c6",
+      "language": "rust"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "nrf52840dk",
+      "language": "c"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "nrf52840dk",
+      "language": "rust"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "stm32f4discovery",
+      "language": "c"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "stm32f4discovery",
+      "language": "rust"
+    },
+    {
+      "rtos": "freertos",
+      "board": "stm32h723",
+      "language": "c"
+    },
+    {
+      "rtos": "freertos",
+      "board": "stm32h723",
+      "language": "rust"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "stm32h723",
+      "language": "c"
+    },
+    {
+      "rtos": "nuttx",
+      "board": "stm32h723",
+      "language": "rust"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "stm32h723",
+      "language": "c"
+    },
+    {
+      "rtos": "zephyr",
+      "board": "stm32h723",
+      "language": "rust"
+    }
+  ],
+  "excluded": [
+    "freertos-in-rust",
+    "rivet"
+  ],
+  "runs_per_combo": 10,
+  "repetitions_per_run": 100,
+  "warmup_per_run": 10,
+  "protocol": "established UART benchmark protocol; raw intervals; existing validity rules",
+  "hardware": {
+    "stm32f4discovery": {
+      "probe": "ST-LINK V2",
+      "uart": "ttyUSB1"
+    },
+    "stm32h723": {
+      "probe": "ST-LINK V2",
+      "uart": "ttyUSB2"
+    },
+    "nrf52840dk": {
+      "probe": "J-Link",
+      "uart": "ttyACM0"
+    },
+    "esp32c6": {
+      "probe": "USB-JTAG",
+      "uart": "ttyACM2"
+    }
+  },
+  "build_profile_metadata_warning": "core/src/results.rs build_profile is descriptive and stale for app optimization; authoritative effective flags are recorded in optimization-and-firmware.diff and this campaign config."
+}

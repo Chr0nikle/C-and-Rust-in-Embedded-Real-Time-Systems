@@ -1,0 +1,18 @@
+{
+  "analysis_scope": "rust_only_unmatched",
+  "configuration": "freertos-in-rust-stm32h723",
+  "edge_rows": 228,
+  "note": "No matched C/Rust Level A/B/C comparison is claimed for Rust-native kernels.",
+  "roots": [
+    "main"
+  ],
+  "schema": "uastw-native-rust-trace-v1",
+  "unresolved_roots": [
+    {
+      "file": "firmware/rust-kernels/freertos-in-rust/rust/src/main.rs",
+      "line": 343,
+      "root": "main",
+      "status": "resolved_root"
+    }
+  ]
+}

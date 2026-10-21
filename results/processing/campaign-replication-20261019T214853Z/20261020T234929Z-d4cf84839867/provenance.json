@@ -1,0 +1,17 @@
+{
+  "analysis_id": "20261020T234929Z-d4cf84839867",
+  "analysis_version": "thesis-analysis-v1",
+  "analyzer": {
+    "branch": "main",
+    "dirty": true,
+    "revision": "d4cf848398678e514e3677d53a189c0f08bca3c5"
+  },
+  "command": "manual validation",
+  "generated_at": "2026-10-20T23:49:29Z",
+  "input_campaign": "campaign-replication-20261019T214853Z",
+  "input_manifest_file": "inputs.sha256",
+  "input_manifest_sha256": "f9109a3eca7752872c897e6be7925f3733a4645708155c71b6299ae5b361c746",
+  "outputs_manifest": "outputs.sha256",
+  "outputs_manifest_sha256": "fec19f28faa47f1559378ed9500b4d67970fc38556b89e5006477ae26a7c141c",
+  "schema_version": 1
+}

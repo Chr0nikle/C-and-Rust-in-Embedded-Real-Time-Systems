@@ -1,0 +1,6 @@
+/* The board DTS already routes zephyr,console and zephyr,shell-uart to
+ * usart2 (PA2/PA3, 115200 8N1), which is the physical wiring on this bench
+ * (board PA2(TX) -> CP2102 RX, PA3(RX) -> CP2102 TX, GND -> GND). No override
+ * or disable is needed; keeping usart2 active is all the protocol-v1
+ * console path requires.
+ */

@@ -1,0 +1,11 @@
+flowchart TB
+  subgraph P["Preemptive scheduling"]
+    direction LR
+    P1["Low-priority task running"] --> P2["High-priority task ready"] --> P3["Immediate preemption"] --> P4["High-priority task running"]
+  end
+  subgraph C["Cooperative scheduling"]
+    direction LR
+    C1["Low-priority task running"] --> C2["High-priority task ready"] --> C3["Low-priority task continues"] --> C4["Yield or block"] --> C5["High-priority task running"]
+  end
+  style P fill:#edf5fb,stroke:#6b94b3
+  style C fill:#fdf4ea,stroke:#c79566

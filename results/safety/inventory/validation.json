@@ -1,0 +1,56 @@
+{
+  "configuration_specific_operation_records": 5005,
+  "distinct_source_identities_all_scopes": 2852,
+  "no_third_party_operations": true,
+  "occurrence_ids_unique": true,
+  "schema": "uastw-inventory-validation-v2",
+  "source_identity_keys_present": true,
+  "status": "passed",
+  "summary_recomputed_from_operations": true,
+  "unsafe_context_association_recomputed": true,
+  "unsupported_categories": [
+    {
+      "category": "union_field_access",
+      "discovered_unions": 0,
+      "language": "rust",
+      "reason": "Rust union field access resolution is not implemented in the syntax-only model",
+      "status": "unsupported"
+    },
+    {
+      "category": "unsafe_constructs",
+      "language": "c",
+      "reason": "unsafe is a Rust language construct; C has no equivalent category",
+      "status": "not_applicable"
+    },
+    {
+      "category": "implicit_pointer_conversion",
+      "language": "c",
+      "reason": "Implicit compiler conversions have no CSTYLE_CAST_EXPR source node and are outside pointer_conversion",
+      "status": "not_counted"
+    },
+    {
+      "category": "pointer_to_integer_conversion",
+      "language": "c",
+      "reason": "pointer_conversion requires a pointer target; explicit pointer-to-integer casts are documented as outside the category",
+      "status": "not_counted"
+    },
+    {
+      "category": "macro_pointer_conversion",
+      "language": "c",
+      "reason": "Macro-expanded casts are retained separately and are not included in pointer_conversion",
+      "status": "descriptive_only"
+    },
+    {
+      "category": "third_party_macro_internals",
+      "language": "c",
+      "reason": "Operations whose spelling location is a third-party macro definition are excluded from project counts; the invocation provenance is retained on descriptive records",
+      "status": "excluded"
+    },
+    {
+      "category": "macro_not_expanded",
+      "language": "rust",
+      "reason": "Unless a narrowly specified addr_of!/addr_of_mut! form is modelled, macro contents remain unresolved rather than being treated as zero operations",
+      "status": "unresolved"
+    }
+  ]
+}

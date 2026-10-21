@@ -1,0 +1,30 @@
+# Board identity template; no detected hardware or flash readiness is claimed.
+schema_version = 1
+id = "esp32c6"
+mcu = "ESP32-C6"
+architecture = "riscv-hpcore"
+revision = "unverified"
+carrier = "unverified; DevKitC recipes are conditional"
+[build_targets]
+zephyr = "esp32c6_devkitc/esp32c6/hpcore"
+nuttx = "esp32c6-devkitc:nsh"
+[serial]
+transport = "unverified"
+baud = 115200
+framing = "8N1"
+port_selector = ""
+pins = "unverified"
+verified = false
+# STM32 transport follows the user's setup; verify debug VCP routing against board revision.
+# ESP DevKitC identifiers must not be applied to an unknown C6 carrier without checking.
+[debug]
+# ESP32-C6 debugs over its built-in USB-Serial/JTAG (303a:1001).
+# probe-rs 0.32.0 supports this; not yet verified on hardware.
+probe = "303a:1001"
+probe_serial = ""
+probe_type = "esp-jtag"
+chip = "esp32c6"
+protocol = "jtag"
+tool = "probe-rs"
+tool_version = "0.32.0"
+verified = false

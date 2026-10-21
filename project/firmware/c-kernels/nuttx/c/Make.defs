@@ -1,0 +1,6 @@
+#
+# firmware/nuttx/c/Make.defs
+#
+ifneq ($(CONFIG_EXAMPLES_RTOS_BENCH),)
+CONFIGURED_APPS += $(TOPDIR)/firmware/nuttx/c
+endif

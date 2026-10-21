@@ -1,0 +1,9 @@
+/* Reserve EGU0 for the case-10 software-asserted trigger. The nRF52840 dtsi
+ * enables egu0/swi0 by default (IRQ 20); disabling it keeps any SWI/EGU driver
+ * from binding and claiming IRQ 20, so port.c can force-pend that NVIC line
+ * directly (the same pattern the STM32F4 port uses for a spare IRQ). The EGU
+ * peripheral itself is not configured: NVIC_SetPendingIRQ triggers the handler.
+ */
+&egu0 {
+	status = "disabled";
+};

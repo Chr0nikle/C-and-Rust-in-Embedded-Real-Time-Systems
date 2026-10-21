@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-h723-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 100432,
+        "data": 980,
+        "flash": 106400,
+        "image": "nuttx",
+        "ram": 101412,
+        "rodata": 8,
+        "text": 105412
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

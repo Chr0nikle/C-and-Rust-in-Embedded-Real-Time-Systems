@@ -1,0 +1,260 @@
+{
+  "schema": "uastw-inventory-layers-v2",
+  "default": "unclassified",
+  "rules": [
+    {
+      "scope": "*",
+      "path_prefix": ".local/",
+      "layer": "external_component",
+      "rationale": "third-party source staged outside the project tree"
+    },
+    {
+      "scope": "*",
+      "path_prefix": "firmware/rust-kernels/freertos-in-rust/rust/vendor/",
+      "layer": "external_component",
+      "rationale": "vendored FreeRTOS-in-Rust dependency, not project-written code"
+    },
+    {
+      "scope": ["c-benchmark", "c-support"],
+      "path_prefix": "firmware/common/c/",
+      "layer": "shared_infrastructure",
+      "rationale": "shared C runner, arena and protocol headers"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/common/rust/",
+      "layer": "shared_infrastructure",
+      "rationale": "shared Rust runner and arena implementation"
+    },
+    {
+      "scope": ["c-benchmark", "c-support"],
+      "path_prefix": "firmware/c-kernels/",
+      "basename": "bench.h",
+      "layer": "shared_infrastructure",
+      "rationale": "shared benchmark protocol declarations"
+    },
+    {
+      "scope": ["c-benchmark", "c-support"],
+      "path_prefix": "firmware/c-kernels/",
+      "basename": "FreeRTOSConfig.h",
+      "layer": "shared_infrastructure",
+      "rationale": "project FreeRTOS configuration shared by the C and Rust paths"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+      "layer": "rust_ffi_boundary",
+      "rationale": "FreeRTOS Rust adapter, foreign declarations and raw-pointer boundary"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/nuttx/rust/src/boundary.rs",
+      "layer": "rust_ffi_boundary",
+      "rationale": "NuttX Rust adapter, foreign declarations and raw-pointer boundary"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/zephyr/rust/src/boundary.rs",
+      "layer": "rust_ffi_boundary",
+      "rationale": "Zephyr Rust adapter, foreign declarations and raw-pointer boundary"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/freertos/rust/src/lib.rs",
+      "layer": "benchmark_application",
+      "rationale": "FreeRTOS Rust benchmark application"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/nuttx/rust/src/lib.rs",
+      "layer": "benchmark_application",
+      "rationale": "NuttX Rust benchmark application"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/c-kernels/zephyr/rust/src/lib.rs",
+      "layer": "benchmark_application",
+      "rationale": "Zephyr Rust benchmark application"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/main/main.c",
+      "layer": "benchmark_application",
+      "rationale": "ESP32-C6 FreeRTOS C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32f4/src/main.c",
+      "layer": "benchmark_application",
+      "rationale": "STM32F4 FreeRTOS C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32h723/src/main.c",
+      "layer": "benchmark_application",
+      "rationale": "STM32H723 FreeRTOS C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/nrf52840dk/src/main.c",
+      "layer": "benchmark_application",
+      "rationale": "nRF52840 FreeRTOS C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/nuttx/c/main.c",
+      "layer": "benchmark_application",
+      "rationale": "NuttX C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/esp32c6/main.c",
+      "layer": "benchmark_application",
+      "rationale": "ESP32-C6 Zephyr C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/stm32f4/main.c",
+      "layer": "benchmark_application",
+      "rationale": "STM32F4 Zephyr C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/stm32h723/main.c",
+      "layer": "benchmark_application",
+      "rationale": "STM32H723 Zephyr C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/nrf52840dk/main.c",
+      "layer": "benchmark_application",
+      "rationale": "nRF52840 Zephyr C benchmark session"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/main/bench.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "ESP32-C6 FreeRTOS C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32F4 FreeRTOS C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32h723/src/bench.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32H723 FreeRTOS C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/nrf52840dk/src/bench.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "nRF52840 FreeRTOS C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/nrf52840dk/src/nrf_uart.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "nRF52840 board UART integration"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/nrf52840dk/src/startup_nrf52840.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "nRF52840 board interrupt/startup integration"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32F4 C benchmark interrupt integration"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/freertos/c/stm32h723/src/stm32h7xx_it.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32H723 C benchmark interrupt integration"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/nuttx/c/port.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "NuttX C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/nuttx/c/isr.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "NuttX C benchmark interrupt integration"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/esp32c6/port.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "ESP32-C6 Zephyr C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/stm32f4/port.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32F4 Zephyr C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/stm32h723/port.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "STM32H723 Zephyr C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-benchmark",
+      "path_prefix": "firmware/c-kernels/zephyr/c/nrf52840dk/port.c",
+      "layer": "c_benchmark_rtos_adapter",
+      "rationale": "nRF52840 Zephyr C benchmark adapter and port functions"
+    },
+    {
+      "scope": "c-support",
+      "path_prefix": "firmware/c-kernels/freertos/c/",
+      "layer": "c_support_linked_with_rust",
+      "rationale": "FreeRTOS C bridge, session and board support compiled into the Rust firmware"
+    },
+    {
+      "scope": "c-support",
+      "path_prefix": "firmware/c-kernels/nuttx/c/",
+      "layer": "c_support_linked_with_rust",
+      "rationale": "NuttX C bridge, session and interrupt support compiled into the Rust firmware"
+    },
+    {
+      "scope": "c-support",
+      "path_prefix": "firmware/c-kernels/zephyr/c/",
+      "layer": "c_support_linked_with_rust",
+      "rationale": "Zephyr C bridge, session and board support compiled into the Rust firmware"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/rust-kernels/freertos-in-rust/rust/src/arena.rs",
+      "layer": "shared_infrastructure",
+      "rationale": "portable arena implementation shared with the other benchmark paths"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/rust-kernels/freertos-in-rust/rust/src/",
+      "layer": "rust_native_application",
+      "rationale": "FreeRTOS-in-Rust benchmark application and Rust-native kernel integration"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/rust-kernels/rivet/rust/stm32f4/src/arena.rs",
+      "layer": "shared_infrastructure",
+      "rationale": "portable arena implementation shared with the other benchmark paths"
+    },
+    {
+      "scope": "rust",
+      "path_prefix": "firmware/rust-kernels/rivet/rust/stm32f4/src/",
+      "layer": "rust_native_application",
+      "rationale": "Rivet benchmark application, board support and cooperative-tier integration"
+    }
+  ]
+}

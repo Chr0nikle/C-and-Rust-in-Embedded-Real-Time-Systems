@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    "freertos-in-rust-stm32h723"
+  ],
+  "description": "FreeRTOS-in-Rust, STM32H723",
+  "files": [
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/src/arena.rs",
+      "sha256": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db"
+    },
+    {
+      "path": "firmware/rust-kernels/freertos-in-rust/rust/src/main.rs",
+      "sha256": "4e5e6dedd4b75a55b044168958324da7e105c4c77e80333b4c72e631c10e6771"
+    }
+  ],
+  "profile": "native-freertos-in-rust-stm32h723",
+  "rust_features": [
+    "stm32h723"
+  ],
+  "schema": "uastw-profile-inventory-sources-v1",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+}

@@ -1,0 +1,17 @@
+{
+  "build_id": "freertos-stm32f4-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 179896,
+        "data": 32,
+        "flash": 51124,
+        "image": "freertos-stm32f4-bench.elf",
+        "ram": 179928,
+        "rodata": 8076,
+        "text": 43016
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

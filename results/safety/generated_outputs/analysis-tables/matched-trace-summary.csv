@@ -1,0 +1,13 @@
+configuration,rtos,board,implemented_cases,comparable,common_only,partial,c_call_sites,rust_call_sites,rust_wrapper_memberships,c_bridge_memberships,distinct_rtos_targets,matched_rtos_targets,check_occurrences,unsafe_context_call_occurrences,ffi_symbols,callback_registrations
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,22,21,1,0,431,296,222,111,37,123,463,213,75,24
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,24,23,1,0,439,326,246,104,19,102,435,237,75,24
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,26,25,1,0,447,343,272,123,21,123,490,250,75,30
+freertos-stm32h723-all,FreeRTOS,STM32H723,26,25,1,0,447,343,272,123,24,138,490,250,75,30
+nuttx-esp32c6-all,NuttX,ESP32-C6,23,22,1,0,562,408,416,157,39,177,513,227,73,24
+nuttx-nrf52840-all,NuttX,nRF52840 DK,23,22,1,0,548,408,416,151,41,184,482,227,73,24
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,23,22,1,0,553,408,416,134,43,193,484,227,73,24
+nuttx-stm32h723-all,NuttX,STM32H723,23,22,1,0,553,408,416,134,43,193,484,227,73,24
+zephyr-esp32c6-all,Zephyr,ESP32-C6,23,22,1,0,380,364,317,96,28,115,344,190,63,26
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,23,22,1,0,418,364,317,114,26,99,320,190,63,26
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,23,22,1,0,416,364,317,113,27,118,322,190,63,26
+zephyr-stm32h723-all,Zephyr,STM32H723,23,22,1,0,428,364,317,118,27,121,322,190,63,26

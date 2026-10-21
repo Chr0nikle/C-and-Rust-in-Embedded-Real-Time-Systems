@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-h723-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 226714,
+        "data": 196,
+        "flash": 61384,
+        "image": "zephyr.elf",
+        "ram": 226910,
+        "rodata": 9644,
+        "text": 51544
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

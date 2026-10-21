@@ -1,0 +1,39 @@
+# Board identity template; no detected hardware or flash readiness is claimed.
+schema_version = 1
+id = "stm32f4discovery"
+mcu = "STM32F407"
+architecture = "arm-cortex-m4"
+revision = "unverified"
+carrier = "STM32F4 Discovery"
+# Confirmed via st-flash: STM32F4x5/F4x7, 192 KiB SRAM, 1024 KiB flash.
+# ST-LINK/V2 (USB 0483:3748:52C3BF6D) present at /dev/stlinkv2_1.
+[build_targets]
+zephyr = "stm32f4_disco"
+nuttx = "stm32f4discovery:nsh"
+[serial]
+# No-RTOS USART2 TX heartbeat captured through external CP2102.
+# ST-Link serial re-read as 52C3BF6D (Cortex-M4 CPUID 0x410FC241
+# via probe-rs; the previous 52FF6D064972514932491887 no longer enumerates).
+# Exact board revision and UART RX direction remain unverified.
+transport = "usb-uart-cp2102"
+baud = 115200
+framing = "8N1"
+# Both STM32 boards use identical CP2102 adapters (serial 0001),
+# so the by-id name is ambiguous. The Discovery adapter is on physical USB path
+# 1.4.4.3; the H723 adapter is on 1.4.3. Use the distinct by-path names.
+port_selector = "/dev/serial/by-path/pci-0000:0c:00.0-usb-0:1.4.4.3:1.0-port0"
+pins = "USART2: PA2(TX)=P1 pin 14, PA3(RX)=P1 pin 13; ST-Link VCP U2 pin 12/13 unwired"
+verified = true # bidirectional RTOS benchmark handshake and runs completed
+# Do NOT reuse /dev/ttyACM0 — that is the ESP32C6 USB-Serial-JTAG (303a:1001).
+[debug]
+# probe-rs 0.32.0 verified on this board: halt, info reg,
+# info frame, info locals, bt yaml, break *ADDR, c (continue).
+# ST-LINK/V2 is the debug probe; USB serial (CP2102) is a separate channel.
+probe = "0483:3748"
+probe_serial = "52C3BF6D"
+probe_type = "stlink-v2"
+chip = "STM32F407VGTx"
+protocol = "swd"
+tool = "probe-rs"
+tool_version = "0.32.0"
+verified = true

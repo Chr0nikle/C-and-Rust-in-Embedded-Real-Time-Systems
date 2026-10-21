@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "zephyr-stm32f4-c-benchmark",
+    "zephyr-stm32f4-c-support-rust",
+    "zephyr-stm32f4-rust"
+  ],
+  "description": "All 23 implemented Zephyr STM32F4 C/Rust thesis cases",
+  "function_rows": 630,
+  "kernel_call_rows": 313,
+  "operation_rows": 3054,
+  "parse_failures": {
+    "zephyr-stm32f4-c-benchmark": 0,
+    "zephyr-stm32f4-c-support-rust": 0,
+    "zephyr-stm32f4-rust": 0
+  },
+  "profile": "zephyr-stm32f4-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 136
+}

@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "zephyr-stm32h723-c-benchmark",
+    "zephyr-stm32h723-c-support-rust",
+    "zephyr-stm32h723-rust"
+  ],
+  "description": "All 23 implemented Zephyr STM32F4 C/Rust thesis cases",
+  "function_rows": 626,
+  "kernel_call_rows": 313,
+  "operation_rows": 3100,
+  "parse_failures": {
+    "zephyr-stm32h723-c-benchmark": 0,
+    "zephyr-stm32h723-c-support-rust": 0,
+    "zephyr-stm32h723-rust": 0
+  },
+  "profile": "zephyr-stm32h723-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 136
+}

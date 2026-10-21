@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-h723-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 161710,
+        "data": 196,
+        "flash": 44136,
+        "image": "zephyr.elf",
+        "ram": 161906,
+        "rodata": 4932,
+        "text": 39008
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

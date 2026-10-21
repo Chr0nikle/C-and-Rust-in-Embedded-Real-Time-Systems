@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "nuttx-stm32h723-c-benchmark",
+    "nuttx-stm32h723-c-support-rust",
+    "nuttx-stm32h723-rust"
+  ],
+  "description": "All 23 implemented NuttX STM32F4 C/Rust thesis cases",
+  "function_rows": 668,
+  "kernel_call_rows": 342,
+  "operation_rows": 2809,
+  "parse_failures": {
+    "nuttx-stm32h723-c-benchmark": 4,
+    "nuttx-stm32h723-c-support-rust": 3,
+    "nuttx-stm32h723-rust": 0
+  },
+  "profile": "nuttx-stm32h723-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 142
+}

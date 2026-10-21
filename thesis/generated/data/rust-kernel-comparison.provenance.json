@@ -1,0 +1,219 @@
+{
+  "bars": [
+    {
+      "benchmark": "Task handoff (6)",
+      "board": "stm32f4",
+      "case": 6,
+      "kernel": "FreeRTOS (C application)",
+      "median": 5.404761904761905,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/bench",
+      "protocol_case": 2,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Task handoff (6)",
+      "board": "stm32f4",
+      "case": 6,
+      "kernel": "FreeRTOS (Rust application)",
+      "median": 5.464285714285714,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/rust",
+      "protocol_case": 2,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Task handoff (6)",
+      "board": "stm32f4",
+      "case": 6,
+      "kernel": "FreeRTOS-in-Rust",
+      "median": 12.571428571428571,
+      "panel": "STM32F4",
+      "path": "freertos-in-rust/stm32f4/rust",
+      "protocol_case": 2,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Task handoff (6)",
+      "board": "stm32f4",
+      "case": 6,
+      "kernel": "Rivet",
+      "median": 15.494047619047619,
+      "panel": "STM32F4",
+      "path": "rivet/stm32f4/rust",
+      "protocol_case": 2,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Preemption (8)",
+      "board": "stm32f4",
+      "case": 8,
+      "kernel": "FreeRTOS (C application)",
+      "median": 5.142857142857143,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/bench",
+      "protocol_case": 6,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Preemption (8)",
+      "board": "stm32f4",
+      "case": 8,
+      "kernel": "FreeRTOS (Rust application)",
+      "median": 5.119047619047619,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/rust",
+      "protocol_case": 6,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Preemption (8)",
+      "board": "stm32f4",
+      "case": 8,
+      "kernel": "FreeRTOS-in-Rust",
+      "median": 3.0833333333333335,
+      "panel": "STM32F4",
+      "path": "freertos-in-rust/stm32f4/rust",
+      "protocol_case": 6,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Preemption (8)",
+      "board": "stm32f4",
+      "case": 8,
+      "kernel": "Rivet",
+      "median": 1.7142857142857142,
+      "panel": "STM32F4",
+      "path": "rivet/stm32f4/rust",
+      "protocol_case": 6,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Notification latency (11)",
+      "board": "stm32f4",
+      "case": 11,
+      "kernel": "FreeRTOS (C application)",
+      "median": 3.6666666666666665,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/bench",
+      "protocol_case": 17,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Notification latency (11)",
+      "board": "stm32f4",
+      "case": 11,
+      "kernel": "FreeRTOS (Rust application)",
+      "median": 3.7738095238095237,
+      "panel": "STM32F4",
+      "path": "freertos/stm32f4/rust",
+      "protocol_case": 17,
+      "source_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Notification latency (11)",
+      "board": "stm32f4",
+      "case": 11,
+      "kernel": "FreeRTOS-in-Rust",
+      "median": 12.30952380952381,
+      "panel": "STM32F4",
+      "path": "freertos-in-rust/stm32f4/rust",
+      "protocol_case": 17,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    },
+    {
+      "benchmark": "Notification latency (11)",
+      "board": "stm32f4",
+      "case": 11,
+      "kernel": "Rivet",
+      "median": 12.19047619047619,
+      "panel": "STM32F4",
+      "path": "rivet/stm32f4/rust",
+      "protocol_case": 17,
+      "source_bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "unit": "us",
+      "variant": 0
+    }
+  ],
+  "campaign_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+  "campaign_bundle_sha256": "2cccea4afaa350a46f9571674b0e4b4a340c211400cc9626016142dde1d761b0",
+  "cases": [
+    {
+      "label": "Task handoff (6)",
+      "protocol_case": 2,
+      "thesis_case": 6
+    },
+    {
+      "label": "Preemption (8)",
+      "protocol_case": 6,
+      "thesis_case": 8
+    },
+    {
+      "label": "Notification latency (11)",
+      "protocol_case": 17,
+      "thesis_case": 11
+    }
+  ],
+  "excluded_measurements": [],
+  "figure": "thesis/generated/figures/rust-kernel-comparison.svg",
+  "generated_by": "analysis/benchmark/rust_kernel.py",
+  "generated_utc": "2026-10-21T11:31:44.896187+00:00",
+  "measurement": "pooled-sample median, microseconds",
+  "panels": [
+    {
+      "board": "stm32f4",
+      "kernels": [
+        "FreeRTOS (C application)",
+        "FreeRTOS (Rust application)",
+        "FreeRTOS-in-Rust",
+        "Rivet"
+      ],
+      "title": "STM32F4"
+    }
+  ],
+  "source_statistics": "thesis/generated/data/replication-stats.json",
+  "source_statistics_sha256": "cb9168292ab87ebe3704d9c28f0dce0965fe5ee6e368c23f3e075837293052bc",
+  "supplementary_bundles": [
+    {
+      "bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "bundle_sha256": "9ca150d7d888257b8e949d6758e56004c4c5d7635fad205a7669066e00b573e2",
+      "paths": [
+        "freertos-in-rust/stm32f4/rust",
+        "freertos-in-rust/stm32h723/rust",
+        "rivet/stm32f4/rust"
+      ],
+      "preserved_derived": "thesis/generated/data/replication-stats.json",
+      "reason": "retained because the newest campaign does not include these Rust-native paths",
+      "status": "missing"
+    }
+  ],
+  "unavailable": [],
+  "units": [
+    "us"
+  ],
+  "variants": [
+    0
+  ]
+}

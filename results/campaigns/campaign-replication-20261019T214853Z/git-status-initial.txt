@@ -1,0 +1,66 @@
+ M docs/research/uastw-thesis/analysis/generated/all-results.typ
+ M docs/research/uastw-thesis/analysis/generated/campaign-memory.typ
+ M docs/research/uastw-thesis/analysis/generated/campaign-provenance.json
+ M docs/research/uastw-thesis/analysis/generated/campaign-static.typ
+ M docs/research/uastw-thesis/analysis/generated/complexity.json
+ M docs/research/uastw-thesis/analysis/generated/complexity.typ
+ M docs/research/uastw-thesis/analysis/generated/fig-agreement.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-fir.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-integration.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-kernel-maintainability.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-maintainability.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-performance.svg
+ M docs/research/uastw-thesis/analysis/generated/fig-safety.svg
+ M docs/research/uastw-thesis/analysis/generated/integration-surface.json
+ M docs/research/uastw-thesis/analysis/generated/integration-surface.typ
+ M docs/research/uastw-thesis/analysis/generated/replication-stats.json
+ M docs/research/uastw-thesis/analysis/generated/runner-comparison.json
+ M docs/research/uastw-thesis/analysis/generated/runner-comparison.typ
+ M docs/research/uastw-thesis/analysis/generated/safety-boundary.typ
+ M docs/research/uastw-thesis/analysis/generated/unchecked-ops.json
+ M docs/research/uastw-thesis/analysis/generated/unchecked-ops.typ
+ D docs/research/uastw-thesis/procedure.png
+ M docs/research/uastw-thesis/sections/background.typ
+ M docs/research/uastw-thesis/sections/introduction.typ
+ M docs/research/uastw-thesis/sections/methodology.typ
+ M docs/research/uastw-thesis/sections/results.typ
+ M docs/research/uastw-thesis/sections/state-of-the-art.typ
+ M docs/research/uastw-thesis/thesis.pdf
+ M docs/research/uastw-thesis/thesis.typ
+ M firmware/Cargo.toml
+ M firmware/c-kernels/freertos/c/main/CMakeLists.txt
+ M firmware/c-kernels/nuttx/c/CMakeLists.txt
+ M firmware/c-kernels/zephyr/c/esp32c6/CMakeLists.txt
+ M firmware/c-kernels/zephyr/c/nrf52840dk/CMakeLists.txt
+ M firmware/c-kernels/zephyr/c/stm32f4/CMakeLists.txt
+ M firmware/c-kernels/zephyr/c/stm32h723/CMakeLists.txt
+ M scripts/analysis/full_campaign.py
+?? benchmarks/archive/
+?? docs/research/uastw-thesis/analysis/codeql-feasibility.md
+?? docs/research/uastw-thesis/analysis/ffi-contract-audit.md
+?? docs/research/uastw-thesis/analysis/ffi-contract-audit/
+?? docs/research/uastw-thesis/analysis/ffi-contract-validation.md
+?? docs/research/uastw-thesis/analysis/ffi-safety-feasibility.md
+?? docs/research/uastw-thesis/analysis/matched-safety-comparison.md
+?? docs/research/uastw-thesis/analysis/matched-safety-validation.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-feasibility.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-full-analysis.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-pilot-corrections.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-pilot-d04-correction.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-pilot-final-validation.md
+?? docs/research/uastw-thesis/analysis/safety-cross-rtos-pilot-validation.md
+?? docs/research/uastw-thesis/analysis/safety-inventory-final-validation.md
+?? docs/research/uastw-thesis/analysis/safety-inventory-regression-validation.md
+?? docs/research/uastw-thesis/analysis/safety-inventory-validation.md
+?? docs/research/uastw-thesis/analysis/safety-maintainability-audit.md
+?? docs/research/uastw-thesis/analysis/safety-matched-api-final-validation.md
+?? docs/research/uastw-thesis/analysis/safety-matched-api-phase-a-validation.md
+?? docs/research/uastw-thesis/analysis/safety-matched-api-phase-b-validation.md
+?? docs/research/uastw-thesis/analysis/safety-matched-api-validation.md
+?? docs/research/uastw-thesis/analysis/safety-validation.md
+?? docs/research/uastw-thesis/analysis/safety/
+?? docs/research/uastw-thesis/figures/procedure.mmd
+?? docs/research/uastw-thesis/figures/procedure.png
+?? docs/research/uastw-thesis/figures/procedure.svg
+?? docs/research/uastw-thesis/sections/benchmark-results.typ
+?? docs/research/uastw-thesis/sections/benchmark-specification.typ

@@ -1,0 +1,13 @@
+flowchart LR
+    A["Benchmark measurements"]
+    A --> F["FreeRTOS"]
+    A --> N["NuttX"]
+    A --> Z["Zephyr"]
+    F --> FC["Four boards: C / Rust"]
+    N --> NC["Four boards: C / Rust"]
+    Z --> ZC["Four boards: C / Rust"]
+    FC --> R["Matched median ratios: Rust / C"]
+    NC --> R
+    ZC --> R
+    R --> O["Benchmark × RTOS / board overview"]
+    R --> T["Median and p99 comparisons"]

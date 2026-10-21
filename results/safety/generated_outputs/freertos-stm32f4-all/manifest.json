@@ -1,0 +1,135 @@
+{
+  "notes": [
+    "Canonical rows and JSON keys are sorted; timestamps are omitted."
+  ],
+  "outputs": [
+    {
+      "bytes": 26896,
+      "path": "benchmark-roots.csv",
+      "sha256": "53269d09683b3d9c30edf5225df3dde772bd6493f72c2a438c9afd947c28bba2"
+    },
+    {
+      "bytes": 20475,
+      "path": "c-bridge-definitions.csv",
+      "sha256": "986a7746c5743e1237f7d5579ffeeb99d7fded1eb0b4b3e9f48f2c6fc65afa08"
+    },
+    {
+      "bytes": 315773,
+      "path": "call-arguments.csv",
+      "sha256": "45006f481eebb5940002d2e20f9c5893ffa7333df5802188fdd39be612f086bd"
+    },
+    {
+      "bytes": 372333,
+      "path": "call-edges.csv",
+      "sha256": "ce1badfac8f3023c00ca32bb9ae68d432ead3cc137a220b61d2b458e26b778f4"
+    },
+    {
+      "bytes": 318901,
+      "path": "call-sites.csv",
+      "sha256": "f0620b33e55d453821009a21f772e7baee0480f91642d079c4c76a43654bb666"
+    },
+    {
+      "bytes": 12048,
+      "path": "callback-registrations.csv",
+      "sha256": "6afb9e7d2a3f75565720a35999b55fb819dcde86a5c8f43bb17e9f6dfacfcda3"
+    },
+    {
+      "bytes": 2848,
+      "path": "case-availability.csv",
+      "sha256": "6b7b6cb1a6022724abdf3d9000c8229e96546afe7bb4ed2dc0b6b32f58c74ae5"
+    },
+    {
+      "bytes": 8816,
+      "path": "case-comparison.csv",
+      "sha256": "eaa9831df4179967f627666924c99aa0deb28d9ef6e2aa463992d6e8bb5218c6"
+    },
+    {
+      "bytes": 6996,
+      "path": "case-coverage.csv",
+      "sha256": "7895225672599d1414ec00abfa5408244754dea3cb613e98dd115c2dd9470afe"
+    },
+    {
+      "bytes": 232515,
+      "path": "case-memberships.csv",
+      "sha256": "1d54af0a311c787343bf73dbfa8d9f4be590d3d5faa0e3fa67ac8b6239faaf5a"
+    },
+    {
+      "bytes": 335629,
+      "path": "checks.csv",
+      "sha256": "a0080044766db42f40eb0c79c1425eaa8251d1544b7527c43052d74f07b29813"
+    },
+    {
+      "bytes": 4229,
+      "path": "coverage.json",
+      "sha256": "e5b8448a98c4c87db3463c95e06c5408c22b2622162e90268177922f5f9f1eed"
+    },
+    {
+      "bytes": 37121,
+      "path": "exposure-comparison.csv",
+      "sha256": "e06cc87a78a2da3c3a192c3bcccb389a3be4a1c8ff6e6bf83810e28075d5b2f2"
+    },
+    {
+      "bytes": 22566,
+      "path": "exposure-summary.csv",
+      "sha256": "7e3a6b51318e26dff900c5b48152ff969f5475e97f0e5bd24e11139df6bd50df"
+    },
+    {
+      "bytes": 37462,
+      "path": "ffi-symbols.csv",
+      "sha256": "784d239d15ca1b529237a9d5d4eec1403004be0d034b6209d95a06bbcb8a8b2c"
+    },
+    {
+      "bytes": 457482,
+      "path": "function-signatures.csv",
+      "sha256": "2e320e850a62b81c9d4e3504d17a6ef2db7379cd017183e2dc50adc28fb83f35"
+    },
+    {
+      "bytes": 7608,
+      "path": "macro-sites.csv",
+      "sha256": "716af3b414f8f26ceebaecbd2bb25bbd46a36a6bd81ac43046a39f77956699ba"
+    },
+    {
+      "bytes": 55415,
+      "path": "matched-operations.csv",
+      "sha256": "f1649a0fa331b7f37d377a65f4bf707e930443ab669cdaf9f818f18ce0d50370"
+    },
+    {
+      "bytes": 2915,
+      "path": "path-coverage.csv",
+      "sha256": "3fd0cea6db261dbff0fc4a73f2a5cc1b06945785316b7ce0f50fb85d64334fa8"
+    },
+    {
+      "bytes": 41603,
+      "path": "rtos-target-relationships.csv",
+      "sha256": "504800f816e174f9d4c8924b4a4889de8a5cebed67ae07189730e05ab0a2d1c7"
+    },
+    {
+      "bytes": 232,
+      "path": "semantic-limitations.csv",
+      "sha256": "179e635302b7d5070cef3f7ed4e99da24e4f1f6bcac49fd5b8f76882d75a454f"
+    },
+    {
+      "bytes": 7348,
+      "path": "sources.json",
+      "sha256": "a4256fc02faf2a9178bd4289cfa0414de950572bb55521de52badbe828da5e7f"
+    },
+    {
+      "bytes": 378958,
+      "path": "summary.json",
+      "sha256": "dd64aed793a62bf153597e89c96e8c40fb1d7ecc4c3dc9b86254c2c06769fcf2"
+    },
+    {
+      "bytes": 103,
+      "path": "target-aliases.csv",
+      "sha256": "870bde85f608b941f308c730b755bd0181f012e15dd77f67a42af7b642bc7fd1"
+    },
+    {
+      "bytes": 1294,
+      "path": "validation.json",
+      "sha256": "7c47981c8c4861da7fed61abfd927bff8dc26def845c88c97311b25bddc71b41"
+    }
+  ],
+  "schema": "uastw-matched-api-manifest-v3",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e",
+  "version": "3.0.1"
+}

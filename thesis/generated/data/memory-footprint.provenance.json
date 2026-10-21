@@ -1,0 +1,175 @@
+{
+  "campaign_bundle": "results/campaigns/campaign-replication-20261019T214853Z",
+  "campaign_bundle_sha256": "2cccea4afaa350a46f9571674b0e4b4a340c211400cc9626016142dde1d761b0",
+  "definitions": {
+    "difference": "matched Rust minus matched C for the same RTOS and board",
+    "flash": "ELF section-based static flash, sum of all images in the run record, KiB; excludes bootloaders and partition tables",
+    "ram": "ELF section-based static RAM, sum of all images in the run record, KiB; linked static RAM, not runtime heap or stack"
+  },
+  "differences": [
+    {
+      "board": "stm32f4",
+      "c_flash_kib": 41.5,
+      "c_ram_kib": 176.1,
+      "flash_difference_kib": 8.5,
+      "ram_difference_kib": -0.4,
+      "rtos": "freertos",
+      "rust_flash_kib": 50.0,
+      "rust_ram_kib": 175.7
+    },
+    {
+      "board": "stm32h723",
+      "c_flash_kib": 46.1,
+      "c_ram_kib": 175.2,
+      "flash_difference_kib": 7.4,
+      "ram_difference_kib": -0.4,
+      "rtos": "freertos",
+      "rust_flash_kib": 53.5,
+      "rust_ram_kib": 174.8
+    },
+    {
+      "board": "esp32c6",
+      "c_flash_kib": 195.1,
+      "c_ram_kib": 174.4,
+      "flash_difference_kib": 8.2,
+      "ram_difference_kib": 31.9,
+      "rtos": "freertos",
+      "rust_flash_kib": 203.3,
+      "rust_ram_kib": 206.3
+    },
+    {
+      "board": "nrf52840dk",
+      "c_flash_kib": 37.2,
+      "c_ram_kib": 173.6,
+      "flash_difference_kib": 7.8,
+      "ram_difference_kib": -0.4,
+      "rtos": "freertos",
+      "rust_flash_kib": 45.0,
+      "rust_ram_kib": 173.2
+    },
+    {
+      "board": "stm32f4",
+      "c_flash_kib": 112.5,
+      "c_ram_kib": 96.2,
+      "flash_difference_kib": 18.4,
+      "ram_difference_kib": 1.6,
+      "rtos": "nuttx",
+      "rust_flash_kib": 130.9,
+      "rust_ram_kib": 97.8
+    },
+    {
+      "board": "stm32h723",
+      "c_flash_kib": 101.7,
+      "c_ram_kib": 99.0,
+      "flash_difference_kib": 17.9,
+      "ram_difference_kib": 1.6,
+      "rtos": "nuttx",
+      "rust_flash_kib": 119.6,
+      "rust_ram_kib": 100.6
+    },
+    {
+      "board": "esp32c6",
+      "c_flash_kib": 177.0,
+      "c_ram_kib": 311.8,
+      "flash_difference_kib": 42.8,
+      "ram_difference_kib": 94.5,
+      "rtos": "nuttx",
+      "rust_flash_kib": 219.8,
+      "rust_ram_kib": 406.3
+    },
+    {
+      "board": "nrf52840dk",
+      "c_flash_kib": 113.0,
+      "c_ram_kib": 94.5,
+      "flash_difference_kib": 18.4,
+      "ram_difference_kib": 1.5,
+      "rtos": "nuttx",
+      "rust_flash_kib": 131.4,
+      "rust_ram_kib": 96.0
+    },
+    {
+      "board": "stm32f4",
+      "c_flash_kib": 39.1,
+      "c_ram_kib": 126.0,
+      "flash_difference_kib": 12.5,
+      "ram_difference_kib": 0.5,
+      "rtos": "zephyr",
+      "rust_flash_kib": 51.6,
+      "rust_ram_kib": 126.5
+    },
+    {
+      "board": "stm32h723",
+      "c_flash_kib": 41.1,
+      "c_ram_kib": 158.1,
+      "flash_difference_kib": 18.8,
+      "ram_difference_kib": 63.5,
+      "rtos": "zephyr",
+      "rust_flash_kib": 59.9,
+      "rust_ram_kib": 221.6
+    },
+    {
+      "board": "esp32c6",
+      "c_flash_kib": 76.2,
+      "c_ram_kib": 250.2,
+      "flash_difference_kib": 42.7,
+      "ram_difference_kib": 69.0,
+      "rtos": "zephyr",
+      "rust_flash_kib": 118.9,
+      "rust_ram_kib": 319.2
+    },
+    {
+      "board": "nrf52840dk",
+      "c_flash_kib": 41.9,
+      "c_ram_kib": 158.1,
+      "flash_difference_kib": 18.7,
+      "ram_difference_kib": 63.5,
+      "rtos": "zephyr",
+      "rust_flash_kib": 60.6,
+      "rust_ram_kib": 221.6
+    }
+  ],
+  "excluded": [
+    {
+      "board": "stm32f4",
+      "reason": "no matched C application on the same kernel",
+      "rtos": "freertos-in-rust"
+    },
+    {
+      "board": "stm32h723",
+      "reason": "no matched C application on the same kernel",
+      "rtos": "freertos-in-rust"
+    },
+    {
+      "board": "stm32f4",
+      "reason": "no matched C application on the same kernel",
+      "rtos": "rivet"
+    }
+  ],
+  "figure": "thesis/generated/figures/memory-footprint.svg",
+  "generated_by": "analysis/benchmark/memory.py",
+  "generated_utc": "2026-10-21T14:25:35.324633+00:00",
+  "matched_configurations": 12,
+  "source_table": "thesis/generated/typ/campaign-static.typ",
+  "source_table_sha256": "4589fff23fe8a233ab996f0c0c3f633b7c39397dc49d64ae97381a84278cface",
+  "supplementary_bundles": [
+    {
+      "bundle": "results/campaigns/campaign-replication-20261014T075134Z",
+      "bundle_sha256": "9ca150d7d888257b8e949d6758e56004c4c5d7635fad205a7669066e00b573e2",
+      "paths": [
+        "freertos-in-rust/stm32f4/rust",
+        "freertos-in-rust/stm32h723/rust",
+        "rivet/stm32f4/rust"
+      ],
+      "preserved_derived": "thesis/generated/data/replication-stats.json",
+      "reason": "retained because the newest campaign does not include these Rust-native paths",
+      "status": "missing"
+    }
+  ],
+  "table_rows_parsed": 27,
+  "validation": {
+    "all_values_from_table": true,
+    "matched_pairs": 12,
+    "no_unavailable_as_zero": true,
+    "plotted_bars": 24
+  }
+}

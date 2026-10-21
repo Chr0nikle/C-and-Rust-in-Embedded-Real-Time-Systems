@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.a
+*.o
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  - https://pyinstaller.readthedocs.io/en/latest/feature-notes.html#disabled-module-collector
+*.dylib
+*.dylib.*
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.egg-info
+
+# Git
+.git/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Rust build artifacts
+target/
+host/target/
+
+# RTEMS classic application build directory (firmware/rtems/c/*/o-optimize)
+o-optimize/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# RTOS study specific
+logs/
+*.log
+# Research logs are evidence, not disposable application logs.
+!results/**/logs/
+!results/**/*.log
+
+# Local scratch: full command transcripts, SDK trees and build caches.
+/project/.local/
+
+# Large build/SDK trees that should never be committed. Anchor these to the
+# project root so the `esp-idf/` rule does not also hide plugins/esp-idf
+# (a workspace member): the SDK lives under .local/sdk/esp-idf.
+/project/esp-idf/
+/project/esp32_build/
+esp32_test_project/
+
+# ESP-IDF build artifacts — the generic `build/` rule above already excludes
+# firmware/freertos/c/build/. The final flashable image is recorded in
+# BUILD_SUMMARY.md (sha256 + size); regenerate with idf.py build.
+
+# Scratch plugin build dirs accidentally written under results/
+results/build-*/
+
+# Transient probe-rs flash snapshots under results/ (multi-MB raw firmware
+# images). The flash manifest is passed through the journal; these are never
+# tracked. GDB sessions under results/gdb-*/ and results/gdb-server-*/ remain
+# tracked as debugging evidence.
+results/flash-*/
+
+# Per-adapter build outputs (RIOT bin/, ChibiOS .dep/) not covered by build//target/.
+project/firmware/riot/c/*/bin/
+project/firmware/chibios/c/stm32f4/.dep/
+
+# Transient full-campaign resume markers/live logs; state,
+# not evidence.
+.campaign-done/
+.campaign-live/
+
+# Exported browser cookies for authenticated fetches (never commit)
+.cookies.txt
+**/.cookies.txt
+
+# Thesis literature notes: kept locally, not tracked.
+/thesis/literature/
+

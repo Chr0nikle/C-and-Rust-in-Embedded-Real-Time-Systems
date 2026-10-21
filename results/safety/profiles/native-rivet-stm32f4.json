@@ -1,0 +1,35 @@
+{
+  "analysis_1": "operation_inventory",
+  "analysis_2": "rust_only_source_trace",
+  "board": "STM32F4 Discovery",
+  "configuration": "rivet-stm32f4",
+  "crate": "firmware/rust-kernels/rivet/rust/stm32f4",
+  "entry_roots": [
+    "main"
+  ],
+  "features": [],
+  "generator": {
+    "schema": "uastw-native-profile-generator-v1",
+    "source_guards": {
+      "firmware/rust-kernels/rivet/rust/stm32f4/src/arena.rs": "7f55ca60452fafcce883eb6ece9d1ae45703c588d7433b0fc276ac754c4e43db",
+      "firmware/rust-kernels/rivet/rust/stm32f4/src/bsp.rs": "4d169261db922337b0afb1f8e4d80664a9dae36997d092b30e32ff8da9391868",
+      "firmware/rust-kernels/rivet/rust/stm32f4/src/coop.rs": "303ca69b6b861ff584290d33dc4db8c4d01cb8685003a203bba043c58610683c",
+      "firmware/rust-kernels/rivet/rust/stm32f4/src/main.rs": "b700d21c8d8606183870d9e0d6f5d67ea66308e3d02f754af84bacf625c064a0"
+    },
+    "source_revision": "9fc56aa0",
+    "unresolved": []
+  },
+  "id": "native-rivet-stm32f4",
+  "language": "rust",
+  "matched_analysis": "not_applicable",
+  "note": "This profile does not define a C counterpart or a matched Level A/B/C comparison.",
+  "rtos": "Rivet",
+  "schema": "uastw-native-safety-profile-v1",
+  "source_files": [
+    "firmware/rust-kernels/rivet/rust/stm32f4/src/arena.rs",
+    "firmware/rust-kernels/rivet/rust/stm32f4/src/bsp.rs",
+    "firmware/rust-kernels/rivet/rust/stm32f4/src/coop.rs",
+    "firmware/rust-kernels/rivet/rust/stm32f4/src/main.rs"
+  ],
+  "target": "thumbv7em-none-eabi"
+}

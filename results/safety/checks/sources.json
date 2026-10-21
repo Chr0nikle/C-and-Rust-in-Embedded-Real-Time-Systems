@@ -1,0 +1,752 @@
+{
+  "configurations": {
+    "freertos-stm32f4-c-benchmark": {
+      "configuration": "freertos-stm32f4-c-benchmark",
+      "excluded_translation_units": [
+        ".local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F/port.c",
+        ".local/source/FreeRTOS-Kernel/portable/MemMang/heap_4.c",
+        ".local/source/FreeRTOS-Kernel/tasks.c",
+        ".local/source/FreeRTOS-Kernel/queue.c",
+        ".local/source/FreeRTOS-Kernel/list.c",
+        ".local/source/FreeRTOS-Kernel/event_groups.c",
+        ".local/source/FreeRTOS-Kernel/timers.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        ".local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c"
+      ],
+      "files": [
+        {
+          "bytes": 113006,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": false,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "d42826bcf39c782c513ae8b174a783d6dbec9e9c5f4c1fa3d896438c7705d726"
+        },
+        {
+          "bytes": 23192,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": false,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/main.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "a73ebca36304f323978ab6358383fdd23c1295b32bab47ab82a810772e38f7e2"
+        },
+        {
+          "bytes": 1928,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": false,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "2855db48241c4f331e16c88dd6d436cbf871fe6d01e631b8def53e5fdd79a7ed"
+        },
+        {
+          "bytes": 24975,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": false,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/common/c/src/runner.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+        },
+        {
+          "bytes": 15431,
+          "parsed": null,
+          "path": "firmware/common/c/include/rtos_bench.h",
+          "role": "configuration_or_header",
+          "sha256": "3f3958a1742edd6569cd1383b36ddb6e4d47ff6788d9b3b88f22dacde19f7138"
+        },
+        {
+          "bytes": 2405,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.h",
+          "role": "configuration_or_header",
+          "sha256": "6268c7de7c7a2177a8b8477e648580fe12cc1c0a3e6024467e1c1568ef630f13"
+        },
+        {
+          "bytes": 5349,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/include/FreeRTOSConfig.h",
+          "role": "configuration_or_header",
+          "sha256": "710f19f3ceeb45ef1511178d28e9ff8e766fe139860c4252afa2c6ff77d69b34"
+        },
+        {
+          "bytes": 10774,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/Makefile",
+          "role": "configuration_or_header",
+          "sha256": "2f64177d08762599be7591cf5c415ea5f51202bba8739c1ecca67760097ee17f"
+        }
+      ],
+      "language": "c",
+      "make_argv": [
+        "make",
+        "-n",
+        "-B",
+        "RUST=0",
+        "all"
+      ],
+      "make_command": "make -n -B RUST=0 all",
+      "parse_failures": [],
+      "source_count": 4,
+      "target": {
+        "clang_target": "arm-none-eabi",
+        "compiler": "arm-none-eabi-gcc",
+        "cpu": "cortex-m4",
+        "float_abi": "hard",
+        "fpu": "fpv4-sp-d16",
+        "pointer_width": 32,
+        "thumb": true
+      }
+    },
+    "freertos-stm32f4-c-support-rust": {
+      "configuration": "freertos-stm32f4-c-support-rust",
+      "excluded_translation_units": [
+        ".local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F/port.c",
+        ".local/source/FreeRTOS-Kernel/portable/MemMang/heap_4.c",
+        ".local/source/FreeRTOS-Kernel/tasks.c",
+        ".local/source/FreeRTOS-Kernel/queue.c",
+        ".local/source/FreeRTOS-Kernel/list.c",
+        ".local/source/FreeRTOS-Kernel/event_groups.c",
+        ".local/source/FreeRTOS-Kernel/timers.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        ".local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        ".local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c"
+      ],
+      "files": [
+        {
+          "bytes": 113006,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": true,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "d42826bcf39c782c513ae8b174a783d6dbec9e9c5f4c1fa3d896438c7705d726"
+        },
+        {
+          "bytes": 23192,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": true,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/main.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "a73ebca36304f323978ab6358383fdd23c1295b32bab47ab82a810772e38f7e2"
+        },
+        {
+          "bytes": 1928,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": true,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "2855db48241c4f331e16c88dd6d436cbf871fe6d01e631b8def53e5fdd79a7ed"
+        },
+        {
+          "bytes": 24975,
+          "clang_args": [
+            "-target",
+            "arm-none-eabi",
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-mfpu=fpv4-sp-d16",
+            "-mfloat-abi=hard",
+            "-O2",
+            "-fdata-sections",
+            "-ffunction-sections",
+            "-Wall",
+            "-Wextra",
+            "-Wno-unused-parameter",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/include",
+            "-I./firmware/c-kernels/freertos/c/stm32f4/src",
+            "-I./firmware/common/c/include",
+            "-I./.local/source/FreeRTOS-Kernel/include",
+            "-I./.local/source/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "-I./.local/source/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "-fno-color-diagnostics",
+            "-isystem",
+            "./.local/toolchains/arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include"
+          ],
+          "has_bench_language_rust": true,
+          "included_by_scope": true,
+          "parsed": true,
+          "path": "firmware/common/c/src/runner.c",
+          "preprocessor_definitions": [
+            "-DSTM32F407xx",
+            "-DUSE_HAL_DRIVER",
+            "-DBENCH_BUILD_ID=\"freertos-stm32f4-bench-nogit\"",
+            "-DBENCH_LANGUAGE_RUST",
+            "-DPRIO_INVERT=0",
+            "-DMAXDIS_CONTROL=0",
+            "-DNESTED_CONTROL=0"
+          ],
+          "role": "translation_unit",
+          "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+        },
+        {
+          "bytes": 15431,
+          "parsed": null,
+          "path": "firmware/common/c/include/rtos_bench.h",
+          "role": "configuration_or_header",
+          "sha256": "3f3958a1742edd6569cd1383b36ddb6e4d47ff6788d9b3b88f22dacde19f7138"
+        },
+        {
+          "bytes": 2405,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.h",
+          "role": "configuration_or_header",
+          "sha256": "6268c7de7c7a2177a8b8477e648580fe12cc1c0a3e6024467e1c1568ef630f13"
+        },
+        {
+          "bytes": 5349,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/include/FreeRTOSConfig.h",
+          "role": "configuration_or_header",
+          "sha256": "710f19f3ceeb45ef1511178d28e9ff8e766fe139860c4252afa2c6ff77d69b34"
+        },
+        {
+          "bytes": 10774,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/c/stm32f4/Makefile",
+          "role": "configuration_or_header",
+          "sha256": "2f64177d08762599be7591cf5c415ea5f51202bba8739c1ecca67760097ee17f"
+        }
+      ],
+      "language": "c",
+      "make_argv": [
+        "make",
+        "-n",
+        "-B",
+        "RUST=1",
+        "all"
+      ],
+      "make_command": "make -n -B RUST=1 all",
+      "parse_failures": [],
+      "source_count": 4,
+      "target": {
+        "clang_target": "arm-none-eabi",
+        "compiler": "arm-none-eabi-gcc",
+        "cpu": "cortex-m4",
+        "float_abi": "hard",
+        "fpu": "fpv4-sp-d16",
+        "pointer_width": 32,
+        "thumb": true
+      }
+    },
+    "freertos-stm32f4-rust": {
+      "configuration": "freertos-stm32f4-rust",
+      "crate_roots": [
+        "firmware/common/rust/Cargo.toml",
+        "firmware/c-kernels/freertos/rust/Cargo.toml"
+      ],
+      "files": [
+        {
+          "bytes": 28971,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+          "role": "rust_source",
+          "sha256": "1ee81c58f0e788140b6272e1285fe2909c64c27ce7cfb929b82460fd851e50b2"
+        },
+        {
+          "bytes": 43719,
+          "parsed": true,
+          "path": "firmware/c-kernels/freertos/rust/src/lib.rs",
+          "role": "rust_source",
+          "sha256": "4211baa38a8080610119ab88885ee4f669bb3a8524c542ed69364a06c939ab0f"
+        },
+        {
+          "bytes": 9880,
+          "parsed": true,
+          "path": "firmware/common/rust/src/arena.rs",
+          "role": "rust_source",
+          "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+        },
+        {
+          "bytes": 32714,
+          "parsed": true,
+          "path": "firmware/common/rust/src/lib.rs",
+          "role": "rust_source",
+          "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+        },
+        {
+          "bytes": 345,
+          "parsed": null,
+          "path": "firmware/common/rust/Cargo.toml",
+          "role": "configuration",
+          "sha256": "4566dc84c7f0a6c719ee11e72a89d40478a812f54eeb1ca44a3c8ab46f73a575"
+        },
+        {
+          "bytes": 491,
+          "parsed": null,
+          "path": "firmware/c-kernels/freertos/rust/Cargo.toml",
+          "role": "configuration",
+          "sha256": "ca3023fae97209f3b2de0490c68e033fbb51e9f5faa94e81d90e007272da4fa2"
+        }
+      ],
+      "language": "rust",
+      "parse_failures": [],
+      "source_count": 4,
+      "target": {
+        "arch": "arm",
+        "available": true,
+        "cfg": {
+          "panic": "abort",
+          "target_abi": "eabihf",
+          "target_arch": "arm",
+          "target_endian": "little",
+          "target_env": "",
+          "target_has_atomic": "ptr",
+          "target_has_atomic_primitive_alignment": "ptr",
+          "target_os": "none",
+          "target_pointer_width": "32",
+          "target_vendor": "unknown"
+        },
+        "endian": "little",
+        "family": "none",
+        "os": "none",
+        "pointer_width": "32",
+        "target": "thumbv7em-none-eabihf"
+      }
+    }
+  },
+  "excluded": {
+    "c_third_party": "FreeRTOS-Kernel, HAL, CMSIS, startup and system sources are excluded from project-written application metrics",
+    "rust_scopes": [
+      "firmware/common/rust/tests",
+      "firmware/c-kernels/freertos/rust/tests",
+      "firmware/c-kernels/*/rust/target",
+      "firmware/rust-kernels"
+    ]
+  },
+  "schema": "uastw-safety-sources-v2",
+  "source_revision": "9ba13e022b85ecfad687f0fbbfee58cc64dc9332",
+  "target": {
+    "c": "arm-none-eabi / Cortex-M4F",
+    "rust": {
+      "arch": "arm",
+      "available": true,
+      "cfg": {
+        "panic": "abort",
+        "target_abi": "eabihf",
+        "target_arch": "arm",
+        "target_endian": "little",
+        "target_env": "",
+        "target_has_atomic": "ptr",
+        "target_has_atomic_primitive_alignment": "ptr",
+        "target_os": "none",
+        "target_pointer_width": "32",
+        "target_vendor": "unknown"
+      },
+      "endian": "little",
+      "family": "none",
+      "os": "none",
+      "pointer_width": "32",
+      "target": "thumbv7em-none-eabihf"
+    }
+  },
+  "tools": {
+    "cargo": {
+      "available": true,
+      "command": "cargo --version",
+      "version": "cargo 1.98.1 (797e8a9bc 2026-08-05)"
+    },
+    "clang": {
+      "available": true,
+      "command": "clang --version",
+      "version": "clang version 23.1.1"
+    },
+    "clang_tidy": {
+      "available": true,
+      "command": "clang-tidy --version",
+      "version": "LLVM version 23.1.1"
+    },
+    "clippy": {
+      "available": true,
+      "path": "clippy-driver"
+    },
+    "codeql": {
+      "available": false,
+      "path": null
+    },
+    "libclang": {
+      "available": true,
+      "library": "libclang.so",
+      "python_binding": "cindex.py"
+    },
+    "python": {
+      "available": true,
+      "command": "python3 --version",
+      "version": "Python 3.14.8"
+    },
+    "rustc": {
+      "available": true,
+      "command": "rustc --version",
+      "version": "rustc 1.98.1 (48a229cea 2026-09-01)"
+    }
+  },
+  "unique_source_paths": [
+    {
+      "bytes": 113006,
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/bench.c",
+      "sha256": "d42826bcf39c782c513ae8b174a783d6dbec9e9c5f4c1fa3d896438c7705d726"
+    },
+    {
+      "bytes": 23192,
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/main.c",
+      "sha256": "a73ebca36304f323978ab6358383fdd23c1295b32bab47ab82a810772e38f7e2"
+    },
+    {
+      "bytes": 1928,
+      "path": "firmware/c-kernels/freertos/c/stm32f4/src/stm32f4xx_it.c",
+      "sha256": "2855db48241c4f331e16c88dd6d436cbf871fe6d01e631b8def53e5fdd79a7ed"
+    },
+    {
+      "bytes": 28971,
+      "path": "firmware/c-kernels/freertos/rust/src/boundary.rs",
+      "sha256": "1ee81c58f0e788140b6272e1285fe2909c64c27ce7cfb929b82460fd851e50b2"
+    },
+    {
+      "bytes": 43719,
+      "path": "firmware/c-kernels/freertos/rust/src/lib.rs",
+      "sha256": "4211baa38a8080610119ab88885ee4f669bb3a8524c542ed69364a06c939ab0f"
+    },
+    {
+      "bytes": 24975,
+      "path": "firmware/common/c/src/runner.c",
+      "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+    },
+    {
+      "bytes": 9880,
+      "path": "firmware/common/rust/src/arena.rs",
+      "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+    },
+    {
+      "bytes": 32714,
+      "path": "firmware/common/rust/src/lib.rs",
+      "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    }
+  ],
+  "worktree_dirty": true,
+  "worktree_status_count": 18
+}

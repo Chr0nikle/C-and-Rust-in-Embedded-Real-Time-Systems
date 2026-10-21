@@ -1,0 +1,7 @@
+[package]
+name = "rtos-plugin-freertos"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rtos-core = { path = "../../core" }

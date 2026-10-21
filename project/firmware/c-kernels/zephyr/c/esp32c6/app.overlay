@@ -1,0 +1,21 @@
+/* Route the Zephyr console and shell over USB-Serial-JTAG (the only serial
+ * interface on the ESP32-C6 DevKitC, wired to the host USB port). The board
+ * DTS enables uart0 as the console, which has no physical wiring on this
+ * bench, so disable it. Zephyr v4.4.2 provides the USB-Serial-JTAG node in
+ * esp32c6_common.dtsi (usb_serial, /soc/uart@6000f000), disabled by default;
+ * enable it and route the console and shell through it.
+ */
+&usb_serial {
+	status = "okay";
+};
+
+&uart0 {
+	status = "disabled";
+};
+
+/ {
+	chosen {
+		zephyr,console = &usb_serial;
+		zephyr,shell-uart = &usb_serial;
+	};
+};

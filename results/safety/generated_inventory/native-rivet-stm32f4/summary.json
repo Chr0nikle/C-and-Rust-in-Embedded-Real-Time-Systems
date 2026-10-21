@@ -1,0 +1,229 @@
+{
+  "counting_spec_version": "2.1.0",
+  "counting_unit": "configuration-specific source-level operation occurrence, with a separate configuration-independent source identity",
+  "counting_units": {
+    "c_benchmark_only_source_identities": 0,
+    "c_support_only_source_identities": 0,
+    "configuration_specific_operation_records": 53,
+    "distinct_source_identities_all_scopes": 53,
+    "distinct_source_identities_by_scope": {
+      "c-benchmark": 0,
+      "c-support": 0,
+      "rust": 53
+    },
+    "note": "Per-scope records are retained separately. The all-scope identity count removes configuration duplicates but does not merge overlapping operation categories.",
+    "shared_source_identities_c_benchmark_and_c_support": 0
+  },
+  "kernel_calls": {
+    "rivet-stm32f4": {
+      "active_resolved": 6,
+      "active_resolved_by_callee_kind": {
+        "project_wrapper": 6
+      },
+      "active_unresolved": 0,
+      "by_callee_kind": {
+        "project_wrapper": 6
+      },
+      "note": "Direct RTOS API, project wrapper/FFI and unresolved/indirect call kinds are separate; their sum is not a matched kernel-operation count.",
+      "total": 6
+    }
+  },
+  "notes": [
+    "configuration_specific_operation_records counts rows; it is not a count of unique source occurrences.",
+    "distinct_source_identities ignores build configuration and is the correct unique-source view.",
+    "Category counts may overlap for the same source expression; no category sum is a distinct-operation total.",
+    "Active counts include only activity_status=true and resolution_status=resolved.",
+    "Inactive and unresolved records remain in operations.csv.",
+    "Unsafe-context membership is syntactic placement, not a claim that the operation requires unsafe."
+  ],
+  "pointer_conversions": {
+    "by_scope": {
+      "c-benchmark": {
+        "explicit_source_records": 0,
+        "macro_expanded_records": 0,
+        "unresolved_provenance_records": 0
+      },
+      "c-support": {
+        "explicit_source_records": 0,
+        "macro_expanded_records": 0,
+        "unresolved_provenance_records": 0
+      }
+    },
+    "compiler_generated_records": 0,
+    "explicit_by_direction": {},
+    "explicit_source_distinct_source_identities": 0,
+    "explicit_source_records": 0,
+    "macro_by_provenance": {},
+    "macro_counting_unit": {
+      "category": "macro_pointer_conversion",
+      "counting_unit": "one reported macro-expansion pointer-cast occurrence per deduplicated invocation/extent key",
+      "deduplication_key": "configuration, category, source file, source line, source column, AST kind, expression, function and expansion extent start",
+      "explicit_macro_arguments": "A source-written cast in a macro argument is reported as pointer_conversion with provenance explicit_macro_argument. Macro-body pointer casts at the same invocation are retained in that record's collapsed_macro_pointer_conversions detail instead of being added as a second occurrence.",
+      "nested_casts": "Multiple Clang CSTYLE_CAST_EXPR nodes that share the invocation/extent start collapse into one reported occurrence. The count is not a count of every expanded AST cast node."
+    },
+    "macro_expanded_distinct_source_identities": 0,
+    "macro_expanded_records": 0,
+    "note": "pointer_conversion contains explicit project-source casts, including source-written casts in macro arguments. Macro-expanded casts are retained as macro_pointer_conversion. Unresolved provenance is visible as unresolved_pointer_conversion and is never counted as explicit. Pointer-to-integer casts with a non-pointer target are outside these categories.",
+    "unresolved_provenance_distinct_source_identities": 0,
+    "unresolved_provenance_records": 0
+  },
+  "schema": "uastw-inventory-summary-v2",
+  "scopes": {
+    "c-benchmark": {
+      "active_resolved": 0,
+      "active_resolved_by_category": {},
+      "active_resolved_by_function": {},
+      "active_resolved_by_layer": {},
+      "active_resolved_by_provenance": {},
+      "active_unresolved": 0,
+      "configuration_specific_operation_records": 0,
+      "distinct_source_identities": 0,
+      "inactive": 0,
+      "inactive_by_category": {},
+      "inactive_by_layer": {},
+      "unresolved_by_category": {},
+      "unresolved_by_layer": {}
+    },
+    "c-support": {
+      "active_resolved": 0,
+      "active_resolved_by_category": {},
+      "active_resolved_by_function": {},
+      "active_resolved_by_layer": {},
+      "active_resolved_by_provenance": {},
+      "active_unresolved": 0,
+      "configuration_specific_operation_records": 0,
+      "distinct_source_identities": 0,
+      "inactive": 0,
+      "inactive_by_category": {},
+      "inactive_by_layer": {},
+      "unresolved_by_category": {},
+      "unresolved_by_layer": {}
+    },
+    "rust": {
+      "active_resolved": 10,
+      "active_resolved_by_category": {
+        "kernel_api_call": 6,
+        "mutable_global_address": 2,
+        "pointer_conversion": 1,
+        "raw_pointer_dereference": 1
+      },
+      "active_resolved_by_function": {
+        "case_teardown": 1,
+        "collect_memory": 1,
+        "jitter_measure": 1,
+        "main": 1,
+        "measure": 3,
+        "measure_static": 2,
+        "requester27": 1
+      },
+      "active_resolved_by_layer": {
+        "rust_native_application": 8,
+        "shared_infrastructure": 2
+      },
+      "active_resolved_by_provenance": {
+        "explicit_source": 9,
+        "known_macro_model": 1
+      },
+      "active_unresolved": 43,
+      "configuration_specific_operation_records": 53,
+      "distinct_source_identities": 53,
+      "inactive": 0,
+      "inactive_by_category": {},
+      "inactive_by_layer": {},
+      "unresolved_by_category": {
+        "raw_pointer_dereference": 31,
+        "unresolved_macro": 12
+      },
+      "unresolved_by_layer": {
+        "rust_native_application": 42,
+        "shared_infrastructure": 1
+      }
+    }
+  },
+  "source_column_conventions": {
+    "c": "1-based (libclang Cursor.location.column)",
+    "note": "Macro spelling locations and macro-definition locations are distinct. For macro-body expansions, macro_definition_* identifies the spelling/definition location. For source-written casts in macro arguments, macro_argument_* identifies the argument and macro_definition_status records that it is not a definition.",
+    "rust": "0-based (proc_macro2 Span::start().column)"
+  },
+  "source_scope_limitations": {
+    "c_benchmark_bench_rust_shims": {
+      "note": "These functions are compiled into the RUST=0 build but are not demonstrated to be reachable from the C benchmark call path. Compilation is not runtime reachability; a syntactic call search is not a complete reachability analysis.",
+      "operation_records": 0,
+      "rule": "scope=c-benchmark and function name starts with 'bench_rust_'"
+    }
+  },
+  "unsafe_context_association": {
+    "in_both_block_and_function": 1,
+    "in_unsafe_block": 18,
+    "in_unsafe_context_by_category": {
+      "kernel_api_call": 1,
+      "mutable_global_address": 2,
+      "raw_pointer_dereference": 22,
+      "unresolved_macro": 1
+    },
+    "in_unsafe_context_by_layer": {
+      "rust_native_application": 24,
+      "shared_infrastructure": 2
+    },
+    "in_unsafe_context_by_layer_and_category": {
+      "rust_native_application|kernel_api_call": 1,
+      "rust_native_application|mutable_global_address": 1,
+      "rust_native_application|raw_pointer_dereference": 21,
+      "rust_native_application|unresolved_macro": 1,
+      "shared_infrastructure|mutable_global_address": 1,
+      "shared_infrastructure|raw_pointer_dereference": 1
+    },
+    "in_unsafe_context_total": 26,
+    "in_unsafe_function": 9,
+    "note": "Lexical context membership is not equivalent to requiring unsafe, and a safe wrapper call does not imply that its implementation is sound.",
+    "operations_considered": 53,
+    "outside_explicit_unsafe_context": 27,
+    "resolved_operations_in_unsafe_context": 4,
+    "unknown_context_resolution": 0
+  },
+  "unsafe_contexts": {
+    "unsafe_block": {
+      "active": 21,
+      "by_function": {
+        "board::__rivet_board_console_kick_tx": 1,
+        "board::__rivet_board_console_write": 3,
+        "board::__rivet_board_init": 1,
+        "board::clock_init": 1,
+        "board::uart_irq_handler": 2,
+        "isr_measure": 1,
+        "jitter_measure": 1,
+        "jitter_stop": 1,
+        "main": 1,
+        "measure": 2,
+        "measure_static": 1,
+        "nested_lo_isr": 1,
+        "nested_run": 1,
+        "probe_isr": 1,
+        "tim2_isr": 1,
+        "tim5_isr": 1,
+        "tim7_isr": 1
+      },
+      "by_layer": {
+        "rust_native_application": 20,
+        "shared_infrastructure": 1
+      },
+      "inactive": 0,
+      "total": 21
+    },
+    "unsafe_function": {
+      "active": 5,
+      "by_function": {
+        "board::SysTick": 1,
+        "board::__rivet_board_console_write": 1,
+        "jitter_start": 1,
+        "tim2_arm": 1,
+        "tim4_arm": 1
+      },
+      "by_layer": {
+        "rust_native_application": 5
+      },
+      "inactive": 0,
+      "total": 5
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "analysis_id": "20261021T002345Z-d4cf84839867",
+  "analysis_version": "thesis-analysis-v1",
+  "analyzer": {
+    "branch": "main",
+    "dirty": true,
+    "revision": "d4cf848398678e514e3677d53a189c0f08bca3c5"
+  },
+  "command": "/home/chronikle/Nextcloud/Masters_Thesis/thesis/.venv/bin/python analyze.py all",
+  "generated_at": "2026-10-21T00:23:45Z",
+  "input_campaign": "campaign-replication-20261019T214853Z",
+  "input_manifest_file": "inputs.sha256",
+  "input_manifest_sha256": "f9109a3eca7752872c897e6be7925f3733a4645708155c71b6299ae5b361c746",
+  "outputs_manifest": "outputs.sha256",
+  "outputs_manifest_sha256": "0799db843b8b3bb4d2cd196e49605f407076a38bf58f84eb6e7f44f2d8667eb3",
+  "schema_version": 1
+}

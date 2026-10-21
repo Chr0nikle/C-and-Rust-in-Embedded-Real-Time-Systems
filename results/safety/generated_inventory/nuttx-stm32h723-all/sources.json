@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    "nuttx-stm32h723-c-benchmark",
+    "nuttx-stm32h723-c-support-rust",
+    "nuttx-stm32h723-rust"
+  ],
+  "description": "All 23 implemented NuttX STM32F4 C/Rust thesis cases",
+  "files": [
+    {
+      "path": "firmware/c-kernels/nuttx/c/isr.c",
+      "sha256": "476f0c21a34b091b8fb9a5ca2a42cab8a1622bd2d01e548bba6aa45ba408002f"
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/main.c",
+      "sha256": "18eb61f7807f0bafa37f4e1299fad04daea8fda6090ba2043ca4331c8b965423"
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/c/port.c",
+      "sha256": "65584c9d8a386ff546b16cb7afc0d661adac8feb481d5aab5a69d280c31b9a48"
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/rust/src/boundary.rs",
+      "sha256": "92c18c92d6bc3518344fb5ffed89a87d11406d2583724b9dad8c12bda1c3008f"
+    },
+    {
+      "path": "firmware/c-kernels/nuttx/rust/src/lib.rs",
+      "sha256": "07586f4e6aaccca33bf26e1e1b817df6c6db11a36758bce05ac2ed2f98dbf1a7"
+    },
+    {
+      "path": "firmware/common/c/src/runner.c",
+      "sha256": "2411e23b3c47e3c5dafd371ce1018b7c097b4cb6a0c036d84371571d302605b4"
+    },
+    {
+      "path": "firmware/common/rust/src/arena.rs",
+      "sha256": "2768d1ef9470f31712178f25132d856eb99cec987d8e4c1484aaf61f3483b9a0"
+    },
+    {
+      "path": "firmware/common/rust/src/lib.rs",
+      "sha256": "6e25dc1d973d81ff65486dd091ebf8a069f3f372a69709b38c4dad9d27783815"
+    }
+  ],
+  "profile": "nuttx-stm32h723-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-sources-v1",
+  "source_revision": "9fc56aa061d83c13b38bfb54caa32a88debfdc7e"
+}

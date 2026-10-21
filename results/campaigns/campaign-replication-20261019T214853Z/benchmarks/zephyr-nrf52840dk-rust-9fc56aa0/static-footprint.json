@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-nrf52840dk-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 226604,
+        "data": 304,
+        "flash": 62072,
+        "image": "zephyr.elf",
+        "ram": 226908,
+        "rodata": 8332,
+        "text": 53436
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

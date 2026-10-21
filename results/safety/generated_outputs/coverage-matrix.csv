@@ -1,0 +1,16 @@
+profile,rtos,board,language_scope,selected_cases,absent_cases,not_assessed,comparable,partial,common_only,verified_roots,call_sites,matched_rtos_targets,bridge_definitions,inventory_operations,validation,evidence_dir
+freertos-esp32c6-all,FreeRTOS,ESP32-C6,C/Rust matched,22,4,0,21,0,1,22,727,123,28,4006,passed,generated_outputs/freertos-esp32c6-all
+freertos-nrf52840-all,FreeRTOS,nRF52840 DK,C/Rust matched,24,2,0,23,0,1,24,765,102,35,4528,passed,generated_outputs/freertos-nrf52840-all
+freertos-stm32f4-all,FreeRTOS,STM32F4 Discovery,C/Rust matched,26,0,0,25,0,1,26,790,123,44,4551,passed,generated_outputs/freertos-stm32f4-all
+freertos-stm32h723-all,FreeRTOS,STM32H723,C/Rust matched,26,0,0,25,0,1,26,790,138,44,4551,passed,generated_outputs/freertos-stm32h723-all
+nuttx-esp32c6-all,NuttX,ESP32-C6,C/Rust matched,23,3,0,22,0,1,23,970,177,29,3744,passed,generated_outputs/nuttx-esp32c6-all
+nuttx-nrf52840-all,NuttX,nRF52840 DK,C/Rust matched,23,3,0,22,0,1,23,956,184,29,3608,passed,generated_outputs/nuttx-nrf52840-all
+nuttx-stm32f4-all,NuttX,STM32F4 Discovery,C/Rust matched,23,3,0,22,0,1,23,961,193,29,3568,passed,generated_outputs/nuttx-stm32f4-all
+nuttx-stm32h723-all,NuttX,STM32H723,C/Rust matched,23,3,0,22,0,1,23,961,193,29,3568,passed,generated_outputs/nuttx-stm32h723-all
+zephyr-esp32c6-all,Zephyr,ESP32-C6,C/Rust matched,23,3,0,22,0,1,23,744,115,32,3316,passed,generated_outputs/zephyr-esp32c6-all
+zephyr-nrf52840-all,Zephyr,nRF52840 DK,C/Rust matched,23,3,0,22,0,1,23,782,99,32,3204,passed,generated_outputs/zephyr-nrf52840-all
+zephyr-stm32f4-all,Zephyr,STM32F4 Discovery,C/Rust matched,23,3,0,22,0,1,23,780,118,32,3054,passed,generated_outputs/zephyr-stm32f4-all
+zephyr-stm32h723-all,Zephyr,STM32H723,C/Rust matched,23,3,0,22,0,1,23,792,121,32,3100,passed,generated_outputs/zephyr-stm32h723-all
+native-freertos-in-rust-stm32f4,FreeRTOS-in-Rust,STM32F4 Discovery,Rust-native only,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,227,not_applicable,not_applicable,250,inventory_and_case_trace,generated_inventory/native-freertos-in-rust-stm32f4
+native-freertos-in-rust-stm32h723,FreeRTOS-in-Rust,STM32H723,Rust-native only,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,228,not_applicable,not_applicable,250,inventory_and_case_trace,generated_inventory/native-freertos-in-rust-stm32h723
+native-rivet-stm32f4,Rivet,STM32F4 Discovery,Rust-native only,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,not_applicable,66,not_applicable,not_applicable,53,inventory_and_case_trace,generated_inventory/native-rivet-stm32f4

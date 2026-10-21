@@ -1,0 +1,31 @@
+configuration,language,source_file,source_line,source_column,caller,callee,callee_kind,resolution_status,activity_status,expression,macro_status
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1024,33,measure_u32,xTaskGetTickCount,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1025,21,measure_u32,xTaskDelayUntil,rtos_api,resolved,true,& mut PREV_WAKE 1,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1028,21,measure_u32,xTaskDelayUntil,rtos_api,resolved,true,& mut PREV_WAKE 1,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1095,29,measure_u32,pvPortMalloc,rtos_api,resolved,true,64,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1097,25,measure_u32,vPortFree,rtos_api,resolved,true,p,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1213,30,measure_u32,ulTaskGetIdleRunTimeCounter,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1217,29,measure_u32,ulTaskGetIdleRunTimeCounter,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1252,41,measure_u32,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1253,33,measure_u32,pvPortMalloc,rtos_api,resolved,true,BLOCK,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1262,20,measure_u32,vPortFree,rtos_api,resolved,true,FRAG_BLOCKS [i],source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1266,29,measure_u32,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1271,33,measure_u32,pvPortMalloc,rtos_api,resolved,true,mid,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1275,29,measure_u32,vPortFree,rtos_api,resolved,true,p,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1281,20,measure_u32,vPortFree,rtos_api,resolved,true,FRAG_BLOCKS [i],source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1480,45,mem_probe_task,vTaskDelay,rtos_api,resolved,true,TickType_t :: MAX,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1487,17,per_task_ram_overhead,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1489,24,per_task_ram_overhead,xTaskCreate,rtos_api,resolved,true,"mem_probe_task b""memprobe\0"" . as_ptr () 192 core :: ptr :: null_mut () 1 & mut handle",source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1497,16,per_task_ram_overhead,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1499,8,per_task_ram_overhead,vTaskDelete,rtos_api,resolved,true,handle,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1500,8,per_task_ram_overhead,vTaskDelay,rtos_api,resolved,true,2,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1510,19,collect_memory,xPortGetMinimumEverFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1511,20,collect_memory,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1512,17,collect_memory,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1513,12,collect_memory,pvPortMalloc,rtos_api,resolved,true,1,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1515,20,collect_memory,xPortGetFreeHeapSize,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1516,8,collect_memory,vPortFree,rtos_api,resolved,true,p,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1525,21,collect_memory,uxTaskGetNumberOfTasks,rtos_api,resolved,true,,source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1526,21,collect_memory,uxTaskGetStackHighWaterMark,rtos_api,resolved,true,core :: ptr :: null_mut (),source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1535,8,collect_memory,uxTaskGetSystemState,rtos_api,resolved,true,arr . as_mut_ptr () cap as UBaseType_t core :: ptr :: null_mut (),source_call_or_ast_node
+freertos-in-rust-stm32h723,rust,firmware/rust-kernels/freertos-in-rust/rust/src/main.rs,1539,16,collect_memory,uxTaskGetStackHighWaterMark,rtos_api,resolved,true,arr [i] . xHandle,source_call_or_ast_node

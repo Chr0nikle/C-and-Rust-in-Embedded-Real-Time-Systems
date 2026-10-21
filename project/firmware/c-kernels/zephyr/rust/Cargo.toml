@@ -1,0 +1,17 @@
+[package]
+name = "rtos-firmware-zephyr"
+version = "0.1.0"
+edition = "2021"
+description = "Zephyr Rust adapter: k_cycle_get_64 timer and native k_msgq/k_sem via FFI shims"
+
+[lib]
+name = "rtos_firmware_zephyr"
+crate-type = ["staticlib", "rlib"]
+# Host test binaries would need to link the Zephyr/board FFI symbols and a panic
+# strategy the host cannot provide; verification happens on hardware.
+test = false
+doctest = false
+bench = false
+
+[dependencies]
+rtos-bench = { path = "../../../common/rust" }

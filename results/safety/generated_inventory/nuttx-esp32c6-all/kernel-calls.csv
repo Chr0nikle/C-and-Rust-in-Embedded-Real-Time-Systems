@@ -1,0 +1,396 @@
+configuration,language,source_file,source_line,source_column,caller,callee,callee_kind,resolution_status,activity_status,expression,macro_status
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1663,27,port_sem_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1673,14,port_sem_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1707,27,port_mutex_u_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1717,14,port_mutex_u_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1748,27,port_alloc_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1756,14,port_alloc_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1786,27,port_sleep_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1794,14,port_sleep_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1824,27,port_sched_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1829,14,port_sched_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/c-kernels/nuttx/c/port.c,1927,27,port_notify_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,60,27,sample,now_ticks,indirect_or_unresolved,unresolved,true,"port -> now_ticks ( port -> ctx , & start_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,64,18,sample,queue_send,indirect_or_unresolved,unresolved,true,"port -> queue_send ( port -> ctx , payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,66,18,sample,queue_receive,indirect_or_unresolved,unresolved,true,"port -> queue_receive ( port -> ctx , & received_payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,70,18,sample,handoff_measure,indirect_or_unresolved,unresolved,true,"port -> handoff_measure ( port -> ctx , & end_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,77,16,sample,jitter_measure,indirect_or_unresolved,unresolved,true,"port -> jitter_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,80,16,sample,isr_measure,indirect_or_unresolved,unresolved,true,"port -> isr_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,83,16,sample,preempt_measure,indirect_or_unresolved,unresolved,true,"port -> preempt_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,86,16,sample,ipc_measure,indirect_or_unresolved,unresolved,true,"port -> ipc_measure ( port -> ctx , payload , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,89,16,sample,mutex_measure,indirect_or_unresolved,unresolved,true,"port -> mutex_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,92,16,sample,timer_measure,indirect_or_unresolved,unresolved,true,"port -> timer_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,95,16,sample,trigger_isr_measure,indirect_or_unresolved,unresolved,true,"port -> trigger_isr_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,99,16,sample,pjit_measure,indirect_or_unresolved,unresolved,true,"port -> pjit_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,101,16,sample,sem_measure,indirect_or_unresolved,unresolved,true,"port -> sem_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,103,16,sample,mutex_u_measure,indirect_or_unresolved,unresolved,true,"port -> mutex_u_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,105,16,sample,alloc_measure,indirect_or_unresolved,unresolved,true,"port -> alloc_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,107,16,sample,sleep_measure,indirect_or_unresolved,unresolved,true,"port -> sleep_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,111,16,sample,notify_measure,indirect_or_unresolved,unresolved,true,"port -> notify_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,114,16,sample,sched_measure,indirect_or_unresolved,unresolved,true,"port -> sched_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,117,16,sample,prio_measure,indirect_or_unresolved,unresolved,true,"port -> prio_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,120,16,sample,tick_measure,indirect_or_unresolved,unresolved,true,"port -> tick_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,123,16,sample,maxdis_measure,indirect_or_unresolved,unresolved,true,"port -> maxdis_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,126,16,sample,nested_measure,indirect_or_unresolved,unresolved,true,"port -> nested_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,129,16,sample,ipc_payload_measure,indirect_or_unresolved,unresolved,true,"port -> ipc_payload_measure ( port -> ctx , payload , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,132,16,sample,tp_measure,indirect_or_unresolved,unresolved,true,"port -> tp_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,135,16,sample,zcopy_measure,indirect_or_unresolved,unresolved,true,"port -> zcopy_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,139,16,sample,cpu_measure,indirect_or_unresolved,unresolved,true,"port -> cpu_measure ( port -> ctx , payload , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,142,16,sample,frag_measure,indirect_or_unresolved,unresolved,true,"port -> frag_measure ( port -> ctx , elapsed_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,152,18,sample,yield_now,indirect_or_unresolved,unresolved,true,port -> yield_now ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,156,14,sample,now_ticks,indirect_or_unresolved,unresolved,true,"port -> now_ticks ( port -> ctx , & end_ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,266,30,bench_run_case,queue_create,indirect_or_unresolved,unresolved,true,port -> queue_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,267,32,bench_run_case,handoff_create,indirect_or_unresolved,unresolved,true,port -> handoff_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,268,31,bench_run_case,jitter_create,indirect_or_unresolved,unresolved,true,port -> jitter_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,269,36,bench_run_case,isr_create,indirect_or_unresolved,unresolved,true,port -> isr_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,270,30,bench_run_case,yield_create,indirect_or_unresolved,unresolved,true,port -> yield_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,271,32,bench_run_case,preempt_create,indirect_or_unresolved,unresolved,true,port -> preempt_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,272,37,bench_run_case,ipc_create,indirect_or_unresolved,unresolved,true,port -> ipc_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,273,39,bench_run_case,mutex_create,indirect_or_unresolved,unresolved,true,port -> mutex_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,274,39,bench_run_case,timer_create,indirect_or_unresolved,unresolved,true,port -> timer_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,275,39,bench_run_case,trigger_isr_create,indirect_or_unresolved,unresolved,true,port -> trigger_isr_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,276,47,bench_run_case,pjit_create,indirect_or_unresolved,unresolved,true,port -> pjit_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,277,34,bench_run_case,sem_create,indirect_or_unresolved,unresolved,true,port -> sem_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,278,42,bench_run_case,mutex_u_create,indirect_or_unresolved,unresolved,true,port -> mutex_u_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,279,34,bench_run_case,alloc_create,indirect_or_unresolved,unresolved,true,port -> alloc_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,280,39,bench_run_case,sleep_create,indirect_or_unresolved,unresolved,true,port -> sleep_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,281,37,bench_run_case,notify_create,indirect_or_unresolved,unresolved,true,port -> notify_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,282,34,bench_run_case,sched_create,indirect_or_unresolved,unresolved,true,port -> sched_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,283,45,bench_run_case,prio_create,indirect_or_unresolved,unresolved,true,port -> prio_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,284,29,bench_run_case,tick_create,indirect_or_unresolved,unresolved,true,port -> tick_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,285,47,bench_run_case,maxdis_create,indirect_or_unresolved,unresolved,true,port -> maxdis_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,286,35,bench_run_case,nested_create,indirect_or_unresolved,unresolved,true,port -> nested_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,287,36,bench_run_case,ipc_payload_create,indirect_or_unresolved,unresolved,true,port -> ipc_payload_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,288,35,bench_run_case,tp_create,indirect_or_unresolved,unresolved,true,port -> tp_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,289,34,bench_run_case,zcopy_create,indirect_or_unresolved,unresolved,true,port -> zcopy_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,290,54,bench_run_case,cpu_create,indirect_or_unresolved,unresolved,true,port -> cpu_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,291,38,bench_run_case,frag_create,indirect_or_unresolved,unresolved,true,port -> frag_create ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,297,22,bench_run_case,pjit_set_load,indirect_or_unresolved,unresolved,true,"port -> pjit_set_load ( port -> ctx , payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,301,22,bench_run_case,peers_set,indirect_or_unresolved,unresolved,true,"port -> peers_set ( port -> ctx , payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,312,22,bench_run_case,pjit_set_load,indirect_or_unresolved,unresolved,true,"port -> pjit_set_load ( port -> ctx , payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,316,22,bench_run_case,peers_set,indirect_or_unresolved,unresolved,true,"port -> peers_set ( port -> ctx , payload )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,328,26,bench_run_case,record_variant,indirect_or_unresolved,unresolved,true,"sink -> record_variant ( sink -> ctx , case_id , payload , iteration , elapsed_ticks , port -> ticks_per_second )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,331,26,bench_run_case,record,indirect_or_unresolved,unresolved,true,"sink -> record ( sink -> ctx , case_id , iteration , elapsed_ticks , port -> ticks_per_second )",source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,334,26,bench_run_case,flush,indirect_or_unresolved,unresolved,true,sink -> flush ( sink -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,340,32,bench_run_case,queue_destroy,indirect_or_unresolved,unresolved,true,port -> queue_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,344,32,bench_run_case,handoff_destroy,indirect_or_unresolved,unresolved,true,port -> handoff_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,348,32,bench_run_case,jitter_destroy,indirect_or_unresolved,unresolved,true,port -> jitter_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,352,32,bench_run_case,isr_destroy,indirect_or_unresolved,unresolved,true,port -> isr_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,356,32,bench_run_case,yield_destroy,indirect_or_unresolved,unresolved,true,port -> yield_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,360,32,bench_run_case,preempt_destroy,indirect_or_unresolved,unresolved,true,port -> preempt_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,364,32,bench_run_case,ipc_destroy,indirect_or_unresolved,unresolved,true,port -> ipc_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,368,32,bench_run_case,mutex_destroy,indirect_or_unresolved,unresolved,true,port -> mutex_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,372,32,bench_run_case,timer_destroy,indirect_or_unresolved,unresolved,true,port -> timer_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,376,32,bench_run_case,trigger_isr_destroy,indirect_or_unresolved,unresolved,true,port -> trigger_isr_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,380,32,bench_run_case,pjit_destroy,indirect_or_unresolved,unresolved,true,port -> pjit_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,384,32,bench_run_case,sem_destroy,indirect_or_unresolved,unresolved,true,port -> sem_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,388,32,bench_run_case,mutex_u_destroy,indirect_or_unresolved,unresolved,true,port -> mutex_u_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,392,32,bench_run_case,alloc_destroy,indirect_or_unresolved,unresolved,true,port -> alloc_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,396,32,bench_run_case,sleep_destroy,indirect_or_unresolved,unresolved,true,port -> sleep_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,400,32,bench_run_case,notify_destroy,indirect_or_unresolved,unresolved,true,port -> notify_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,404,32,bench_run_case,sched_destroy,indirect_or_unresolved,unresolved,true,port -> sched_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,408,32,bench_run_case,prio_destroy,indirect_or_unresolved,unresolved,true,port -> prio_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,412,32,bench_run_case,tick_destroy,indirect_or_unresolved,unresolved,true,port -> tick_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,416,32,bench_run_case,maxdis_destroy,indirect_or_unresolved,unresolved,true,port -> maxdis_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,420,32,bench_run_case,nested_destroy,indirect_or_unresolved,unresolved,true,port -> nested_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,424,32,bench_run_case,ipc_payload_destroy,indirect_or_unresolved,unresolved,true,port -> ipc_payload_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,428,32,bench_run_case,tp_destroy,indirect_or_unresolved,unresolved,true,port -> tp_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,432,32,bench_run_case,zcopy_destroy,indirect_or_unresolved,unresolved,true,port -> zcopy_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,436,32,bench_run_case,cpu_destroy,indirect_or_unresolved,unresolved,true,port -> cpu_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,440,32,bench_run_case,frag_destroy,indirect_or_unresolved,unresolved,true,port -> frag_destroy ( port -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-benchmark,c,firmware/common/c/src/runner.c,445,12,bench_run_case,flush,indirect_or_unresolved,unresolved,true,sink -> flush ( sink -> ctx ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/main.c,675,14,run_session,rust_bench_run_case,project_wrapper_or_ffi,resolved,true,"rust_bench_run_case ( ( uint32_t ) cases [ i ] , settings . warmup , settings . repetitions , NULL , rust_record_bridge , rust_record_variant_bridge , rust_flush_bridge )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1663,27,port_sem_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1673,14,port_sem_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1707,27,port_mutex_u_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1717,14,port_mutex_u_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1748,27,port_alloc_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1756,14,port_alloc_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1786,27,port_sleep_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1794,14,port_sleep_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1824,27,port_sched_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & start )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1829,14,port_sched_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,1927,27,port_notify_measure,port_now_ticks,project_wrapper_or_ffi,resolved,true,"port_now_ticks ( NULL , & end )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2215,5,bench_rust_now_ticks,rust_tick_enable,project_wrapper_or_ffi,resolved,true,rust_tick_enable ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2238,17,bench_rust_queue_create,port_queue_create,project_wrapper_or_ffi,resolved,true,port_queue_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2243,17,bench_rust_queue_send,port_queue_send,project_wrapper_or_ffi,resolved,true,"port_queue_send ( NULL , value )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2248,17,bench_rust_queue_receive,port_queue_receive,project_wrapper_or_ffi,resolved,true,"port_queue_receive ( NULL , value )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2253,17,bench_rust_queue_destroy,port_queue_destroy,project_wrapper_or_ffi,resolved,true,port_queue_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2258,17,bench_rust_handoff_create,port_handoff_create,project_wrapper_or_ffi,resolved,true,port_handoff_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2263,17,bench_rust_handoff_measure,port_handoff_measure,project_wrapper_or_ffi,resolved,true,"port_handoff_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2268,17,bench_rust_handoff_destroy,port_handoff_destroy,project_wrapper_or_ffi,resolved,true,port_handoff_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2288,17,bench_rust_jitter_create,port_jitter_create,project_wrapper_or_ffi,resolved,true,port_jitter_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2293,17,bench_rust_jitter_measure,port_jitter_measure,project_wrapper_or_ffi,resolved,true,"port_jitter_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2298,17,bench_rust_jitter_destroy,port_jitter_destroy,project_wrapper_or_ffi,resolved,true,port_jitter_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2420,17,bench_rust_yield_create,port_yield_create,project_wrapper_or_ffi,resolved,true,port_yield_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2425,17,bench_rust_yield_now,port_yield_now,project_wrapper_or_ffi,resolved,true,port_yield_now ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2438,56,bench_rust_peers_set,port_peers_set,project_wrapper_or_ffi,resolved,true,"port_peers_set ( NULL , count )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2442,17,bench_rust_yield_destroy,port_yield_destroy,project_wrapper_or_ffi,resolved,true,port_yield_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2447,17,bench_rust_preempt_create,port_preempt_create,project_wrapper_or_ffi,resolved,true,port_preempt_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2452,17,bench_rust_preempt_measure,port_preempt_measure,project_wrapper_or_ffi,resolved,true,"port_preempt_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2457,17,bench_rust_preempt_destroy,port_preempt_destroy,project_wrapper_or_ffi,resolved,true,port_preempt_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2483,5,bench_rust_ipc_create,rust_tick_enable,project_wrapper_or_ffi,resolved,true,rust_tick_enable ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2484,17,bench_rust_ipc_create,port_ipc_create,project_wrapper_or_ffi,resolved,true,port_ipc_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2489,17,bench_rust_ipc_measure,port_ipc_measure,project_wrapper_or_ffi,resolved,true,"port_ipc_measure ( NULL , value , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2494,17,bench_rust_ipc_destroy,port_ipc_destroy,project_wrapper_or_ffi,resolved,true,port_ipc_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2522,5,bench_rust_ipc_payload_create,rust_tick_enable,project_wrapper_or_ffi,resolved,true,rust_tick_enable ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2523,17,bench_rust_ipc_payload_create,port_ipc_payload_create,project_wrapper_or_ffi,resolved,true,port_ipc_payload_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2528,17,bench_rust_ipc_payload_measure,port_ipc_payload_measure,project_wrapper_or_ffi,resolved,true,"port_ipc_payload_measure ( NULL , payload_bytes , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2533,17,bench_rust_ipc_payload_destroy,port_ipc_payload_destroy,project_wrapper_or_ffi,resolved,true,port_ipc_payload_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2564,5,bench_rust_tp_create,rust_tick_enable,project_wrapper_or_ffi,resolved,true,rust_tick_enable ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2565,17,bench_rust_tp_create,port_tp_create,project_wrapper_or_ffi,resolved,true,port_tp_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2570,17,bench_rust_tp_measure,port_tp_measure,project_wrapper_or_ffi,resolved,true,"port_tp_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2575,17,bench_rust_tp_destroy,port_tp_destroy,project_wrapper_or_ffi,resolved,true,port_tp_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2608,5,bench_rust_zcopy_create,rust_tick_enable,project_wrapper_or_ffi,resolved,true,rust_tick_enable ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2609,17,bench_rust_zcopy_create,port_zcopy_create,project_wrapper_or_ffi,resolved,true,port_zcopy_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2614,17,bench_rust_zcopy_measure,port_zcopy_measure,project_wrapper_or_ffi,resolved,true,"port_zcopy_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2619,17,bench_rust_zcopy_destroy,port_zcopy_destroy,project_wrapper_or_ffi,resolved,true,port_zcopy_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2704,17,bench_rust_frag_create,port_frag_create,project_wrapper_or_ffi,resolved,true,port_frag_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2709,17,bench_rust_frag_measure,port_frag_measure,project_wrapper_or_ffi,resolved,true,"port_frag_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2714,17,bench_rust_frag_destroy,port_frag_destroy,project_wrapper_or_ffi,resolved,true,port_frag_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2755,17,bench_rust_mutex_create,port_mutex_create,project_wrapper_or_ffi,resolved,true,port_mutex_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2760,17,bench_rust_mutex_measure,port_mutex_measure,project_wrapper_or_ffi,resolved,true,"port_mutex_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2765,17,bench_rust_mutex_destroy,port_mutex_destroy,project_wrapper_or_ffi,resolved,true,port_mutex_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2822,17,bench_rust_timer_create,port_timer_create,project_wrapper_or_ffi,resolved,true,port_timer_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2827,17,bench_rust_timer_measure,port_timer_measure,project_wrapper_or_ffi,resolved,true,"port_timer_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2832,17,bench_rust_timer_destroy,port_timer_destroy,project_wrapper_or_ffi,resolved,true,port_timer_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2865,11,bench_rust_sem_create,bench_rust_now_ticks,project_wrapper_or_ffi,resolved,true,bench_rust_now_ticks ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2866,17,bench_rust_sem_create,port_sem_create,project_wrapper_or_ffi,resolved,true,port_sem_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2871,17,bench_rust_sem_measure,port_sem_measure,project_wrapper_or_ffi,resolved,true,"port_sem_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2876,17,bench_rust_sem_destroy,port_sem_destroy,project_wrapper_or_ffi,resolved,true,port_sem_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2892,11,bench_rust_mutex_u_create,bench_rust_now_ticks,project_wrapper_or_ffi,resolved,true,bench_rust_now_ticks ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2893,17,bench_rust_mutex_u_create,port_mutex_u_create,project_wrapper_or_ffi,resolved,true,port_mutex_u_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2898,17,bench_rust_mutex_u_measure,port_mutex_u_measure,project_wrapper_or_ffi,resolved,true,"port_mutex_u_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2903,17,bench_rust_mutex_u_destroy,port_mutex_u_destroy,project_wrapper_or_ffi,resolved,true,port_mutex_u_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2918,11,bench_rust_alloc_create,bench_rust_now_ticks,project_wrapper_or_ffi,resolved,true,bench_rust_now_ticks ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2919,17,bench_rust_alloc_create,port_alloc_create,project_wrapper_or_ffi,resolved,true,port_alloc_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2924,17,bench_rust_alloc_measure,port_alloc_measure,project_wrapper_or_ffi,resolved,true,"port_alloc_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2929,17,bench_rust_alloc_destroy,port_alloc_destroy,project_wrapper_or_ffi,resolved,true,port_alloc_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2934,11,bench_rust_sleep_create,bench_rust_now_ticks,project_wrapper_or_ffi,resolved,true,bench_rust_now_ticks ( ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2935,17,bench_rust_sleep_create,port_sleep_create,project_wrapper_or_ffi,resolved,true,port_sleep_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2940,17,bench_rust_sleep_measure,port_sleep_measure,project_wrapper_or_ffi,resolved,true,"port_sleep_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2945,17,bench_rust_sleep_destroy,port_sleep_destroy,project_wrapper_or_ffi,resolved,true,port_sleep_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2957,17,bench_rust_sched_create,port_sched_create,project_wrapper_or_ffi,resolved,true,port_sched_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2962,17,bench_rust_sched_measure,port_sched_measure,project_wrapper_or_ffi,resolved,true,"port_sched_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2967,17,bench_rust_sched_destroy,port_sched_destroy,project_wrapper_or_ffi,resolved,true,port_sched_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2972,17,bench_rust_notify_create,port_notify_create,project_wrapper_or_ffi,resolved,true,port_notify_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2977,17,bench_rust_notify_measure,port_notify_measure,project_wrapper_or_ffi,resolved,true,"port_notify_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,2982,17,bench_rust_notify_destroy,port_notify_destroy,project_wrapper_or_ffi,resolved,true,port_notify_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,3013,17,bench_rust_prio_create,port_prio_create,project_wrapper_or_ffi,resolved,true,port_prio_create ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,3018,17,bench_rust_prio_measure,port_prio_measure,project_wrapper_or_ffi,resolved,true,"port_prio_measure ( NULL , ticks )",source_call_or_ast_node
+nuttx-esp32c6-c-support-rust,c,firmware/c-kernels/nuttx/c/port.c,3023,17,bench_rust_prio_destroy,port_prio_destroy,project_wrapper_or_ffi,resolved,true,port_prio_destroy ( NULL ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,122,29,now_ticks,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,131,17,ticks_per_second,bench_rust_ticks_per_second,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,135,31,queue_create,queue_create,project_wrapper,resolved,true,"c""/rtos_bench_mq""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,140,18,queue_send,queue_send,project_wrapper,resolved,true,self . queue value,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,144,18,queue_receive,queue_receive,project_wrapper,resolved,true,self . queue,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,148,18,queue_destroy,queue_destroy,project_wrapper,resolved,true,"self . queue c""/rtos_bench_mq""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,189,24,isr_create,bench_rust_isr_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,196,29,isr_measure,bench_isr_measure,rust_ffi_declaration,resolved,true,& mut ticks,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,201,24,isr_destroy,bench_rust_isr_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,205,24,trigger_isr_create,bench_rust_trigger_isr_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,209,25,trigger_isr_measure,bench_rust_trig_drain,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,210,26,trigger_isr_measure,bench_rust_trig_fire,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,211,20,trigger_isr_measure,bench_rust_trig_wait,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,214,29,trigger_isr_measure,bench_rust_trig_entry,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,222,24,trigger_isr_destroy,bench_rust_trigger_isr_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,235,29,yield_now,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,384,24,frag_create,bench_rust_frag_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,388,35,frag_measure,bench_rust_frag_n,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,389,42,frag_measure,bench_rust_fordblks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,394,50,frag_measure,bench_rust_fordblks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,395,24,frag_measure,bench_rust_frag_alloc,rust_ffi_declaration,resolved,true,allocated as u32,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,402,25,frag_measure,bench_rust_frag_free,rust_ffi_declaration,resolved,true,index as u32,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,407,21,frag_measure,bench_rust_frag_free,rust_ffi_declaration,resolved,true,index as u32,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,409,40,frag_measure,bench_rust_fordblks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,410,42,frag_measure,bench_rust_mxordblk,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,412,21,frag_measure,bench_rust_frag_free,rust_ffi_declaration,resolved,true,index as u32,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,426,24,frag_destroy,bench_rust_frag_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,457,18,timer_create,timer_create,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,461,18,timer_measure,timer_drain,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,463,18,timer_measure,timer_arm,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,464,18,timer_measure,timer_wait,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,465,27,timer_measure,timer_fire,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,472,18,timer_destroy,timer_destroy,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,477,24,pjit_create,bench_rust_pjit_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,484,29,pjit_measure,bench_pjit_measure,rust_ffi_declaration,resolved,true,& mut ticks,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,489,24,pjit_destroy,bench_rust_pjit_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,533,24,alloc_create,bench_rust_alloc_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,538,25,alloc_measure,malloc,rust_ffi_declaration,resolved,true,64,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,541,21,alloc_measure,free,rust_ffi_declaration,resolved,true,p,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,551,24,alloc_destroy,bench_rust_alloc_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,577,25,sched_measure,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,590,18,notify_create,notify_create,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,594,18,notify_measure,notify_drain,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,595,18,notify_measure,notify_go,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,596,18,notify_measure,notify_done,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,598,31,notify_measure,notify_signal,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,606,18,notify_destroy,notify_destroy,project_wrapper,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,638,24,maxdis_create,bench_rust_maxdis_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,645,29,maxdis_measure,bench_maxdis_measure,rust_ffi_declaration,resolved,true,& mut ticks,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,650,24,maxdis_destroy,bench_rust_maxdis_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,654,24,nested_create,bench_rust_nested_create,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,661,42,nested_measure,bench_rust_nested_run,rust_ffi_declaration,resolved,true,0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,662,40,nested_measure,bench_rust_nested_run,rust_ffi_declaration,resolved,true,1,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,664,43,nested_measure,bench_rust_nested_run,rust_ffi_declaration,resolved,true,0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,665,41,nested_measure,bench_rust_nested_run,rust_ffi_declaration,resolved,true,1,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/lib.rs,677,24,nested_destroy,bench_rust_nested_destroy,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,41,8,queue_create,mq_unlink,rust_ffi_declaration,resolved,true,name . as_ptr (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,42,17,queue_create,mq_open,rust_ffi_declaration,resolved,true,name . as_ptr () MQ_FLAGS MQ_MODE core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,53,11,queue_send,mq_send,rust_ffi_declaration,resolved,true,mq & payload as * const u32 as * const c_char core :: mem :: size_of :: < u32 > () 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,70,29,queue_receive,mq_receive,rust_ffi_declaration,resolved,true,mq & mut received_value as * mut u32 as * mut c_char core :: mem :: size_of :: < u32 > () & mut prio as * mut c_uint,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,86,12,queue_destroy,mq_close,rust_ffi_declaration,resolved,true,mq,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,88,8,queue_destroy,mq_unlink,rust_ffi_declaration,resolved,true,name . as_ptr (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,111,8,queue_create_attr,mq_unlink,rust_ffi_declaration,resolved,true,name . as_ptr (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,118,17,queue_create_attr,mq_open,rust_ffi_declaration,resolved,true,name . as_ptr () MQ_FLAGS MQ_MODE & attr as * const MqAttr as * mut c_void,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,134,11,mq_send_bytes,mq_send,rust_ffi_declaration,resolved,true,mq buf . as_ptr () as * const c_char buf . len () 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,145,29,mq_receive_bytes,mq_receive,rust_ffi_declaration,resolved,true,mq buf . as_mut_ptr () as * mut c_char buf . len () & mut prio as * mut c_uint,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,194,11,monotonic_ns,clock_gettime,rust_ffi_declaration,resolved,true,CLOCK_MONOTONIC & mut ts as * mut Timespec,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,209,11,abs_sleep_ns,clock_nanosleep,rust_ffi_declaration,resolved,true,CLOCK_MONOTONIC TIMER_ABSTIME & req as * const Timespec core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,229,11,sleep_ms,nanosleep,rust_ffi_declaration,resolved,true,& req as * const Timespec core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,285,11,sem_create,sem_init,rust_ffi_declaration,resolved,true,sem as * mut SemT 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,294,11,sem_post_op,sem_post,rust_ffi_declaration,resolved,true,sem as * mut SemT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,303,11,sem_wait_op,sem_wait,rust_ffi_declaration,resolved,true,sem as * mut SemT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,312,8,sem_destroy_op,sem_destroy,rust_ffi_declaration,resolved,true,sem as * mut SemT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,318,11,mutex_create,pthread_mutex_init,rust_ffi_declaration,resolved,true,mutex as * mut MutexT core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,327,11,mutex_lock_op,pthread_mutex_lock,rust_ffi_declaration,resolved,true,mutex as * mut MutexT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,336,11,mutex_unlock_op,pthread_mutex_unlock,rust_ffi_declaration,resolved,true,mutex as * mut MutexT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,345,8,mutex_destroy_op,pthread_mutex_destroy,rust_ffi_declaration,resolved,true,mutex as * mut MutexT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,406,11,thread_create,pthread_attr_init,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,412,16,thread_create,pthread_attr_setschedpolicy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,413,11,thread_create,pthread_attr_setschedparam,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT & sp as * const SchedParam,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,415,12,thread_create,pthread_attr_destroy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,419,12,thread_create,pthread_attr_setinheritsched,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT PTHREAD_EXPLICIT_SCHED,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,421,17,thread_create,pthread_create,rust_ffi_declaration,resolved,true,& mut thread as * mut PthreadT & attr as * const PthreadAttrT entry arg,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,427,8,thread_create,pthread_attr_destroy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,443,12,thread_create_maxfifo,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,458,11,thread_create_stack,pthread_attr_init,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,464,16,thread_create_stack,pthread_attr_setschedpolicy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,465,11,thread_create_stack,pthread_attr_setschedparam,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT & sp as * const SchedParam,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,467,12,thread_create_stack,pthread_attr_destroy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,471,12,thread_create_stack,pthread_attr_setinheritsched,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT PTHREAD_EXPLICIT_SCHED,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,472,16,thread_create_stack,pthread_attr_setstacksize,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT stacksize,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,474,17,thread_create_stack,pthread_create,rust_ffi_declaration,resolved,true,& mut thread as * mut PthreadT & attr as * const PthreadAttrT entry arg,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,480,8,thread_create_stack,pthread_attr_destroy,rust_ffi_declaration,resolved,true,& mut attr as * mut PthreadAttrT,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,492,11,thread_self_priority,pthread_getschedparam,rust_ffi_declaration,resolved,true,pthread_self () & mut policy as * mut c_int & mut sp as * mut SchedParam,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,493,12,thread_self_priority,pthread_self,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,506,8,thread_join,pthread_join,rust_ffi_declaration,resolved,true,thread core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,521,15,handoff_peer_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_SIGNAL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,527,53,handoff_peer_entry,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,528,20,handoff_peer_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,537,11,handoff_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_SIGNAL) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,540,11,handoff_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_DONE) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,551,11,handoff_measure,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_SIGNAL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,554,11,handoff_measure,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,564,16,handoff_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_SIGNAL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,566,16,handoff_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_SIGNAL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,567,16,handoff_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,581,39,ipc_peer_entry,queue_receive,project_wrapper,resolved,true,* core :: ptr :: addr_of_mut ! (S_IPC_REQ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,588,20,ipc_peer_entry,queue_send,project_wrapper,resolved,true,* core :: ptr :: addr_of_mut ! (S_IPC_REP) received_value,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,599,18,ipc_create,queue_create,project_wrapper,resolved,true,"c""/rtos_bench_ipc_req""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,600,18,ipc_create,queue_create,project_wrapper,resolved,true,"c""/rtos_bench_ipc_rep""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,611,8,ipc_roundtrip,queue_send,project_wrapper,resolved,true,* core :: ptr :: addr_of_mut ! (S_IPC_REQ) value,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,612,8,ipc_roundtrip,queue_receive,project_wrapper,resolved,true,* core :: ptr :: addr_of_mut ! (S_IPC_REP),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,619,16,ipc_destroy,queue_send,project_wrapper,resolved,true,* core :: ptr :: addr_of_mut ! (S_IPC_REQ) 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,621,8,ipc_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_IPC_REQ) c""/rtos_bench_ipc_req""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,622,8,ipc_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_IPC_REP) c""/rtos_bench_ipc_rep""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,641,15,preempt_peer_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PREEMPT_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,647,55,preempt_peer_entry,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,660,11,preempt_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PREEMPT_SEM) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,664,18,preempt_create,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,673,20,preempt_create,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,692,11,preempt_post,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PREEMPT_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,706,16,preempt_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PREEMPT_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,708,16,preempt_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PREEMPT_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,723,15,notify_peer_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,729,56,notify_peer_entry,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,730,20,notify_peer_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,739,11,notify_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_GO) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,742,11,notify_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_DONE) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,746,19,notify_create,sched_get_priority_min,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,760,14,notify_drain,sem_trywait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,767,11,notify_go,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,776,11,notify_done,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,790,16,notify_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,792,16,notify_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,793,16,notify_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_NOTIFY_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,829,18,ipc_payload_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_ipc_payload_req"" 1 256",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,830,18,ipc_payload_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_ipc_payload_rep"" 1 256",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,835,12,ipc_payload_create,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,856,8,ipc_payload_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_IPC_PAYLOAD_REQ) c""/rtos_bench_ipc_payload_req""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,860,8,ipc_payload_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_IPC_PAYLOAD_REP) c""/rtos_bench_ipc_payload_rep""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,893,24,tp_peer_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TP_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,909,17,tp_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_tp"" 8 TP_MSG_BYTES as i32",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,911,11,tp_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TP_DONE) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,939,11,tp_done,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TP_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,951,8,tp_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_TP_MQ) c""/rtos_bench_tp""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,953,16,tp_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TP_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1017,21,zcopy_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_zcopy_cp_req"" 1 ZCOPY_BYTES as i32",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1018,21,zcopy_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_zcopy_cp_rep"" 1 ZCOPY_BYTES as i32",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1019,21,zcopy_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_zcopy_zc_req"" 1 4",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1020,21,zcopy_create,queue_create_attr,project_wrapper,resolved,true,"c""/rtos_bench_zcopy_zc_rep"" 1 4",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1025,19,zcopy_create,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1048,20,zcopy_copied,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1057,18,zcopy_copied,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1076,20,zcopy_ref,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1083,18,zcopy_ref,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1111,8,zcopy_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_ZCOPY_CP_REQ) c""/rtos_bench_zcopy_cp_req""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1115,8,zcopy_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_ZCOPY_CP_REP) c""/rtos_bench_zcopy_cp_rep""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1119,8,zcopy_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_ZCOPY_ZC_REQ) c""/rtos_bench_zcopy_zc_req""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1123,8,zcopy_destroy,queue_destroy,project_wrapper,resolved,true,"* core :: ptr :: addr_of_mut ! (S_ZCOPY_ZC_REP) c""/rtos_bench_zcopy_zc_rep""",source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1152,20,yield_peer_entry,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1162,20,peers_extra_entry,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1207,20,yield_create,sched_yield,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1257,15,prio_peer_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_RELEASE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1268,20,prio_peer_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ALL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1269,20,prio_peer_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ACK),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1279,11,prio_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_RELEASE) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1282,11,prio_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ALL) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1285,11,prio_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ACK) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1289,19,prio_create,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1315,11,prio_release,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_RELEASE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1324,11,prio_all,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ALL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1347,16,prio_ack,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ACK),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1356,24,prio_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_RELEASE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1363,16,prio_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_RELEASE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1364,16,prio_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ALL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1365,16,prio_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_PRIO_ACK),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1389,15,mutex_low_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REQ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1395,20,mutex_low_entry,pthread_mutex_lock,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1396,20,mutex_low_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_HELD),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1397,20,mutex_low_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1398,20,mutex_low_entry,pthread_mutex_unlock,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1410,15,mutex_med_entry,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1425,20,mutex_med_entry,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1436,11,mutex_pi_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REQ) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1437,15,mutex_pi_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_HELD) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1438,15,mutex_pi_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REL) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1439,15,mutex_pi_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_GO) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1440,15,mutex_pi_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_DONE) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1444,11,mutex_pi_create,pthread_mutex_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX) core :: ptr :: null_mut (),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1449,19,mutex_pi_create,sched_get_priority_max,rust_ffi_declaration,resolved,true,SCHED_FIFO,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1474,11,mutex_pi_req,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REQ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1483,11,mutex_pi_held,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_HELD),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1492,16,mutex_pi_go,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1498,16,mutex_pi_rel,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1504,11,mutex_pi_lock,pthread_mutex_lock,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1519,11,mutex_pi_done,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1528,11,mutex_pi_unlock,pthread_mutex_unlock,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1539,20,mutex_pi_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REQ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1540,20,mutex_pi_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1541,20,mutex_pi_destroy,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1546,16,mutex_pi_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REQ),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1547,16,mutex_pi_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_HELD),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1548,16,mutex_pi_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_REL),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1549,16,mutex_pi_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_GO),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1550,16,mutex_pi_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_DONE),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1551,16,mutex_pi_destroy,pthread_mutex_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_M_MUTEX),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1597,49,timer_wd,bench_rust_now_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1598,16,timer_wd,sem_post,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1604,11,timer_create,sem_init,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_SEM) 0 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1613,14,timer_drain,sem_trywait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1620,22,timer_arm,clock_systime_ticks,rust_ffi_declaration,resolved,true,,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1621,11,timer_arm,wd_start_abstick,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_WDOG) abstick timer_wd 0,source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1630,11,timer_wait,sem_wait,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_SEM),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1643,16,timer_destroy,wd_cancel,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_WDOG),source_call_or_ast_node
+nuttx-esp32c6-rust,rust,firmware/c-kernels/nuttx/rust/src/boundary.rs,1644,16,timer_destroy,sem_destroy,rust_ffi_declaration,resolved,true,core :: ptr :: addr_of_mut ! (S_TIMER_SEM),source_call_or_ast_node

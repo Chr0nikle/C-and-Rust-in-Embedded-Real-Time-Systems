@@ -1,0 +1,18 @@
+[package]
+name = "rtos-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "rtos"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.6", features = ["derive"] }
+serde_json = "1"
+rtos-core = { path = "../core" }
+rtos-plugin-freertos = { path = "../plugins/freertos" }
+rtos-plugin-zephyr = { path = "../plugins/zephyr" }
+rtos-plugin-nuttx = { path = "../plugins/nuttx" }
+rtos-plugin-freertos-in-rust = { path = "../plugins/freertos-in-rust" }
+rtos-plugin-rivet = { path = "../plugins/rivet" }

@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-c6-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 361716,
+        "data": 54368,
+        "flash": 226150,
+        "image": "nuttx",
+        "ram": 416084,
+        "rodata": 0,
+        "text": 171782
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-c6-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 294684,
+        "data": 24640,
+        "flash": 184902,
+        "image": "nuttx",
+        "ram": 319324,
+        "rodata": 0,
+        "text": 160262
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

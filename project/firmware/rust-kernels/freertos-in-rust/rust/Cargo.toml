@@ -1,0 +1,47 @@
+[package]
+name = "rtos-bench-freertos-in-rust"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+# Board selection: F4 uses the Cortex-M4F port + stm32f4xx-hal; the H7 uses the
+# Cortex-M7 port + stm32h7xx-hal (stm32h735 feature covers the stm32h723).
+default = ["f4"]
+f4 = ["freertos-in-rust/port-cortex-m4f", "dep:stm32f4xx-hal"]
+stm32h723 = ["freertos-in-rust/port-cortex-m7", "dep:stm32h7xx-hal"]
+
+[dependencies]
+freertos-in-rust = { version = "0.3", default-features = false, features = [
+    "heap-4",
+    "user-config",
+    "use-mutexes",
+    "timers",
+    "task-delete",
+    "task-suspend",
+    "task-priority-set",
+    "stream-buffers",
+    "queue-sets",
+    "queue-registry",
+    "trace-facility",
+    "stack-high-water-mark",
+    "stats-formatting",
+    "generate-run-time-stats",
+] }
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+stm32f4xx-hal = { version = "0.23", features = ["stm32f407"], optional = true }
+stm32h7xx-hal = { version = "0.16", features = ["stm32h735", "rt"], optional = true }
+panic-halt = "1.0"
+
+# Vendored kernel: portGET_RUN_TIME_COUNTER_VALUE reads DWT (microsecond
+# run-time stats) and the traceISR_* hooks accumulate the tick ISR body.
+[patch.crates-io]
+freertos-in-rust = { path = "vendor/freertos-in-rust" }
+
+# Standalone embedded crate: keep it out of the host firmware workspace.
+[workspace]
+
+[profile.release]
+opt-level = "s"
+lto = true
+debug = true

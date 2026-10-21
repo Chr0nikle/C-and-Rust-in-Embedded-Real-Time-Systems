@@ -1,0 +1,51 @@
+# Inventory, NOT a usable lockfile. Every empty revision deliberately blocks acquisition.
+# During explicit setup choose compatible releases, resolve full SHAs and record tool
+# versions/checksums, submodules, frozen west manifest and Rust lockfiles together.
+schema_version = 1
+status = "partially-pinned"
+
+[sources.esp-idf]
+repository = "https://github.com/espressif/esp-idf.git"
+revision = "b774170ff46c393eeb5e495ea37936038d3f4f4f"
+tag = "v5.5.5"
+
+
+[sources.freertos-kernel]
+repository = "https://github.com/FreeRTOS/FreeRTOS-Kernel.git"
+revision = "8be86d4a24fd4091f8f4192018423ab590f408db"
+tag = ""
+
+
+[sources.stm32cubef4]
+repository = "https://github.com/STMicroelectronics/STM32CubeF4.git"
+revision = "89e6d4466578bc9eab83de8fcd1e397ceb5e5cc9"
+tag = ""
+
+
+[sources.zephyr]
+repository = "https://github.com/zephyrproject-rtos/zephyr.git"
+revision = "dccb09599635bdff17633fa7e9dab014b91dce90"
+tag = "v4.4.2"
+
+
+[sources.nuttx]
+repository = "https://github.com/apache/nuttx.git"
+revision = "20752312eaac24994487891207c81fa22c02f7b5"
+tag = ""
+
+
+[sources.nuttx-apps]
+repository = "https://github.com/apache/nuttx-apps.git"
+revision = "2f76986584ddd3881335e5897bbd80e12ae431a2"
+tag = ""
+
+
+[sources.esp-idf-template]
+repository = "https://github.com/esp-rs/esp-idf-template.git"
+revision = ""
+
+
+[sources.rivet-rtos]
+repository = "https://github.com/habeelali/rivet-rtos.git"
+revision = "b2d2cbff1dc891675e4bf98db4c728ad8e3e8a91"
+tag = ""

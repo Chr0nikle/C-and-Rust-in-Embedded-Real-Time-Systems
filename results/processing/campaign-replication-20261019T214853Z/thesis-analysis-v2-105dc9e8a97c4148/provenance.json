@@ -1,0 +1,50 @@
+{
+  "analysis_id": "thesis-analysis-v2-105dc9e8a97c4148",
+  "analysis_version": "thesis-analysis-v2",
+  "analyzer": {
+    "branch": "main",
+    "dirty": true,
+    "revision": "9ba13e022b85ecfad687f0fbbfee58cc64dc9332"
+  },
+  "campaign_lock_sha256": "cc80de4ca3d0e4e7a735775b6610229aff6bcbe7526d9cb8eeb9c36838452e6c",
+  "command": "test",
+  "generated_at": "2026-10-21T12:26:38Z",
+  "identity_normalization": [
+    "JSON keys: generated_at, generated_utc, created_at, created_utc, timestamp",
+    "SVG: metadata blocks and generated element identifiers"
+  ],
+  "implementation_sha256": "e236c870df04fb89fb844a109f6882ff5d67ed6ccf3fac21ad71964c604a776e",
+  "input_campaign": "campaign-replication-20261019T214853Z",
+  "input_manifest_file": "inputs.sha256",
+  "input_manifest_sha256": "f9109a3eca7752872c897e6be7925f3733a4645708155c71b6299ae5b361c746",
+  "outputs_identity_sha256": "6e0b33295305bc03959546eab55257c4b1e9dceb794680636b1e2b8d80c6887d",
+  "outputs_manifest": "outputs.sha256",
+  "outputs_manifest_sha256": "8aa1bbe4e671267c7c3cd55b15cc590bd0f3ff423801918b46988e70d77fcc09",
+  "safety_evidence": {
+    "generated_inventory": "results/safety/generated_inventory",
+    "generated_inventory_sha256": "466ba49166e0e91b62d0844601b7f043783e45ef38ca6f1c298836002f43850e",
+    "generated_outputs": "results/safety/generated_outputs",
+    "generated_outputs_sha256": "fa1580b112853c9e0cf529b6c3cc4394a1db9a51f86e6891f8e1b1c65232238b",
+    "generator": "project/safety/tables.py",
+    "legacy_boundary_run": "safety-boundary-20261018T230156Z",
+    "profiles": "results/safety/profiles",
+    "profiles_sha256": "6679671f04ad32e0b38dfcda86ceb5baff3120ab5d22c550298265aba39dbb4c",
+    "status": "present-local"
+  },
+  "schema_version": 1,
+  "supplementary_evidence": [
+    {
+      "bundle_sha256": "9ca150d7d888257b8e949d6758e56004c4c5d7635fad205a7669066e00b573e2",
+      "campaign": "campaign-replication-20261014T075134Z",
+      "id": "rust-native-timing",
+      "limitation": "Raw campaign bundle is not present; only the preserved derived statistics and published outputs remain.",
+      "preserved_derived": "thesis/generated/data/replication-stats.json",
+      "status": "missing",
+      "used_by": [
+        "thesis/generated/data/replication-stats.json",
+        "thesis/generated/typ/all-results.typ",
+        "thesis/generated/figures/rust-kernel-comparison.svg"
+      ]
+    }
+  ]
+}

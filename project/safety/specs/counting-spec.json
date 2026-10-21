@@ -1,0 +1,318 @@
+{
+  "schema": "uastw-operation-counting-spec-v2",
+  "version": "2.1.0",
+  "counting_unit": "configuration-specific source-level operation occurrence, with a separate configuration-independent source identity",
+  "primary_scope": [
+    "freertos-stm32f4-c-benchmark",
+    "freertos-stm32f4-rust",
+    "freertos-stm32f4-c-support-rust"
+  ],
+  "scope_separation": {
+    "rule": "The C benchmark (RUST=0), Rust benchmark (thumbv7em-none-eabihf) and C support linked with Rust (RUST=1) are discovered and reported separately.",
+    "shared_c_sources": "Shared C files are parsed in both C configurations. Both configuration-specific records are retained; the shared source occurrence is recognised through source_identity_key.",
+    "third_party": "Third-party FreeRTOS, HAL, CMSIS, standard-library and startup operations are excluded from project counts. Headers are used only to resolve declarations, types and macro provenance."
+  },
+  "counting_units": {
+    "configuration_specific_operation_records": {
+      "definition": "One row in operations.csv for one configuration. The same source occurrence active in both C configurations contributes one row per configuration.",
+      "use": "Per-scope descriptive counts and configuration comparison."
+    },
+    "source_identity_key": {
+      "definition": "Stable hash of language, category, source file, line, column, AST kind, expression, function and source extent where available. Build configuration is deliberately excluded.",
+      "use": "Recognises that an occurrence active in both C configurations is the same source occurrence without deleting either configuration-specific row."
+    },
+    "distinct_source_identities": {
+      "definition": "Number of distinct source_identity_key values. The all-scope value removes configuration duplicates.",
+      "use": "Unique-source view. It is not a union of overlapping operation categories."
+    },
+    "prohibited_aggregation": "Do not call the sum of configuration-specific rows a unique-source total. Do not sum overlapping categories and call the result a count of distinct safety-relevant actions.",
+    "macro_pointer_conversion": {
+      "definition": "One reported macro-expansion pointer-cast occurrence per deduplicated invocation/extent key.",
+      "deduplication_key": "configuration, category, source file, source line, source column, AST kind, expression, function and expansion extent start.",
+      "nested_casts": "Multiple CSTYLE_CAST_EXPR nodes sharing the invocation/extent start collapse into one reported occurrence. The count is not a count of every AST cast node.",
+      "explicit_argument_interaction": "A source-written cast in a macro argument is pointer_conversion with explicit_macro_argument provenance. Macro-body pointer casts at the same invocation are recorded in that occurrence details under collapsed_macro_pointer_conversions rather than adding a second occurrence."
+    }
+  },
+  "provenance_classes": {
+    "explicit_source": "The node's spelling location equals its expansion location; the operation is written in project source.",
+    "project_macro_expansion": "The spelling location is a macro definition in a project header or source file. The invocation location is retained.",
+    "third_party_macro_expansion": "The spelling location is a macro definition outside the project source/header roots. The invocation location is retained.",
+    "compiler_generated": "A compiler-synthesised or unspellable AST construct with no distinct source spelling. No reported C category currently relies on this class.",
+    "unresolved_provenance": "Macro expansion is present but the definition or expansion origin could not be established. Pointer conversions in this class are emitted as unresolved_pointer_conversion.",
+    "known_macro_model": "A narrowly specified Rust addr_of!/addr_of_mut! form was modelled for a direct static-mut identifier.",
+    "macro_not_expanded": "A Rust macro expression retained as unresolved because the syntax-only extractor cannot expand it.",
+    "explicit_macro_argument": "A source-written cast whose spelling location lies inside the arguments of a macro invocation. It is counted as pointer_conversion but is not called a macro-body cast.",
+    "macro_argument_reference": "A non-cast source reference spelled inside a macro invocation argument. It is retained with macro_argument_* metadata; global-reference deduplication is unchanged."
+  },
+  "categories": {
+    "pointer_dereference": {
+      "c": "Unary * operator whose operand has a compiler-resolved pointer type.",
+      "rust": "Unary * operand whose local/parameter/static/function-return type is syntactically resolved to a raw pointer.",
+      "counting_unit": "source operation occurrence",
+      "trigger": "C: AST UNARY_OPERATOR with '*'; Rust: ExprUnary(Deref).",
+      "provenance": "C explicit_source or macro-expansion classes. Macro-expanded dereferences remain pointer_dereference records with provenance metadata.",
+      "included": "Explicit dereference. Rust simple aliases and direct project-function pointer returns are resolved when unambiguous.",
+      "excluded": "Pointer declarations, pointer field access, array indexing, safe-reference dereference.",
+      "activity": "Inactive configuration records are retained with activity_status=false and excluded from active counts.",
+      "resolution": "C resolved by the compiler type. Rust resolved only when the operand type is syntactically established; otherwise the candidate remains unresolved.",
+      "overlaps": "A pointer dereference may be one component of an assignment or pointer arithmetic expression.",
+      "comparable": "Comparable with qualifications after mapping C -> and array-index exclusions."
+    },
+    "pointer_field_access": {
+      "c": "Member expression using -> on a pointer operand.",
+      "rust": "Not emitted as a separate syntax category.",
+      "trigger": "C AST MEMBER_REF_EXPR containing the -> token.",
+      "included": "Pointer-base member access. The pointer base is a value read.",
+      "excluded": "Dot member access on an object, explicit unary dereference.",
+      "overlaps": "A -> expression implies a dereference semantically but is not also emitted as pointer_dereference.",
+      "comparable": false,
+      "reason": "Rust has no separate syntactic equivalent; descriptive only."
+    },
+    "pointer_arithmetic": {
+      "c": "Binary + or - with a pointer operand; pointer += or -=; prefix or postfix ++ or -- on a pointer.",
+      "rust": "Raw-pointer .add/.offset/.sub calls whose receiver type is resolved to a raw pointer.",
+      "trigger": "C AST binary/compound-assignment/unary operator plus pointer operand type; Rust ExprMethodCall.",
+      "included": "Postfix p++, p--; prefix ++p, --p; compound p += n, p -= n; binary p + n, p - n, p - q.",
+      "excluded": "Array subscripts, ordinary integer increments and non-pointer method receivers.",
+      "read_write": "Increment/decrement of a global pointer is also a mutable-global read/write. Compound expressions may legitimately produce more than one operation record.",
+      "overlaps": "An increment of a global pointer produces both pointer_arithmetic and mutable_global_readwrite.",
+      "comparable": "Descriptive with explicit mapping; C and Rust express pointer stepping differently."
+    },
+    "array_index": {
+      "c": "Array subscript expression. Kept separate from pointer arithmetic.",
+      "rust": "Safe Rust indexing is not counted as a raw-pointer operation.",
+      "trigger": "C AST ARRAY_SUBSCRIPT_EXPR.",
+      "read_write": "When the selected object is a global array, an element write marks the array object as written. The index expression itself remains a read (or read/write if it is an increment).",
+      "excluded": "Pointer arithmetic and Rust safe indexing.",
+      "comparable": false,
+      "reason": "Counts different language constructs; descriptive only."
+    },
+    "pointer_conversion": {
+      "c": "Explicit source-level cast with a pointer target and a pointer or integer source, written directly or as a macro invocation argument.",
+      "rust": "Explicit as-cast whose target is a raw pointer.",
+      "trigger": "C AST CSTYLE_CAST_EXPR whose spelling location equals its expansion location. Rust ExprCast with pointer target.",
+      "provenance": "explicit_source for a direct cast; explicit_macro_argument for a cast written in a macro argument. Macro-body and third-party macro casts are excluded.",
+      "included": "Explicit pointer-to-pointer and integer-to-pointer casts written in project source, including casts passed as macro arguments.",
+      "excluded": "Casts generated by project or third-party macro bodies, implicit compiler conversions, unresolved-provenance casts, and pointer-to-integer casts whose target is not a pointer.",
+      "resolution": "C source and target types are compiler-resolved. Conversion direction is recorded as pointer_to_pointer or integer_to_pointer.",
+      "overlaps": "Nested explicit casts are counted separately. If a source-written macro-argument cast shares an invocation with macro-body pointer casts, the macro-body casts are preserved in collapsed_macro_pointer_conversions details and do not create a second occurrence.",
+      "comparable": "Comparable with qualifications after documenting nested casts and the absence of a Rust integer-to-pointer distinction."
+    },
+    "macro_pointer_conversion": {
+      "c": "Pointer-target cast introduced by expanding a project or third-party macro.",
+      "rust": "Not emitted; Rust macro contents remain unresolved unless a known addr_of! form is modelled.",
+      "trigger": "C AST CSTYLE_CAST_EXPR whose spelling location differs from its expansion location.",
+      "provenance": "project_macro_expansion or third_party_macro_expansion, with macro-definition and invocation locations.",
+      "included": "Pointer-target casts introduced by project or third-party macro bodies, from pointer or integer sources.",
+      "excluded": "Explicit source casts and source-written casts in macro arguments (pointer_conversion), non-pointer targets, and unresolved provenance.",
+      "comparable": false,
+      "reason": "Descriptive provenance category. It must not be added to pointer_conversion or presented as explicit project-written casts.",
+      "counting_unit": "one reported macro-expansion pointer-cast occurrence per deduplicated invocation/extent key",
+      "deduplication": "Multiple AST cast nodes sharing the invocation line, column and expansion extent start collapse into one record. This avoids duplicate expansion nodes but does not count every AST cast node.",
+      "note": "At an invocation that also contains a source-written macro-argument cast, macro-body pointer casts are retained in the explicit record collapsed_macro_pointer_conversions list, not as a separate macro_pointer_conversion row."
+    },
+    "dynamic_allocation": {
+      "c": "Call to a recognised allocation API.",
+      "rust": "Call to a recognised allocation/FFI API.",
+      "trigger": "Call expression whose callee is a recognised allocator.",
+      "included": "Call sites. C: pvPortMalloc, malloc, calloc, realloc. Rust: the same recognised names through direct/FFI calls.",
+      "excluded": "Function declarations, indirect calls and runtime executions.",
+      "overlaps": "A Rust foreign allocator call may also be a kernel_api_call with callee_kind=rust_ffi_declaration.",
+      "comparable": "Comparable with qualifications as call-site counts; call layers differ."
+    },
+    "deallocation": {
+      "c": "Call to a recognised release API.",
+      "rust": "Call to a recognised release/FFI API.",
+      "trigger": "Call expression whose callee is a recognised deallocator.",
+      "included": "Call sites. C: vPortFree, free. Rust: the same recognised names through direct/FFI calls.",
+      "excluded": "Function declarations, indirect calls and runtime executions.",
+      "comparable": "Comparable with qualifications as call-site counts."
+    },
+    "mutable_global_read": {
+      "c": "Value read of a project-defined non-const file-scope object.",
+      "rust": "Direct path read of a project-defined active static mut, not shadowed by a local or parameter.",
+      "trigger": "C DECL_REF_EXPR with read usage; Rust ExprPath with read access.",
+      "read_write": "An index expression used to select an array element is a read. A pointer base used to locate a pointee is a read.",
+      "included": "C direct value reads, index reads, and pointer bases used to locate a pointee; Rust direct static-mut path reads and static-mut pointer-base index reads.",
+      "excluded": "Address-taking, writes to the selected array element, pointee writes through pointers, const globals, aliases and atomics.",
+      "overlaps": "A read may overlap a pointer dereference or an array index operation.",
+      "comparable": false,
+      "reason": "C file-scope objects and Rust direct static-mut paths are different language models; descriptive only."
+    },
+    "mutable_global_write": {
+      "c": "Direct write of a project-defined non-const file-scope object, including a direct global struct-field write or a write to an element of a global array.",
+      "rust": "Direct assignment to a static-mut path, a field of a static-mut struct, or an element of a static-mut array.",
+      "trigger": "C assignment lvalue analysis; Rust ExprAssign plus tagged field/index access.",
+      "included": "g_count = 1; g_struct.field = value; g_array[i] = value; S_COUNT = 1; S_STRUCT.field = value; S_ARR[i] = value.",
+      "excluded": "Writes through a global pointer (g_ptr->field, *g_ptr, g_ptr[i]) classify g_ptr as a read and record the pointee mutation as mutable_global_unresolved, not as a write to the pointer object. Index variables are not written merely because the array element is written.",
+      "read_write": "Direct object mutation. Compound assignment and increment are read/write, not write.",
+      "comparable": false,
+      "reason": "Descriptive only; not equivalent to Rust static-mut access."
+    },
+    "mutable_global_readwrite": {
+      "c": "Compound assignment or prefix/postfix increment/decrement of a mutable global target.",
+      "rust": "Compound assignment to a direct static-mut path, static-mut struct field, or static-mut array element.",
+      "trigger": "C compound assignment or ++/-- on a direct global lvalue; Rust ExprBinary *Assign or lvalue mutation.",
+      "included": "g_count += 2; g_count++; ++g_count; S_COUNT += 1; S_COUNT -= 1; S_ARR[i] += 1; S_STRUCT.field += 1.",
+      "excluded": "Plain assignment (write) and plain value read.",
+      "overlaps": "Increment of a global pointer is also pointer_arithmetic.",
+      "comparable": false,
+      "reason": "Descriptive only; C and Rust models are not directly equivalent."
+    },
+    "mutable_global_address": {
+      "c": "Address-taking of a project-defined mutable global or one of its fields/elements.",
+      "rust": "&S, &mut S, or a directly modelled addr_of!(S)/addr_of_mut!(S) for an active static-mut identifier.",
+      "trigger": "C unary &; Rust ExprReference or a recognised addr_of macro form.",
+      "included": "&g_count; &g_struct.field; &g_array[i]; &S_COUNT; &mut S_COUNT; addr_of!(S_COUNT); addr_of_mut!(S_COUNT).",
+      "excluded": "Value reads and writes. addr_of! forms with non-identifier place expressions remain unresolved macros.",
+      "provenance": "Rust modelled forms use known_macro_model with explicit tests; all other macro forms remain unresolved.",
+      "comparable": false,
+      "reason": "Descriptive only; C and Rust address-taking are different constructs."
+    },
+    "mutable_global_unresolved": {
+      "c": "A pointee mutation through a project-global-derived pointer (dereference, pointer member, or pointer index) whose target object cannot be identified.",
+      "rust": "A mutation through a static-mut pointer or a static-mut pointer index whose pointee identity cannot be established.",
+      "trigger": "Rust assignment through ExprUnary(Deref) or an index whose base is a static-mut pointer.",
+      "included": "C: *g_ptr = value; g_ptr->field = value; g_ptr[i] = value. Rust: *S_PTR = value; S_PTR[i] = value.",
+      "excluded": "Mutations through local pointers with no established relationship to a global object.",
+      "read_write": "The pointer value itself is a read; the pointee mutation is recorded as unresolved.",
+      "resolution": "unresolved; no whole-program alias analysis is performed.",
+      "comparable": false,
+      "reason": "Explicit uncertainty record; not a global-write count."
+    },
+    "union_field_access": {
+      "c": "Member expression whose resolved field belongs to a union.",
+      "rust": "Not supported by the syntax-only extractor; reported as unsupported when unions exist.",
+      "comparable": false,
+      "reason": "Descriptive C category only."
+    },
+    "kernel_api_call": {
+      "c": "Call site whose callee matches a selected RTOS API or project-written kernel adapter/wrapper pattern, or an indirect/unresolved call.",
+      "rust": "Call site matching a foreign RTOS declaration, RTOS API name, or project RTOS wrapper pattern.",
+      "counting_unit": "source call site; a macro-expanded callee is recorded once at the source invocation location",
+      "callee_kinds": [
+        "rtos_api",
+        "project_wrapper_or_ffi",
+        "rust_ffi_declaration",
+        "project_wrapper",
+        "indirect_or_unresolved"
+      ],
+      "included": "Direct kernel calls, project wrappers, Rust foreign declarations and C indirect calls.",
+      "excluded": "Wrapper-to-underlying-API equivalence and argument contract validity.",
+      "comparable": false,
+      "reason": "Wrapper, direct RTOS and FFI calls are different layers. A matched kernel-operation count must not be formed by summing callee kinds."
+    },
+    "unresolved_macro": {
+      "c": "Not applicable; C macro-expanded operations are represented with provenance classes.",
+      "rust": "Macro expression that syn cannot expand and that is not a directly modelled addr_of!/addr_of_mut! form.",
+      "trigger": "Rust ExprMacro.",
+      "included": "Every non-modelled macro expression, including unreachable! and addr_of! forms with non-identifier arguments.",
+      "excluded": "Direct addr_of!(S)/addr_of_mut!(S) forms for an active static-mut identifier, which are modelled as mutable_global_address.",
+      "resolution": "unresolved. The absence of extracted operations from a macro is never interpreted as zero operations.",
+      "comparable": false,
+      "reason": "Unsupported/unknown coverage record, not a safety category."
+    },
+    "unresolved_pointer_conversion": {
+      "c": "A relevant pointer-target cast whose macro provenance cannot be established. It is retained with resolution_status unresolved and is never counted as explicit.",
+      "rust": "Not emitted; Rust macro expressions remain unresolved_macro.",
+      "trigger": "C AST CSTYLE_CAST_EXPR with unresolved_provenance.",
+      "included": "Command-line macro casts and other unspellable macro expansions with a pointer target and pointer/integer source.",
+      "excluded": "Explicit and resolved macro-body casts.",
+      "resolution": "unresolved; macro_definition_status is unresolved and invocation metadata is retained.",
+      "comparable": false,
+      "reason": "Unresolved coverage record, not a source-written operation count."
+    },
+    "compiler_generated_pointer_conversion": {
+      "c": "A compiler-generated or implicit pointer-target cast node for which no explicit source spelling was found. It is retained descriptively and is never counted as explicit.",
+      "rust": "Not emitted.",
+      "trigger": "C AST CSTYLE_CAST_EXPR with compiler_generated provenance.",
+      "included": "Compiler-generated/implicit pointer-target cast nodes that are visible to the AST but not source-written.",
+      "excluded": "Explicit and macro casts.",
+      "resolution": "unresolved descriptive record.",
+      "comparable": false,
+      "reason": "Compiler-generated construct, not a developer-written operation."
+    }
+  },
+  "unsafe_contexts": {
+    "rust": [
+      "unsafe block",
+      "unsafe function",
+      "unsafe implementation"
+    ],
+    "c": "not applicable as a language construct",
+    "operation_association": "Each Rust operation record carries in_unsafe_block, in_unsafe_function, in_unsafe_context, unsafe_context_ids and unsafe_context_status where mechanically determinable from source spans.",
+    "nested_contexts": "An operation inside nested unsafe blocks lists every containing unsafe-block context.",
+    "rule": "Lexical membership is not equivalent to an operation requiring unsafe. A foreign call, a safe operation placed inside an unsafe block, and a call to a safe wrapper are distinct properties. A safe wrapper is not assumed sound because its caller does not require unsafe."
+  },
+  "macro_policy": {
+    "c": "C operations carry explicit_source, explicit_macro_argument, macro_argument_reference, project_macro_expansion, third_party_macro_expansion, compiler_generated or unresolved_provenance. pointer_conversion requires explicit_source or explicit_macro_argument. Macro-body casts are macro_pointer_conversion. Unresolved provenance is unresolved_pointer_conversion. Macro invocation and definition/argument locations are retained; an argument location is never labelled a macro definition.",
+    "rust": "syn does not expand macros. All macro expressions remain unresolved_macro except a narrowly specified addr_of!/addr_of_mut!(identifier) form for an active static mut. Macro sites are reported by name, location and containing function."
+  },
+  "mutable_global_model": {
+    "c": "Direct source-level global accesses only. Assignment context is applied to the object actually mutated: a direct object, a direct struct field, or an element of a global array. Index expressions, pointer bases, pointees, and address-taken objects are not marked as written. No whole-program alias analysis is performed.",
+    "rust": "Direct active static-mut paths only, with explicit read/write/readwrite/address categories. Mutation through raw pointers is recorded separately as unresolved. Atomics, safe wrappers, aliases and full ownership analysis are outside the model.",
+    "comparison_warning": "C mutable-global access and Rust static-mut access are not directly equivalent even where read/write labels are now correct."
+  },
+  "deduplication": "Occurrence IDs include configuration + category + source file + line + column + AST kind + expression + function + source extent where available. source_identity_key excludes configuration. Header declarations included by multiple translation units are merged. Genuinely distinct same-line operations with different columns/extents are retained.",
+  "aggregation": "Per-scope category, layer and function summaries are recomputed from operation rows. Categories may overlap for the same source expression. The all-scope distinct-source count removes configuration duplicates only; it does not merge categories.",
+  "comparability": {
+    "comparable_with_qualifications": [
+      "pointer_dereference",
+      "pointer_conversion",
+      "pointer_arithmetic",
+      "dynamic_allocation",
+      "deallocation"
+    ],
+    "descriptive_only": [
+      "pointer_field_access",
+      "array_index",
+      "mutable_global_read",
+      "mutable_global_write",
+      "mutable_global_readwrite",
+      "mutable_global_address",
+      "mutable_global_unresolved",
+      "kernel_api_call",
+      "unsafe contexts",
+      "unresolved_macro",
+      "macro_pointer_conversion",
+      "unresolved_pointer_conversion",
+      "compiler_generated_pointer_conversion"
+    ],
+    "reason": "Syntax categories differ across languages. None of the counts is a vulnerability count or a safety score."
+  },
+  "resolution_status": {
+    "resolved": "The category and source location were established by the listed parser/compiler facts.",
+    "unresolved": "The operation candidate is retained but a required type, target relationship or macro expansion was not established.",
+    "unsupported": "The category is not implemented reliably and is excluded from quantitative conclusions."
+  },
+  "known_limitations": [
+    "Rust is syntax-aware, not type-checked; aliases, generics and indirect function values can remain unresolved.",
+    "Rust macros other than the restricted addr_of! forms are not expanded.",
+    "C macro-expanded operations are reported with provenance rather than expanded as separate application operations.",
+    "C does not perform alias analysis, so pointer/pointee identity is not resolved.",
+    "Layer classification is a deterministic path/scope proxy, not a function-by-function semantic classification.",
+    "Unsafe-context membership does not imply that an operation requires unsafe.",
+    "Operation counts are static source occurrences, not dynamic execution counts.",
+    "Lower operation counts are not evidence of fewer programming errors, lower risk or greater safety.",
+    "Inline Rust modules are traversed; out-of-line module declarations require their files to be in the configured file set and are otherwise reported as unsupported.",
+    "Macro-derived C counts are deduplicated expansion cast sites, not every AST cast node.",
+    "The C benchmark adapter includes unconditional bench_rust_* shims that are compiled but not demonstrated reachable from the C benchmark call path.",
+    "C columns are 1-based and Rust columns are 0-based; source traceability must use the language-specific convention.",
+    "A cast written in a macro argument that the compiler does not place in the expansion (for example an unused macro parameter) may not appear in the Clang AST and cannot be counted. This is a parser-visibility limitation, not evidence that the source text is absent."
+  ],
+  "safety_score": "none",
+  "source_column_conventions": {
+    "c": "1-based, libclang Cursor.location.column",
+    "rust": "0-based, proc_macro2 Span::start().column",
+    "macro_locations": "Macro spelling locations and macro-definition locations are distinct. For a macro-body expansion, macro_definition_* is the spelling/definition location. For a source-written cast in a macro argument, macro_argument_* is the argument location and macro_definition_status is argument_not_definition."
+  },
+  "nested_rust_modules": {
+    "inline": "Inline Item::Mod contents are traversed recursively.",
+    "cfg": "Parent and child cfg predicates are combined with logical AND. A false parent makes every descendant inactive, even when the child has no direct cfg attribute.",
+    "identity": "Function names are module-qualified (for example active_mod::inner::check). The simple name and module_path are retained separately.",
+    "out_of_line": "Out-of-line mod declarations are recorded. They are marked resolved_by_configuration only when a matching configured source file is present; otherwise they are reported as unsupported. They are never treated as empty inline modules."
+  },
+  "source_scope_limitations": {
+    "c_benchmark_bench_rust_shims": "Functions whose names start with bench_rust_ are compiled unconditionally into the RUST=0 C benchmark and contribute to the c_benchmark_rtos_adapter layer, but are not demonstrated to be reachable from the C benchmark call path. Compilation is not runtime reachability; a syntactic call search is not a complete reachability analysis."
+  }
+}

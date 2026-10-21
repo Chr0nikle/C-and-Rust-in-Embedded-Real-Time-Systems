@@ -1,0 +1,8 @@
+[build]
+target = "thumbv7em-none-eabi"
+
+[env]
+# The STM32F407 exposes IRQ numbers up to ~90 (USART2 = 38, TIM7 = 55);
+# the default RIVET_MAX_IRQS (32) is too small, so the kernel's irq table
+# must be widened to cover the board's NVIC positions.
+RIVET_MAX_IRQS = "96"

@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-stm32f4-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 99152,
+        "data": 1008,
+        "flash": 135220,
+        "image": "nuttx",
+        "ram": 100160,
+        "rodata": 8,
+        "text": 134204
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

@@ -1,0 +1,19 @@
+flowchart LR
+subgraph LEFT[" "]
+direction TB
+A["1. Preparation<br/>Configure · Build · Flash"]
+D["4. Analysis<br/>Aggregate runs · Compare C/Rust"]
+end
+subgraph RIGHT[" "]
+direction TB
+B["2. Measurement<br/>Handshake · Warm-up · Record"]
+C["3. Validation<br/>Check · Store · Archive"]
+end
+A --> B
+B --> C
+C --> D
+C -. repeat .-> A
+style LEFT fill:none,stroke:none
+style RIGHT fill:none,stroke:none
+classDef stage fill:#f7f7f7,stroke:#5a5a5a,color:#222222,stroke-width:1.6px
+class A,B,C,D stage

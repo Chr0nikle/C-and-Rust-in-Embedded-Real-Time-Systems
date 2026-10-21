@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-nrf52840dk-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 95764,
+        "data": 976,
+        "flash": 116892,
+        "image": "nuttx",
+        "ram": 96740,
+        "rodata": 8,
+        "text": 115908
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

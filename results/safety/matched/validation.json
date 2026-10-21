@@ -1,0 +1,30 @@
+{
+  "all_26_roots_verified": true,
+  "all_selected_roots_verified": true,
+  "call_site_ids_unique": true,
+  "callback_registrations": 30,
+  "case_coverage_common_only": 1,
+  "case_coverage_comparable": 22,
+  "case_coverage_partial": 3,
+  "case_coverage_rows": 26,
+  "checks_unique": true,
+  "common_now_ticks_represented": true,
+  "errors": [],
+  "external_entry_partial_cases": 3,
+  "matched_bridges_have_definition_and_rust_call": true,
+  "matched_rtos_targets_have_both_paths": true,
+  "partial_path_cases": 3,
+  "rtos_targets_separate_from_bridges": true,
+  "schema": "uastw-matched-api-validation-v2",
+  "source_revision_recorded": true,
+  "stage1_manifest_verified": true,
+  "status": "passed",
+  "unresolved_records_visible": {
+    "ambiguous_ffi_symbols": 0,
+    "partial_callback_registrations": 0,
+    "unresolved_call_sites": 0,
+    "unresolved_ffi_symbols": 0,
+    "unresolved_root_rows": 0
+  },
+  "unused_bridges_not_traversed": true
+}

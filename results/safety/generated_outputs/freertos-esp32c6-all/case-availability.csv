@@ -1,0 +1,27 @@
+thesis_case,mechanism,c_enum,c_wire_id,source_status,pilot_status,evidence
+1,timer_overhead,BENCH_TIMER_OVERHEAD,0,available,selected,verified in the selected source registry
+2,queue_roundtrip,BENCH_QUEUE_ROUNDTRIP,1,available,selected,verified in the selected source registry
+3,semaphore_latency,BENCH_SEMAPHORE_LATENCY,12,available,selected,verified in the selected source registry
+4,mutex_uncontended,BENCH_MUTEX_UNCONTENDED,13,available,selected,verified in the selected source registry
+5,alloc_latency,BENCH_ALLOC_LATENCY,14,available,selected,verified in the selected source registry
+6,task_handoff,BENCH_TASK_HANDOFF,2,available,selected,verified in the selected source registry
+7,yield_roundtrip,BENCH_YIELD_ROUNDTRIP,5,available,selected,verified in the selected source registry
+8,preempt_latency,BENCH_PREEMPT_LATENCY,6,available,selected,verified in the selected source registry
+9,mutex_priority_inheritance,BENCH_MUTEX_PRIORITY,8,available,selected,verified in the selected source registry
+10,scheduler_overhead,BENCH_SCHEDULER_OVERHEAD,16,available,selected,verified in the selected source registry
+11,notification_latency,BENCH_NOTIFICATION_LATENCY,17,available,selected,verified in the selected source registry
+12,ipc_pingpong,BENCH_IPC_PINGPONG,7,available,selected,verified in the selected source registry
+13,ipc_payload_sweep,BENCH_IPC_PAYLOAD_SWEEP,18,available,selected,verified in the selected source registry
+14,ipc_throughput,BENCH_IPC_THROUGHPUT,19,available,selected,verified in the selected source registry
+15,zero_copy_ipc,BENCH_ZERO_COPY_IPC,27,available,selected,verified in the selected source registry
+16,isr_to_task,BENCH_ISR_TO_TASK,4,available,selected,verified in the selected source registry
+17,trigger_to_isr,BENCH_TRIGGER_TO_ISR,10,available,selected,verified in the selected source registry
+18,nested_irq_overhead,BENCH_NESTED_IRQ_OVERHEAD,20,available,selected,verified in the selected source registry
+19,tick_overhead,BENCH_TICK_OVERHEAD,21,absent,absent_not_quantified,wire ID or implementation roots are absent
+20,max_interrupt_disabled,BENCH_MAX_INTERRUPT_DISABLED,25,available,selected,verified in the selected source registry
+21,periodic_jitter,BENCH_PERIODIC_JITTER,3,available,selected,verified in the selected source registry
+22,periodic_jitter_loaded,BENCH_PERIODIC_JITTER_LOADED,11,available,selected,verified in the selected source registry
+23,sleep_accuracy,BENCH_SLEEP_ACCURACY,15,available,selected,verified in the selected source registry
+24,idle_cpu_overhead,BENCH_IDLE_CPU_OVERHEAD,22,absent,absent_not_quantified,wire ID or implementation roots are absent
+25,cpu_overhead_under_load,BENCH_CPU_OVERHEAD_UNDER_LOAD,23,absent,absent_not_quantified,wire ID or implementation roots are absent
+26,heap_fragmentation,BENCH_HEAP_FRAGMENTATION,24,absent,absent_not_quantified,wire ID or implementation roots are absent

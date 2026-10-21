@@ -1,0 +1,627 @@
+{
+  "caveats": [
+    "Operation categories may overlap for one source expression.",
+    "Active unresolved records are excluded from resolved counts. The NuttX Rust application unary dereference is a mutable-reference dereference; unresolved boundary dereferences are raw-pointer records, so FFI raw counts are lower bounds.",
+    "Counts are not unique source locations, runtime execution counts, vulnerability counts or proof of memory safety.",
+    "Rust application and FFI categories are not semantically interchangeable with C categories.",
+    "The C support scope is compiled into the Rust firmware and is not part of the C application-plus-adapter comparison.",
+    "Rust-native kernels depend on external crates outside the analysed project source scope."
+  ],
+  "checks": {
+    "c_application_retains_pointer_operations": {
+      "evidence": {
+        "freertos-esp32c6-all": {
+          "pointer_arithmetic": 18,
+          "pointer_conversion": 1,
+          "pointer_dereference": 43
+        },
+        "freertos-nrf52840-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 3,
+          "pointer_dereference": 43
+        },
+        "freertos-stm32f4-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 3,
+          "pointer_dereference": 43
+        },
+        "freertos-stm32h723-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 3,
+          "pointer_dereference": 43
+        },
+        "nuttx-esp32c6-all": {
+          "pointer_arithmetic": 17,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "nuttx-nrf52840-all": {
+          "pointer_arithmetic": 17,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "nuttx-stm32f4-all": {
+          "pointer_arithmetic": 17,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "nuttx-stm32h723-all": {
+          "pointer_arithmetic": 17,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "zephyr-esp32c6-all": {
+          "pointer_arithmetic": 20,
+          "pointer_conversion": 1,
+          "pointer_dereference": 13
+        },
+        "zephyr-nrf52840-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "zephyr-stm32f4-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        },
+        "zephyr-stm32h723-all": {
+          "pointer_arithmetic": 16,
+          "pointer_conversion": 1,
+          "pointer_dereference": 6
+        }
+      },
+      "status": true
+    },
+    "interrupt_paths_reach_c_isr_or_bridge": {
+      "evidence": {
+        "all_shared_c_isr": true,
+        "case_configuration_rows": 58,
+        "configuration_count": 12
+      },
+      "status": true
+    },
+    "native_inventories_are_distinct": {
+      "evidence": {
+        "native-freertos-in-rust-stm32f4": {
+          "features": [
+            "f4"
+          ],
+          "kernel_calls": 30,
+          "pointer_conversion": 0,
+          "raw_deref": 0,
+          "records": 181,
+          "unresolved_raw_deref": 21
+        },
+        "native-freertos-in-rust-stm32h723": {
+          "features": [
+            "stm32h723"
+          ],
+          "kernel_calls": 30,
+          "pointer_conversion": 0,
+          "raw_deref": 0,
+          "records": 181,
+          "unresolved_raw_deref": 21
+        },
+        "native-rivet-stm32f4": {
+          "features": [],
+          "kernel_calls": 6,
+          "pointer_conversion": 1,
+          "raw_deref": 0,
+          "records": 10,
+          "unresolved_raw_deref": 31
+        }
+      },
+      "status": true
+    },
+    "nuttx_zephyr_rust_raw_deref_exceeds_c_app_adapter": {
+      "evidence": {
+        "nuttx-esp32c6-all": {
+          "c_application_plus_adapter_raw_deref": 110,
+          "rust_application_plus_ffi_raw_deref": 169
+        },
+        "nuttx-nrf52840-all": {
+          "c_application_plus_adapter_raw_deref": 100,
+          "rust_application_plus_ffi_raw_deref": 169
+        },
+        "nuttx-stm32f4-all": {
+          "c_application_plus_adapter_raw_deref": 85,
+          "rust_application_plus_ffi_raw_deref": 169
+        },
+        "nuttx-stm32h723-all": {
+          "c_application_plus_adapter_raw_deref": 60,
+          "rust_application_plus_ffi_raw_deref": 169
+        },
+        "zephyr-esp32c6-all": {
+          "c_application_plus_adapter_raw_deref": 83,
+          "rust_application_plus_ffi_raw_deref": 172
+        },
+        "zephyr-nrf52840-all": {
+          "c_application_plus_adapter_raw_deref": 75,
+          "rust_application_plus_ffi_raw_deref": 172
+        },
+        "zephyr-stm32f4-all": {
+          "c_application_plus_adapter_raw_deref": 31,
+          "rust_application_plus_ffi_raw_deref": 172
+        },
+        "zephyr-stm32h723-all": {
+          "c_application_plus_adapter_raw_deref": 31,
+          "rust_application_plus_ffi_raw_deref": 172
+        }
+      },
+      "status": true
+    },
+    "rust_application_has_unsafe_contexts": {
+      "evidence": {
+        "freertos-esp32c6-all": {
+          "in_unsafe_context": 403,
+          "resolved": 404
+        },
+        "freertos-nrf52840-all": {
+          "in_unsafe_context": 403,
+          "resolved": 404
+        },
+        "freertos-stm32f4-all": {
+          "in_unsafe_context": 403,
+          "resolved": 404
+        },
+        "freertos-stm32h723-all": {
+          "in_unsafe_context": 403,
+          "resolved": 404
+        },
+        "nuttx-esp32c6-all": {
+          "in_unsafe_context": 42,
+          "resolved": 58
+        },
+        "nuttx-nrf52840-all": {
+          "in_unsafe_context": 42,
+          "resolved": 58
+        },
+        "nuttx-stm32f4-all": {
+          "in_unsafe_context": 42,
+          "resolved": 58
+        },
+        "nuttx-stm32h723-all": {
+          "in_unsafe_context": 42,
+          "resolved": 58
+        },
+        "zephyr-esp32c6-all": {
+          "in_unsafe_context": 37,
+          "resolved": 52
+        },
+        "zephyr-nrf52840-all": {
+          "in_unsafe_context": 37,
+          "resolved": 52
+        },
+        "zephyr-stm32f4-all": {
+          "in_unsafe_context": 37,
+          "resolved": 52
+        },
+        "zephyr-stm32h723-all": {
+          "in_unsafe_context": 37,
+          "resolved": 52
+        }
+      },
+      "status": true
+    },
+    "rust_application_no_resolved_direct_pointer_operations": {
+      "evidence": {
+        "freertos-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "nuttx-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 1
+        },
+        "nuttx-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 1
+        },
+        "nuttx-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 1
+        },
+        "nuttx-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 1
+        },
+        "zephyr-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "zephyr-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "zephyr-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        },
+        "zephyr-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 0,
+            "raw_pointer_dereference": 0
+          },
+          "unresolved_raw_deref": 0
+        }
+      },
+      "status": true
+    },
+    "rust_ffi_retains_raw_pointer_operations": {
+      "evidence": {
+        "freertos-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 17,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 17
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 17,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 17
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 17,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 17
+          },
+          "unresolved_raw_deref": 0
+        },
+        "freertos-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 17,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 17
+          },
+          "unresolved_raw_deref": 0
+        },
+        "nuttx-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 169
+          },
+          "unresolved_raw_deref": 19
+        },
+        "nuttx-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 169
+          },
+          "unresolved_raw_deref": 19
+        },
+        "nuttx-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 169
+          },
+          "unresolved_raw_deref": 19
+        },
+        "nuttx-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 44,
+            "raw_pointer_dereference": 169
+          },
+          "unresolved_raw_deref": 19
+        },
+        "zephyr-esp32c6-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 55,
+            "raw_pointer_dereference": 172
+          },
+          "unresolved_raw_deref": 29
+        },
+        "zephyr-nrf52840-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 55,
+            "raw_pointer_dereference": 172
+          },
+          "unresolved_raw_deref": 29
+        },
+        "zephyr-stm32f4-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 55,
+            "raw_pointer_dereference": 172
+          },
+          "unresolved_raw_deref": 29
+        },
+        "zephyr-stm32h723-all": {
+          "resolved": {
+            "pointer_arithmetic": 0,
+            "pointer_conversion": 55,
+            "raw_pointer_dereference": 172
+          },
+          "unresolved_raw_deref": 29
+        }
+      },
+      "status": true
+    },
+    "unresolved_pointer_records_are_retained": {
+      "evidence": {
+        "note": "The NuttX Rust application record is the unary dereference of a mutable array-reference binding at lib.rs:303, not a raw-pointer dereference. Boundary records remain unresolved raw-pointer records and are excluded from the resolved comparison.",
+        "rust_application_unresolved_raw_deref": {
+          "freertos-esp32c6-all": 0,
+          "freertos-nrf52840-all": 0,
+          "freertos-stm32f4-all": 0,
+          "freertos-stm32h723-all": 0,
+          "nuttx-esp32c6-all": 1,
+          "nuttx-nrf52840-all": 1,
+          "nuttx-stm32f4-all": 1,
+          "nuttx-stm32h723-all": 1,
+          "zephyr-esp32c6-all": 0,
+          "zephyr-nrf52840-all": 0,
+          "zephyr-stm32f4-all": 0,
+          "zephyr-stm32h723-all": 0
+        },
+        "rust_ffi_unresolved_raw_deref": {
+          "freertos-esp32c6-all": 0,
+          "freertos-nrf52840-all": 0,
+          "freertos-stm32f4-all": 0,
+          "freertos-stm32h723-all": 0,
+          "nuttx-esp32c6-all": 19,
+          "nuttx-nrf52840-all": 19,
+          "nuttx-stm32f4-all": 19,
+          "nuttx-stm32h723-all": 19,
+          "zephyr-esp32c6-all": 29,
+          "zephyr-nrf52840-all": 29,
+          "zephyr-stm32f4-all": 29,
+          "zephyr-stm32h723-all": 29
+        }
+      },
+      "status": true
+    }
+  },
+  "counts": {
+    "free_rtos_c_scope_raw_deref": {
+      "freertos-esp32c6-all": 102,
+      "freertos-nrf52840-all": 185,
+      "freertos-stm32f4-all": 90,
+      "freertos-stm32h723-all": 90
+    },
+    "free_rtos_rust_scope_raw_deref": {
+      "freertos-esp32c6-all": 17,
+      "freertos-nrf52840-all": 17,
+      "freertos-stm32f4-all": 17,
+      "freertos-stm32h723-all": 17
+    },
+    "matched_configurations": 12,
+    "nuttx_c_scope_raw_deref": {
+      "nuttx-esp32c6-all": 110,
+      "nuttx-nrf52840-all": 100,
+      "nuttx-stm32f4-all": 85,
+      "nuttx-stm32h723-all": 60
+    },
+    "nuttx_rust_scope_raw_deref": {
+      "nuttx-esp32c6-all": 169,
+      "nuttx-nrf52840-all": 169,
+      "nuttx-stm32f4-all": 169,
+      "nuttx-stm32h723-all": 169
+    },
+    "rust_ffi_unsafe": {
+      "freertos-esp32c6-all": {
+        "in_unsafe_context": 241,
+        "resolved": 241
+      },
+      "freertos-nrf52840-all": {
+        "in_unsafe_context": 241,
+        "resolved": 241
+      },
+      "freertos-stm32f4-all": {
+        "in_unsafe_context": 241,
+        "resolved": 241
+      },
+      "freertos-stm32h723-all": {
+        "in_unsafe_context": 241,
+        "resolved": 241
+      },
+      "nuttx-esp32c6-all": {
+        "in_unsafe_context": 627,
+        "resolved": 627
+      },
+      "nuttx-nrf52840-all": {
+        "in_unsafe_context": 627,
+        "resolved": 627
+      },
+      "nuttx-stm32f4-all": {
+        "in_unsafe_context": 627,
+        "resolved": 627
+      },
+      "nuttx-stm32h723-all": {
+        "in_unsafe_context": 627,
+        "resolved": 627
+      },
+      "zephyr-esp32c6-all": {
+        "in_unsafe_context": 557,
+        "resolved": 557
+      },
+      "zephyr-nrf52840-all": {
+        "in_unsafe_context": 557,
+        "resolved": 557
+      },
+      "zephyr-stm32f4-all": {
+        "in_unsafe_context": 557,
+        "resolved": 557
+      },
+      "zephyr-stm32h723-all": {
+        "in_unsafe_context": 557,
+        "resolved": 557
+      }
+    },
+    "rust_native_configurations": 3,
+    "unresolved_raw_deref": {
+      "rust_application": {
+        "freertos-esp32c6-all": 0,
+        "freertos-nrf52840-all": 0,
+        "freertos-stm32f4-all": 0,
+        "freertos-stm32h723-all": 0,
+        "nuttx-esp32c6-all": 1,
+        "nuttx-nrf52840-all": 1,
+        "nuttx-stm32f4-all": 1,
+        "nuttx-stm32h723-all": 1,
+        "zephyr-esp32c6-all": 0,
+        "zephyr-nrf52840-all": 0,
+        "zephyr-stm32f4-all": 0,
+        "zephyr-stm32h723-all": 0
+      },
+      "rust_ffi": {
+        "freertos-esp32c6-all": 0,
+        "freertos-nrf52840-all": 0,
+        "freertos-stm32f4-all": 0,
+        "freertos-stm32h723-all": 0,
+        "nuttx-esp32c6-all": 19,
+        "nuttx-nrf52840-all": 19,
+        "nuttx-stm32f4-all": 19,
+        "nuttx-stm32h723-all": 19,
+        "zephyr-esp32c6-all": 29,
+        "zephyr-nrf52840-all": 29,
+        "zephyr-stm32f4-all": 29,
+        "zephyr-stm32h723-all": 29
+      },
+      "rust_native": {
+        "native-freertos-in-rust-stm32f4": 21,
+        "native-freertos-in-rust-stm32h723": 21,
+        "native-rivet-stm32f4": 31
+      }
+    },
+    "zephyr_c_scope_raw_deref": {
+      "zephyr-esp32c6-all": 83,
+      "zephyr-nrf52840-all": 75,
+      "zephyr-stm32f4-all": 31,
+      "zephyr-stm32h723-all": 31
+    },
+    "zephyr_rust_scope_raw_deref": {
+      "zephyr-esp32c6-all": 172,
+      "zephyr-nrf52840-all": 172,
+      "zephyr-stm32f4-all": 172,
+      "zephyr-stm32h723-all": 172
+    }
+  },
+  "schema": "uastw-safety-revalidation-v1",
+  "unique_location_examples": {
+    "freertos-stm32f4-all": {
+      "c_adapter": {
+        "distinct_file_line_locations": 47,
+        "occurrences": 47
+      },
+      "c_application": {
+        "distinct_file_line_locations": 29,
+        "occurrences": 43
+      },
+      "rust_application": {
+        "distinct_file_line_locations": 0,
+        "occurrences": 0
+      },
+      "rust_ffi_boundary": {
+        "distinct_file_line_locations": 14,
+        "occurrences": 17
+      }
+    },
+    "nuttx-stm32f4-all": {
+      "c_adapter": {
+        "distinct_file_line_locations": 79,
+        "occurrences": 79
+      },
+      "c_application": {
+        "distinct_file_line_locations": 4,
+        "occurrences": 6
+      },
+      "rust_application": {
+        "distinct_file_line_locations": 0,
+        "occurrences": 0
+      },
+      "rust_ffi_boundary": {
+        "distinct_file_line_locations": 168,
+        "occurrences": 169
+      }
+    },
+    "zephyr-stm32f4-all": {
+      "c_adapter": {
+        "distinct_file_line_locations": 25,
+        "occurrences": 25
+      },
+      "c_application": {
+        "distinct_file_line_locations": 4,
+        "occurrences": 6
+      },
+      "rust_application": {
+        "distinct_file_line_locations": 0,
+        "occurrences": 0
+      },
+      "rust_ffi_boundary": {
+        "distinct_file_line_locations": 171,
+        "occurrences": 172
+      }
+    }
+  },
+  "unit": "configuration-specific active resolved operation occurrence"
+}

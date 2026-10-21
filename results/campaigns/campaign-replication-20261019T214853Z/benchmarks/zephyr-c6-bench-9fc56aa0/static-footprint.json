@@ -1,0 +1,17 @@
+{
+  "build_id": "zephyr-c6-bench-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 216800,
+        "data": 39388,
+        "flash": 82088,
+        "image": "zephyr.elf",
+        "ram": 256188,
+        "rodata": 4380,
+        "text": 38320
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

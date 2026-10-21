@@ -1,0 +1,41 @@
+# Board identity template; the SWD attach and Zephyr console are verified, the
+# full benchmark run is recorded in the journal.
+schema_version = 1
+id = "stm32h723"
+mcu = "STM32H723ZGT6"
+architecture = "arm-cortex-m7"
+revision = "unverified"
+carrier = "FK723M1-ZGT6 core board"
+# Core board with a USB-C (MCU USB) and a separate SWD header, and
+# no onboard debugger. Flashed over SWD with an external ST-LINK/V2 dongle;
+# Zephyr builds for the upstream fanke/fk723m1_zgt6 board (this exact hardware,
+# 25 MHz HSE), as does the mainline/FreeRTOS/NuttX stack.
+# Two 0483:3748 ST-LINKs are attached; this board's dongle is
+# identified by probe-rs as DPv2 Part 0x4830 (STM32H7), serial 37C3BF71, while
+# the Discovery uses 52C3BF6D (Cortex-M4).
+[build_targets]
+zephyr = "fk723m1_zgt6"
+
+[serial]
+# Console is USART1 on PA9 (TX) / PA10 (RX) at 115200 8N1, wired to a CP2102
+# USB-serial adapter (board powered over USB; adapter GND only, no 3V3/5V), for
+# all four H7 RTOSes. No USB CDC console is used.
+transport = "uart"
+baud = 115200
+framing = "8N1"
+# The CP2102 by-id name is shared with the identical adapter on the
+# Discovery (serial 0001). Use the distinct physical USB path instead.
+port_selector = "/dev/serial/by-path/pci-0000:0c:00.0-usb-0:1.4.3:1.0-port0"
+verified = true
+
+[debug]
+# No onboard debugger; attach/flash over the SWD header with the external
+# ST-LINK/V2. probe-rs cannot auto-detect the SoC, so the chip is named
+# explicitly. The dongle serial is pinned because two 0483:3748 probes are
+# attached (the Discovery uses 52C3BF6D).
+probe = "0483:3748"
+probe_serial = "37C3BF71"
+chip = "STM32H723ZG"
+protocol = "swd"
+tool = "probe-rs"
+verified = true

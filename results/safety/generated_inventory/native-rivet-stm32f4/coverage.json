@@ -1,0 +1,17 @@
+{
+  "configuration_count": 1,
+  "configurations": [
+    "rivet-stm32f4"
+  ],
+  "description": "Rivet, STM32F4",
+  "function_rows": 96,
+  "kernel_call_rows": 6,
+  "operation_rows": 53,
+  "parse_failures": {
+    "rivet-stm32f4": 0
+  },
+  "profile": "native-rivet-stm32f4",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 26
+}

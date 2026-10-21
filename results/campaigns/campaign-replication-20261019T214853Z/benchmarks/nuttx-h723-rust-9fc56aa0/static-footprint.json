@@ -1,0 +1,17 @@
+{
+  "build_id": "nuttx-h723-rust-9fc56aa0",
+  "footprint": {
+    "images": [
+      {
+        "bss": 101992,
+        "data": 1016,
+        "flash": 123812,
+        "image": "nuttx",
+        "ram": 103008,
+        "rodata": 8,
+        "text": 122788
+      }
+    ]
+  },
+  "kind": "static_footprint"
+}

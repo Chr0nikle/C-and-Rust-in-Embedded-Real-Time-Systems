@@ -1,0 +1,21 @@
+{
+  "configuration_count": 3,
+  "configurations": [
+    "freertos-nrf52840-c-benchmark",
+    "freertos-nrf52840-c-support-rust",
+    "freertos-nrf52840-rust"
+  ],
+  "description": "All 24 implemented FreeRTOS STM32F4 C/Rust thesis cases",
+  "function_rows": 718,
+  "kernel_call_rows": 643,
+  "operation_rows": 3176,
+  "parse_failures": {
+    "freertos-nrf52840-c-benchmark": 3,
+    "freertos-nrf52840-c-support-rust": 2,
+    "freertos-nrf52840-rust": 0
+  },
+  "profile": "freertos-nrf52840-all",
+  "rust_features": [],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 133
+}

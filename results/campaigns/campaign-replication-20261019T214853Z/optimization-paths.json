@@ -1,0 +1,9 @@
+[
+  "firmware/Cargo.toml",
+  "firmware/c-kernels/freertos/c/main/CMakeLists.txt",
+  "firmware/c-kernels/nuttx/c/CMakeLists.txt",
+  "firmware/c-kernels/zephyr/c/esp32c6/CMakeLists.txt",
+  "firmware/c-kernels/zephyr/c/nrf52840dk/CMakeLists.txt",
+  "firmware/c-kernels/zephyr/c/stm32f4/CMakeLists.txt",
+  "firmware/c-kernels/zephyr/c/stm32h723/CMakeLists.txt"
+]

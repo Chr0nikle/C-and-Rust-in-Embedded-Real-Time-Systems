@@ -1,0 +1,2 @@
+thesis_case,thesis_name,limitation,source_evidence,effect
+9,mutex_priority_inheritance,priority_inheritance_protocol_not_explicitly_established,firmware/c-kernels/nuttx/c/port.c,semantic qualification only; source-level call/handle/pointer evidence remains valid

@@ -1,0 +1,6323 @@
+{
+  "rows": [
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 26
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "freertos-esp32c6-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "freertos-nrf52840-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "freertos-stm32f4-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "C",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "freertos-stm32h723-all",
+      "language": "Rust",
+      "rtos": "FreeRTOS",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "nuttx-esp32c6-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "nuttx-nrf52840-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "nuttx-stm32f4-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "C",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "nuttx-stm32h723-all",
+      "language": "Rust",
+      "rtos": "NuttX",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "ESP32-C6",
+      "configuration": "zephyr-esp32c6-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "nRF52840 DK",
+      "configuration": "zephyr-nrf52840-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "zephyr-stm32f4-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "C",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "zephyr-stm32h723-all",
+      "language": "Rust",
+      "rtos": "Zephyr",
+      "source": "matched profile + campaign",
+      "status": "fully_implemented_and_analysed",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-freertos-in-rust-stm32f4",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32H723",
+      "configuration": "native-freertos-in-rust-stm32h723",
+      "language": "Rust",
+      "rtos": "FreeRTOS-in-Rust",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 26
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 1
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 2
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 3
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 4
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 5
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 6
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 7
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 8
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 9
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 10
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 11
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 12
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 13
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 14
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 15
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 16
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 17
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 18
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 19
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 20
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 21
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 22
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 23
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 24
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "native_inventory_and_rust_case_trace",
+      "thesis_case": 25
+    },
+    {
+      "board": "STM32F4 Discovery",
+      "configuration": "native-rivet-stm32f4",
+      "language": "Rust",
+      "rtos": "Rivet",
+      "source": "native profile + campaign",
+      "status": "unavailable",
+      "thesis_case": 26
+    }
+  ],
+  "schema": "uastw-benchmark-support-matrix-v1"
+}

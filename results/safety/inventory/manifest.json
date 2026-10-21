@@ -1,0 +1,166 @@
+{
+  "configuration_specific_operation_records": 5005,
+  "configurations": [
+    "freertos-stm32f4-c-benchmark",
+    "freertos-stm32f4-rust",
+    "freertos-stm32f4-c-support-rust"
+  ],
+  "counting_spec_version": "2.1.0",
+  "counting_unit_note": "The first count is the sum of per-configuration records; the second removes configuration duplicates and is not a category-union total.",
+  "distinct_source_identities_all_scopes": 2852,
+  "known_source_scope_limitations": {
+    "c_benchmark_bench_rust_shims": {
+      "function_count": 23,
+      "note": "These functions are compiled into the RUST=0 build but are not demonstrated to be reachable from the C benchmark call path. Compilation is not runtime reachability; a syntactic call search is not a complete reachability analysis.",
+      "operation_records": 50,
+      "rule": "scope=c-benchmark and function name starts with 'bench_rust_'"
+    }
+  },
+  "macro_counting_unit": {
+    "category": "macro_pointer_conversion",
+    "counting_unit": "one reported macro-expansion pointer-cast occurrence per deduplicated invocation/extent key",
+    "deduplication_key": "configuration, category, source file, source line, source column, AST kind, expression, function and expansion extent start",
+    "explicit_macro_arguments": "A source-written cast in a macro argument is reported as pointer_conversion with provenance explicit_macro_argument. Macro-body pointer casts at the same invocation are retained in that record's collapsed_macro_pointer_conversions detail instead of being added as a second occurrence.",
+    "nested_casts": "Multiple Clang CSTYLE_CAST_EXPR nodes that share the invocation/extent start collapse into one reported occurrence. The count is not a count of every expanded AST cast node."
+  },
+  "notes": [
+    "Canonical outputs have sorted keys/rows; timestamps are omitted."
+  ],
+  "out_of_line_modules": [
+    {
+      "active": "true",
+      "cfg": [],
+      "column": 4,
+      "file": "firmware/c-kernels/freertos/rust/src/lib.rs",
+      "line": 21,
+      "module_path": "",
+      "name": "boundary",
+      "parent_active": "true",
+      "qualified_name": "boundary",
+      "resolved_by_configuration": true
+    },
+    {
+      "active": "true",
+      "cfg": [],
+      "column": 8,
+      "file": "firmware/common/rust/src/lib.rs",
+      "line": 6,
+      "module_path": "",
+      "name": "arena",
+      "parent_active": "true",
+      "qualified_name": "arena",
+      "resolved_by_configuration": true
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 207185,
+      "path": "configurations.json",
+      "sha256": "8dd14529569568b4ebab43fddad08a8a5473707014af5669b05d805d388eacb8"
+    },
+    {
+      "bytes": 27526,
+      "path": "counting-spec.json",
+      "sha256": "400ab122ead1b614afad16383154f84443b069ca7a2de41d638763384d98edf7"
+    },
+    {
+      "bytes": 19146,
+      "path": "coverage.json",
+      "sha256": "a5defd0adcda042b4ae7bd3cc7960d926f02b60b864ee8ab1aff40a0a4593f2f"
+    },
+    {
+      "bytes": 207876,
+      "path": "functions.csv",
+      "sha256": "bfedaaa99bd6f9d18f34ba6ecc8cea5088bc6eedfb7a7aa36d247cb65a124006"
+    },
+    {
+      "bytes": 214158,
+      "path": "kernel-calls.csv",
+      "sha256": "e6ebf71b2e84e5c255d3a6a4b845a0b2c9ec125a566471ad9e84f7587da7c48c"
+    },
+    {
+      "bytes": 3621680,
+      "path": "operations.csv",
+      "sha256": "aa1645d29283d4563a4790375ceef5c8a0475efd6764ddde73359ae945ca9e05"
+    },
+    {
+      "bytes": 24544,
+      "path": "sources.json",
+      "sha256": "1343f6b0efd5c7bfb608c56f1dd52b2ac1b1cb8d15c64e2de0c002b459caa3bd"
+    },
+    {
+      "bytes": 35638,
+      "path": "summary.json",
+      "sha256": "9d19a2a2bdbebfc7b005d920b1ab778b0ccd4832666437c1768af3832bc895c5"
+    },
+    {
+      "bytes": 23178,
+      "path": "unsafe-contexts.csv",
+      "sha256": "080b8ec4a5c53c999019c785903c0c6f920b70048234e9a11ed63539b0fce27b"
+    },
+    {
+      "bytes": 2123,
+      "path": "validation.json",
+      "sha256": "1b73ffb8b652ffc1a0705a51ba317cba83da30de688c445c21c6b1bb218e5ea1"
+    }
+  ],
+  "quick_checks": {
+    "c_benchmark_files": 4,
+    "c_support_files": 4,
+    "distinct_source_identities_by_scope": {
+      "c-benchmark": 2157,
+      "c-support": 2166,
+      "rust": 682
+    },
+    "parse_failures": 0,
+    "rust_files": 4
+  },
+  "schema": "uastw-inventory-manifest-v2",
+  "source_column_conventions": {
+    "c": "1-based (libclang Cursor.location.column)",
+    "note": "Macro spelling locations and macro-definition locations are distinct. For macro-body expansions, macro_definition_* identifies the spelling/definition location. For source-written casts in macro arguments, macro_argument_* identifies the argument and macro_definition_status records that it is not a definition.",
+    "rust": "0-based (proc_macro2 Span::start().column)"
+  },
+  "source_revision": "9ba13e022b85ecfad687f0fbbfee58cc64dc9332",
+  "tools": {
+    "cargo": {
+      "available": true,
+      "command": "cargo --version",
+      "version": "cargo 1.98.1 (797e8a9bc 2026-08-05)"
+    },
+    "clang": {
+      "available": true,
+      "command": "clang --version",
+      "version": "clang version 23.1.1"
+    },
+    "clang_tidy": {
+      "available": true,
+      "command": "clang-tidy --version",
+      "version": "LLVM version 23.1.1"
+    },
+    "clippy": {
+      "available": true,
+      "path": "clippy-driver"
+    },
+    "codeql": {
+      "available": false,
+      "path": null
+    },
+    "libclang": {
+      "available": true,
+      "library": "libclang.so",
+      "python_binding": "cindex.py"
+    },
+    "python": {
+      "available": true,
+      "command": "python3 --version",
+      "version": "Python 3.14.8"
+    },
+    "rustc": {
+      "available": true,
+      "command": "rustc --version",
+      "version": "rustc 1.98.1 (48a229cea 2026-09-01)"
+    }
+  },
+  "worktree_dirty": true
+}

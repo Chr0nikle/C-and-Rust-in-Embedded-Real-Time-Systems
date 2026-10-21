@@ -1,0 +1,25 @@
+{
+  "preserved_campaign_provenance": true,
+  "preserved_campaign_provenance_sha256": "7c278c4f27cc9414ef410f6620f6d2c22b80a9eb2b794c1e2cbd40450d6b7d22",
+  "preserved_files": [
+    "thesis/generated/typ/campaign-coverage.typ",
+    "thesis/generated/typ/campaign-memory.typ",
+    "thesis/generated/typ/campaign-static.typ"
+  ],
+  "preserved_historical_keys": [
+    "freertos-in-rust/stm32f4/rust",
+    "freertos-in-rust/stm32h723/rust",
+    "rivet/stm32f4/rust"
+  ],
+  "preserved_historical_rows_from_previous_table": true,
+  "preserved_native_memory_rows": true,
+  "preserved_sha256": {
+    "thesis/generated/typ/campaign-coverage.typ": "1ec8eb7f4a5ab20ede6f1ae5603055b20b5eacde513bb3f4e8e4654183c47e91",
+    "thesis/generated/typ/campaign-memory.typ": "1ef9a266a4c9b9b9ba896b85b696d1721963f7a4686d86a08028f1a2ef14e405",
+    "thesis/generated/typ/campaign-static.typ": "7f695c8d0c314a5db3711f18005cd2f4512d3bffb43a06a4d91ca3df155e863d"
+  },
+  "reason": "the selected campaign has no Rust-native measurements; matched rows are regenerated and previously published Rust-native rows in coverage, memory and static tables are preserved rather than silently replaced",
+  "schema_version": 1,
+  "selected_campaign": "campaign-replication-20261019T214853Z",
+  "status": "mixed-historical"
+}

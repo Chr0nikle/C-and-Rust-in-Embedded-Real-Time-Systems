@@ -1,0 +1,19 @@
+{
+  "configuration_count": 1,
+  "configurations": [
+    "freertos-in-rust-stm32h723"
+  ],
+  "description": "FreeRTOS-in-Rust, STM32H723",
+  "function_rows": 70,
+  "kernel_call_rows": 30,
+  "operation_rows": 250,
+  "parse_failures": {
+    "freertos-in-rust-stm32h723": 0
+  },
+  "profile": "native-freertos-in-rust-stm32h723",
+  "rust_features": [
+    "stm32h723"
+  ],
+  "schema": "uastw-profile-inventory-coverage-v1",
+  "unsafe_context_rows": 149
+}
